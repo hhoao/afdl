@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/04_lookup_in_a_two-dimensional_array
+CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/include -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/04_lookup_in_a_two-dimensional_array
 
 CXX_FLAGS = -g
 

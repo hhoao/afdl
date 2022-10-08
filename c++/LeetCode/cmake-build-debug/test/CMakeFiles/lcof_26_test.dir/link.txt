@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lcof_26_test.dir/lcof/26_is_tree_sub_structure/test.cpp.o -o lcof_26_test  ../src/liblcof_26.a 

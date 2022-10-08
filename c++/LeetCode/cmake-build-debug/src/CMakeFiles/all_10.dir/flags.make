@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/10_regular_expression_matching
+CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/include -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/10_regular_expression_matching
 
 CXX_FLAGS = -g
 

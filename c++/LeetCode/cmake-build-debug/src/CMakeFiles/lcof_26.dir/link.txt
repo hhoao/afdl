@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblcof_26.a CMakeFiles/lcof_26.dir/lcof/26_is_tree_sub_structure/Solution.cpp.o
+/usr/bin/ranlib liblcof_26.a

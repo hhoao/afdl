@@ -224,6 +224,20 @@ lcof_06_test/fast:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_06_test.dir/build.make test/CMakeFiles/lcof_06_test.dir/build
 .PHONY : lcof_06_test/fast
 
+# Convenience name for target.
+test/CMakeFiles/lcof_26_test.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/lcof_26_test.dir/rule
+.PHONY : test/CMakeFiles/lcof_26_test.dir/rule
+
+# Convenience name for target.
+lcof_26_test: test/CMakeFiles/lcof_26_test.dir/rule
+.PHONY : lcof_26_test
+
+# fast build rule for target.
+lcof_26_test/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_26_test.dir/build.make test/CMakeFiles/lcof_26_test.dir/build
+.PHONY : lcof_26_test/fast
+
 all/144_binary_tree_preorder_traversal/test.o: all/144_binary_tree_preorder_traversal/test.cpp.o
 .PHONY : all/144_binary_tree_preorder_traversal/test.o
 
@@ -392,6 +406,30 @@ lcof/06_reverse_print_linked_list/test.cpp.s:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_06_test.dir/build.make test/CMakeFiles/lcof_06_test.dir/lcof/06_reverse_print_linked_list/test.cpp.s
 .PHONY : lcof/06_reverse_print_linked_list/test.cpp.s
 
+lcof/26_is_tree_sub_structure/test.o: lcof/26_is_tree_sub_structure/test.cpp.o
+.PHONY : lcof/26_is_tree_sub_structure/test.o
+
+# target to build an object file
+lcof/26_is_tree_sub_structure/test.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_26_test.dir/build.make test/CMakeFiles/lcof_26_test.dir/lcof/26_is_tree_sub_structure/test.cpp.o
+.PHONY : lcof/26_is_tree_sub_structure/test.cpp.o
+
+lcof/26_is_tree_sub_structure/test.i: lcof/26_is_tree_sub_structure/test.cpp.i
+.PHONY : lcof/26_is_tree_sub_structure/test.i
+
+# target to preprocess a source file
+lcof/26_is_tree_sub_structure/test.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_26_test.dir/build.make test/CMakeFiles/lcof_26_test.dir/lcof/26_is_tree_sub_structure/test.cpp.i
+.PHONY : lcof/26_is_tree_sub_structure/test.cpp.i
+
+lcof/26_is_tree_sub_structure/test.s: lcof/26_is_tree_sub_structure/test.cpp.s
+.PHONY : lcof/26_is_tree_sub_structure/test.s
+
+# target to generate assembly for a file
+lcof/26_is_tree_sub_structure/test.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_26_test.dir/build.make test/CMakeFiles/lcof_26_test.dir/lcof/26_is_tree_sub_structure/test.cpp.s
+.PHONY : lcof/26_is_tree_sub_structure/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -408,6 +446,7 @@ help:
 	@echo "... lcof_04_test"
 	@echo "... lcof_05_test"
 	@echo "... lcof_06_test"
+	@echo "... lcof_26_test"
 	@echo "... all/144_binary_tree_preorder_traversal/test.o"
 	@echo "... all/144_binary_tree_preorder_traversal/test.i"
 	@echo "... all/144_binary_tree_preorder_traversal/test.s"
@@ -429,6 +468,9 @@ help:
 	@echo "... lcof/06_reverse_print_linked_list/test.o"
 	@echo "... lcof/06_reverse_print_linked_list/test.i"
 	@echo "... lcof/06_reverse_print_linked_list/test.s"
+	@echo "... lcof/26_is_tree_sub_structure/test.o"
+	@echo "... lcof/26_is_tree_sub_structure/test.i"
+	@echo "... lcof/26_is_tree_sub_structure/test.s"
 .PHONY : help
 
 

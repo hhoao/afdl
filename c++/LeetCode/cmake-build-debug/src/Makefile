@@ -252,6 +252,20 @@ lcof_06/fast:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_06.dir/build.make src/CMakeFiles/lcof_06.dir/build
 .PHONY : lcof_06/fast
 
+# Convenience name for target.
+src/CMakeFiles/lcof_26.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/lcof_26.dir/rule
+.PHONY : src/CMakeFiles/lcof_26.dir/rule
+
+# Convenience name for target.
+lcof_26: src/CMakeFiles/lcof_26.dir/rule
+.PHONY : lcof_26
+
+# fast build rule for target.
+lcof_26/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_26.dir/build.make src/CMakeFiles/lcof_26.dir/build
+.PHONY : lcof_26/fast
+
 all/10_regular_expression_matching/Solution.o: all/10_regular_expression_matching/Solution.cpp.o
 .PHONY : all/10_regular_expression_matching/Solution.o
 
@@ -468,6 +482,30 @@ lcof/06_reverse_print_linked_list/Solution.cpp.s:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_06.dir/build.make src/CMakeFiles/lcof_06.dir/lcof/06_reverse_print_linked_list/Solution.cpp.s
 .PHONY : lcof/06_reverse_print_linked_list/Solution.cpp.s
 
+lcof/26_is_tree_sub_structure/Solution.o: lcof/26_is_tree_sub_structure/Solution.cpp.o
+.PHONY : lcof/26_is_tree_sub_structure/Solution.o
+
+# target to build an object file
+lcof/26_is_tree_sub_structure/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_26.dir/build.make src/CMakeFiles/lcof_26.dir/lcof/26_is_tree_sub_structure/Solution.cpp.o
+.PHONY : lcof/26_is_tree_sub_structure/Solution.cpp.o
+
+lcof/26_is_tree_sub_structure/Solution.i: lcof/26_is_tree_sub_structure/Solution.cpp.i
+.PHONY : lcof/26_is_tree_sub_structure/Solution.i
+
+# target to preprocess a source file
+lcof/26_is_tree_sub_structure/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_26.dir/build.make src/CMakeFiles/lcof_26.dir/lcof/26_is_tree_sub_structure/Solution.cpp.i
+.PHONY : lcof/26_is_tree_sub_structure/Solution.cpp.i
+
+lcof/26_is_tree_sub_structure/Solution.s: lcof/26_is_tree_sub_structure/Solution.cpp.s
+.PHONY : lcof/26_is_tree_sub_structure/Solution.s
+
+# target to generate assembly for a file
+lcof/26_is_tree_sub_structure/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_26.dir/build.make src/CMakeFiles/lcof_26.dir/lcof/26_is_tree_sub_structure/Solution.cpp.s
+.PHONY : lcof/26_is_tree_sub_structure/Solution.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -486,6 +524,7 @@ help:
 	@echo "... lcof_04"
 	@echo "... lcof_05"
 	@echo "... lcof_06"
+	@echo "... lcof_26"
 	@echo "... all/10_regular_expression_matching/Solution.o"
 	@echo "... all/10_regular_expression_matching/Solution.i"
 	@echo "... all/10_regular_expression_matching/Solution.s"
@@ -513,6 +552,9 @@ help:
 	@echo "... lcof/06_reverse_print_linked_list/Solution.o"
 	@echo "... lcof/06_reverse_print_linked_list/Solution.i"
 	@echo "... lcof/06_reverse_print_linked_list/Solution.s"
+	@echo "... lcof/26_is_tree_sub_structure/Solution.o"
+	@echo "... lcof/26_is_tree_sub_structure/Solution.i"
+	@echo "... lcof/26_is_tree_sub_structure/Solution.s"
 .PHONY : help
 
 

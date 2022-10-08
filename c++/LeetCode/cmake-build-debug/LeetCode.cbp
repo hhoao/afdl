@@ -54,6 +54,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/10_regular_expression_matching"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -77,6 +78,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/10_regular_expression_matching"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -100,6 +102,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/144_binary_tree_preorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -123,6 +126,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/144_binary_tree_preorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -146,6 +150,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/221_maximal_square"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -169,6 +174,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/221_maximal_square"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -192,6 +198,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/310_minimum_height_trees"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -215,6 +222,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/310_minimum_height_trees"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -238,6 +246,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/94_binary_tree_inorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -261,6 +270,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/94_binary_tree_inorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -284,6 +294,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/03_duplicate_numbers_in_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -307,6 +318,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/03_duplicate_numbers_in_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -330,6 +342,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/04_lookup_in_a_two-dimensional_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -353,6 +366,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/04_lookup_in_a_two-dimensional_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -376,6 +390,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/05_replace_space"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -399,6 +414,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/05_replace_space"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -422,6 +438,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -445,6 +462,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -461,6 +479,54 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lcof_26">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liblcof_26.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/26_is_tree_sub_structure"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 lcof_26"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lcof_26/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liblcof_26.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/26_is_tree_sub_structure"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 lcof_26/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="all_144_test">
 				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_144_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
@@ -468,6 +534,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/144_binary_tree_preorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -491,6 +558,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/144_binary_tree_preorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -514,6 +582,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/310_minimum_height_trees"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -537,6 +606,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/310_minimum_height_trees"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -560,6 +630,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/94_binary_tree_inorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -583,6 +654,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/94_binary_tree_inorder_traversal"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -606,6 +678,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/03_duplicate_numbers_in_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -629,6 +702,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/03_duplicate_numbers_in_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -652,6 +726,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/04_lookup_in_a_two-dimensional_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -675,6 +750,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/04_lookup_in_a_two-dimensional_array"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -698,6 +774,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/05_replace_space"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -721,6 +798,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/05_replace_space"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -744,6 +822,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -767,6 +846,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
 					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -778,6 +858,54 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lcof_06_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lcof_26_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/lcof_26_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/26_is_tree_sub_structure"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lcof_26_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lcof_26_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/lcof_26_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/26_is_tree_sub_structure"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lcof_26_test/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
@@ -838,6 +966,12 @@
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list/Solution.h">
 			<Option target="lcof_06"/>
 		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/26_is_tree_sub_structure/Solution.cpp">
+			<Option target="lcof_26"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/26_is_tree_sub_structure/Solution.h">
+			<Option target="lcof_26"/>
+		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/144_binary_tree_preorder_traversal/test.cpp">
 			<Option target="all_144_test"/>
 		</Unit>
@@ -858,6 +992,9 @@
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/lcof/06_reverse_print_linked_list/test.cpp">
 			<Option target="lcof_06_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/lcof/26_is_tree_sub_structure/test.cpp">
+			<Option target="lcof_26_test"/>
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -1,13 +1,4 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" -S /home/hhoa/hhoa/algorithm/c++/LeetCode -B /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug
-10_regular_expression_matching
-144_binary_tree_preorder_traversal
-221_maximal_square
-310_minimum_height_trees
-94_binary_tree_inorder_traversal
-03_duplicate_numbers_in_array
-04_lookup_in_a_two-dimensional_array
-05_replace_space
-06_reverse_print_linked_list
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug

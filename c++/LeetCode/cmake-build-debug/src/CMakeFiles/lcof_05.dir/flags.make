@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/05_replace_space
+CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/include -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/05_replace_space
 
 CXX_FLAGS = -g
 

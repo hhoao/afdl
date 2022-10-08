@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/94_binary_tree_inorder_traversal
+CXX_INCLUDES = -I/home/hhoa/hhoa/algorithm/c++/LeetCode/include -I/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/94_binary_tree_inorder_traversal
 
 CXX_FLAGS = -g
 

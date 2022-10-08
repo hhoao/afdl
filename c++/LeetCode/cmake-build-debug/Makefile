@@ -244,6 +244,19 @@ lcof_06/fast:
 .PHONY : lcof_06/fast
 
 #=============================================================================
+# Target rules for targets named lcof_26
+
+# Build rule for target.
+lcof_26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcof_26
+.PHONY : lcof_26
+
+# fast build rule for target.
+lcof_26/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lcof_26.dir/build.make src/CMakeFiles/lcof_26.dir/build
+.PHONY : lcof_26/fast
+
+#=============================================================================
 # Target rules for targets named all_144_test
 
 # Build rule for target.
@@ -334,6 +347,19 @@ lcof_06_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_06_test.dir/build.make test/CMakeFiles/lcof_06_test.dir/build
 .PHONY : lcof_06_test/fast
 
+#=============================================================================
+# Target rules for targets named lcof_26_test
+
+# Build rule for target.
+lcof_26_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcof_26_test
+.PHONY : lcof_26_test
+
+# fast build rule for target.
+lcof_26_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/lcof_26_test.dir/build.make test/CMakeFiles/lcof_26_test.dir/build
+.PHONY : lcof_26_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -359,6 +385,8 @@ help:
 	@echo "... lcof_05_test"
 	@echo "... lcof_06"
 	@echo "... lcof_06_test"
+	@echo "... lcof_26"
+	@echo "... lcof_26_test"
 .PHONY : help
 
 
