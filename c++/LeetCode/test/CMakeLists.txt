@@ -1,0 +1,8 @@
+foreach(include_directory_name library_name IN ZIP_LISTS include_directory_names library_names)
+    if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${include_directory_name}/test.cpp)
+        add_executable(${library_name}_test ${include_directory_name}/test.cpp)
+        target_link_libraries(${library_name}_test ${library_name})
+        add_test(NAME ${library_name}_test COMMAND ${library_name}_test)
+    endif()
+endforeach()
+

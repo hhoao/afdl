@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblcof_06.a CMakeFiles/lcof_06.dir/lcof/06_reverse_print_linked_list/Solution.cpp.o
+/usr/bin/ranlib liblcof_06.a

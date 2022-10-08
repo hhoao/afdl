@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/all_144_test.dir/all/144_binary_tree_preorder_traversal/test.cpp.o -o all_144_test  ../src/liball_144.a 

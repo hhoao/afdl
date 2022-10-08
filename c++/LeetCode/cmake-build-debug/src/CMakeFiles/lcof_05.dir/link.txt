@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblcof_05.a CMakeFiles/lcof_05.dir/lcof/05_replace_space/Solution.cpp.o
+/usr/bin/ranlib liblcof_05.a

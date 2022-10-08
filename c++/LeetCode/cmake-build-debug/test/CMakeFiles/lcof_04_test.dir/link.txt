@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lcof_04_test.dir/lcof/04_lookup_in_a_two-dimensional_array/test.cpp.o -o lcof_04_test  ../src/liblcof_04.a 

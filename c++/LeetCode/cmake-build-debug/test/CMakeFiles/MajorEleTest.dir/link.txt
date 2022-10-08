@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/MajorEleTest.dir/LCOF/03-数组中重复的数字/test.cpp.o -o MajorEleTest  ../src/libLCOF.a 

@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_structure"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_tree">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libb_tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 b_tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_tree/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libb_tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 b_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deque">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libdeque.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 deque"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deque/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libdeque.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 deque/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libgraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libgraph.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linked_list">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/liblinked_list.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linked_list/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/liblinked_list.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="priority_queue">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libpriority_queue.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 priority_queue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="priority_queue/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libpriority_queue.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 priority_queue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="red_black_tree">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libred_black_tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 red_black_tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="red_black_tree/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libred_black_tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 red_black_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libstack.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libstack.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libtree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libtree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree_map">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libtree_map.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree_map"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree_map/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libtree_map.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree_map/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_tree_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/b_tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 b_tree_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_tree_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/b_tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 b_tree_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linked_list_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/linked_list_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linked_list_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/linked_list_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="priority_queue_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/priority_queue_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 priority_queue_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="priority_queue_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/priority_queue_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 priority_queue_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/stack_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/stack_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/b_tree.cpp">
+			<Option target="b_tree"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/deque.cpp">
+			<Option target="deque"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/graph.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/linked_list.cpp">
+			<Option target="linked_list"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/priority_queue.cpp">
+			<Option target="priority_queue"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/red_black_tree.cpp">
+			<Option target="red_black_tree"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/stack.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/tree.cpp">
+			<Option target="tree"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/tree_map.cpp">
+			<Option target="tree_map"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/b_tree_test.cpp">
+			<Option target="b_tree_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/linked_list_test.cpp">
+			<Option target="linked_list_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/priority_queue_test.cpp">
+			<Option target="priority_queue_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/stack_test.cpp">
+			<Option target="stack_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/tree_test.cpp">
+			<Option target="tree_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

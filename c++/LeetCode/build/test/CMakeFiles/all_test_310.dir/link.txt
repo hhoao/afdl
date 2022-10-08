@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/all_test_310.dir/all/310_minimum_height_trees/test.cpp.o -o all_test_310  ../src/liball_310.a 

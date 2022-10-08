@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION 3.22)
+project(data_structure)
+
+set(CMAKE_CXX_STANDARD 14)
+
+enable_testing()
+function(get_file_name_and_paths file_name)
+    string(REGEX MATCH "([a-z]|_)*.cpp" file_name ${file_name})
+    string(REPLACE ".cpp" "" file_name ${file_name})
+    set(file_name ${file_name} PARENT_SCOPE)
+endfunction()
+
+file(GLOB libs src/*.cpp)
+foreach(lib IN LISTS libs)
+    get_file_name_and_paths(${lib})
+    add_library(${file_name} ${lib})
+    target_include_directories(${file_name} PUBLIC header)
+endforeach()
+
+file(GLOB test_file_names test/*.cpp)
+foreach(test_file_name IN LISTS test_file_names)
+    get_file_name_and_paths(${test_file_name})
+    add_executable(${file_name} ${test_file_name})
+    string(REPLACE "_test" "" link_library_name ${file_name})
+    target_link_libraries(${file_name} ${link_library_name})
+    add_test(NAME ${file_name} COMMAND ${file_name})
+endforeach()

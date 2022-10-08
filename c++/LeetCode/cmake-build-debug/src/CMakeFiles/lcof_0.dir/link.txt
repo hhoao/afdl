@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblcof_0.a CMakeFiles/lcof_0.dir/lcof/03_duplicate_numbers_in_array/Solution.cpp.o
+/usr/bin/ranlib liblcof_0.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liball_221.a CMakeFiles/all_221.dir/all/221_maximal_square/Solution.cpp.o
+/usr/bin/ranlib liball_221.a

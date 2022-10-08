@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree_map.a CMakeFiles/tree_map.dir/src/tree_map.cpp.o
+/usr/bin/ranlib libtree_map.a

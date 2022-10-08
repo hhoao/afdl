@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" -S /home/hhoa/hhoa/algorithm/c++/data_structure -B /home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug

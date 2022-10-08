@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblcof_04.a CMakeFiles/lcof_04.dir/lcof/04_lookup_in_a_two-dimensional_array/Solution.o
+/usr/bin/ranlib liblcof_04.a

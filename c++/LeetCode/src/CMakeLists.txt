@@ -1,0 +1,8 @@
+#foreach(name library_name IN ZIP_LISTS include_directory_names library_names)
+#    message(STATUS "name=${name}, library_name=${library_name}")
+#endforeach()
+
+foreach (library_name include_directory_name IN ZIP_LISTS library_names include_directory_names)
+    add_library(${library_name} ${include_directory_name}/Solution.cpp)
+    target_include_directories(${library_name} PUBLIC ${include_directory_name})
+endforeach ()

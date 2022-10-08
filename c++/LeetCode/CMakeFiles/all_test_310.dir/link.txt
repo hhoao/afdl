@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/all_test_310.dir/all/310_minimum_height_trees/test.o -o all_test_310  -lall_310 

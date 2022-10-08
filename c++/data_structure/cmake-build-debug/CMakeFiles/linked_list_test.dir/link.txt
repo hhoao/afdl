@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/linked_list_test.dir/test/linked_list_test.cpp.o -o linked_list_test  liblinked_list.a 

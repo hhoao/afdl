@@ -1,0 +1,2 @@
+/usr/bin/ar qc liball_10.a CMakeFiles/all_10.dir/all/10_regular_expression_matching/Solution.cpp.o
+/usr/bin/ranlib liball_10.a

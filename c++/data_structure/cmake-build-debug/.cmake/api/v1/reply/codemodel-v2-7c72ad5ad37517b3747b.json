@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "data_structure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "b_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-b_tree-Debug-501bfeb55d68c7d69b83.json",
+					"name" : "b_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "b_tree_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-b_tree_test-Debug-9a06987572bc5e8736b0.json",
+					"name" : "b_tree_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deque::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deque-Debug-7034551ca6ff0c18baac.json",
+					"name" : "deque",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph-Debug-e8781fb336685ebb74c2.json",
+					"name" : "graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linked_list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linked_list-Debug-925a6f3bc873d2832d1e.json",
+					"name" : "linked_list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linked_list_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linked_list_test-Debug-1f549fd26151fbfd8da3.json",
+					"name" : "linked_list_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "priority_queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-priority_queue-Debug-c132fe5b483efa6c09f3.json",
+					"name" : "priority_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "priority_queue_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-priority_queue_test-Debug-e62e165c84aa61e5d692.json",
+					"name" : "priority_queue_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "red_black_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-red_black_tree-Debug-0fcb1384fc9283f779b9.json",
+					"name" : "red_black_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stack-Debug-d87ee490b03cb54d68f9.json",
+					"name" : "stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stack_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stack_test-Debug-c8a356de96f9df4905cd.json",
+					"name" : "stack_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree-Debug-f921cdfa2e40c19ad4bb.json",
+					"name" : "tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree_map::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree_map-Debug-a8f189798efc16d0a1b0.json",
+					"name" : "tree_map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree_test-Debug-ec01f46c81b8c3345252.json",
+					"name" : "tree_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug",
+		"source" : "/home/hhoa/hhoa/algorithm/c++/data_structure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

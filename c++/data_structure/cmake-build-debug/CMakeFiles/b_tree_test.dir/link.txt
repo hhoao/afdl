@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/b_tree_test.dir/test/b_tree_test.cpp.o -o b_tree_test  libb_tree.a 

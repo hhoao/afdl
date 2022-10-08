@@ -1,0 +1,2 @@
+/usr/bin/ar qc libred_black_tree.a CMakeFiles/red_black_tree.dir/src/red_black_tree.cpp.o
+/usr/bin/ranlib libred_black_tree.a

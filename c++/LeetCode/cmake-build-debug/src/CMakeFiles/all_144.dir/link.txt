@@ -1,0 +1,2 @@
+/usr/bin/ar qc liball_144.a CMakeFiles/all_144.dir/all/144_binary_tree_preorder_traversal/Solution.cpp.o
+/usr/bin/ranlib liball_144.a

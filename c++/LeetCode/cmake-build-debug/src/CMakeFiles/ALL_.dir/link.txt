@@ -1,0 +1,2 @@
+/usr/bin/ar qc libALL_.a CMakeFiles/ALL_.dir/LCOF/03-数组中重复的数字/Solution.cpp.o
+/usr/bin/ranlib libALL_.a

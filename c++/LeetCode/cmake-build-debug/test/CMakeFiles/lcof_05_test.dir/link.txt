@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lcof_05_test.dir/lcof/05_replace_space/test.cpp.o -o lcof_05_test  ../src/liblcof_05.a 

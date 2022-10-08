@@ -1,0 +1,2 @@
+/usr/bin/ar qc libALL_310.a CMakeFiles/ALL_310.dir/ALL/310_minimum_height_trees/Solution.cpp.o CMakeFiles/ALL_310.dir/__/test/ALL/310_minimum_height_trees/test.cpp.o
+/usr/bin/ranlib libALL_310.a

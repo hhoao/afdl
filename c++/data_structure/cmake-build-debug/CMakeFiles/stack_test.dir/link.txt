@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/stack_test.dir/test/stack_test.cpp.o -o stack_test  libstack.a 
