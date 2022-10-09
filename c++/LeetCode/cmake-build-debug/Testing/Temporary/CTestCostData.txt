@@ -2,7 +2,12 @@ test 1 0.001428
 test_all 1 0.00146325
 lcof_test_03 3 0.000802155
 Name 0 0
-lcof_03_test 1 0.00155728
-all_310_test 1 0.000706269
-lcof_04_test 1 0.00118083
+lcof_03_test 2 0.00104305
+all_310_test 2 0.000938338
+lcof_04_test 2 0.00107303
+all_144_test 1 0.00311463
+all_94_test 1 0.00376298
+lcof_05_test 1 0.00210942
+lcof_06_test 1 0.00246749
+lcof_26_test 1 0.00215967
 ---

@@ -11,12 +11,9 @@
 
 class TreeNode {
 public:
-    int val{};
     TreeNode *left{};
     TreeNode *right{};
-
-    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-
+    int val{};
     explicit TreeNode(std::vector<int> vec) {
         buildTree(std::move(vec));
     }
@@ -25,8 +22,8 @@ public:
         delete this->left;
         delete this->right;
     }
-
 private:
+    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     void buildTree(std::vector<int> vec) {
         this->val = vec[0];
         std::queue<TreeNode *> queue;

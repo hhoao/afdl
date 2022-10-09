@@ -1,4 +1,0 @@
-/home/hhoa/hhoa/algorithm/c++/LeetCode/CMakeFiles/lcof_test_03.dir
-/home/hhoa/hhoa/algorithm/c++/LeetCode/CMakeFiles/all_test_310.dir
-/home/hhoa/hhoa/algorithm/c++/LeetCode/CMakeFiles/edit_cache.dir
-/home/hhoa/hhoa/algorithm/c++/LeetCode/CMakeFiles/rebuild_cache.dir

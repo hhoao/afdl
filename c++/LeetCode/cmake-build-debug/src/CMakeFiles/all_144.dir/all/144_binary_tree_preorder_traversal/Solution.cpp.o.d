@@ -97,4 +97,6 @@ src/CMakeFiles/all_144.dir/all/144_binary_tree_preorder_traversal/Solution.cpp.o
  /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/stack \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h \
- /home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/144_binary_tree_preorder_traversal/Solution.h
+ /home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/144_binary_tree_preorder_traversal/Solution.h \
+ /home/hhoa/hhoa/algorithm/c++/LeetCode/include/TreeNode.h \
+ /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h

@@ -7,11 +7,7 @@
 //
 
 int main(){
-    TreeNode treeNode1(1);
-    TreeNode treeNode2(2);
-    TreeNode treeNode3(3);
-    treeNode1.right = &treeNode2;
-    treeNode2.left = &treeNode3;
+    TreeNode treeNode1({1, 2, 3});
     std::vector<int> vec = Solution::preorderTraversal(&treeNode1);
     assert(vec == std::vector({1, 2, 3}));
     std::vector<int> vec1 = Solution::preorderTraversal1(&treeNode1);

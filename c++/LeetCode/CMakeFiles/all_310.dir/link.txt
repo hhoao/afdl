@@ -1,2 +1,0 @@
-/usr/bin/ar qc liball_310.a CMakeFiles/all_310.dir/all/310_minimum_height_trees/Solution.o
-/usr/bin/ranlib liball_310.a

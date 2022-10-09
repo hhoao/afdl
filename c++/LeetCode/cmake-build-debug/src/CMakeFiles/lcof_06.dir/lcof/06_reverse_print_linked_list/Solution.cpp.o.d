@@ -99,4 +99,5 @@ src/CMakeFiles/lcof_06.dir/lcof/06_reverse_print_linked_list/Solution.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list/Solution.h
+ /home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/06_reverse_print_linked_list/Solution.h \
+ /home/hhoa/hhoa/algorithm/c++/LeetCode/include/ListNode.h
