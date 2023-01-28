@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include<cstdio>
+#include<cstdlib>
 
 enum COLOR {
 	RED = 'R',
@@ -235,7 +235,7 @@ void leftRotate(PRBTREE prbTree, PNODE pre) {
 bool rbPutFixup(PRBTREE prbTree, PNODE pNode) {
 	while (pNode->parent->color == RED) {
 		if (pNode->parent->parent->left == pNode->parent->parent) {
-			if (pNode->parent->parent->right->color == RED) {//不影响黑高，互换红色节点的位置	
+			if (pNode->parent->parent->right->color == RED) {//不影响黑高，互换红色节点的位置
 				pNode->parent->parent->right->color = BLACK;
 				pNode->parent->parent->color = RED;
 				pNode->parent->color = BLACK;

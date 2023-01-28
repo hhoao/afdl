@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/my_sort_test.dir/test/my_sort_test.cpp.o -o my_sort_test  libmy_sort.a 

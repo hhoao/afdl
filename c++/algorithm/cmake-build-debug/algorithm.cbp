@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="algorithm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimum_spanning_tree">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/libminimum_spanning_tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimum_spanning_tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimum_spanning_tree/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/libminimum_spanning_tree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimum_spanning_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_sort">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/libmy_sort.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_sort/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/libmy_sort.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimum_spanning_tree_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/minimum_spanning_tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimum_spanning_tree_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimum_spanning_tree_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/minimum_spanning_tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimum_spanning_tree_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_sort_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/my_sort_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_sort_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_sort_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/my_sort_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/algorithm/header"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_sort_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/algorithm/src/minimum_spanning_tree.cpp">
+			<Option target="minimum_spanning_tree"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/algorithm/src/my_sort.cpp">
+			<Option target="my_sort"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/algorithm/test/minimum_spanning_tree_test.cpp">
+			<Option target="minimum_spanning_tree_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/algorithm/test/my_sort_test.cpp">
+			<Option target="my_sort_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

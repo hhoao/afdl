@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminimum_spanning_tree.a CMakeFiles/minimum_spanning_tree.dir/src/minimum_spanning_tree.cpp.o
+/usr/bin/ranlib libminimum_spanning_tree.a

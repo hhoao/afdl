@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "minimum_spanning_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minimum_spanning_tree-Debug-370c1c10b4485ba3faa8.json",
+					"name" : "minimum_spanning_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minimum_spanning_tree_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minimum_spanning_tree_test-Debug-b4e3578fa1087eb3dcd1.json",
+					"name" : "minimum_spanning_tree_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_sort-Debug-bc10c36aa94ac0904189.json",
+					"name" : "my_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_sort_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_sort_test-Debug-1e6728e911a222a90f1a.json",
+					"name" : "my_sort_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hhoa/hhoa/algorithm/c++/algorithm/cmake-build-debug",
+		"source" : "/home/hhoa/hhoa/algorithm/c++/algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

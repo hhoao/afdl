@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/minimum_spanning_tree_test.dir/test/minimum_spanning_tree_test.cpp.o -o minimum_spanning_tree_test  libminimum_spanning_tree.a 

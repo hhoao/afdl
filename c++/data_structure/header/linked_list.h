@@ -5,6 +5,10 @@
 #ifndef DATA_STRUCTURE_LINKED_LIST_H
 #define DATA_STRUCTURE_LINKED_LIST_H
 
+/**
+ * 链表
+ * @tparam type 存储类
+ */
 template <class type>
 class linked_list
 {

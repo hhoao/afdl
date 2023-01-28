@@ -3,6 +3,7 @@ project(LeetCode)
 
 # 文件规范: 必须以all/或者lcof/开头后面接题目号最后接题目, 例如 lcof/03_duplicate_numbers_in_array和all/310_minimum_height_trees
 # 测试文件名字必须为test.cpp、题目文件必须为Solution.cpp 和 Solution.h
+# 注意首尾空格
 list(APPEND source_dirs "src/all;src/lcof")
 
 SET(include_directory_names "")

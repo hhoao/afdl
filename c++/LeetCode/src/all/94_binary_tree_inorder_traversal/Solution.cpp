@@ -3,7 +3,24 @@
 //
 
 #include <stack>
+#include <cassert>
 #include "Solution.h"
+std::vector<int> Solution::inorderTraversal3(TreeNode *root) {
+    std::vector<int> ans;
+    std::stack<TreeNode *> stack;
+    while (root != nullptr || !stack.empty()) {
+        while (root != nullptr){
+            stack.push(root);
+            root = root->left;
+        }
+        root = stack.top();
+        ans.emplace_back(root->val);
+        stack.pop();
+        root = root->right;
+    }
+    return ans;
+}
+
 
 std::vector<int> Solution::inorderTraversal(TreeNode *root) {
     std::vector<int> ans;
@@ -21,6 +38,7 @@ std::vector<int> Solution::inorderTraversal(TreeNode *root) {
     return ans;
 }
 
+
 std::vector<int> Solution::inorderTraversal1(TreeNode *root) {
     std::vector<int> res;
     TreeNode* predecessor = nullptr;
@@ -31,6 +49,12 @@ std::vector<int> Solution::inorderTraversal1(TreeNode *root) {
                 predecessor = predecessor->right;
             }
             if (predecessor->right == root){
+                if (root->left) {
+                    assert(root->left->val < root->val);
+                }
+                if (root->right) {
+                    assert(root->right->val > root->val);
+                }
                 res.emplace_back(root->val);
                 predecessor->right = nullptr;
                 root = root->right;
@@ -39,6 +63,12 @@ std::vector<int> Solution::inorderTraversal1(TreeNode *root) {
                 root = root->left;
             }
         } else{
+            if (root->left) {
+                assert(root->left->val < root->val);
+            }
+            if (root->right) {
+                assert(root->right->val > root->val);
+            }
             res.emplace_back(root->val);
             root = root->right;
         }

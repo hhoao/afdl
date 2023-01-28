@@ -6,9 +6,9 @@
 #define DATA_STRUCTURE_TREE_H
 struct BTNode
 {
-    char data;
-    struct BTNode * pLchild;
-    struct BTNode * pRchild;
+    int data;
+    struct BTNode * left;
+    struct BTNode * right;
 };
 
 struct BTNode * CreateBTree();

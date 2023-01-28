@@ -1,8 +1,6 @@
-# include <stdio.h>
-# include  <stdlib.h>
+# include <cstdio>
+# include  <cstdlib>
 #include "stack.h"
-
-
 
 void init(PSTACK pS) {
     pS->pTop = (PNODE) malloc(sizeof(NODE));

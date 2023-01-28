@@ -7,7 +7,7 @@
 #include "Solution.h"
 
 int main(){
-    TreeNode treeNode1({1, 2, 3});
-    std::vector<int> vec = Solution::inorderTraversal1(&treeNode1);
-    assert(vec == std::vector({2, 1, 3}));
+    TreeNode treeNode1({1, 2, 3, 4, 5, 6});
+    std::vector<int> vec = Solution::inorderTraversal(&treeNode1);
+    assert(vec == std::vector({4, 2, 5, 1, 6, 3}));
 }
