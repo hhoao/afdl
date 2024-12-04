@@ -3,21 +3,21 @@ package lc_825;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ27ÈÕ
- *@todo:825. ÊÊÁäµÄÅóÓÑ
-ÔÚÉç½»Ã½ÌåÍøÕ¾ÉÏÓÐ n ¸öÓÃ»§¡£¸øÄãÒ»¸öÕûÊýÊý×é ages £¬ÆäÖÐ ages[i] ÊÇµÚ i ¸öÓÃ»§µÄÄêÁä¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ27æ—¥
+ *@todo:825. é€‚é¾„çš„æœ‹å‹
+åœ¨ç¤¾äº¤åª’ä½“ç½‘ç«™ä¸Šæœ‰ n ä¸ªç”¨æˆ·ã€‚ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ ages ï¼Œå…¶ä¸­ ages[i] æ˜¯ç¬¬ i ä¸ªç”¨æˆ·çš„å¹´é¾„ã€‚
 
-Èç¹ûÏÂÊöÈÎÒâÒ»¸öÌõ¼þÎªÕæ£¬ÄÇÃ´ÓÃ»§ x ½«²»»áÏòÓÃ»§ y£¨x != y£©·¢ËÍºÃÓÑÇëÇó£º
+å¦‚æžœä¸‹è¿°ä»»æ„ä¸€ä¸ªæ¡ä»¶ä¸ºçœŸï¼Œé‚£ä¹ˆç”¨æˆ· x å°†ä¸ä¼šå‘ç”¨æˆ· yï¼ˆx != yï¼‰å‘é€å¥½å‹è¯·æ±‚ï¼š
 
 age[y] <= 0.5 * age[x] + 7
 age[y] > age[x]
 age[y] > 100 && age[x] < 100
-·ñÔò£¬x ½«»áÏò y ·¢ËÍÒ»ÌõºÃÓÑÇëÇó¡£
+å¦åˆ™ï¼Œx å°†ä¼šå‘ y å‘é€ä¸€æ¡å¥½å‹è¯·æ±‚ã€‚
 
-×¢Òâ£¬Èç¹û x Ïò y ·¢ËÍÒ»ÌõºÃÓÑÇëÇó£¬y ²»±ØÒ²Ïò x ·¢ËÍÒ»ÌõºÃÓÑÇëÇó¡£ÁíÍâ£¬ÓÃ»§²»»áÏò×Ô¼º·¢ËÍºÃÓÑÇëÇó¡£
+æ³¨æ„ï¼Œå¦‚æžœ x å‘ y å‘é€ä¸€æ¡å¥½å‹è¯·æ±‚ï¼Œy ä¸å¿…ä¹Ÿå‘ x å‘é€ä¸€æ¡å¥½å‹è¯·æ±‚ã€‚å¦å¤–ï¼Œç”¨æˆ·ä¸ä¼šå‘è‡ªå·±å‘é€å¥½å‹è¯·æ±‚ã€‚
 
-·µ»ØÔÚ¸ÃÉç½»Ã½ÌåÍøÕ¾ÉÏ²úÉúµÄºÃÓÑÇëÇó×ÜÊý¡£
+è¿”å›žåœ¨è¯¥ç¤¾äº¤åª’ä½“ç½‘ç«™ä¸Šäº§ç”Ÿçš„å¥½å‹è¯·æ±‚æ€»æ•°ã€‚
 */
 public class LC_825 {
 
@@ -39,7 +39,7 @@ class Solution {
         return ans;
     }
 }
-//Ë«Ö¸Õë
+//åŒæŒ‡é’ˆ
 class Solution1 {
     public int numFriendRequests(int[] ages) {
         int n = ages.length;
@@ -62,7 +62,7 @@ class Solution1 {
         return ans;
     }
 }
-//·½·¨¶þ£º¼ÆÊýÅÅÐò + Ç°×ººÍ
+//æ–¹æ³•äºŒï¼šè®¡æ•°æŽ’åº + å‰ç¼€å’Œ
 class Solution2 {
     public int numFriendRequests(int[] ages) {
         int[] cnt = new int[121];

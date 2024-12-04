@@ -5,12 +5,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ30ÈÕ
- *@todo:846. Ò»ÊÖË³×Ó
-Alice ÊÖÖÐÓÐÒ»°ÑÅÆ£¬ËýÏëÒªÖØÐÂÅÅÁÐÕâÐ©ÅÆ£¬·Ö³ÉÈô¸É×é£¬Ê¹Ã¿Ò»×éµÄÅÆÊý¶¼ÊÇ groupSize £¬²¢ÇÒÓÉ groupSize ÕÅÁ¬ÐøµÄÅÆ×é³É¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ30æ—¥
+ *@todo:846. ä¸€æ‰‹é¡ºå­
+Alice æ‰‹ä¸­æœ‰ä¸€æŠŠç‰Œï¼Œå¥¹æƒ³è¦é‡æ–°æŽ’åˆ—è¿™äº›ç‰Œï¼Œåˆ†æˆè‹¥å¹²ç»„ï¼Œä½¿æ¯ä¸€ç»„çš„ç‰Œæ•°éƒ½æ˜¯ groupSize ï¼Œå¹¶ä¸”ç”± groupSize å¼ è¿žç»­çš„ç‰Œç»„æˆã€‚
 
-¸øÄãÒ»¸öÕûÊýÊý×é hand ÆäÖÐ hand[i] ÊÇÐ´ÔÚµÚ i ÕÅÅÆ£¬ºÍÒ»¸öÕûÊý groupSize ¡£Èç¹ûËý¿ÉÄÜÖØÐÂÅÅÁÐÕâÐ©ÅÆ£¬·µ»Ø true £»·ñÔò£¬·µ»Ø false ¡£
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ hand å…¶ä¸­ hand[i] æ˜¯å†™åœ¨ç¬¬ i å¼ ç‰Œï¼Œå’Œä¸€ä¸ªæ•´æ•° groupSize ã€‚å¦‚æžœå¥¹å¯èƒ½é‡æ–°æŽ’åˆ—è¿™äº›ç‰Œï¼Œè¿”å›ž true ï¼›å¦åˆ™ï¼Œè¿”å›ž false ã€‚
 */
 public class LC_846 {
 

@@ -2,12 +2,14 @@ package lc_236;
 
 import tools.TreeNode;
 
-/**
- * @author »ÆºÀ
- *236. ¶þ²æÊ÷µÄ×î½ü¹«¹²×æÏÈ
-¸ø¶¨Ò»¸ö¶þ²æÊ÷, ÕÒµ½¸ÃÊ÷ÖÐÁ½¸öÖ¸¶¨½ÚµãµÄ×î½ü¹«¹²×æÏÈ¡£
+import java.util.LinkedList;
 
-°Ù¶È°Ù¿ÆÖÐ×î½ü¹«¹²×æÏÈµÄ¶¨ÒåÎª£º¡°¶ÔÓÚÓÐ¸ùÊ÷ T µÄÁ½¸ö½Úµã p¡¢q£¬×î½ü¹«¹²×æÏÈ±íÊ¾ÎªÒ»¸ö½Úµã x£¬Âú×ã x ÊÇ p¡¢q µÄ×æÏÈÇÒ x µÄÉî¶È¾¡¿ÉÄÜ´ó£¨Ò»¸ö½ÚµãÒ²¿ÉÒÔÊÇËü×Ô¼ºµÄ×æÏÈ£©¡£¡±
+/**
+ * @author é»„è±ª
+ *236. äºŒå‰æ ‘çš„æœ€è¿‘å…¬å…±ç¥–å…ˆ
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘, æ‰¾åˆ°è¯¥æ ‘ä¸­ä¸¤ä¸ªæŒ‡å®šèŠ‚ç‚¹çš„æœ€è¿‘å…¬å…±ç¥–å…ˆã€‚
+
+ç™¾åº¦ç™¾ç§‘ä¸­æœ€è¿‘å…¬å…±ç¥–å…ˆçš„å®šä¹‰ä¸ºï¼šâ€œå¯¹äºŽæœ‰æ ¹æ ‘ T çš„ä¸¤ä¸ªèŠ‚ç‚¹ pã€qï¼Œæœ€è¿‘å…¬å…±ç¥–å…ˆè¡¨ç¤ºä¸ºä¸€ä¸ªèŠ‚ç‚¹ xï¼Œæ»¡è¶³ x æ˜¯ pã€q çš„ç¥–å…ˆä¸” x çš„æ·±åº¦å°½å¯èƒ½å¤§ï¼ˆä¸€ä¸ªèŠ‚ç‚¹ä¹Ÿå¯ä»¥æ˜¯å®ƒè‡ªå·±çš„ç¥–å…ˆï¼‰ã€‚â€
  */
 public class LC_236 {
 

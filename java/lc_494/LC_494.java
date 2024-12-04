@@ -3,20 +3,20 @@ package lc_494;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê11ÔÂ18ÈÕ
- *@todo:494. Ä¿±êºÍ
-¸øÄãÒ»¸öÕûÊıÊı×é nums ºÍÒ»¸öÕûÊı target ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´11æœˆ18æ—¥
+ *@todo:494. ç›®æ ‡å’Œ
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ nums å’Œä¸€ä¸ªæ•´æ•° target ã€‚
 
-ÏòÊı×éÖĞµÄÃ¿¸öÕûÊıÇ°Ìí¼Ó '+' »ò '-' £¬È»ºó´®ÁªÆğËùÓĞÕûÊı£¬¿ÉÒÔ¹¹ÔìÒ»¸ö ±í´ïÊ½ £º
+å‘æ•°ç»„ä¸­çš„æ¯ä¸ªæ•´æ•°å‰æ·»åŠ  '+' æˆ– '-' ï¼Œç„¶åä¸²è”èµ·æ‰€æœ‰æ•´æ•°ï¼Œå¯ä»¥æ„é€ ä¸€ä¸ª è¡¨è¾¾å¼ ï¼š
 
-ÀıÈç£¬nums = [2, 1] £¬¿ÉÒÔÔÚ 2 Ö®Ç°Ìí¼Ó '+' £¬ÔÚ 1 Ö®Ç°Ìí¼Ó '-' £¬È»ºó´®ÁªÆğÀ´µÃµ½±í´ïÊ½ "+2-1" ¡£
-·µ»Ø¿ÉÒÔÍ¨¹ıÉÏÊö·½·¨¹¹ÔìµÄ¡¢ÔËËã½á¹ûµÈÓÚ target µÄ²»Í¬ ±í´ïÊ½ µÄÊıÄ¿¡£
+ä¾‹å¦‚ï¼Œnums = [2, 1] ï¼Œå¯ä»¥åœ¨ 2 ä¹‹å‰æ·»åŠ  '+' ï¼Œåœ¨ 1 ä¹‹å‰æ·»åŠ  '-' ï¼Œç„¶åä¸²è”èµ·æ¥å¾—åˆ°è¡¨è¾¾å¼ "+2-1" ã€‚
+è¿”å›å¯ä»¥é€šè¿‡ä¸Šè¿°æ–¹æ³•æ„é€ çš„ã€è¿ç®—ç»“æœç­‰äº target çš„ä¸åŒ è¡¨è¾¾å¼ çš„æ•°ç›®ã€‚
 */
 public class LC_494 {
 
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
         int n = nums.length;
@@ -30,5 +30,29 @@ class Solution {
             }
         }
         return dp[n][target+total+max];
+    }
+}
+
+
+class Solution1 {
+    public int findTargetSumWays(int[] nums, int target) {
+        int sum = Arrays.stream(nums).sum();
+        int diff = sum - target;
+        if (diff < 0 || diff % 2 != 0) {
+            return 0;
+        }
+        int k = diff / 2;
+        int[][] dp= new int[nums.length + 1][k+1];
+        dp[0][0] = 1;
+        for (int i = 1; i <= nums.length; i++) {
+            int num = nums[i - 1];
+            for (int j = 0; j <= k; j++) {
+                dp[i][j] = dp[i - 1][j];
+                if (j >= num) {
+                    dp[i][j] += dp[i - 1][j - num];
+                }
+            }
+        }
+        return dp[nums.length][k];
     }
 }

@@ -5,15 +5,15 @@ import java.util.LinkedList;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *98. ÑéÖ¤¶ş²æËÑË÷Ê÷
-¸ø¶¨Ò»¸ö¶ş²æÊ÷£¬ÅĞ¶ÏÆäÊÇ·ñÊÇÒ»¸öÓĞĞ§µÄ¶ş²æËÑË÷Ê÷¡£
+ * @author é»„è±ª
+ *98. éªŒè¯äºŒå‰æœç´¢æ ‘
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘ï¼Œåˆ¤æ–­å…¶æ˜¯å¦æ˜¯ä¸€ä¸ªæœ‰æ•ˆçš„äºŒå‰æœç´¢æ ‘ã€‚
 
-¼ÙÉèÒ»¸ö¶ş²æËÑË÷Ê÷¾ßÓĞÈçÏÂÌØÕ÷£º
+å‡è®¾ä¸€ä¸ªäºŒå‰æœç´¢æ ‘å…·æœ‰å¦‚ä¸‹ç‰¹å¾ï¼š
 
-½ÚµãµÄ×ó×ÓÊ÷Ö»°üº¬Ğ¡ÓÚµ±Ç°½ÚµãµÄÊı¡£
-½ÚµãµÄÓÒ×ÓÊ÷Ö»°üº¬´óÓÚµ±Ç°½ÚµãµÄÊı¡£
-ËùÓĞ×ó×ÓÊ÷ºÍÓÒ×ÓÊ÷×ÔÉí±ØĞëÒ²ÊÇ¶ş²æËÑË÷Ê÷¡£
+èŠ‚ç‚¹çš„å·¦å­æ ‘åªåŒ…å«å°äºå½“å‰èŠ‚ç‚¹çš„æ•°ã€‚
+èŠ‚ç‚¹çš„å³å­æ ‘åªåŒ…å«å¤§äºå½“å‰èŠ‚ç‚¹çš„æ•°ã€‚
+æ‰€æœ‰å·¦å­æ ‘å’Œå³å­æ ‘è‡ªèº«å¿…é¡»ä¹Ÿæ˜¯äºŒå‰æœç´¢æ ‘ã€‚
  */
 public class LC_98 {
 	public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class LC_98 {
 		System.out.println(solution.isValidBST(tree5));
 	}
 }
-// µİ¹é
+// é€’å½’
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
@@ -45,7 +45,7 @@ class Solution {
         return isValidBST(node.left, lower, node.val) && isValidBST(node.right, node.val, upper);
     }
 }
-//µü´ú+Õ»
+//è¿­ä»£+æ ˆ
 class Solution1 {
     public boolean isValidBST(TreeNode root) {
         Deque<TreeNode> stack = new LinkedList<TreeNode>();
@@ -57,7 +57,7 @@ class Solution1 {
                 root = root.left;
             }
             root = stack.pop();
-              // Èç¹ûÖĞĞò±éÀúµÃµ½µÄ½ÚµãµÄÖµĞ¡ÓÚµÈÓÚÇ°Ò»¸ö inorder£¬ËµÃ÷²»ÊÇ¶ş²æËÑË÷Ê÷
+              // å¦‚æœä¸­åºéå†å¾—åˆ°çš„èŠ‚ç‚¹çš„å€¼å°äºç­‰äºå‰ä¸€ä¸ª inorderï¼Œè¯´æ˜ä¸æ˜¯äºŒå‰æœç´¢æ ‘
             if (root.val <= inorder) {
                 return false;
             }
@@ -67,7 +67,7 @@ class Solution1 {
         return true;
     }
 }
-//MorrisÖĞĞò±éÀú
+//Morrisä¸­åºéå†
 class Solution3 {
 	public boolean isValidBST(TreeNode root) {
 		double inorder = -Double.MAX_VALUE; 

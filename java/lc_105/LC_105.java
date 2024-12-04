@@ -8,17 +8,17 @@ import java.util.Map;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *105. ´ÓÇ°ĞòÓëÖĞĞò±éÀúĞòÁĞ¹¹Ôì¶ş²æÊ÷
-¸ù¾İÒ»¿ÃÊ÷µÄÇ°Ğò±éÀúÓëÖĞĞò±éÀú¹¹Ôì¶ş²æÊ÷¡£
+ * @author é»„è±ª
+ *105. ä»å‰åºä¸ä¸­åºéå†åºåˆ—æ„é€ äºŒå‰æ ‘
+æ ¹æ®ä¸€æ£µæ ‘çš„å‰åºéå†ä¸ä¸­åºéå†æ„é€ äºŒå‰æ ‘ã€‚
 
-×¢Òâ:
-Äã¿ÉÒÔ¼ÙÉèÊ÷ÖĞÃ»ÓĞÖØ¸´µÄÔªËØ¡£
+æ³¨æ„:
+ä½ å¯ä»¥å‡è®¾æ ‘ä¸­æ²¡æœ‰é‡å¤çš„å…ƒç´ ã€‚
  */
 public class LC_105 {
 
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     private Map<Integer, Integer> indexMap;
 
@@ -27,27 +27,27 @@ class Solution {
             return null;
         }
 
-        // Ç°Ğò±éÀúÖĞµÄµÚÒ»¸ö½Úµã¾ÍÊÇ¸ù½Úµã
+        // å‰åºéå†ä¸­çš„ç¬¬ä¸€ä¸ªèŠ‚ç‚¹å°±æ˜¯æ ¹èŠ‚ç‚¹
         int preorder_root = preorder_left;
-        // ÔÚÖĞĞò±éÀúÖĞ¶¨Î»¸ù½Úµã
+        // åœ¨ä¸­åºéå†ä¸­å®šä½æ ¹èŠ‚ç‚¹
         int inorder_root = indexMap.get(preorder[preorder_root]);
         
-        // ÏÈ°Ñ¸ù½Úµã½¨Á¢³öÀ´
+        // å…ˆæŠŠæ ¹èŠ‚ç‚¹å»ºç«‹å‡ºæ¥
         TreeNode root = new TreeNode(preorder[preorder_root]);
-        // µÃµ½×ó×ÓÊ÷ÖĞµÄ½ÚµãÊıÄ¿
+        // å¾—åˆ°å·¦å­æ ‘ä¸­çš„èŠ‚ç‚¹æ•°ç›®
         int size_left_subtree = inorder_root - inorder_left;
-        // µİ¹éµØ¹¹Ôì×ó×ÓÊ÷£¬²¢Á¬½Óµ½¸ù½Úµã
-        // ÏÈĞò±éÀúÖĞ¡¸´Ó ×ó±ß½ç+1 ¿ªÊ¼µÄ size_left_subtree¡¹¸öÔªËØ¾Í¶ÔÓ¦ÁËÖĞĞò±éÀúÖĞ¡¸´Ó ×ó±ß½ç ¿ªÊ¼µ½ ¸ù½Úµã¶¨Î»-1¡¹µÄÔªËØ
+        // é€’å½’åœ°æ„é€ å·¦å­æ ‘ï¼Œå¹¶è¿æ¥åˆ°æ ¹èŠ‚ç‚¹
+        // å…ˆåºéå†ä¸­ã€Œä» å·¦è¾¹ç•Œ+1 å¼€å§‹çš„ size_left_subtreeã€ä¸ªå…ƒç´ å°±å¯¹åº”äº†ä¸­åºéå†ä¸­ã€Œä» å·¦è¾¹ç•Œ å¼€å§‹åˆ° æ ¹èŠ‚ç‚¹å®šä½-1ã€çš„å…ƒç´ 
         root.left = myBuildTree(preorder, inorder, preorder_left + 1, preorder_left + size_left_subtree, inorder_left, inorder_root - 1);
-        // µİ¹éµØ¹¹ÔìÓÒ×ÓÊ÷£¬²¢Á¬½Óµ½¸ù½Úµã
-        // ÏÈĞò±éÀúÖĞ¡¸´Ó ×ó±ß½ç+1+×ó×ÓÊ÷½ÚµãÊıÄ¿ ¿ªÊ¼µ½ ÓÒ±ß½ç¡¹µÄÔªËØ¾Í¶ÔÓ¦ÁËÖĞĞò±éÀúÖĞ¡¸´Ó ¸ù½Úµã¶¨Î»+1 µ½ ÓÒ±ß½ç¡¹µÄÔªËØ
+        // é€’å½’åœ°æ„é€ å³å­æ ‘ï¼Œå¹¶è¿æ¥åˆ°æ ¹èŠ‚ç‚¹
+        // å…ˆåºéå†ä¸­ã€Œä» å·¦è¾¹ç•Œ+1+å·¦å­æ ‘èŠ‚ç‚¹æ•°ç›® å¼€å§‹åˆ° å³è¾¹ç•Œã€çš„å…ƒç´ å°±å¯¹åº”äº†ä¸­åºéå†ä¸­ã€Œä» æ ¹èŠ‚ç‚¹å®šä½+1 åˆ° å³è¾¹ç•Œã€çš„å…ƒç´ 
         root.right = myBuildTree(preorder, inorder, preorder_left + size_left_subtree + 1, preorder_right, inorder_root + 1, inorder_right);
         return root;
     }
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         int n = preorder.length;
-        // ¹¹Ôì¹şÏ£Ó³Éä£¬°ïÖúÎÒÃÇ¿ìËÙ¶¨Î»¸ù½Úµã
+        // æ„é€ å“ˆå¸Œæ˜ å°„ï¼Œå¸®åŠ©æˆ‘ä»¬å¿«é€Ÿå®šä½æ ¹èŠ‚ç‚¹
         indexMap = new HashMap<Integer, Integer>();
         for (int i = 0; i < n; i++) {
             indexMap.put(inorder[i], i);
@@ -55,7 +55,7 @@ class Solution {
         return myBuildTree(preorder, inorder, 0, n - 1, 0, n - 1);
     }
 }
-//±éÀú
+//éå†
 class Solution1 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || preorder.length == 0) {

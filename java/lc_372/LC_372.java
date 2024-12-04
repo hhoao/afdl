@@ -1,14 +1,14 @@
 package lc_372;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ24ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ24æ—¥
  *@todo:
 */
 public class LC_372 {
 
 }
-//µ¹Ğğ±éÀú
+//å€’å™éå†
 class Solution {
     static final int MOD = 1337;
 
@@ -33,7 +33,7 @@ class Solution {
         return res;
     }
 }
-//ÇØ¾ÅÕÑËã·¨
+//ç§¦ä¹æ˜­ç®—æ³•
 class Solution1 {
     static final int MOD = 1337;
 

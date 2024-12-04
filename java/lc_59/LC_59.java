@@ -1,9 +1,9 @@
 package lc_59;
 
 /**
- * @author »ÆºÀ
- *59. ÂÝÐý¾ØÕó II
-¸øÄãÒ»¸öÕýÕûÊý n £¬Éú³ÉÒ»¸ö°üº¬ 1 µ½ n2 ËùÓÐÔªËØ£¬ÇÒÔªËØ°´Ë³Ê±ÕëË³ÐòÂÝÐýÅÅÁÐµÄ n x n Õý·½ÐÎ¾ØÕó matrix ¡£
+ * @author é»„è±ª
+ *59. èžºæ—‹çŸ©é˜µ II
+ç»™ä½ ä¸€ä¸ªæ­£æ•´æ•° n ï¼Œç”Ÿæˆä¸€ä¸ªåŒ…å« 1 åˆ° n2 æ‰€æœ‰å…ƒç´ ï¼Œä¸”å…ƒç´ æŒ‰é¡ºæ—¶é’ˆé¡ºåºèžºæ—‹æŽ’åˆ—çš„ n x n æ­£æ–¹å½¢çŸ©é˜µ matrix ã€‚
 
  
  */

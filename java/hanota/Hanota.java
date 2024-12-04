@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.Stack;
 
 /**
- * @author »ÆºÀ
- *ººÅµËþ2020Äê12ÔÂ28ÈÕ13:03:19
+ * @author é»„è±ª
+ *æ±‰è¯ºå¡”2020å¹´12æœˆ28æ—¥13:03:19
  */
 public class Hanota {
 	public static int count = 0;

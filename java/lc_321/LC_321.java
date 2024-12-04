@@ -4,8 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ23ÈÕ
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ23æ—¥
  *@todo:
 */
 public class LC_321 {
@@ -15,17 +15,17 @@ public class LC_321 {
 		}
 	}
 }
-//µ¥µ÷Õ»
+//å•è°ƒæ ˆ
 class Solution {
     public int[] maxNumber(int[] nums1, int[] nums2, int k) {
         int n = nums1.length, m = nums2.length;
         int[] maxSubsequence = new int[k];
-        //Ö»ÄÜÓĞ[start, end]Î»Êı
+        //åªèƒ½æœ‰[start, end]ä½æ•°
         int start = Math.max(0, k - m), end = Math.min(n, k);
         for (int i = start; i <= end; i++){
-        	//¶ªÆún-iºónums1×î´ó
+        	//ä¸¢å¼ƒn-iånums1æœ€å¤§
             int[] subSequence1 = getMaxSubSequence(nums1, n - i);
-            //¶ªÆúm-k+iºónum2×î´ó
+            //ä¸¢å¼ƒm-k+iånum2æœ€å¤§
             int[] subSequence2 = getMaxSubSequence(nums2, m - k + i);
             int[] mergeArr = merge(subSequence1, subSequence2);
             if (compare(mergeArr, 0, maxSubsequence, 0) > 0){
@@ -86,7 +86,7 @@ class Solution {
         return (x - index1) - (y - index2);
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1 {
     public int[] maxNumber(int[] nums1, int[] nums2, int k) {
         int m = nums1.length, n = nums2.length;

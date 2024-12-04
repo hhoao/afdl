@@ -3,14 +3,14 @@ package lc_313;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ28ÈÕ
- *@todo:313. ³¬¼¶³óÊý
-³¬¼¶³óÊý ÊÇÒ»¸öÕýÕûÊý£¬²¢Âú×ãÆäËùÓÐÖÊÒòÊý¶¼³öÏÖÔÚÖÊÊýÊý×é primes ÖÐ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ28æ—¥
+ *@todo:313. è¶…çº§ä¸‘æ•°
+è¶…çº§ä¸‘æ•° æ˜¯ä¸€ä¸ªæ­£æ•´æ•°ï¼Œå¹¶æ»¡è¶³å…¶æ‰€æœ‰è´¨å› æ•°éƒ½å‡ºçŽ°åœ¨è´¨æ•°æ•°ç»„ primes ä¸­ã€‚
 
-¸øÄãÒ»¸öÕûÊý n ºÍÒ»¸öÕûÊýÊý×é primes £¬·µ»ØµÚ n ¸ö ³¬¼¶³óÊý ¡£
+ç»™ä½ ä¸€ä¸ªæ•´æ•° n å’Œä¸€ä¸ªæ•´æ•°æ•°ç»„ primes ï¼Œè¿”å›žç¬¬ n ä¸ª è¶…çº§ä¸‘æ•° ã€‚
 
-ÌâÄ¿Êý¾Ý±£Ö¤µÚ n ¸ö ³¬¼¶³óÊý ÔÚ 32-bit ´ø·ûºÅÕûÊý·¶Î§ÄÚ¡£
+é¢˜ç›®æ•°æ®ä¿è¯ç¬¬ n ä¸ª è¶…çº§ä¸‘æ•° åœ¨ 32-bit å¸¦ç¬¦å·æ•´æ•°èŒƒå›´å†…ã€‚
 
  
 */

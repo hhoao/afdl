@@ -1,14 +1,14 @@
 package lc_201;
 
 /**
- * @author »ÆºÀ
- *201. Êı×Ö·¶Î§°´Î»Óë
-¸øÄãÁ½¸öÕûÊı left ºÍ right £¬±íÊ¾Çø¼ä [left, right] £¬·µ»Ø´ËÇø¼äÄÚËùÓĞÊı×Ö °´Î»Óë µÄ½á¹û£¨°üº¬ left ¡¢right ¶Ëµã£©¡£
+ * @author é»„è±ª
+ *201. æ•°å­—èŒƒå›´æŒ‰ä½ä¸
+ç»™ä½ ä¸¤ä¸ªæ•´æ•° left å’Œ right ï¼Œè¡¨ç¤ºåŒºé—´ [left, right] ï¼Œè¿”å›æ­¤åŒºé—´å†…æ‰€æœ‰æ•°å­— æŒ‰ä½ä¸ çš„ç»“æœï¼ˆåŒ…å« left ã€right ç«¯ç‚¹ï¼‰ã€‚
  */
 public class LC_201 {
 
 }
-//ÒÆÎ»
+//ç§»ä½
 class Solution {
     public int rangeBitwiseAnd(int left, int right) {
         int cnt = 0;
@@ -20,7 +20,7 @@ class Solution {
         return right << cnt;
     }
 }
-//·½·¨¶ş£ºBrian Kernighan Ëã·¨
+//æ–¹æ³•äºŒï¼šBrian Kernighan ç®—æ³•
 class Solution1 {
     public int rangeBitwiseAnd(int left, int right) {
         while (left < right){

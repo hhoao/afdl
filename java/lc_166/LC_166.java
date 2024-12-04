@@ -4,20 +4,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author »ÆºÀ
- *166. ·ÖÊıµ½Ğ¡Êı
-¸ø¶¨Á½¸öÕûÊı£¬·Ö±ğ±íÊ¾·ÖÊıµÄ·Ö×Ó numerator ºÍ·ÖÄ¸ denominator£¬ÒÔ ×Ö·û´®ĞÎÊ½·µ»ØĞ¡Êı ¡£
+ * @author é»„è±ª
+ *166. åˆ†æ•°åˆ°å°æ•°
+ç»™å®šä¸¤ä¸ªæ•´æ•°ï¼Œåˆ†åˆ«è¡¨ç¤ºåˆ†æ•°çš„åˆ†å­ numerator å’Œåˆ†æ¯ denominatorï¼Œä»¥ å­—ç¬¦ä¸²å½¢å¼è¿”å›å°æ•° ã€‚
 
-Èç¹ûĞ¡Êı²¿·ÖÎªÑ­»·Ğ¡Êı£¬Ôò½«Ñ­»·µÄ²¿·ÖÀ¨ÔÚÀ¨ºÅÄÚ¡£
+å¦‚æœå°æ•°éƒ¨åˆ†ä¸ºå¾ªç¯å°æ•°ï¼Œåˆ™å°†å¾ªç¯çš„éƒ¨åˆ†æ‹¬åœ¨æ‹¬å·å†…ã€‚
 
-Èç¹û´æÔÚ¶à¸ö´ğ°¸£¬Ö»Ğè·µ»Ø ÈÎÒâÒ»¸ö ¡£
+å¦‚æœå­˜åœ¨å¤šä¸ªç­”æ¡ˆï¼Œåªéœ€è¿”å› ä»»æ„ä¸€ä¸ª ã€‚
 
-¶ÔÓÚËùÓĞ¸ø¶¨µÄÊäÈë£¬±£Ö¤ ´ğ°¸×Ö·û´®µÄ³¤¶ÈĞ¡ÓÚ 104 ¡£
+å¯¹äºæ‰€æœ‰ç»™å®šçš„è¾“å…¥ï¼Œä¿è¯ ç­”æ¡ˆå­—ç¬¦ä¸²çš„é•¿åº¦å°äº 104 ã€‚
  */
 public class LC_166 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0 || denominator == 0) return "0";
@@ -56,7 +56,7 @@ class Solution {
         return sbu.toString();
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1{
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0) {

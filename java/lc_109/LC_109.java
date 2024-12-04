@@ -7,11 +7,11 @@ import tools.ListNode;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *109. ÓÐÐòÁ´±í×ª»»¶þ²æËÑË÷Ê÷
-¸ø¶¨Ò»¸öµ¥Á´±í£¬ÆäÖÐµÄÔªËØ°´ÉýÐòÅÅÐò£¬½«Æä×ª»»Îª¸ß¶ÈÆ½ºâµÄ¶þ²æËÑË÷Ê÷¡£
+ * @author é»„è±ª
+ *109. æœ‰åºé“¾è¡¨è½¬æ¢äºŒå‰æœç´¢æ ‘
+ç»™å®šä¸€ä¸ªå•é“¾è¡¨ï¼Œå…¶ä¸­çš„å…ƒç´ æŒ‰å‡åºæŽ’åºï¼Œå°†å…¶è½¬æ¢ä¸ºé«˜åº¦å¹³è¡¡çš„äºŒå‰æœç´¢æ ‘ã€‚
 
-±¾ÌâÖÐ£¬Ò»¸ö¸ß¶ÈÆ½ºâ¶þ²æÊ÷ÊÇÖ¸Ò»¸ö¶þ²æÊ÷Ã¿¸ö½Úµã µÄ×óÓÒÁ½¸ö×ÓÊ÷µÄ¸ß¶È²îµÄ¾ø¶ÔÖµ²»³¬¹ý 1¡£
+æœ¬é¢˜ä¸­ï¼Œä¸€ä¸ªé«˜åº¦å¹³è¡¡äºŒå‰æ ‘æ˜¯æŒ‡ä¸€ä¸ªäºŒå‰æ ‘æ¯ä¸ªèŠ‚ç‚¹ çš„å·¦å³ä¸¤ä¸ªå­æ ‘çš„é«˜åº¦å·®çš„ç»å¯¹å€¼ä¸è¶…è¿‡ 1ã€‚
  */
 public class LC_109 {
 
@@ -39,7 +39,7 @@ class Solution {
     	}
     }
 }
-//¹Ù·½//·ÖÖÎ
+//å®˜æ–¹//åˆ†æ²»
 class Solution1 {
     public TreeNode sortedListToBST(ListNode head) {
         return buildTree(head, null);
@@ -67,7 +67,7 @@ class Solution1 {
         return slow;
     }
 }
-//·ÖÖÎ,ÖÐÐò±éÀú¼ÓÓÅ»¯
+//åˆ†æ²»,ä¸­åºéåŽ†åŠ ä¼˜åŒ–
 class Solution2 {
     ListNode globalHead;
 

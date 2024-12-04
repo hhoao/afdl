@@ -4,7 +4,7 @@ public class LC_87 {
 
 }
 
-//区间dp
+//鍖洪棿dp
 class Solution {
     public boolean isScramble(String s1, String s2) {
         char[] chs1 = s1.toCharArray();
@@ -15,22 +15,22 @@ class Solution {
             return false;
         }
         boolean[][][] dp = new boolean[n][n][n + 1];
-        // 初始化单个字符的情况
+        // 鍒濆鍖栧崟涓瓧绗︾殑鎯呭喌
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 dp[i][j][1] = chs1[i] == chs2[j];
             }
         }
 
-        // 枚举区间长度 2～n
+        // 鏋氫妇鍖洪棿闀垮害 2锝瀗
         for (int len = 2; len <= n; len++) {
-            // 枚举 S 中的起点位置
+            // 鏋氫妇 S 涓殑璧风偣浣嶇疆
             for (int i = 0; i <= n - len; i++) {
-                // 枚举 T 中的起点位置
+                // 鏋氫妇 T 涓殑璧风偣浣嶇疆
                 for (int j = 0; j <= n - len; j++) {
-                    // 枚举划分位置
+                    // 鏋氫妇鍒掑垎浣嶇疆
                     for (int k = 1; k <= len - 1; k++) {
-                        // 第一种情况：S1 -> T1, S2 -> T2
+                        // 绗竴绉嶆儏鍐碉細S1 -> T1, S2 -> T2
                         if (dp[i][j][k] && dp[i + k][j + k][len - k]) {
                             dp[i][j][len] = true;
                             break;

@@ -1,16 +1,16 @@
 package lc_79;
 
 /**
- * @author �ƺ�
- *79. ��������
-����һ����ά�����һ�����ʣ��ҳ��õ����Ƿ�����������С�
+ * @author 黄豪
+ *79. 单词搜索
+给定一个二维网格和一个单词，找出该单词是否存在于网格中。
 
-���ʱ��밴����ĸ˳��ͨ�����ڵĵ�Ԫ���ڵ���ĸ���ɣ����С����ڡ���Ԫ������Щˮƽ���ڻ�ֱ���ڵĵ�Ԫ��ͬһ����Ԫ���ڵ���ĸ���������ظ�ʹ�á�
+单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
  */
 public class LC_79 {
 
 }
-//�����������
+//深度优先搜索
 class Solution {
     public boolean exist(char[][] board, String word) {
         int h = board.length, w = board[0].length;

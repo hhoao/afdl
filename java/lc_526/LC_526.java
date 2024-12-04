@@ -1,21 +1,21 @@
 package lc_526;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê10ÔÂ28ÈÕ
- *@todo:526. ÓÅÃÀµÄÅÅÁÐ
-¼ÙÉèÓÐ´Ó 1 µ½ n µÄ n ¸öÕûÊý¡£ÓÃÕâÐ©ÕûÊý¹¹ÔìÒ»¸öÊý×é perm£¨ÏÂ±ê´Ó 1 ¿ªÊ¼£©£¬Ö»ÒªÂú×ãÏÂÊöÌõ¼þ Ö®Ò» £¬¸ÃÊý×é¾ÍÊÇÒ»¸ö ÓÅÃÀµÄÅÅÁÐ £º
+ *@author: é»„è±ª
+ *@date : 2021å¹´10æœˆ28æ—¥
+ *@todo:526. ä¼˜ç¾Žçš„æŽ’åˆ—
+å‡è®¾æœ‰ä»Ž 1 åˆ° n çš„ n ä¸ªæ•´æ•°ã€‚ç”¨è¿™äº›æ•´æ•°æž„é€ ä¸€ä¸ªæ•°ç»„ permï¼ˆä¸‹æ ‡ä»Ž 1 å¼€å§‹ï¼‰ï¼Œåªè¦æ»¡è¶³ä¸‹è¿°æ¡ä»¶ ä¹‹ä¸€ ï¼Œè¯¥æ•°ç»„å°±æ˜¯ä¸€ä¸ª ä¼˜ç¾Žçš„æŽ’åˆ— ï¼š
 
-perm[i] ÄÜ¹»±» i Õû³ý
-i ÄÜ¹»±» perm[i] Õû³ý
-¸øÄãÒ»¸öÕûÊý n £¬·µ»Ø¿ÉÒÔ¹¹ÔìµÄ ÓÅÃÀÅÅÁÐ µÄ ÊýÁ¿ ¡£
+perm[i] èƒ½å¤Ÿè¢« i æ•´é™¤
+i èƒ½å¤Ÿè¢« perm[i] æ•´é™¤
+ç»™ä½ ä¸€ä¸ªæ•´æ•° n ï¼Œè¿”å›žå¯ä»¥æž„é€ çš„ ä¼˜ç¾ŽæŽ’åˆ— çš„ æ•°é‡ ã€‚
 */
 public class LC_526 {
 	
 
 	
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int countArrangement(int n) {
     	int[] dp = new int[1<<n];

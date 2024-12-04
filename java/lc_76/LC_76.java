@@ -5,11 +5,11 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * @author »ÆºÀ
- *76. ×îĞ¡¸²¸Ç×Ó´®
-¸øÄãÒ»¸ö×Ö·û´® s ¡¢Ò»¸ö×Ö·û´® t ¡£·µ»Ø s ÖĞº­¸Ç t ËùÓĞ×Ö·ûµÄ×îĞ¡×Ó´®¡£Èç¹û s ÖĞ²»´æÔÚº­¸Ç t ËùÓĞ×Ö·ûµÄ×Ó´®£¬Ôò·µ»Ø¿Õ×Ö·û´® "" ¡£
+ * @author é»„è±ª
+ *76. æœ€å°è¦†ç›–å­ä¸²
+ç»™ä½ ä¸€ä¸ªå­—ç¬¦ä¸² s ã€ä¸€ä¸ªå­—ç¬¦ä¸² t ã€‚è¿”å› s ä¸­æ¶µç›– t æ‰€æœ‰å­—ç¬¦çš„æœ€å°å­ä¸²ã€‚å¦‚æœ s ä¸­ä¸å­˜åœ¨æ¶µç›– t æ‰€æœ‰å­—ç¬¦çš„å­ä¸²ï¼Œåˆ™è¿”å›ç©ºå­—ç¬¦ä¸² "" ã€‚
 
-×¢Òâ£ºÈç¹û s ÖĞ´æÔÚÕâÑùµÄ×Ó´®£¬ÎÒÃÇ±£Ö¤ËüÊÇÎ¨Ò»µÄ´ğ°¸¡£
+æ³¨æ„ï¼šå¦‚æœ s ä¸­å­˜åœ¨è¿™æ ·çš„å­ä¸²ï¼Œæˆ‘ä»¬ä¿è¯å®ƒæ˜¯å”¯ä¸€çš„ç­”æ¡ˆã€‚
  */
 public class LC_76 {
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class LC_76 {
 		System.out.println(s.minWindow("ADOBECODEBANC", "ABC"));
 	}
 }
-//»¬¶¯Êı×é
+//æ»‘åŠ¨æ•°ç»„
 class Solution {
     Map<Character, Integer> ori = new HashMap<Character, Integer>();
     Map<Character, Integer> cnt = new HashMap<Character, Integer>();
@@ -64,7 +64,7 @@ class Solution {
         return true;
     }
 }
-//»¬¶¯Êı×é
+//æ»‘åŠ¨æ•°ç»„
 class Solution1{
     public String minWindow(String s, String t) {
         char[] chars = s.toCharArray(), chart = t.toCharArray();

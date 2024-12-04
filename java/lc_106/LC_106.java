@@ -8,17 +8,17 @@ import java.util.Map;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *106. ´ÓÖĞĞòÓëºóĞò±éÀúĞòÁĞ¹¹Ôì¶ş²æÊ÷
-¸ù¾İÒ»¿ÃÊ÷µÄÖĞĞò±éÀúÓëºóĞò±éÀú¹¹Ôì¶ş²æÊ÷¡£
+ * @author é»„è±ª
+ *106. ä»ä¸­åºä¸ååºéå†åºåˆ—æ„é€ äºŒå‰æ ‘
+æ ¹æ®ä¸€æ£µæ ‘çš„ä¸­åºéå†ä¸ååºéå†æ„é€ äºŒå‰æ ‘ã€‚
 
-×¢Òâ:
-Äã¿ÉÒÔ¼ÙÉèÊ÷ÖĞÃ»ÓĞÖØ¸´µÄÔªËØ¡£
+æ³¨æ„:
+ä½ å¯ä»¥å‡è®¾æ ‘ä¸­æ²¡æœ‰é‡å¤çš„å…ƒç´ ã€‚
  */
 public class LC_106 {
 
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     int post_idx;
     int[] postorder;
@@ -26,23 +26,23 @@ class Solution {
     Map<Integer, Integer> idx_map = new HashMap<Integer, Integer>();
 
     public TreeNode helper(int in_left, int in_right) {
-        // Èç¹ûÕâÀïÃ»ÓĞ½Úµã¹¹Ôì¶ş²æÊ÷ÁË£¬¾Í½áÊø
+        // å¦‚æœè¿™é‡Œæ²¡æœ‰èŠ‚ç‚¹æ„é€ äºŒå‰æ ‘äº†ï¼Œå°±ç»“æŸ
         if (in_left > in_right) {
             return null;
         }
 
-        // Ñ¡Ôñ post_idx Î»ÖÃµÄÔªËØ×÷Îªµ±Ç°×ÓÊ÷¸ù½Úµã
+        // é€‰æ‹© post_idx ä½ç½®çš„å…ƒç´ ä½œä¸ºå½“å‰å­æ ‘æ ¹èŠ‚ç‚¹
         int root_val = postorder[post_idx];
         TreeNode root = new TreeNode(root_val);
 
-        // ¸ù¾İ root ËùÔÚÎ»ÖÃ·Ö³É×óÓÒÁ½¿Ã×ÓÊ÷
+        // æ ¹æ® root æ‰€åœ¨ä½ç½®åˆ†æˆå·¦å³ä¸¤æ£µå­æ ‘
         int index = idx_map.get(root_val);
 
-        // ÏÂ±ê¼õÒ»
+        // ä¸‹æ ‡å‡ä¸€
         post_idx--;
-        // ¹¹ÔìÓÒ×ÓÊ÷
+        // æ„é€ å³å­æ ‘
         root.right = helper(index + 1, in_right);
-        // ¹¹Ôì×ó×ÓÊ÷
+        // æ„é€ å·¦å­æ ‘
         root.left = helper(in_left, index - 1);
         return root;
     }
@@ -50,10 +50,10 @@ class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         this.postorder = postorder;
         this.inorder = inorder;
-        // ´ÓºóĞò±éÀúµÄ×îºóÒ»¸öÔªËØ¿ªÊ¼
+        // ä»ååºéå†çš„æœ€åä¸€ä¸ªå…ƒç´ å¼€å§‹
         post_idx = postorder.length - 1;
 
-        // ½¨Á¢£¨ÔªËØ£¬ÏÂ±ê£©¼üÖµ¶ÔµÄ¹şÏ£±í
+        // å»ºç«‹ï¼ˆå…ƒç´ ï¼Œä¸‹æ ‡ï¼‰é”®å€¼å¯¹çš„å“ˆå¸Œè¡¨
         int idx = 0;
         for (Integer val : inorder) {
             idx_map.put(val, idx++);
@@ -62,7 +62,7 @@ class Solution {
         return helper(0, inorder.length - 1);
     }
 }
-//µü´ú
+//è¿­ä»£
 class Solution1 {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (postorder == null || postorder.length == 0) {

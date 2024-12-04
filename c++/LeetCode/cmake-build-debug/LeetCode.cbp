@@ -191,6 +191,198 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="all_1590">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_1590.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1590_make_sum_divisible_by_p"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_1590"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1590/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_1590.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1590_make_sum_divisible_by_p"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_1590/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1615">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_1615.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1615_Maximal_Network_Rank"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_1615"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1615/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_1615.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1615_Maximal_Network_Rank"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_1615/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1617">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_1617.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_1617"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1617/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_1617.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_1617/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_17">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_17.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/17_05_Find_Longest_Subarray_LCCI"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_17"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_17/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_17.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/17_05_Find_Longest_Subarray_LCCI"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_17/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="all_221">
 				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_221.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
@@ -234,6 +426,150 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_221/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2383">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_2383.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_2383"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2383/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_2383.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_2383/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2389">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_2389.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2389_Longest_Subsequence_With_Limited_Sum"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_2389"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2389/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_2389.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2389_Longest_Subsequence_With_Limited_Sum"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_2389/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2488">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_2488.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2488_Count_Subarrays_With_Median_K"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_2488"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2488/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/liball_2488.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2488_Count_Subarrays_With_Median_K"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all_2488/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
@@ -671,6 +1007,342 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="all_1590_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_1590_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1590_make_sum_divisible_by_p"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_1590_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1590_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_1590_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1590_make_sum_divisible_by_p"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_1590_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1615_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_1615_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1615_Maximal_Network_Rank"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_1615_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1615_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_1615_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1615_Maximal_Network_Rank"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_1615_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1617_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_1617_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_1617_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_1617_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_1617_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_1617_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_17_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_17_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/17_05_Find_Longest_Subarray_LCCI"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_17_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_17_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_17_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/17_05_Find_Longest_Subarray_LCCI"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_17_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2383_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_2383_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_2383_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2383_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_2383_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_2383_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2389_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_2389_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2389_Longest_Subsequence_With_Limited_Sum"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_2389_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2389_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_2389_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2389_Longest_Subsequence_With_Limited_Sum"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_2389_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2488_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_2488_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2488_Count_Subarrays_With_Median_K"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_2488_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="all_2488_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_2488_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/include"/>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2488_Count_Subarrays_With_Median_K"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all_2488_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="all_310_test">
 				<Option output="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test/all_310_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug/test"/>
@@ -1026,11 +1698,53 @@
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/145_binary_tree_postorder_traversal/Solution.h">
 			<Option target="all_145"/>
 		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1590_make_sum_divisible_by_p/Solution.cpp">
+			<Option target="all_1590"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1590_make_sum_divisible_by_p/Solution.h">
+			<Option target="all_1590"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1615_Maximal_Network_Rank/Solution.cpp">
+			<Option target="all_1615"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1615_Maximal_Network_Rank/Solution.h">
+			<Option target="all_1615"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp">
+			<Option target="all_1617"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.h">
+			<Option target="all_1617"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp">
+			<Option target="all_17"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/17_05_Find_Longest_Subarray_LCCI/Solution.h">
+			<Option target="all_17"/>
+		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/221_maximal_square/Solution.cpp">
 			<Option target="all_221"/>
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/221_maximal_square/Solution.h">
 			<Option target="all_221"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp">
+			<Option target="all_2383"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.h">
+			<Option target="all_2383"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp">
+			<Option target="all_2389"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2389_Longest_Subsequence_With_Limited_Sum/Solution.h">
+			<Option target="all_2389"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2488_Count_Subarrays_With_Median_K/Solution.cpp">
+			<Option target="all_2488"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/2488_Count_Subarrays_With_Median_K/Solution.h">
+			<Option target="all_2488"/>
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/310_minimum_height_trees/Solution.cpp">
 			<Option target="all_310"/>
@@ -1079,6 +1793,27 @@
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/145_binary_tree_postorder_traversal/test.cpp">
 			<Option target="all_145_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/1590_make_sum_divisible_by_p/test.cpp">
+			<Option target="all_1590_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/1615_Maximal_Network_Rank/test.cpp">
+			<Option target="all_1615_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/test.cpp">
+			<Option target="all_1617_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/17_05_Find_Longest_Subarray_LCCI/test.cpp">
+			<Option target="all_17_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/test.cpp">
+			<Option target="all_2383_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/2389_Longest_Subsequence_With_Limited_Sum/test.cpp">
+			<Option target="all_2389_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/2488_Count_Subarrays_With_Median_K/test.cpp">
+			<Option target="all_2488_test"/>
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/LeetCode/test/all/310_minimum_height_trees/test.cpp">
 			<Option target="all_310_test"/>

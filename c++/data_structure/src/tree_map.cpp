@@ -260,11 +260,7 @@ bool TreeMap::rbPut(Node* node) {
 
 bool TreeMap::rbPut(int key, int value) {
 	Node* node = new Node;
-	if (node == NULL) {
-		printf("内存分配失败，程序终止");
-		exit(-1);
-	}
-	node->key = key;
+    node->key = key;
 	node->value = value;
 	node->color = RED;
 	return rbPut(node);

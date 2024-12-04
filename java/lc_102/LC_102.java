@@ -8,9 +8,9 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *102. ¶þ²æÊ÷µÄ²ãÐò±éÀú
-¸øÄãÒ»¸ö¶þ²æÊ÷£¬ÇëÄã·µ»ØÆä°´ ²ãÐò±éÀú µÃµ½µÄ½ÚµãÖµ¡£ £¨¼´Öð²ãµØ£¬´Ó×óµ½ÓÒ·ÃÎÊËùÓÐ½Úµã£©¡£
+ * @author é»„è±ª
+ *102. äºŒå‰æ ‘çš„å±‚åºéåŽ†
+ç»™ä½ ä¸€ä¸ªäºŒå‰æ ‘ï¼Œè¯·ä½ è¿”å›žå…¶æŒ‰ å±‚åºéåŽ† å¾—åˆ°çš„èŠ‚ç‚¹å€¼ã€‚ ï¼ˆå³é€å±‚åœ°ï¼Œä»Žå·¦åˆ°å³è®¿é—®æ‰€æœ‰èŠ‚ç‚¹ï¼‰ã€‚
  */
 public class LC_102 {
 

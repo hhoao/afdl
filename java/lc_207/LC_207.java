@@ -8,19 +8,19 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author »ÆºÀ
- *207. ¿Î³Ì±í
-ÄãÕâ¸öÑ§ÆÚ±ØĞëÑ¡ĞŞ numCourses ÃÅ¿Î³Ì£¬¼ÇÎª 0 µ½ numCourses - 1 ¡£
+ * @author é»„è±ª
+ *207. è¯¾ç¨‹è¡¨
+ä½ è¿™ä¸ªå­¦æœŸå¿…é¡»é€‰ä¿® numCourses é—¨è¯¾ç¨‹ï¼Œè®°ä¸º 0 åˆ° numCourses - 1 ã€‚
 
-ÔÚÑ¡ĞŞÄ³Ğ©¿Î³ÌÖ®Ç°ĞèÒªÒ»Ğ©ÏÈĞŞ¿Î³Ì¡£ ÏÈĞŞ¿Î³Ì°´Êı×é prerequisites ¸ø³ö£¬ÆäÖĞ prerequisites[i] = [ai, bi] £¬±íÊ¾Èç¹ûÒªÑ§Ï°¿Î³Ì ai Ôò ±ØĞë ÏÈÑ§Ï°¿Î³Ì  bi ¡£
+åœ¨é€‰ä¿®æŸäº›è¯¾ç¨‹ä¹‹å‰éœ€è¦ä¸€äº›å…ˆä¿®è¯¾ç¨‹ã€‚ å…ˆä¿®è¯¾ç¨‹æŒ‰æ•°ç»„ prerequisites ç»™å‡ºï¼Œå…¶ä¸­ prerequisites[i] = [ai, bi] ï¼Œè¡¨ç¤ºå¦‚æœè¦å­¦ä¹ è¯¾ç¨‹ ai åˆ™ å¿…é¡» å…ˆå­¦ä¹ è¯¾ç¨‹  bi ã€‚
 
-ÀıÈç£¬ÏÈĞŞ¿Î³Ì¶Ô [0, 1] ±íÊ¾£ºÏëÒªÑ§Ï°¿Î³Ì 0 £¬ÄãĞèÒªÏÈÍê³É¿Î³Ì 1 ¡£
-ÇëÄãÅĞ¶ÏÊÇ·ñ¿ÉÄÜÍê³ÉËùÓĞ¿Î³ÌµÄÑ§Ï°£¿Èç¹û¿ÉÒÔ£¬·µ»Ø true £»·ñÔò£¬·µ»Ø false ¡£
+ä¾‹å¦‚ï¼Œå…ˆä¿®è¯¾ç¨‹å¯¹ [0, 1] è¡¨ç¤ºï¼šæƒ³è¦å­¦ä¹ è¯¾ç¨‹ 0 ï¼Œä½ éœ€è¦å…ˆå®Œæˆè¯¾ç¨‹ 1 ã€‚
+è¯·ä½ åˆ¤æ–­æ˜¯å¦å¯èƒ½å®Œæˆæ‰€æœ‰è¯¾ç¨‹çš„å­¦ä¹ ï¼Ÿå¦‚æœå¯ä»¥ï¼Œè¿”å› true ï¼›å¦åˆ™ï¼Œè¿”å› false ã€‚
  */
 public class LC_207 {
 
 }
-//Éî¶ÈÓÅÏÈËÑË÷ //ÍØÆËÅÅĞò
+//æ·±åº¦ä¼˜å…ˆæœç´¢ //æ‹“æ‰‘æ’åº
 class Solution {
     List<List<Integer>> edges;
     int[] visited;
@@ -59,7 +59,7 @@ class Solution {
         visited[u] = 2;
     }
 }
-//¹ã¶ÈÓÅÏÈËÑË÷ ÍØÆËÅÅĞò
+//å¹¿åº¦ä¼˜å…ˆæœç´¢ æ‹“æ‰‘æ’åº
 class Solution1 {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> courses = new ArrayList<>();
@@ -91,7 +91,7 @@ class Solution1 {
         return visited == numCourses;
     }
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution2 {
     private boolean[] visited;
     private Map<Integer, List<Integer>> courseMap;

@@ -1,14 +1,14 @@
 package lc_171;
 
 /**
- * @author »ÆºÀ
- *171. Excel±íÁĞĞòºÅ
-¸ø¶¨Ò»¸öExcel±í¸ñÖĞµÄÁĞÃû³Æ£¬·µ»ØÆäÏàÓ¦µÄÁĞĞòºÅ¡£
+ * @author é»„è±ª
+ *171. Excelè¡¨åˆ—åºå·
+ç»™å®šä¸€ä¸ªExcelè¡¨æ ¼ä¸­çš„åˆ—åç§°ï¼Œè¿”å›å…¶ç›¸åº”çš„åˆ—åºå·ã€‚
  */
 public class LC_171 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public int titleToNumber(String columnTitle) {
         int n = columnTitle.length();

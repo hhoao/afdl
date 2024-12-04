@@ -1,17 +1,17 @@
 package lc_316;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ13ÈÕ
- *@todo:316. È¥³ıÖØ¸´×ÖÄ¸
-¸øÄãÒ»¸ö×Ö·û´® s £¬ÇëÄãÈ¥³ı×Ö·û´®ÖĞÖØ¸´µÄ×ÖÄ¸£¬Ê¹µÃÃ¿¸ö×ÖÄ¸Ö»³öÏÖÒ»´Î¡£Ğè±£Ö¤ ·µ»Ø½á¹ûµÄ×ÖµäĞò×îĞ¡£¨ÒªÇó²»ÄÜ´òÂÒÆäËû×Ö·ûµÄÏà¶ÔÎ»ÖÃ£©¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ13æ—¥
+ *@todo:316. å»é™¤é‡å¤å­—æ¯
+ç»™ä½ ä¸€ä¸ªå­—ç¬¦ä¸² s ï¼Œè¯·ä½ å»é™¤å­—ç¬¦ä¸²ä¸­é‡å¤çš„å­—æ¯ï¼Œä½¿å¾—æ¯ä¸ªå­—æ¯åªå‡ºç°ä¸€æ¬¡ã€‚éœ€ä¿è¯ è¿”å›ç»“æœçš„å­—å…¸åºæœ€å°ï¼ˆè¦æ±‚ä¸èƒ½æ‰“ä¹±å…¶ä»–å­—ç¬¦çš„ç›¸å¯¹ä½ç½®ï¼‰ã€‚
 
-×¢Òâ£º¸ÃÌâÓë 1081 https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters ÏàÍ¬
+æ³¨æ„ï¼šè¯¥é¢˜ä¸ 1081 https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters ç›¸åŒ
 */
 public class LC_316 {
 
 }
-//µ¥µ÷Õ» + Ì°ĞÄ
+//å•è°ƒæ ˆ + è´ªå¿ƒ
 class Solution {
     public String removeDuplicateLetters(String s) {
         int n = s.length();

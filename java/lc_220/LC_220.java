@@ -5,17 +5,17 @@ import java.util.Map;
 import java.util.TreeSet;
 
 /**
- * @author »ÆºÀ
- *220. ´æÔÚÖØ¸´ÔªËØ III
-¸øÄãÒ»¸öÕûÊıÊı×é nums ºÍÁ½¸öÕûÊı k ºÍ t ¡£ÇëÄãÅĞ¶ÏÊÇ·ñ´æÔÚ Á½¸ö²»Í¬ÏÂ±ê i ºÍ j£¬Ê¹µÃ abs(nums[i] - nums[j]) <= t £¬Í¬Ê±ÓÖÂú×ã abs(i - j) <= k ¡£
+ * @author é»„è±ª
+ *220. å­˜åœ¨é‡å¤å…ƒç´  III
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ nums å’Œä¸¤ä¸ªæ•´æ•° k å’Œ t ã€‚è¯·ä½ åˆ¤æ–­æ˜¯å¦å­˜åœ¨ ä¸¤ä¸ªä¸åŒä¸‹æ ‡ i å’Œ jï¼Œä½¿å¾— abs(nums[i] - nums[j]) <= t ï¼ŒåŒæ—¶åˆæ»¡è¶³ abs(i - j) <= k ã€‚
 
-Èç¹û´æÔÚÔò·µ»Ø true£¬²»´æÔÚ·µ»Ø false¡£
+å¦‚æœå­˜åœ¨åˆ™è¿”å› trueï¼Œä¸å­˜åœ¨è¿”å› falseã€‚
 
  */
 public class LC_220 {
 	
 }
-//·½·¨Ò»£º»¬¶¯´°¿Ú + ÓĞĞò¼¯ºÏ
+//æ–¹æ³•ä¸€ï¼šæ»‘åŠ¨çª—å£ + æœ‰åºé›†åˆ
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         int n = nums.length;
@@ -33,7 +33,7 @@ class Solution {
         return false;
     }
 }
-//·½·¨¶ş£ºÍ°
+//æ–¹æ³•äºŒï¼šæ¡¶
 class Solution2 {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         int n = nums.length;

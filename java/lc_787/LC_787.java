@@ -7,18 +7,18 @@ import java.util.List;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ17ÈÕ
- *@todo:787. K Õ¾ÖĞ×ªÄÚ×î±ãÒËµÄº½°à
-ÓĞ n ¸ö³ÇÊĞÍ¨¹ıÒ»Ğ©º½°àÁ¬½Ó¡£¸øÄãÒ»¸öÊı×é flights £¬ÆäÖĞ flights[i] = [fromi, toi, pricei] £¬±íÊ¾¸Ãº½°à¶¼´Ó³ÇÊĞ fromi ¿ªÊ¼£¬ÒÔ¼Û¸ñ pricei µÖ´ï toi¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ17æ—¥
+ *@todo:787. K ç«™ä¸­è½¬å†…æœ€ä¾¿å®œçš„èˆªç­
+æœ‰ n ä¸ªåŸå¸‚é€šè¿‡ä¸€äº›èˆªç­è¿æ¥ã€‚ç»™ä½ ä¸€ä¸ªæ•°ç»„ flights ï¼Œå…¶ä¸­ flights[i] = [fromi, toi, pricei] ï¼Œè¡¨ç¤ºè¯¥èˆªç­éƒ½ä»åŸå¸‚ fromi å¼€å§‹ï¼Œä»¥ä»·æ ¼ pricei æŠµè¾¾ toiã€‚
 
-ÏÖÔÚ¸ø¶¨ËùÓĞµÄ³ÇÊĞºÍº½°à£¬ÒÔ¼°³ö·¢³ÇÊĞ src ºÍÄ¿µÄµØ dst£¬ÄãµÄÈÎÎñÊÇÕÒµ½³öÒ»Ìõ×î¶à¾­¹ı k Õ¾ÖĞ×ªµÄÂ·Ïß£¬Ê¹µÃ´Ó src µ½ dst µÄ ¼Û¸ñ×î±ãÒË £¬²¢·µ»Ø¸Ã¼Û¸ñ¡£ Èç¹û²»´æÔÚÕâÑùµÄÂ·Ïß£¬ÔòÊä³ö -1¡£
+ç°åœ¨ç»™å®šæ‰€æœ‰çš„åŸå¸‚å’Œèˆªç­ï¼Œä»¥åŠå‡ºå‘åŸå¸‚ src å’Œç›®çš„åœ° dstï¼Œä½ çš„ä»»åŠ¡æ˜¯æ‰¾åˆ°å‡ºä¸€æ¡æœ€å¤šç»è¿‡ k ç«™ä¸­è½¬çš„è·¯çº¿ï¼Œä½¿å¾—ä» src åˆ° dst çš„ ä»·æ ¼æœ€ä¾¿å®œ ï¼Œå¹¶è¿”å›è¯¥ä»·æ ¼ã€‚ å¦‚æœä¸å­˜åœ¨è¿™æ ·çš„è·¯çº¿ï¼Œåˆ™è¾“å‡º -1ã€‚
 
  *
 */
 public class LC_787 {
 }
-//dp + dfs + ¼ôÖ¦
+//dp + dfs + å‰ªæ
 class Solution {
     int[][] dp;
     Map<Integer, List<Integer[]>> mappers;
@@ -84,7 +84,7 @@ class Solution1 {
         return ans == 100000 ? -1 : ans;
     }
 }
-//¶şÎ¬Êı×édp
+//äºŒç»´æ•°ç»„dp
 class Solution2 {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         int[][] dp = new int[k+2][n];
@@ -107,7 +107,7 @@ class Solution2 {
         return ans == 100000 ? -1 : ans;
     }
 }
-//¹Ù·½dp (Ò»Î¬Êı×é)
+//å®˜æ–¹dp (ä¸€ç»´æ•°ç»„)
 class Solution3 {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         final int INF = 10000 * 101 + 1;

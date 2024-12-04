@@ -1,21 +1,21 @@
 package lc_695;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ14ÈÕ
- *@todo:695. µºÓìµÄ×î´óÃæ»ý
-¸øÄãÒ»¸ö´óÐ¡Îª m x n µÄ¶þ½øÖÆ¾ØÕó grid ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ14æ—¥
+ *@todo:695. å²›å±¿çš„æœ€å¤§é¢ç§¯
+ç»™ä½ ä¸€ä¸ªå¤§å°ä¸º m x n çš„äºŒè¿›åˆ¶çŸ©é˜µ grid ã€‚
 
-µºÓì ÊÇÓÉÒ»Ð©ÏàÁÚµÄ 1 (´ú±íÍÁµØ) ¹¹³ÉµÄ×éºÏ£¬ÕâÀïµÄ¡¸ÏàÁÚ¡¹ÒªÇóÁ½¸ö 1 ±ØÐëÔÚ Ë®Æ½»òÕßÊúÖ±µÄËÄ¸ö·½ÏòÉÏ ÏàÁÚ¡£Äã¿ÉÒÔ¼ÙÉè grid µÄËÄ¸ö±ßÔµ¶¼±» 0£¨´ú±íË®£©°üÎ§×Å¡£
+å²›å±¿ æ˜¯ç”±ä¸€äº›ç›¸é‚»çš„ 1 (ä»£è¡¨åœŸåœ°) æž„æˆçš„ç»„åˆï¼Œè¿™é‡Œçš„ã€Œç›¸é‚»ã€è¦æ±‚ä¸¤ä¸ª 1 å¿…é¡»åœ¨ æ°´å¹³æˆ–è€…ç«–ç›´çš„å››ä¸ªæ–¹å‘ä¸Š ç›¸é‚»ã€‚ä½ å¯ä»¥å‡è®¾ grid çš„å››ä¸ªè¾¹ç¼˜éƒ½è¢« 0ï¼ˆä»£è¡¨æ°´ï¼‰åŒ…å›´ç€ã€‚
 
-µºÓìµÄÃæ»ýÊÇµºÉÏÖµÎª 1 µÄµ¥Ôª¸ñµÄÊýÄ¿¡£
+å²›å±¿çš„é¢ç§¯æ˜¯å²›ä¸Šå€¼ä¸º 1 çš„å•å…ƒæ ¼çš„æ•°ç›®ã€‚
 
-¼ÆËã²¢·µ»Ø grid ÖÐ×î´óµÄµºÓìÃæ»ý¡£Èç¹ûÃ»ÓÐµºÓì£¬Ôò·µ»ØÃæ»ýÎª 0 ¡£
+è®¡ç®—å¹¶è¿”å›ž grid ä¸­æœ€å¤§çš„å²›å±¿é¢ç§¯ã€‚å¦‚æžœæ²¡æœ‰å²›å±¿ï¼Œåˆ™è¿”å›žé¢ç§¯ä¸º 0 ã€‚
 */
 public class LC_695 {
 
 }
-//Éî¶ÈÓÅÏÈËÑË÷
+//æ·±åº¦ä¼˜å…ˆæœç´¢
 class Solution {
     private int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
     boolean[][] vis;
@@ -45,7 +45,7 @@ class Solution {
         return ans;
     }
 }
-//²¢²é¼¯
+//å¹¶æŸ¥é›†
 class Solution1 {
     class UnionFind{
         int[] parent;

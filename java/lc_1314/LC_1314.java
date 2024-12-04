@@ -1,29 +1,29 @@
 package lc_1314;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ17ÈÕ
- *@todo:1314. ¾ØÕóÇøÓòºÍ
-¸øÄãÒ»¸ö m x n µÄ¾ØÕó mat ºÍÒ»¸öÕûÊý k £¬ÇëÄã·µ»ØÒ»¸ö¾ØÕó answer £¬ÆäÖÐÃ¿¸ö answer[i][j] ÊÇËùÓÐÂú×ãÏÂÊöÌõ¼þµÄÔªËØ mat[r][c] µÄºÍ£º 
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ17æ—¥
+ *@todo:1314. çŸ©é˜µåŒºåŸŸå’Œ
+ç»™ä½ ä¸€ä¸ª m x n çš„çŸ©é˜µ mat å’Œä¸€ä¸ªæ•´æ•° k ï¼Œè¯·ä½ è¿”å›žä¸€ä¸ªçŸ©é˜µ answer ï¼Œå…¶ä¸­æ¯ä¸ª answer[i][j] æ˜¯æ‰€æœ‰æ»¡è¶³ä¸‹è¿°æ¡ä»¶çš„å…ƒç´  mat[r][c] çš„å’Œï¼š 
 
 i - k <= r <= i + k,
-j - k <= c <= j + k ÇÒ
-(r, c) ÔÚ¾ØÕóÄÚ¡£
+j - k <= c <= j + k ä¸”
+(r, c) åœ¨çŸ©é˜µå†…ã€‚
  
 
-Ê¾Àý 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºmat = [[1,2,3],[4,5,6],[7,8,9]], k = 1
-Êä³ö£º[[12,21,16],[27,45,33],[24,39,28]]
-Ê¾Àý 2£º
+è¾“å…¥ï¼šmat = [[1,2,3],[4,5,6],[7,8,9]], k = 1
+è¾“å‡ºï¼š[[12,21,16],[27,45,33],[24,39,28]]
+ç¤ºä¾‹ 2ï¼š
 
-ÊäÈë£ºmat = [[1,2,3],[4,5,6],[7,8,9]], k = 2
-Êä³ö£º[[45,45,45],[45,45,45],[45,45,45]]
+è¾“å…¥ï¼šmat = [[1,2,3],[4,5,6],[7,8,9]], k = 2
+è¾“å‡ºï¼š[[45,45,45],[45,45,45],[45,45,45]]
 */
 public class LC_1314 {
 
 }
-//Ò»Î¬Ç°×ººÍ
+//ä¸€ç»´å‰ç¼€å’Œ
 class Solution {
     public int[][] matrixBlockSum(int[][] mat, int k) {
         int n = mat.length, m = mat[0].length;
@@ -48,7 +48,7 @@ class Solution {
         return ans;
     }
 }
-//¶þÎ¬Ç°×ººÍ
+//äºŒç»´å‰ç¼€å’Œ
 class Solution1 {
     public int[][] matrixBlockSum(int[][] mat, int k) {
         int n = mat.length, m = mat[0].length;

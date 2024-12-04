@@ -16,7 +16,7 @@ public class LC_90 {
 		}
 	}
 }
-//»ØËİ
+//å›æº¯
 class Solution{
 	public List<List<Integer>> subsetswithDup(int[] nums){
 		List<List<Integer>> ans = new ArrayList<List<Integer>>();
@@ -38,7 +38,7 @@ class Solution{
 	}
 }
 
-//µü´ú·¨
+//è¿­ä»£æ³•
 
 class Solution2{
 	public List<List<Integer>> subsetswithDup(int[] nums){
@@ -67,7 +67,7 @@ class Solution2{
 	}
 }
 
-//Î»ÔËËã
+//ä½è¿ç®—
 class Solution3{
 	public List<List<Integer>> subsetsWithDup(int[] num) {
 	    Arrays.sort(num);
@@ -77,9 +77,9 @@ class Solution3{
 	        List<Integer> list = new ArrayList<>();
 	        boolean illegal=false;
 	        for(int j=0;j<num.length;j++){
-	            //µ±Ç°Î»ÊÇ 1
+	            //å½“å‰ä½æ˜¯ 1
 	            if((i>>j&1)==1){
-	                //µ±Ç°ÊÇÖØ¸´Êı×Ö£¬²¢ÇÒÇ°Ò»Î»ÊÇ 0£¬Ìø¹ıÕâÖÖÇé¿ö
+	                //å½“å‰æ˜¯é‡å¤æ•°å­—ï¼Œå¹¶ä¸”å‰ä¸€ä½æ˜¯ 0ï¼Œè·³è¿‡è¿™ç§æƒ…å†µ
 	                if(j>0&&num[j]==num[j-1]&&(i>>(j-1)&1)==0){
 	                    illegal=true;
 	                    break;

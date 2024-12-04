@@ -72,11 +72,13 @@ all: CMakeFiles/red_black_tree.dir/all
 all: CMakeFiles/stack.dir/all
 all: CMakeFiles/tree.dir/all
 all: CMakeFiles/tree_map.dir/all
+all: CMakeFiles/union_find_set.dir/all
 all: CMakeFiles/b_tree_test.dir/all
 all: CMakeFiles/linked_list_test.dir/all
 all: CMakeFiles/priority_queue_test.dir/all
 all: CMakeFiles/stack_test.dir/all
 all: CMakeFiles/tree_test.dir/all
+all: CMakeFiles/union_find_set_test.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -93,11 +95,13 @@ clean: CMakeFiles/red_black_tree.dir/clean
 clean: CMakeFiles/stack.dir/clean
 clean: CMakeFiles/tree.dir/clean
 clean: CMakeFiles/tree_map.dir/clean
+clean: CMakeFiles/union_find_set.dir/clean
 clean: CMakeFiles/b_tree_test.dir/clean
 clean: CMakeFiles/linked_list_test.dir/clean
 clean: CMakeFiles/priority_queue_test.dir/clean
 clean: CMakeFiles/stack_test.dir/clean
 clean: CMakeFiles/tree_test.dir/clean
+clean: CMakeFiles/union_find_set_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -335,6 +339,32 @@ CMakeFiles/tree_map.dir/clean:
 .PHONY : CMakeFiles/tree_map.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/union_find_set.dir
+
+# All Build rule for target.
+CMakeFiles/union_find_set.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target union_find_set"
+.PHONY : CMakeFiles/union_find_set.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/union_find_set.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/union_find_set.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/union_find_set.dir/rule
+
+# Convenience name for target.
+union_find_set: CMakeFiles/union_find_set.dir/rule
+.PHONY : union_find_set
+
+# clean rule for target.
+CMakeFiles/union_find_set.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/clean
+.PHONY : CMakeFiles/union_find_set.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/b_tree_test.dir
 
 # All Build rule for target.
@@ -463,6 +493,32 @@ tree_test: CMakeFiles/tree_test.dir/rule
 CMakeFiles/tree_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree_test.dir/build.make CMakeFiles/tree_test.dir/clean
 .PHONY : CMakeFiles/tree_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/union_find_set_test.dir
+
+# All Build rule for target.
+CMakeFiles/union_find_set_test.dir/all: CMakeFiles/union_find_set.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target union_find_set_test"
+.PHONY : CMakeFiles/union_find_set_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/union_find_set_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/union_find_set_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/union_find_set_test.dir/rule
+
+# Convenience name for target.
+union_find_set_test: CMakeFiles/union_find_set_test.dir/rule
+.PHONY : union_find_set_test
+
+# clean rule for target.
+CMakeFiles/union_find_set_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/clean
+.PHONY : CMakeFiles/union_find_set_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

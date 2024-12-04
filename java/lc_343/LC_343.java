@@ -1,14 +1,14 @@
 package lc_343;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ20ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ20æ—¥
  *@todo:
 */
 public class LC_343 {
 
 }
-//ÎÒµÄ¶¯Ì¬¹æ»®
+//æˆ‘çš„åŠ¨æ€è§„åˆ’
 class Solution {
     public int integerBreak(int n) {
         if (n == 1){

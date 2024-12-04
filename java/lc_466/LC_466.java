@@ -4,18 +4,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ30ÈÕ
- *@todo:466. Í³¼ÆÖØ¸´¸öÊı
-¶¨Òå str = [s, n] ±íÊ¾ str ÓÉ n ¸ö×Ö·û´® s Á¬½Ó¹¹³É¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ30æ—¥
+ *@todo:466. ç»Ÿè®¡é‡å¤ä¸ªæ•°
+å®šä¹‰ str = [s, n] è¡¨ç¤º str ç”± n ä¸ªå­—ç¬¦ä¸² s è¿æ¥æ„æˆã€‚
 
-ÀıÈç£¬str == ["abc", 3] =="abcabcabc" ¡£
-Èç¹û¿ÉÒÔ´Ó s2 ÖĞÉ¾³ıÄ³Ğ©×Ö·ûÊ¹Æä±äÎª s1£¬Ôò³Æ×Ö·û´® s1 ¿ÉÒÔ´Ó×Ö·û´® s2 »ñµÃ¡£
+ä¾‹å¦‚ï¼Œstr == ["abc", 3] =="abcabcabc" ã€‚
+å¦‚æœå¯ä»¥ä» s2 ä¸­åˆ é™¤æŸäº›å­—ç¬¦ä½¿å…¶å˜ä¸º s1ï¼Œåˆ™ç§°å­—ç¬¦ä¸² s1 å¯ä»¥ä»å­—ç¬¦ä¸² s2 è·å¾—ã€‚
 
-ÀıÈç£¬¸ù¾İ¶¨Òå£¬s1 = "abc" ¿ÉÒÔ´Ó s2 = "abdbec" »ñµÃ£¬½öĞèÒªÉ¾³ı¼Ó´ÖÇÒÓÃĞ±Ìå±êÊ¶µÄ×Ö·û¡£
-ÏÖÔÚ¸øÄãÁ½¸ö×Ö·û´® s1 ºÍ s2 ºÍÁ½¸öÕûÊı n1 ºÍ n2 ¡£ÓÉ´Ë¹¹ÔìµÃµ½Á½¸ö×Ö·û´®£¬ÆäÖĞ str1 = [s1, n1]¡¢str2 = [s2, n2] ¡£
+ä¾‹å¦‚ï¼Œæ ¹æ®å®šä¹‰ï¼Œs1 = "abc" å¯ä»¥ä» s2 = "abdbec" è·å¾—ï¼Œä»…éœ€è¦åˆ é™¤åŠ ç²—ä¸”ç”¨æ–œä½“æ ‡è¯†çš„å­—ç¬¦ã€‚
+ç°åœ¨ç»™ä½ ä¸¤ä¸ªå­—ç¬¦ä¸² s1 å’Œ s2 å’Œä¸¤ä¸ªæ•´æ•° n1 å’Œ n2 ã€‚ç”±æ­¤æ„é€ å¾—åˆ°ä¸¤ä¸ªå­—ç¬¦ä¸²ï¼Œå…¶ä¸­ str1 = [s1, n1]ã€str2 = [s2, n2] ã€‚
 
-ÇëÄãÕÒ³öÒ»¸ö×î´óÕûÊı m £¬ÒÔÂú×ã str = [str2, m] ¿ÉÒÔ´Ó str1 »ñµÃ¡£
+è¯·ä½ æ‰¾å‡ºä¸€ä¸ªæœ€å¤§æ•´æ•° m ï¼Œä»¥æ»¡è¶³ str = [str2, m] å¯ä»¥ä» str1 è·å¾—ã€‚
 */
 public class LC_466 {
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class LC_466 {
 		System.out.println(so.getMaxRepetitions("baba", 11, "baab", 1));
 	}
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
         int[] dp = new int[s2.length()];
@@ -45,7 +45,7 @@ class Solution {
         return cnt / s2.length() / n2;
     }
 }
-//ÕÒÑ­»·½Ú
+//æ‰¾å¾ªç¯èŠ‚
 class Solution1 {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
         if (n1 == 0) {

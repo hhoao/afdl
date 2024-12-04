@@ -1,21 +1,21 @@
 package lc_1576;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ5ÈÕ
- *@todo:1576. Ìæ»»ËùÓÐµÄÎÊºÅ
-¸øÄãÒ»¸ö½ö°üº¬Ð¡Ð´Ó¢ÎÄ×ÖÄ¸ºÍ '?' ×Ö·ûµÄ×Ö·û´® s£¬ÇëÄã½«ËùÓÐµÄ '?' ×ª»»ÎªÈô¸ÉÐ¡Ð´×ÖÄ¸£¬Ê¹×îÖÕµÄ×Ö·û´®²»°üº¬ÈÎºÎ Á¬ÐøÖØ¸´ µÄ×Ö·û¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ5æ—¥
+ *@todo:1576. æ›¿æ¢æ‰€æœ‰çš„é—®å·
+ç»™ä½ ä¸€ä¸ªä»…åŒ…å«å°å†™è‹±æ–‡å­—æ¯å’Œ '?' å­—ç¬¦çš„å­—ç¬¦ä¸² sï¼Œè¯·ä½ å°†æ‰€æœ‰çš„ '?' è½¬æ¢ä¸ºè‹¥å¹²å°å†™å­—æ¯ï¼Œä½¿æœ€ç»ˆçš„å­—ç¬¦ä¸²ä¸åŒ…å«ä»»ä½• è¿žç»­é‡å¤ çš„å­—ç¬¦ã€‚
 
-×¢Òâ£ºÄã ²»ÄÜ ÐÞ¸Ä·Ç '?' ×Ö·û¡£
+æ³¨æ„ï¼šä½  ä¸èƒ½ ä¿®æ”¹éž '?' å­—ç¬¦ã€‚
 
-ÌâÄ¿²âÊÔÓÃÀý±£Ö¤ ³ý '?' ×Ö·û Ö®Íâ£¬²»´æÔÚÁ¬ÐøÖØ¸´µÄ×Ö·û¡£
+é¢˜ç›®æµ‹è¯•ç”¨ä¾‹ä¿è¯ é™¤ '?' å­—ç¬¦ ä¹‹å¤–ï¼Œä¸å­˜åœ¨è¿žç»­é‡å¤çš„å­—ç¬¦ã€‚
 
-ÔÚÍê³ÉËùÓÐ×ª»»£¨¿ÉÄÜÎÞÐè×ª»»£©ºó·µ»Ø×îÖÕµÄ×Ö·û´®¡£Èç¹ûÓÐ¶à¸ö½â¾ö·½°¸£¬Çë·µ»ØÆäÖÐÈÎºÎÒ»¸ö¡£¿ÉÒÔÖ¤Ã÷£¬ÔÚ¸ø¶¨µÄÔ¼ÊøÌõ¼þÏÂ£¬´ð°¸×ÜÊÇ´æÔÚµÄ¡£
+åœ¨å®Œæˆæ‰€æœ‰è½¬æ¢ï¼ˆå¯èƒ½æ— éœ€è½¬æ¢ï¼‰åŽè¿”å›žæœ€ç»ˆçš„å­—ç¬¦ä¸²ã€‚å¦‚æžœæœ‰å¤šä¸ªè§£å†³æ–¹æ¡ˆï¼Œè¯·è¿”å›žå…¶ä¸­ä»»ä½•ä¸€ä¸ªã€‚å¯ä»¥è¯æ˜Žï¼Œåœ¨ç»™å®šçš„çº¦æŸæ¡ä»¶ä¸‹ï¼Œç­”æ¡ˆæ€»æ˜¯å­˜åœ¨çš„ã€‚
 */
 public class LC_1576 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public String modifyString(String s) {
         int n = s.length();
@@ -39,7 +39,7 @@ class Solution {
         return sb.toString();
     }  
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1 {
     public String modifyString(String s) {
         int n = s.length();

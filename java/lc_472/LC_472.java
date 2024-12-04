@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Set;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ17ÈÕ
- *@todo:472. Á¬½Ó´Ê
-¸øÄãÒ»¸ö ²»º¬ÖØ¸´ µ¥´ÊµÄ×Ö·û´®Êı×é words £¬ÇëÄãÕÒ³ö²¢·µ»Ø words ÖĞµÄËùÓĞ Á¬½Ó´Ê ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ17æ—¥
+ *@todo:472. è¿æ¥è¯
+ç»™ä½ ä¸€ä¸ª ä¸å«é‡å¤ å•è¯çš„å­—ç¬¦ä¸²æ•°ç»„ words ï¼Œè¯·ä½ æ‰¾å‡ºå¹¶è¿”å› words ä¸­çš„æ‰€æœ‰ è¿æ¥è¯ ã€‚
 
-Á¬½Ó´Ê ¶¨ÒåÎª£ºÒ»¸öÍêÈ«ÓÉ¸ø¶¨Êı×éÖĞµÄÖÁÉÙÁ½¸ö½Ï¶Ìµ¥´Ê×é³ÉµÄ×Ö·û´®¡£
+è¿æ¥è¯ å®šä¹‰ä¸ºï¼šä¸€ä¸ªå®Œå…¨ç”±ç»™å®šæ•°ç»„ä¸­çš„è‡³å°‘ä¸¤ä¸ªè¾ƒçŸ­å•è¯ç»„æˆçš„å­—ç¬¦ä¸²ã€‚
 */
 public class LC_472 {
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class LC_472 {
 	}
 }
 //1000+ms
-//¶¯Ì¬¹æ»®+×ÖµäÊ÷(³¬³öÊ±¼äÏŞÖÆ)
+//åŠ¨æ€è§„åˆ’+å­—å…¸æ ‘(è¶…å‡ºæ—¶é—´é™åˆ¶)
 class Solution {
     class Node{
         Node[] next;
@@ -91,7 +91,7 @@ class Solution {
         return ret;
     }
 }
-//¶¯Ì¬¹æ»®2
+//åŠ¨æ€è§„åˆ’2
 class Solution1 {
     public List<String> findAllConcatenatedWordsInADict(String[] words) {
         Set<String> set = new HashSet<>();
@@ -210,14 +210,14 @@ class Solution2 {
         return ret;
     }
 }
-//43ms³¬¿ì
+//43msè¶…å¿«
 class Solution3 {
    public List<String> findAllConcatenatedWordsInADict(String[] words) {
         List<String> ans = new ArrayList<>();
         if (words == null || words.length < 3) {
             return ans;
         }
-        // °´ÕÕ³¤¶È¡£¸øµ¥´ÊÅÅ¸öĞò.¶ÌµÄÅÅÇ°Ãæ
+        // æŒ‰ç…§é•¿åº¦ã€‚ç»™å•è¯æ’ä¸ªåº.çŸ­çš„æ’å‰é¢
         Arrays.sort(words, (s1, s2) -> s1.length() - s2.length());
         TrieNode trieNode = new TrieNode();
         for (String word : words) {
@@ -231,7 +231,7 @@ class Solution3 {
         return ans;
     }
 
-    // ÒÔi½áÎ²µÄÄÜ²»ÄÜ·Ö¸î
+    // ä»¥iç»“å°¾çš„èƒ½ä¸èƒ½åˆ†å‰²
     public static boolean split1(char[] str, int i, TrieNode head) {
         boolean ans = false;
         if (i == str.length) {
@@ -244,7 +244,7 @@ class Solution3 {
                     break;
                 }
                 cur = cur.nexts[path];
-                // µ±Ç°À´µ½µÄiÖ®Ç°ËùÓĞµÄ×Ö·û×é³ÉµÄÇ°×º´®£¬ÔÚÎÒÃÇµÄÇ°×ºÊ÷ÖĞÓĞÏàÓ¦µÄÔª¼ş¡£¿´¿´iÖ®ºóµÄÄÜ²»ÄÜ±»·Ö¸î
+                // å½“å‰æ¥åˆ°çš„iä¹‹å‰æ‰€æœ‰çš„å­—ç¬¦ç»„æˆçš„å‰ç¼€ä¸²ï¼Œåœ¨æˆ‘ä»¬çš„å‰ç¼€æ ‘ä¸­æœ‰ç›¸åº”çš„å…ƒä»¶ã€‚çœ‹çœ‹iä¹‹åçš„èƒ½ä¸èƒ½è¢«åˆ†å‰²
                 if (cur.end && split1(str, end + 1, head)) {
                     ans = true;
                     break;
@@ -263,7 +263,7 @@ class Solution3 {
             }
             head = head.nexts[path];
         }
-        // ÕâÒ»¸öµ¥´Ê½áÊø£¬½áÎ²×Ö·û±êºÅ
+        // è¿™ä¸€ä¸ªå•è¯ç»“æŸï¼Œç»“å°¾å­—ç¬¦æ ‡å·
         head.end = true;
     }
 

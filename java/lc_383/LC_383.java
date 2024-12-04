@@ -1,19 +1,19 @@
 package lc_383;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ17ÈÕ
- *@todo:383. Êê½ğĞÅ
-¸øÄãÁ½¸ö×Ö·û´®£ºransomNote ºÍ magazine £¬ÅĞ¶Ï ransomNote ÄÜ²»ÄÜÓÉ magazine ÀïÃæµÄ×Ö·û¹¹³É¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ17æ—¥
+ *@todo:383. èµé‡‘ä¿¡
+ç»™ä½ ä¸¤ä¸ªå­—ç¬¦ä¸²ï¼šransomNote å’Œ magazine ï¼Œåˆ¤æ–­ ransomNote èƒ½ä¸èƒ½ç”± magazine é‡Œé¢çš„å­—ç¬¦æ„æˆã€‚
 
-Èç¹û¿ÉÒÔ£¬·µ»Ø true £»·ñÔò·µ»Ø false ¡£
+å¦‚æœå¯ä»¥ï¼Œè¿”å› true ï¼›å¦åˆ™è¿”å› false ã€‚
 
-magazine ÖĞµÄÃ¿¸ö×Ö·ûÖ»ÄÜÔÚ ransomNote ÖĞÊ¹ÓÃÒ»´Î¡£
+magazine ä¸­çš„æ¯ä¸ªå­—ç¬¦åªèƒ½åœ¨ ransomNote ä¸­ä½¿ç”¨ä¸€æ¬¡ã€‚
 */
 public class LC_383 {
 
 }
-//±éÀú
+//éå†
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] words1 = new int[26];

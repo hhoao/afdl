@@ -8,16 +8,16 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *187. ÖØ¸´µÄDNAĞòÁĞ
-ËùÓĞ DNA ¶¼ÓÉÒ»ÏµÁĞËõĞ´Îª 'A'£¬'C'£¬'G' ºÍ 'T' µÄºËÜÕËá×é³É£¬ÀıÈç£º"ACGAATTCCG"¡£ÔÚÑĞ¾¿ DNA Ê±£¬Ê¶±ğ DNA ÖĞµÄÖØ¸´ĞòÁĞÓĞÊ±»á¶ÔÑĞ¾¿·Ç³£ÓĞ°ïÖú¡£
+ * @author é»„è±ª
+ *187. é‡å¤çš„DNAåºåˆ—
+æ‰€æœ‰ DNA éƒ½ç”±ä¸€ç³»åˆ—ç¼©å†™ä¸º 'A'ï¼Œ'C'ï¼Œ'G' å’Œ 'T' çš„æ ¸è‹·é…¸ç»„æˆï¼Œä¾‹å¦‚ï¼š"ACGAATTCCG"ã€‚åœ¨ç ”ç©¶ DNA æ—¶ï¼Œè¯†åˆ« DNA ä¸­çš„é‡å¤åºåˆ—æœ‰æ—¶ä¼šå¯¹ç ”ç©¶éå¸¸æœ‰å¸®åŠ©ã€‚
 
-±àĞ´Ò»¸öº¯ÊıÀ´ÕÒ³öËùÓĞÄ¿±ê×Ó´®£¬Ä¿±ê×Ó´®µÄ³¤¶ÈÎª 10£¬ÇÒÔÚ DNA ×Ö·û´® s ÖĞ³öÏÖ´ÎÊı³¬¹ıÒ»´Î¡£
+ç¼–å†™ä¸€ä¸ªå‡½æ•°æ¥æ‰¾å‡ºæ‰€æœ‰ç›®æ ‡å­ä¸²ï¼Œç›®æ ‡å­ä¸²çš„é•¿åº¦ä¸º 10ï¼Œä¸”åœ¨ DNA å­—ç¬¦ä¸² s ä¸­å‡ºç°æ¬¡æ•°è¶…è¿‡ä¸€æ¬¡ã€‚
  */
 public class LC_187 {
 
 }
-//ÎÒµÄ»¬¶¯´°¿Ú
+//æˆ‘çš„æ»‘åŠ¨çª—å£
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         StringBuffer sbu = new StringBuffer(s);
@@ -39,7 +39,7 @@ class Solution {
         return ans;
     }
 }
-//·½·¨¶ş£ºRabin-Karp£ºÊ¹ÓÃĞı×ª¹şÏ£ÊµÏÖ³£ÊıÊ±¼ä´°¿ÚÇĞÆ¬
+//æ–¹æ³•äºŒï¼šRabin-Karpï¼šä½¿ç”¨æ—‹è½¬å“ˆå¸Œå®ç°å¸¸æ•°æ—¶é—´çª—å£åˆ‡ç‰‡
 class Solution1 {
 	public List<String> findRepeatedDnaSequences(String s) {
 		int L = 10, n = s.length();
@@ -84,7 +84,7 @@ class Solution1 {
 	}
 }
 
-//·½·¨Èı£ºÎ»²Ù×÷£ºÊ¹ÓÃÑÚÂëÊµÏÖ³£ÊıÊ±¼ä´°¿ÚÇĞÆ¬
+//æ–¹æ³•ä¸‰ï¼šä½æ“ä½œï¼šä½¿ç”¨æ©ç å®ç°å¸¸æ•°æ—¶é—´çª—å£åˆ‡ç‰‡
 class Solution2 {
 	public List<String> findRepeatedDnaSequences(String s) {
 		int L = 10, n = s.length();

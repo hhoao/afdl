@@ -12,16 +12,16 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *113. Â·¾¶×ÜºÍ II
-¸øÄã¶ş²æÊ÷µÄ¸ù½Úµã root ºÍÒ»¸öÕûÊıÄ¿±êºÍ targetSum £¬ÕÒ³öËùÓĞ ´Ó¸ù½Úµãµ½Ò¶×Ó½Úµã Â·¾¶×ÜºÍµÈÓÚ¸ø¶¨Ä¿±êºÍµÄÂ·¾¶¡£
+ * @author é»„è±ª
+ *113. è·¯å¾„æ€»å’Œ II
+ç»™ä½ äºŒå‰æ ‘çš„æ ¹èŠ‚ç‚¹ root å’Œä¸€ä¸ªæ•´æ•°ç›®æ ‡å’Œ targetSum ï¼Œæ‰¾å‡ºæ‰€æœ‰ ä»æ ¹èŠ‚ç‚¹åˆ°å¶å­èŠ‚ç‚¹ è·¯å¾„æ€»å’Œç­‰äºç»™å®šç›®æ ‡å’Œçš„è·¯å¾„ã€‚
 
-Ò¶×Ó½Úµã ÊÇÖ¸Ã»ÓĞ×Ó½ÚµãµÄ½Úµã¡£
+å¶å­èŠ‚ç‚¹ æ˜¯æŒ‡æ²¡æœ‰å­èŠ‚ç‚¹çš„èŠ‚ç‚¹ã€‚
  */
 public class LC_113 {
 
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> res = new ArrayList<>();
@@ -49,8 +49,8 @@ class Solution {
 		temp.remove(temp.size() - 1);
     }
 }
-//¹Ù·½
-//Éî¶ÈÓÅÏÈËÑË÷
+//å®˜æ–¹
+//æ·±åº¦ä¼˜å…ˆæœç´¢
 class Solution1 {
     List<List<Integer>> ret = new LinkedList<List<Integer>>();
     Deque<Integer> path = new LinkedList<Integer>();
@@ -74,7 +74,7 @@ class Solution1 {
         path.pollLast();
     }
 }
-//¹ã¶ÈÓÅÏÈËÑË÷
+//å¹¿åº¦ä¼˜å…ˆæœç´¢
 class Solution2 {
     List<List<Integer>> ret = new LinkedList<List<Integer>>();
     Map<TreeNode, TreeNode> map = new HashMap<TreeNode, TreeNode>();

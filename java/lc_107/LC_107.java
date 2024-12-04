@@ -11,9 +11,9 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *107. ¶ş²æÊ÷µÄ²ãĞò±éÀú II
-¸ø¶¨Ò»¸ö¶ş²æÊ÷£¬·µ»ØÆä½ÚµãÖµ×Ôµ×ÏòÉÏµÄ²ãĞò±éÀú¡£ £¨¼´°´´ÓÒ¶×Ó½ÚµãËùÔÚ²ãµ½¸ù½ÚµãËùÔÚµÄ²ã£¬Öğ²ã´Ó×óÏòÓÒ±éÀú£©
+ * @author é»„è±ª
+ *107. äºŒå‰æ ‘çš„å±‚åºéå† II
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘ï¼Œè¿”å›å…¶èŠ‚ç‚¹å€¼è‡ªåº•å‘ä¸Šçš„å±‚åºéå†ã€‚ ï¼ˆå³æŒ‰ä»å¶å­èŠ‚ç‚¹æ‰€åœ¨å±‚åˆ°æ ¹èŠ‚ç‚¹æ‰€åœ¨çš„å±‚ï¼Œé€å±‚ä»å·¦å‘å³éå†ï¼‰
  */
 public class LC_107 {
 
@@ -39,7 +39,7 @@ class Solution{
 		return res;
 	}
 }
-//¹Ù·½	
+//å®˜æ–¹	
 class Solution1 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> levelOrder = new LinkedList<List<Integer>>();

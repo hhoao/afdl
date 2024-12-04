@@ -1,8 +1,8 @@
 package lc_1292;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ17ÈÕ
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ17æ—¥
  *@todo:
 */
 public class LC_1292 {
@@ -10,7 +10,7 @@ public class LC_1292 {
 		System.out.println(new Solution1().maxSideLength(new int[][] {{1,1,1,1},{1,0,0,0},{1,0,0,0},{1,0,0,0}}, 6));
 	}
 }
-//±©Á¦(³¬Ê±)
+//æš´åŠ›(è¶…æ—¶)
 class Solution {
     public int maxSideLength(int[][] mat, int threshold) {
         int n = mat.length, m = mat[0].length;
@@ -37,7 +37,7 @@ class Solution {
         return ans;
     }
 }
-//Ç°×ººÍ
+//å‰ç¼€å’Œ
 class Solution1 {
     public int maxSideLength(int[][] mat, int threshold) {
         int n = mat.length, m = mat[0].length;
@@ -73,7 +73,7 @@ class Solution1 {
         return ans == 0 ? 0 : ans + 1;
     }
 }
-//¹Ù·½Ã¶¾Ù
+//å®˜æ–¹æšä¸¾
 class Solution2 {
     public int maxSideLength(int[][] mat, int threshold) {
         int n = mat.length, m = mat[0].length;

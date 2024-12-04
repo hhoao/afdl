@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Set;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ9ÈÕ
- *@todo:301. É¾³ýÎÞÐ§µÄÀ¨ºÅ
-¸øÄãÒ»¸öÓÉÈô¸ÉÀ¨ºÅºÍ×ÖÄ¸×é³ÉµÄ×Ö·û´® s £¬É¾³ý×îÐ¡ÊýÁ¿µÄÎÞÐ§À¨ºÅ£¬Ê¹µÃÊäÈëµÄ×Ö·û´®ÓÐÐ§¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ9æ—¥
+ *@todo:301. åˆ é™¤æ— æ•ˆçš„æ‹¬å·
+ç»™ä½ ä¸€ä¸ªç”±è‹¥å¹²æ‹¬å·å’Œå­—æ¯ç»„æˆçš„å­—ç¬¦ä¸² s ï¼Œåˆ é™¤æœ€å°æ•°é‡çš„æ— æ•ˆæ‹¬å·ï¼Œä½¿å¾—è¾“å…¥çš„å­—ç¬¦ä¸²æœ‰æ•ˆã€‚
 
-·µ»ØËùÓÐ¿ÉÄÜµÄ½á¹û¡£´ð°¸¿ÉÒÔ°´ ÈÎÒâË³Ðò ·µ»Ø¡£
+è¿”å›žæ‰€æœ‰å¯èƒ½çš„ç»“æžœã€‚ç­”æ¡ˆå¯ä»¥æŒ‰ ä»»æ„é¡ºåº è¿”å›žã€‚
 */
 public class LC_301 {
 

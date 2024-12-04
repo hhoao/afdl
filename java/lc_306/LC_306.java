@@ -1,16 +1,16 @@
 package lc_306;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ14ÈÕ
- *@todo:306. ÀÛ¼ÓÊý
-ÀÛ¼ÓÊýÊÇÒ»¸ö×Ö·û´®£¬×é³ÉËüµÄÊý×Ö¿ÉÒÔÐÎ³ÉÀÛ¼ÓÐòÁÐ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ14æ—¥
+ *@todo:306. ç´¯åŠ æ•°
+ç´¯åŠ æ•°æ˜¯ä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œç»„æˆå®ƒçš„æ•°å­—å¯ä»¥å½¢æˆç´¯åŠ åºåˆ—ã€‚
 
-Ò»¸öÓÐÐ§µÄÀÛ¼ÓÐòÁÐ±ØÐëÖÁÉÙ°üº¬ 3 ¸öÊý¡£³ýÁË×î¿ªÊ¼µÄÁ½¸öÊýÒÔÍâ£¬×Ö·û´®ÖÐµÄÆäËûÊý¶¼µÈÓÚËüÖ®Ç°Á½¸öÊýÏà¼ÓµÄºÍ¡£
+ä¸€ä¸ªæœ‰æ•ˆçš„ç´¯åŠ åºåˆ—å¿…é¡»è‡³å°‘åŒ…å« 3 ä¸ªæ•°ã€‚é™¤äº†æœ€å¼€å§‹çš„ä¸¤ä¸ªæ•°ä»¥å¤–ï¼Œå­—ç¬¦ä¸²ä¸­çš„å…¶ä»–æ•°éƒ½ç­‰äºŽå®ƒä¹‹å‰ä¸¤ä¸ªæ•°ç›¸åŠ çš„å’Œã€‚
 
-¸ø¶¨Ò»¸öÖ»°üº¬Êý×Ö '0'-'9' µÄ×Ö·û´®£¬±àÐ´Ò»¸öËã·¨À´ÅÐ¶Ï¸ø¶¨ÊäÈëÊÇ·ñÊÇÀÛ¼ÓÊý¡£
+ç»™å®šä¸€ä¸ªåªåŒ…å«æ•°å­— '0'-'9' çš„å­—ç¬¦ä¸²ï¼Œç¼–å†™ä¸€ä¸ªç®—æ³•æ¥åˆ¤æ–­ç»™å®šè¾“å…¥æ˜¯å¦æ˜¯ç´¯åŠ æ•°ã€‚
 
-ËµÃ÷: ÀÛ¼ÓÐòÁÐÀïµÄÊý²»»áÒÔ 0 ¿ªÍ·£¬ËùÒÔ²»»á³öÏÖ 1, 2, 03 »òÕß 1, 02, 3 µÄÇé¿ö¡£
+è¯´æ˜Ž: ç´¯åŠ åºåˆ—é‡Œçš„æ•°ä¸ä¼šä»¥ 0 å¼€å¤´ï¼Œæ‰€ä»¥ä¸ä¼šå‡ºçŽ° 1, 2, 03 æˆ–è€… 1, 02, 3 çš„æƒ…å†µã€‚
 */
 public class LC_306 {
 	public static void main(String[] args) {
@@ -67,7 +67,7 @@ class Solution {
         return false;
     }
 }
-//¹Ù·½Ìâ½â
+//å®˜æ–¹é¢˜è§£
 class Solution1 {
     public boolean isAdditiveNumber(String num) {
         int n = num.length();

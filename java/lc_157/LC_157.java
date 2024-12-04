@@ -1,18 +1,18 @@
 package lc_157;
 
 /**
- * @author »ÆºÀ
- *162. Ñ°ÕÒ·åÖµ
-·åÖµÔªËØÊÇÖ¸ÆäÖµ´óÓÚ×óÓÒÏàÁÚÖµµÄÔªËØ¡£
+ * @author é»„è±ª
+ *162. å¯»æ‰¾å³°å€¼
+å³°å€¼å…ƒç´ æ˜¯æŒ‡å…¶å€¼å¤§äºŽå·¦å³ç›¸é‚»å€¼çš„å…ƒç´ ã€‚
 
-¸øÄãÒ»¸öÊäÈëÊý×é nums£¬ÕÒµ½·åÖµÔªËØ²¢·µ»ØÆäË÷Òý¡£Êý×é¿ÉÄÜ°üº¬¶à¸ö·åÖµ£¬ÔÚÕâÖÖÇé¿öÏÂ£¬·µ»Ø ÈÎºÎÒ»¸ö·åÖµ ËùÔÚÎ»ÖÃ¼´¿É¡£
+ç»™ä½ ä¸€ä¸ªè¾“å…¥æ•°ç»„ numsï¼Œæ‰¾åˆ°å³°å€¼å…ƒç´ å¹¶è¿”å›žå…¶ç´¢å¼•ã€‚æ•°ç»„å¯èƒ½åŒ…å«å¤šä¸ªå³°å€¼ï¼Œåœ¨è¿™ç§æƒ…å†µä¸‹ï¼Œè¿”å›ž ä»»ä½•ä¸€ä¸ªå³°å€¼ æ‰€åœ¨ä½ç½®å³å¯ã€‚
 
-Äã¿ÉÒÔ¼ÙÉè nums[-1] = nums[n] = -¡Þ ¡£
+ä½ å¯ä»¥å‡è®¾ nums[-1] = nums[n] = -âˆž ã€‚
  */
 public class LC_157 {
 
 }
-//ÏßÐÔ²éÕÒ
+//çº¿æ€§æŸ¥æ‰¾
 class Solution {
     public int findPeakElement(int[] nums) {
         for (int i = 0; i <nums.length - 1; i++){
@@ -21,7 +21,7 @@ class Solution {
         return nums.length - 1;
     }
 }
-//¶þ·Ö²éÕÒ
+//äºŒåˆ†æŸ¥æ‰¾
 class Solution1{
 	public int findPeakElement(int[] nums) {
 		int l = 0, r= nums.length;

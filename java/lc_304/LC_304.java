@@ -1,14 +1,14 @@
 package lc_304;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ13ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ13æ—¥
  *@todo:
 */
 public class LC_304 {
 	
 }
-//¶şÎ¬Ç°×ººÍ
+//äºŒç»´å‰ç¼€å’Œ
 class NumMatrix {
     int[][] sumMatrix;
     public NumMatrix(int[][] matrix) {
@@ -39,7 +39,7 @@ class NumMatrix {
         return sumMatrix[row2][col2] - (row1 > 0 ? sumMatrix[row1 - 1][col2] : sumMatrix[row2][col1 - 1]);
     }
 }
-//Ò»Î¬Ç°×ººÍ
+//ä¸€ç»´å‰ç¼€å’Œ
 class NumMatrix1 {
     int[][] sums;
 

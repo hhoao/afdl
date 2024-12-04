@@ -1,28 +1,28 @@
 package lc_1614;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ8ÈÕ
- *@todo:1614. À¨ºÅµÄ×î´óÇ¶Ì×Éî¶È
-Èç¹û×Ö·û´®Âú×ãÒÔÏÂÌõ¼þÖ®Ò»£¬Ôò¿ÉÒÔ³ÆÖ®Îª ÓÐÐ§À¨ºÅ×Ö·û´®£¨valid parentheses string£¬¿ÉÒÔ¼òÐ´Îª VPS£©£º
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ8æ—¥
+ *@todo:1614. æ‹¬å·çš„æœ€å¤§åµŒå¥—æ·±åº¦
+å¦‚æžœå­—ç¬¦ä¸²æ»¡è¶³ä»¥ä¸‹æ¡ä»¶ä¹‹ä¸€ï¼Œåˆ™å¯ä»¥ç§°ä¹‹ä¸º æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸²ï¼ˆvalid parentheses stringï¼Œå¯ä»¥ç®€å†™ä¸º VPSï¼‰ï¼š
 
-×Ö·û´®ÊÇÒ»¸ö¿Õ×Ö·û´® ""£¬»òÕßÊÇÒ»¸ö²»Îª "(" »ò ")" µÄµ¥×Ö·û¡£
-×Ö·û´®¿ÉÒÔÐ´Îª AB£¨A Óë B ×Ö·û´®Á¬½Ó£©£¬ÆäÖÐ A ºÍ B ¶¼ÊÇ ÓÐÐ§À¨ºÅ×Ö·û´® ¡£
-×Ö·û´®¿ÉÒÔÐ´Îª (A)£¬ÆäÖÐ A ÊÇÒ»¸ö ÓÐÐ§À¨ºÅ×Ö·û´® ¡£
-ÀàËÆµØ£¬¿ÉÒÔ¶¨ÒåÈÎºÎÓÐÐ§À¨ºÅ×Ö·û´® S µÄ Ç¶Ì×Éî¶È depth(S)£º
+å­—ç¬¦ä¸²æ˜¯ä¸€ä¸ªç©ºå­—ç¬¦ä¸² ""ï¼Œæˆ–è€…æ˜¯ä¸€ä¸ªä¸ä¸º "(" æˆ– ")" çš„å•å­—ç¬¦ã€‚
+å­—ç¬¦ä¸²å¯ä»¥å†™ä¸º ABï¼ˆA ä¸Ž B å­—ç¬¦ä¸²è¿žæŽ¥ï¼‰ï¼Œå…¶ä¸­ A å’Œ B éƒ½æ˜¯ æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸² ã€‚
+å­—ç¬¦ä¸²å¯ä»¥å†™ä¸º (A)ï¼Œå…¶ä¸­ A æ˜¯ä¸€ä¸ª æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸² ã€‚
+ç±»ä¼¼åœ°ï¼Œå¯ä»¥å®šä¹‰ä»»ä½•æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸² S çš„ åµŒå¥—æ·±åº¦ depth(S)ï¼š
 
 depth("") = 0
-depth(C) = 0£¬ÆäÖÐ C ÊÇµ¥¸ö×Ö·ûµÄ×Ö·û´®£¬ÇÒ¸Ã×Ö·û²»ÊÇ "(" »òÕß ")"
-depth(A + B) = max(depth(A), depth(B))£¬ÆäÖÐ A ºÍ B ¶¼ÊÇ ÓÐÐ§À¨ºÅ×Ö·û´®
-depth("(" + A + ")") = 1 + depth(A)£¬ÆäÖÐ A ÊÇÒ»¸ö ÓÐÐ§À¨ºÅ×Ö·û´®
-ÀýÈç£º""¡¢"()()"¡¢"()(()())" ¶¼ÊÇ ÓÐÐ§À¨ºÅ×Ö·û´®£¨Ç¶Ì×Éî¶È·Ö±ðÎª 0¡¢1¡¢2£©£¬¶ø ")(" ¡¢"(()" ¶¼²»ÊÇ ÓÐÐ§À¨ºÅ×Ö·û´® ¡£
+depth(C) = 0ï¼Œå…¶ä¸­ C æ˜¯å•ä¸ªå­—ç¬¦çš„å­—ç¬¦ä¸²ï¼Œä¸”è¯¥å­—ç¬¦ä¸æ˜¯ "(" æˆ–è€… ")"
+depth(A + B) = max(depth(A), depth(B))ï¼Œå…¶ä¸­ A å’Œ B éƒ½æ˜¯ æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸²
+depth("(" + A + ")") = 1 + depth(A)ï¼Œå…¶ä¸­ A æ˜¯ä¸€ä¸ª æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸²
+ä¾‹å¦‚ï¼š""ã€"()()"ã€"()(()())" éƒ½æ˜¯ æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸²ï¼ˆåµŒå¥—æ·±åº¦åˆ†åˆ«ä¸º 0ã€1ã€2ï¼‰ï¼Œè€Œ ")(" ã€"(()" éƒ½ä¸æ˜¯ æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸² ã€‚
 
-¸øÄãÒ»¸ö ÓÐÐ§À¨ºÅ×Ö·û´® s£¬·µ»Ø¸Ã×Ö·û´®µÄ s Ç¶Ì×Éî¶È ¡£
+ç»™ä½ ä¸€ä¸ª æœ‰æ•ˆæ‹¬å·å­—ç¬¦ä¸² sï¼Œè¿”å›žè¯¥å­—ç¬¦ä¸²çš„ s åµŒå¥—æ·±åº¦ ã€‚
 */
 public class LC_1614 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public int maxDepth(String s) {
         int curK = 0, ans = 0;

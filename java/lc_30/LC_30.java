@@ -5,11 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *30. ´®ÁªËùÓĞµ¥´ÊµÄ×Ó´®
-¸ø¶¨Ò»¸ö×Ö·û´® s ºÍÒ»Ğ©³¤¶ÈÏàÍ¬µÄµ¥´Ê words¡£ÕÒ³ö s ÖĞÇ¡ºÃ¿ÉÒÔÓÉ words ÖĞËùÓĞµ¥´Ê´®ÁªĞÎ³ÉµÄ×Ó´®µÄÆğÊ¼Î»ÖÃ¡£
+ * @author é»„è±ª
+ *30. ä¸²è”æ‰€æœ‰å•è¯çš„å­ä¸²
+ç»™å®šä¸€ä¸ªå­—ç¬¦ä¸² s å’Œä¸€äº›é•¿åº¦ç›¸åŒçš„å•è¯ wordsã€‚æ‰¾å‡º s ä¸­æ°å¥½å¯ä»¥ç”± words ä¸­æ‰€æœ‰å•è¯ä¸²è”å½¢æˆçš„å­ä¸²çš„èµ·å§‹ä½ç½®ã€‚
 
-×¢Òâ×Ó´®ÒªÓë words ÖĞµÄµ¥´ÊÍêÈ«Æ¥Åä£¬ÖĞ¼ä²»ÄÜÓĞÆäËû×Ö·û£¬µ«²»ĞèÒª¿¼ÂÇ words ÖĞµ¥´Ê´®ÁªµÄË³Ğò¡£
+æ³¨æ„å­ä¸²è¦ä¸ words ä¸­çš„å•è¯å®Œå…¨åŒ¹é…ï¼Œä¸­é—´ä¸èƒ½æœ‰å…¶ä»–å­—ç¬¦ï¼Œä½†ä¸éœ€è¦è€ƒè™‘ words ä¸­å•è¯ä¸²è”çš„é¡ºåºã€‚
  */
 public class LC_30 {
 	public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class LC_30 {
 		}
 	}
 }
-//»¬¶¯´°¿Ú
+//æ»‘åŠ¨çª—å£
 class Solution {
     public static List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();

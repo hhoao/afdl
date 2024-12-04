@@ -1,21 +1,21 @@
 package lc_1910;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ19ÈÕ
- *@todo:1910. É¾³ýÒ»¸ö×Ö·û´®ÖÐËùÓÐ³öÏÖµÄ¸ø¶¨×Ó×Ö·û´®
-¸øÄãÁ½¸ö×Ö·û´® s ºÍ part £¬ÇëÄã¶Ô s ·´¸´Ö´ÐÐÒÔÏÂ²Ù×÷Ö±µ½ ËùÓÐ ×Ó×Ö·û´® part ¶¼±»É¾³ý£º
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ19æ—¥
+ *@todo:1910. åˆ é™¤ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­æ‰€æœ‰å‡ºçŽ°çš„ç»™å®šå­å­—ç¬¦ä¸²
+ç»™ä½ ä¸¤ä¸ªå­—ç¬¦ä¸² s å’Œ part ï¼Œè¯·ä½ å¯¹ s åå¤æ‰§è¡Œä»¥ä¸‹æ“ä½œç›´åˆ° æ‰€æœ‰ å­å­—ç¬¦ä¸² part éƒ½è¢«åˆ é™¤ï¼š
 
-ÕÒµ½ s ÖÐ ×î×ó±ß µÄ×Ó×Ö·û´® part £¬²¢½«Ëü´Ó s ÖÐÉ¾³ý¡£
-ÇëÄã·µ»Ø´Ó s ÖÐÉ¾³ýËùÓÐ part ×Ó×Ö·û´®ÒÔºóµÃµ½µÄÊ£Óà×Ö·û´®¡£
+æ‰¾åˆ° s ä¸­ æœ€å·¦è¾¹ çš„å­å­—ç¬¦ä¸² part ï¼Œå¹¶å°†å®ƒä»Ž s ä¸­åˆ é™¤ã€‚
+è¯·ä½ è¿”å›žä»Ž s ä¸­åˆ é™¤æ‰€æœ‰ part å­å­—ç¬¦ä¸²ä»¥åŽå¾—åˆ°çš„å‰©ä½™å­—ç¬¦ä¸²ã€‚
 
-Ò»¸ö ×Ó×Ö·û´® ÊÇÒ»¸ö×Ö·û´®ÖÐÁ¬ÐøµÄ×Ö·ûÐòÁÐ¡£
+ä¸€ä¸ª å­å­—ç¬¦ä¸² æ˜¯ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­è¿žç»­çš„å­—ç¬¦åºåˆ—ã€‚
 */
 public class LC_1910 {
 
 }
 
-//µ÷ÓÃapi
+//è°ƒç”¨api
 class Solution {
     public String removeOccurrences(String s, String part) {
         StringBuffer sb = new StringBuffer(s);

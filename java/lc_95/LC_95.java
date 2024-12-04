@@ -4,9 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 import tools.TreeNode;
 /**
- * @author »ÆºÀ
- *95. ²»Í¬µÄ¶ş²æËÑË÷Ê÷ II
-¸ø¶¨Ò»¸öÕûÊı n£¬Éú³ÉËùÓĞÓÉ 1 ... n Îª½ÚµãËù×é³ÉµÄ ¶ş²æËÑË÷Ê÷ ¡£
+ * @author é»„è±ª
+ *95. ä¸åŒçš„äºŒå‰æœç´¢æ ‘ II
+ç»™å®šä¸€ä¸ªæ•´æ•° nï¼Œç”Ÿæˆæ‰€æœ‰ç”± 1 ... n ä¸ºèŠ‚ç‚¹æ‰€ç»„æˆçš„ äºŒå‰æœç´¢æ ‘ ã€‚
  */
 public class LC_95 {
 
@@ -26,15 +26,15 @@ class Solution {
             return allTrees;
         }
 
-        // Ã¶¾Ù¿ÉĞĞ¸ù½Úµã
+        // æšä¸¾å¯è¡Œæ ¹èŠ‚ç‚¹
         for (int i = start; i <= end; i++) {
-            // »ñµÃËùÓĞ¿ÉĞĞµÄ×ó×ÓÊ÷¼¯ºÏ
+            // è·å¾—æ‰€æœ‰å¯è¡Œçš„å·¦å­æ ‘é›†åˆ
             List<TreeNode> leftTrees = generateTrees(start, i - 1);
 
-            // »ñµÃËùÓĞ¿ÉĞĞµÄÓÒ×ÓÊ÷¼¯ºÏ
+            // è·å¾—æ‰€æœ‰å¯è¡Œçš„å³å­æ ‘é›†åˆ
             List<TreeNode> rightTrees = generateTrees(i + 1, end);
 
-            // ´Ó×ó×ÓÊ÷¼¯ºÏÖĞÑ¡³öÒ»¿Ã×ó×ÓÊ÷£¬´ÓÓÒ×ÓÊ÷¼¯ºÏÖĞÑ¡³öÒ»¿ÃÓÒ×ÓÊ÷£¬Æ´½Óµ½¸ù½ÚµãÉÏ
+            // ä»å·¦å­æ ‘é›†åˆä¸­é€‰å‡ºä¸€æ£µå·¦å­æ ‘ï¼Œä»å³å­æ ‘é›†åˆä¸­é€‰å‡ºä¸€æ£µå³å­æ ‘ï¼Œæ‹¼æ¥åˆ°æ ¹èŠ‚ç‚¹ä¸Š
             for (TreeNode left : leftTrees) {
                 for (TreeNode right : rightTrees) {
                     TreeNode currTree = new TreeNode(i);

@@ -7,14 +7,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author »ÆºÀ
- *49. ×ÖÄ¸ÒìÎ»´Ê·Ö×é
-¸ø¶¨Ò»¸ö×Ö·û´®Êı×é£¬½«×ÖÄ¸ÒìÎ»´Ê×éºÏÔÚÒ»Æğ¡£×ÖÄ¸ÒìÎ»´ÊÖ¸×ÖÄ¸ÏàÍ¬£¬µ«ÅÅÁĞ²»Í¬µÄ×Ö·û´®¡£
+ * @author é»„è±ª
+ *49. å­—æ¯å¼‚ä½è¯åˆ†ç»„
+ç»™å®šä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„ï¼Œå°†å­—æ¯å¼‚ä½è¯ç»„åˆåœ¨ä¸€èµ·ã€‚å­—æ¯å¼‚ä½è¯æŒ‡å­—æ¯ç›¸åŒï¼Œä½†æ’åˆ—ä¸åŒçš„å­—ç¬¦ä¸²ã€‚
  */
 public class LC_49 {
 
 }
-//ÅÅĞò
+//æ’åº
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<String, List<String>>();
@@ -29,7 +29,7 @@ class Solution {
         return new ArrayList<List<String>>(map.values());
     }
 }
-//¼ÆÊı
+//è®¡æ•°
 class Solution2 {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<String, List<String>>();
@@ -39,7 +39,7 @@ class Solution2 {
             for (int i = 0; i < length; i++) {
                 counts[str.charAt(i) - 'a']++;
             }
-            // ½«Ã¿¸ö³öÏÖ´ÎÊı´óÓÚ 0 µÄ×ÖÄ¸ºÍ³öÏÖ´ÎÊı°´Ë³ĞòÆ´½Ó³É×Ö·û´®£¬×÷Îª¹şÏ£±íµÄ¼ü
+            // å°†æ¯ä¸ªå‡ºç°æ¬¡æ•°å¤§äº 0 çš„å­—æ¯å’Œå‡ºç°æ¬¡æ•°æŒ‰é¡ºåºæ‹¼æ¥æˆå­—ç¬¦ä¸²ï¼Œä½œä¸ºå“ˆå¸Œè¡¨çš„é”®
             StringBuffer sb = new StringBuffer();
             for (int i = 0; i < 26; i++) {
                 if (counts[i] != 0) {

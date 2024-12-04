@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *118. Ñî»ÔÈý½Ç
-¸ø¶¨Ò»¸ö·Ç¸ºÕûÊý numRows£¬Éú³ÉÑî»ÔÈý½ÇµÄÇ° numRows ÐÐ¡£
+ * @author é»„è±ª
+ *118. æ¨è¾‰ä¸‰è§’
+ç»™å®šä¸€ä¸ªéžè´Ÿæ•´æ•° numRowsï¼Œç”Ÿæˆæ¨è¾‰ä¸‰è§’çš„å‰ numRows è¡Œã€‚
 
 
 
-ÔÚÑî»ÔÈý½ÇÖÐ£¬Ã¿¸öÊýÊÇËü×óÉÏ·½ºÍÓÒÉÏ·½µÄÊýµÄºÍ¡£
+åœ¨æ¨è¾‰ä¸‰è§’ä¸­ï¼Œæ¯ä¸ªæ•°æ˜¯å®ƒå·¦ä¸Šæ–¹å’Œå³ä¸Šæ–¹çš„æ•°çš„å’Œã€‚
  */
 public class LC_118 {
 

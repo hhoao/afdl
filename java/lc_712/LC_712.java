@@ -3,11 +3,11 @@ package lc_712;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ19ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ19æ—¥
  *@todo:
- *712. Á½¸ö×Ö·û´®µÄ×îĞ¡ASCIIÉ¾³ıºÍ
-¸ø¶¨Á½¸ö×Ö·û´®s1, s2£¬ÕÒµ½Ê¹Á½¸ö×Ö·û´®ÏàµÈËùĞèÉ¾³ı×Ö·ûµÄASCIIÖµµÄ×îĞ¡ºÍ¡£
+ *712. ä¸¤ä¸ªå­—ç¬¦ä¸²çš„æœ€å°ASCIIåˆ é™¤å’Œ
+ç»™å®šä¸¤ä¸ªå­—ç¬¦ä¸²s1, s2ï¼Œæ‰¾åˆ°ä½¿ä¸¤ä¸ªå­—ç¬¦ä¸²ç›¸ç­‰æ‰€éœ€åˆ é™¤å­—ç¬¦çš„ASCIIå€¼çš„æœ€å°å’Œã€‚
 */
 public class LC_712 {
 	public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class LC_712 {
 		System.out.println(s.minimumDeleteSum("ccaccjp", "fwosarcwge"));
 	}
 }
-//ÎÒµÄ¶¯Ì¬¹æ»®
+//æˆ‘çš„åŠ¨æ€è§„åˆ’
 class Solution {
     public int minimumDeleteSum(String s1, String s2) {
         int total = 0;

@@ -244,6 +244,19 @@ tree_map/fast:
 .PHONY : tree_map/fast
 
 #=============================================================================
+# Target rules for targets named union_find_set
+
+# Build rule for target.
+union_find_set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 union_find_set
+.PHONY : union_find_set
+
+# fast build rule for target.
+union_find_set/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/build
+.PHONY : union_find_set/fast
+
+#=============================================================================
 # Target rules for targets named b_tree_test
 
 # Build rule for target.
@@ -307,6 +320,19 @@ tree_test: cmake_check_build_system
 tree_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree_test.dir/build.make CMakeFiles/tree_test.dir/build
 .PHONY : tree_test/fast
+
+#=============================================================================
+# Target rules for targets named union_find_set_test
+
+# Build rule for target.
+union_find_set_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 union_find_set_test
+.PHONY : union_find_set_test
+
+# fast build rule for target.
+union_find_set_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/build
+.PHONY : union_find_set_test/fast
 
 src/b_tree.o: src/b_tree.cpp.o
 .PHONY : src/b_tree.o
@@ -524,6 +550,30 @@ src/tree_map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree_map.dir/build.make CMakeFiles/tree_map.dir/src/tree_map.cpp.s
 .PHONY : src/tree_map.cpp.s
 
+src/union_find_set.o: src/union_find_set.cpp.o
+.PHONY : src/union_find_set.o
+
+# target to build an object file
+src/union_find_set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/src/union_find_set.cpp.o
+.PHONY : src/union_find_set.cpp.o
+
+src/union_find_set.i: src/union_find_set.cpp.i
+.PHONY : src/union_find_set.i
+
+# target to preprocess a source file
+src/union_find_set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/src/union_find_set.cpp.i
+.PHONY : src/union_find_set.cpp.i
+
+src/union_find_set.s: src/union_find_set.cpp.s
+.PHONY : src/union_find_set.s
+
+# target to generate assembly for a file
+src/union_find_set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set.dir/build.make CMakeFiles/union_find_set.dir/src/union_find_set.cpp.s
+.PHONY : src/union_find_set.cpp.s
+
 test/b_tree_test.o: test/b_tree_test.cpp.o
 .PHONY : test/b_tree_test.o
 
@@ -644,6 +694,30 @@ test/tree_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree_test.dir/build.make CMakeFiles/tree_test.dir/test/tree_test.cpp.s
 .PHONY : test/tree_test.cpp.s
 
+test/union_find_set_test.o: test/union_find_set_test.cpp.o
+.PHONY : test/union_find_set_test.o
+
+# target to build an object file
+test/union_find_set_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/test/union_find_set_test.cpp.o
+.PHONY : test/union_find_set_test.cpp.o
+
+test/union_find_set_test.i: test/union_find_set_test.cpp.i
+.PHONY : test/union_find_set_test.i
+
+# target to preprocess a source file
+test/union_find_set_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/test/union_find_set_test.cpp.i
+.PHONY : test/union_find_set_test.cpp.i
+
+test/union_find_set_test.s: test/union_find_set_test.cpp.s
+.PHONY : test/union_find_set_test.s
+
+# target to generate assembly for a file
+test/union_find_set_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/union_find_set_test.dir/build.make CMakeFiles/union_find_set_test.dir/test/union_find_set_test.cpp.s
+.PHONY : test/union_find_set_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -667,6 +741,8 @@ help:
 	@echo "... tree"
 	@echo "... tree_map"
 	@echo "... tree_test"
+	@echo "... union_find_set"
+	@echo "... union_find_set_test"
 	@echo "... src/b_tree.o"
 	@echo "... src/b_tree.i"
 	@echo "... src/b_tree.s"
@@ -694,6 +770,9 @@ help:
 	@echo "... src/tree_map.o"
 	@echo "... src/tree_map.i"
 	@echo "... src/tree_map.s"
+	@echo "... src/union_find_set.o"
+	@echo "... src/union_find_set.i"
+	@echo "... src/union_find_set.s"
 	@echo "... test/b_tree_test.o"
 	@echo "... test/b_tree_test.i"
 	@echo "... test/b_tree_test.s"
@@ -709,6 +788,9 @@ help:
 	@echo "... test/tree_test.o"
 	@echo "... test/tree_test.i"
 	@echo "... test/tree_test.s"
+	@echo "... test/union_find_set_test.o"
+	@echo "... test/union_find_set_test.i"
+	@echo "... test/union_find_set_test.s"
 .PHONY : help
 
 

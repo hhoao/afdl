@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hhoa/hhoa/algorithm/c++/LeetCode/src/lcof/03_duplicate_numbers_in_array/Solution.cpp" "src/CMakeFiles/lcof.dir/lcof/03_duplicate_numbers_in_array/Solution.cpp.o" "gcc" "src/CMakeFiles/lcof.dir/lcof/03_duplicate_numbers_in_array/Solution.cpp.o.d"
+  "/home/hhoa/hhoa/algorithm/c++/LeetCode/src/LCOF/03-数组中重复的数字/Solution.cpp" "src/CMakeFiles/LCOF.dir/LCOF/03-数组中重复的数字/Solution.cpp.o" "gcc" "src/CMakeFiles/LCOF.dir/LCOF/03-数组中重复的数字/Solution.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -3,14 +3,14 @@ package lc_234;
 import tools.ListNode;
 
 /**
- * @author »ÆºÀ
- *234. »ØÎÄÁ´±í
-ÇëÅĞ¶ÏÒ»¸öÁ´±íÊÇ·ñÎª»ØÎÄÁ´±í¡£
+ * @author é»„è±ª
+ *234. å›æ–‡é“¾è¡¨
+è¯·åˆ¤æ–­ä¸€ä¸ªé“¾è¡¨æ˜¯å¦ä¸ºå›æ–‡é“¾è¡¨ã€‚
  */
 public class LC_234 {
 
 }
-//¹şÏ£·¨
+//å“ˆå¸Œæ³•
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode t=head;
@@ -25,18 +25,18 @@ class Solution {
         return left==right;
     }
 }
-//¿ìÂıÖ¸Õë
+//å¿«æ…¢æŒ‡é’ˆ
 class Solution1 {
     public boolean isPalindrome(ListNode head) {
         if (head == null) {
             return true;
         }
 
-        // ÕÒµ½Ç°°ë²¿·ÖÁ´±íµÄÎ²½Úµã²¢·´×ªºó°ë²¿·ÖÁ´±í
+        // æ‰¾åˆ°å‰åŠéƒ¨åˆ†é“¾è¡¨çš„å°¾èŠ‚ç‚¹å¹¶åè½¬ååŠéƒ¨åˆ†é“¾è¡¨
         ListNode firstHalfEnd = endOfFirstHalf(head);
         ListNode secondHalfStart = reverseList(firstHalfEnd.next);
 
-        // ÅĞ¶ÏÊÇ·ñ»ØÎÄ
+        // åˆ¤æ–­æ˜¯å¦å›æ–‡
         ListNode p1 = head;
         ListNode p2 = secondHalfStart;
         boolean result = true;
@@ -48,7 +48,7 @@ class Solution1 {
             p2 = p2.next;
         }        
 
-        // »¹Ô­Á´±í²¢·µ»Ø½á¹û
+        // è¿˜åŸé“¾è¡¨å¹¶è¿”å›ç»“æœ
         firstHalfEnd.next = reverseList(secondHalfStart);
         return result;
     }

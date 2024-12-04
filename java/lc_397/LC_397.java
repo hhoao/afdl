@@ -1,21 +1,21 @@
 package lc_397;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê10ÔÂ27ÈÕ
- *@todo:397. ÕûÊıÌæ»»
-¸ø¶¨Ò»¸öÕıÕûÊı n £¬Äã¿ÉÒÔ×öÈçÏÂ²Ù×÷£º
+ *@author: é»„è±ª
+ *@date : 2021å¹´10æœˆ27æ—¥
+ *@todo:397. æ•´æ•°æ›¿æ¢
+ç»™å®šä¸€ä¸ªæ­£æ•´æ•° n ï¼Œä½ å¯ä»¥åšå¦‚ä¸‹æ“ä½œï¼š
 
-Èç¹û n ÊÇÅ¼Êı£¬ÔòÓÃ n / 2Ìæ»» n ¡£
-Èç¹û n ÊÇÆæÊı£¬Ôò¿ÉÒÔÓÃ n + 1»òn - 1Ìæ»» n ¡£
-n ±äÎª 1 ËùĞèµÄ×îĞ¡Ìæ»»´ÎÊıÊÇ¶àÉÙ£¿
+å¦‚æœ n æ˜¯å¶æ•°ï¼Œåˆ™ç”¨ n / 2æ›¿æ¢ n ã€‚
+å¦‚æœ n æ˜¯å¥‡æ•°ï¼Œåˆ™å¯ä»¥ç”¨ n + 1æˆ–n - 1æ›¿æ¢ n ã€‚
+n å˜ä¸º 1 æ‰€éœ€çš„æœ€å°æ›¿æ¢æ¬¡æ•°æ˜¯å¤šå°‘ï¼Ÿ
 */
 public class LC_397 {
 	public static void main(String[] args) {
 		System.out.println(new Solution().integerReplacement(21));
 	}
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     public int integerReplacement(int n) {
         return (int)dfs(n);

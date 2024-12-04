@@ -4,16 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author »ÆºÀ
- *219. ´æÔÚÖØ¸´ÔªËØ II
-¸ø¶¨Ò»¸öÕûÊıÊı×éºÍÒ»¸öÕûÊı k£¬ÅĞ¶ÏÊı×éÖĞÊÇ·ñ´æÔÚÁ½¸ö²»Í¬µÄË÷Òı i ºÍ j£¬Ê¹µÃ nums [i] = nums [j]£¬²¢ÇÒ i ºÍ j µÄ²îµÄ ¾ø¶ÔÖµ ÖÁ¶àÎª k¡£
+ * @author é»„è±ª
+ *219. å­˜åœ¨é‡å¤å…ƒç´  II
+ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„å’Œä¸€ä¸ªæ•´æ•° kï¼Œåˆ¤æ–­æ•°ç»„ä¸­æ˜¯å¦å­˜åœ¨ä¸¤ä¸ªä¸åŒçš„ç´¢å¼• i å’Œ jï¼Œä½¿å¾— nums [i] = nums [j]ï¼Œå¹¶ä¸” i å’Œ j çš„å·®çš„ ç»å¯¹å€¼ è‡³å¤šä¸º kã€‚
  */
 public class LC_219 {
 
 }
 
 
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> indexMap = new HashMap<>();

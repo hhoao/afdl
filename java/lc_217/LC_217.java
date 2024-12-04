@@ -4,11 +4,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *217. ´æÔÚÖØ¸´ÔªËØ
-¸ø¶¨Ò»¸öÕûÊýÊý×é£¬ÅÐ¶ÏÊÇ·ñ´æÔÚÖØ¸´ÔªËØ¡£
+ * @author é»„è±ª
+ *217. å­˜åœ¨é‡å¤å…ƒç´ 
+ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„ï¼Œåˆ¤æ–­æ˜¯å¦å­˜åœ¨é‡å¤å…ƒç´ ã€‚
 
-Èç¹û´æÔÚÒ»ÖµÔÚÊý×éÖÐ³öÏÖÖÁÉÙÁ½´Î£¬º¯Êý·µ»Ø true ¡£Èç¹ûÊý×éÖÐÃ¿¸öÔªËØ¶¼²»ÏàÍ¬£¬Ôò·µ»Ø false ¡£
+å¦‚æžœå­˜åœ¨ä¸€å€¼åœ¨æ•°ç»„ä¸­å‡ºçŽ°è‡³å°‘ä¸¤æ¬¡ï¼Œå‡½æ•°è¿”å›ž true ã€‚å¦‚æžœæ•°ç»„ä¸­æ¯ä¸ªå…ƒç´ éƒ½ä¸ç›¸åŒï¼Œåˆ™è¿”å›ž false ã€‚
  */
 public class LC_217 {
 

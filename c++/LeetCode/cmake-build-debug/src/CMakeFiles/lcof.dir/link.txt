@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblcof.a CMakeFiles/lcof.dir/lcof/03_duplicate_numbers_in_array/Solution.cpp.o
-/usr/bin/ranlib liblcof.a
+/usr/bin/ar qc libLCOF.a CMakeFiles/LCOF.dir/LCOF/03-数组中重复的数字/Solution.cpp.o
+/usr/bin/ranlib libLCOF.a

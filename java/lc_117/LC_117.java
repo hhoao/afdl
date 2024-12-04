@@ -6,9 +6,9 @@ import java.util.Queue;
 import tools.Node;
 
 /**
- * @author �ƺ�
- *117. ���ÿ���ڵ����һ���Ҳ�ڵ�ָ�� II
-����һ��������
+ * @author 黄豪
+ *117. 填充每个节点的下一个右侧节点指针 II
+给定一个二叉树
 
 struct Node {
   int val;
@@ -16,14 +16,14 @@ struct Node {
   Node *right;
   Node *next;
 }
-�������ÿ�� next ָ�룬�����ָ��ָ������һ���Ҳ�ڵ㡣����Ҳ�����һ���Ҳ�ڵ㣬�� next ָ������Ϊ NULL��
-��
-��ʼ״̬�£����� next ָ�붼������Ϊ NULL��
+填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 NULL。
+想
+初始状态下，所有 next 指针都被设置为 NULL。
  */
 public class LC_117 {
 
 }
-//�ҵĴ���
+//我的代码
 class Solution {
 	Node pre, post;
     public Node connect(Node root) {
@@ -54,7 +54,7 @@ class Solution {
         }
     }
 }
-//��α���
+//层次遍历
 class Solution1 {
     public Node connect(Node root) {
         if (root == null) {
@@ -82,7 +82,7 @@ class Solution1 {
         return root;
     }
 }
-//ʹ���Ѿ�������nextָ��
+//使用已经建立的next指针
 class Solution2 {
     Node last = null, nextStart = null;
 

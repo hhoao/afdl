@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *54. ÂİĞı¾ØÕó
-¸øÄãÒ»¸ö m ĞĞ n ÁĞµÄ¾ØÕó matrix £¬Çë°´ÕÕ Ë³Ê±ÕëÂİĞıË³Ğò £¬·µ»Ø¾ØÕóÖĞµÄËùÓĞÔªËØ¡£
+ * @author é»„è±ª
+ *54. èºæ—‹çŸ©é˜µ
+ç»™ä½ ä¸€ä¸ª m è¡Œ n åˆ—çš„çŸ©é˜µ matrix ï¼Œè¯·æŒ‰ç…§ é¡ºæ—¶é’ˆèºæ—‹é¡ºåº ï¼Œè¿”å›çŸ©é˜µä¸­çš„æ‰€æœ‰å…ƒç´ ã€‚
  */
 public class LC_54 {
 
 }
-//Ä£Äâ
+//æ¨¡æ‹Ÿ
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> order = new ArrayList<Integer>();
@@ -37,7 +37,7 @@ class Solution {
         return order;
     }
 }
-//°´²ãÄ£Äâ
+//æŒ‰å±‚æ¨¡æ‹Ÿ
 class Solution1 {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> order = new ArrayList<Integer>();

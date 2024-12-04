@@ -3,18 +3,18 @@ package lc_148;
 import tools.ListNode;
 
 /**
- * @author »ÆºÀ
- *148. ÅÅĞòÁ´±í
-¸øÄãÁ´±íµÄÍ·½áµã head £¬Çë½«Æä°´ ÉıĞò ÅÅÁĞ²¢·µ»Ø ÅÅĞòºóµÄÁ´±í ¡£
+ * @author é»„è±ª
+ *148. æ’åºé“¾è¡¨
+ç»™ä½ é“¾è¡¨çš„å¤´ç»“ç‚¹ head ï¼Œè¯·å°†å…¶æŒ‰ å‡åº æ’åˆ—å¹¶è¿”å› æ’åºåçš„é“¾è¡¨ ã€‚
 
-½ø½×£º
+è¿›é˜¶ï¼š
 
-Äã¿ÉÒÔÔÚ O(n log n) Ê±¼ä¸´ÔÓ¶ÈºÍ³£Êı¼¶¿Õ¼ä¸´ÔÓ¶ÈÏÂ£¬¶ÔÁ´±í½øĞĞÅÅĞòÂğ£¿
+ä½ å¯ä»¥åœ¨ O(n log n) æ—¶é—´å¤æ‚åº¦å’Œå¸¸æ•°çº§ç©ºé—´å¤æ‚åº¦ä¸‹ï¼Œå¯¹é“¾è¡¨è¿›è¡Œæ’åºå—ï¼Ÿ
  */
 public class LC_148 {
 	
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;
@@ -47,7 +47,7 @@ class Solution {
         return phead.next;
     }
 }
-//¹Ù·½ ·½·¨Ò»£º×Ô¶¥ÏòÏÂ¹é²¢ÅÅĞò
+//å®˜æ–¹ æ–¹æ³•ä¸€ï¼šè‡ªé¡¶å‘ä¸‹å½’å¹¶æ’åº
 class Solution1 {
     public ListNode sortList(ListNode head) {
         return sortList(head, null);
@@ -97,7 +97,7 @@ class Solution1 {
         return dummyHead.next;
     }
 }
-//×ÔÏÂ¶øÉÏ
+//è‡ªä¸‹è€Œä¸Š
 class Solution2 {
     public ListNode sortList(ListNode head) {
         if (head == null) {

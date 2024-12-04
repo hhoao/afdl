@@ -4,15 +4,15 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @author »ÆºÀ
- *32. ×î³¤ÓĞĞ§À¨ºÅ
-¸ø¶¨Ò»¸öÖ»°üº¬ '(' ºÍ ')' µÄ×Ö·û´®£¬ÕÒ³ö×î³¤µÄ°üº¬ÓĞĞ§À¨ºÅµÄ×Ó´®µÄ³¤¶È¡£
+ * @author é»„è±ª
+ *32. æœ€é•¿æœ‰æ•ˆæ‹¬å·
+ç»™å®šä¸€ä¸ªåªåŒ…å« '(' å’Œ ')' çš„å­—ç¬¦ä¸²ï¼Œæ‰¾å‡ºæœ€é•¿çš„åŒ…å«æœ‰æ•ˆæ‹¬å·çš„å­ä¸²çš„é•¿åº¦ã€‚
  */
 
 public class LC_32 {
 
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 
 class Solution {
     public int longestValidParentheses(String s) {
@@ -31,7 +31,7 @@ class Solution {
         return maxans;
     }
 }
-//Õ»
+//æ ˆ
 class Solution2{
     public int longestValidParentheses(String s) {
         int maxans = 0;
@@ -52,7 +52,7 @@ class Solution2{
         return maxans;
     }
 }
-//²»ĞèÒª¶îÍâ¿Õ¼ä
+//ä¸éœ€è¦é¢å¤–ç©ºé—´
 class Solution3 {
     public int longestValidParentheses(String s) {
         int left = 0, right = 0, maxlength = 0;

@@ -28,7 +28,7 @@ class Solution {
 		heights = newHeights;
 
 		Deque<Integer> stack = new ArrayDeque<>(len);
-		// 先放入哨兵，在循环里就不用做非空判断
+		// 鍏堟斁鍏ュ摠鍏碉紝鍦ㄥ惊鐜噷灏变笉鐢ㄥ仛闈炵┖鍒ゆ柇
 		stack.addLast(0);
 
 		for (int i = 1; i < len; i++) {

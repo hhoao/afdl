@@ -8,14 +8,14 @@ import java.util.List;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *94. ¶ş²æÊ÷µÄÖĞĞò±éÀú
-¸ø¶¨Ò»¸ö¶ş²æÊ÷µÄ¸ù½Úµã root £¬·µ»ØËüµÄ ÖĞĞò ±éÀú¡£
+ * @author é»„è±ª
+ *94. äºŒå‰æ ‘çš„ä¸­åºéå†
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘çš„æ ¹èŠ‚ç‚¹ root ï¼Œè¿”å›å®ƒçš„ ä¸­åº éå†ã€‚
  */
 public class LC_94 {
 }
 
-//Õ»
+//æ ˆ
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
@@ -32,7 +32,7 @@ class Solution {
         return res;
     }
 }
-//µİ¹é
+//é€’å½’
 class Solution1{
 	public List<Integer> inorderTraversal(TreeNode root){
 		List<Integer> ans=  new ArrayList<Integer>();
@@ -46,7 +46,7 @@ class Solution1{
 		traversal(node.right, ans);
 	}
 }
-//MorrisÖĞĞò±éÀú
+//Morrisä¸­åºéå†
 class Solution3 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
@@ -54,25 +54,25 @@ class Solution3 {
 
         while (root != null) {
             if (root.left != null) {
-                // predecessor ½Úµã¾ÍÊÇµ±Ç° root ½ÚµãÏò×ó×ßÒ»²½£¬È»ºóÒ»Ö±ÏòÓÒ×ßÖÁÎŞ·¨×ßÎªÖ¹
+                // predecessor èŠ‚ç‚¹å°±æ˜¯å½“å‰ root èŠ‚ç‚¹å‘å·¦èµ°ä¸€æ­¥ï¼Œç„¶åä¸€ç›´å‘å³èµ°è‡³æ— æ³•èµ°ä¸ºæ­¢
                 predecessor = root.left;
                 while (predecessor.right != null && predecessor.right != root) {
                     predecessor = predecessor.right;
                 }
                 
-                // ÈÃ predecessor µÄÓÒÖ¸ÕëÖ¸Ïò root£¬¼ÌĞø±éÀú×ó×ÓÊ÷
+                // è®© predecessor çš„å³æŒ‡é’ˆæŒ‡å‘ rootï¼Œç»§ç»­éå†å·¦å­æ ‘
                 if (predecessor.right == null) {
                     predecessor.right = root;
                     root = root.left;
                 }
-                // ËµÃ÷×ó×ÓÊ÷ÒÑ¾­·ÃÎÊÍêÁË£¬ÎÒÃÇĞèÒª¶Ï¿ªÁ´½Ó
+                // è¯´æ˜å·¦å­æ ‘å·²ç»è®¿é—®å®Œäº†ï¼Œæˆ‘ä»¬éœ€è¦æ–­å¼€é“¾æ¥
                 else {
                     res.add(root.val);
                     predecessor.right = null;
                     root = root.right;
                 }
             }
-            // Èç¹ûÃ»ÓĞ×óº¢×Ó£¬ÔòÖ±½Ó·ÃÎÊÓÒº¢×Ó
+            // å¦‚æœæ²¡æœ‰å·¦å­©å­ï¼Œåˆ™ç›´æ¥è®¿é—®å³å­©å­
             else {
                 res.add(root.val);
                 root = root.right;

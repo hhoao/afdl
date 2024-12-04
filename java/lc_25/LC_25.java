@@ -1,17 +1,17 @@
 package lc_25;
 
 /**
- * @author �ƺ�
- *25. K ��һ�鷭ת����
-����һ��������ÿ k ���ڵ�һ����з�ת�����㷵�ط�ת���������
+ * @author 黄豪
+ *25. K 个一组翻转链表
+给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
 
-k ��һ��������������ֵС�ڻ���������ĳ��ȡ�
+k 是一个正整数，它的值小于或等于链表的长度。
 
-����ڵ��������� k ������������ô�뽫���ʣ��Ľڵ㱣��ԭ��˳��
-˵����
+如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
+说明：
 
-����㷨ֻ��ʹ�ó����Ķ���ռ䡣
-�㲻��ֻ�ǵ����ĸı�ڵ��ڲ���ֵ��������Ҫʵ�ʽ��нڵ㽻����
+你的算法只能使用常数的额外空间。
+你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。
  */
 public class LC_25 {
 
@@ -26,7 +26,7 @@ class ListNode{
 		this.next = next;
 	}
 }
-//�㷨:ģ��
+//算法:模拟
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode hair = new ListNode(0);
@@ -35,7 +35,7 @@ class Solution {
 
         while (head != null) {
             ListNode tail = pre;
-            // �鿴ʣ�ಿ�ֳ����Ƿ���ڵ��� k
+            // 查看剩余部分长度是否大于等于 k
             for (int i = 0; i < k; ++i) {
                 tail = tail.next;
                 if (tail == null) {
@@ -46,7 +46,7 @@ class Solution {
             ListNode[] reverse = myReverse(head, tail);
             head = reverse[0];
             tail = reverse[1];
-            // �����������½ӻ�ԭ����
+            // 把子链表重新接回原链表
             pre.next = head;
             tail.next = nex;
             pre = tail;

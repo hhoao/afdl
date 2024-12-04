@@ -4,15 +4,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ1ÈÕ
- *@todo:974. ºÍ¿É±» K Õû³ıµÄ×ÓÊı×é
-¸ø¶¨Ò»¸öÕûÊıÊı×é A£¬·µ»ØÆäÖĞÔªËØÖ®ºÍ¿É±» K Õû³ıµÄ£¨Á¬Ğø¡¢·Ç¿Õ£©×ÓÊı×éµÄÊıÄ¿¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ1æ—¥
+ *@todo:974. å’Œå¯è¢« K æ•´é™¤çš„å­æ•°ç»„
+ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„ Aï¼Œè¿”å›å…¶ä¸­å…ƒç´ ä¹‹å’Œå¯è¢« K æ•´é™¤çš„ï¼ˆè¿ç»­ã€éç©ºï¼‰å­æ•°ç»„çš„æ•°ç›®ã€‚
 */
 public class LC_974 {
 
 }
-//¹şÏ£±í+Ç°×ººÍ
+//å“ˆå¸Œè¡¨+å‰ç¼€å’Œ
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
         int n = nums.length;
@@ -31,7 +31,7 @@ class Solution {
         return ans;
     }
 }
-//Êı×é¹şÏ£ + Ç°×ººÍ
+//æ•°ç»„å“ˆå¸Œ + å‰ç¼€å’Œ
 class Solution1 {
     public int subarraysDivByK(int[] nums, int k) {
         int n = nums.length;
@@ -50,7 +50,7 @@ class Solution1 {
         return ans;
     }
 }
-//×îÓÅÌâ½â
+//æœ€ä¼˜é¢˜è§£
 class Solution2 {
     public int subarraysDivByK(int[] nums, int k) {
         int n = nums.length;

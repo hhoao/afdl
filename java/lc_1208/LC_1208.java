@@ -3,8 +3,8 @@ package lc_1208;
 import java.util.TreeMap;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ12ÈÕ
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ12æ—¥
  *@todo:"krrgw"
 "zjxss"
 19
@@ -14,7 +14,7 @@ public class LC_1208 {
 		System.out.println(new Solution().equalSubstring("abcd","abcd",0));
 	}
 }
-//Ç°×ººÍ
+//å‰ç¼€å’Œ
 class Solution {
     public int equalSubstring(String s, String t, int maxCost) {
         int n = s.length();
@@ -37,7 +37,7 @@ class Solution {
         return ans;
     }
 }
-//»¬¶¯´°¿Ú
+//æ»‘åŠ¨çª—å£
 class Solution1 {
     public int equalSubstring(String s, String t, int maxCost) {
         int n = s.length();

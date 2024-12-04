@@ -6,18 +6,18 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author �ƺ�
- *111. ����������С���
-����һ�����������ҳ�����С��ȡ�
+ * @author 黄豪
+ *111. 二叉树的最小深度
+给定一个二叉树，找出其最小深度。
 
-��С����ǴӸ��ڵ㵽���Ҷ�ӽڵ�����·���ϵĽڵ�������
+最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
 
-˵����Ҷ�ӽڵ���ָû���ӽڵ�Ľڵ㡣
+说明：叶子节点是指没有子节点的节点。
  */
 public class LC_111 {
 
 }
-//�����������
+//深度优先搜索
 class Solution {
 	public int minDepth(TreeNode root) {
         if (root == null) {
@@ -39,7 +39,7 @@ class Solution {
         return min_depth + 1;
     }
 }
-//�����������
+//广度优先搜索
 class Solution1 {
     class QueueNode {
         TreeNode node;

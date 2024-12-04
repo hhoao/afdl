@@ -11,14 +11,14 @@ import java.util.Stack;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *199. ¶ş²æÊ÷µÄÓÒÊÓÍ¼
-¸ø¶¨Ò»¿Ã¶ş²æÊ÷£¬ÏëÏó×Ô¼ºÕ¾ÔÚËüµÄÓÒ²à£¬°´ÕÕ´Ó¶¥²¿µ½µ×²¿µÄË³Ğò£¬·µ»Ø´ÓÓÒ²àËùÄÜ¿´µ½µÄ½ÚµãÖµ¡£
+ * @author é»„è±ª
+ *199. äºŒå‰æ ‘çš„å³è§†å›¾
+ç»™å®šä¸€æ£µäºŒå‰æ ‘ï¼Œæƒ³è±¡è‡ªå·±ç«™åœ¨å®ƒçš„å³ä¾§ï¼ŒæŒ‰ç…§ä»é¡¶éƒ¨åˆ°åº•éƒ¨çš„é¡ºåºï¼Œè¿”å›ä»å³ä¾§æ‰€èƒ½çœ‹åˆ°çš„èŠ‚ç‚¹å€¼ã€‚
  */
 public class LC_199 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -40,7 +40,7 @@ class Solution {
         return res;
     }
 }
-//¹Ù·½Éî¶ÈÓÅÏÈËÑË÷
+//å®˜æ–¹æ·±åº¦ä¼˜å…ˆæœç´¢
 class Solution1 {
     public List<Integer> rightSideView(TreeNode root) {
         Map<Integer, Integer> rightmostValueAtDepth = new HashMap<Integer, Integer>();
@@ -56,10 +56,10 @@ class Solution1 {
             int depth = depthStack.pop();
 
             if (node != null) {
-            	// Î¬»¤¶ş²æÊ÷µÄ×î´óÉî¶È
+            	// ç»´æŠ¤äºŒå‰æ ‘çš„æœ€å¤§æ·±åº¦
                 max_depth = Math.max(max_depth, depth);
 
-                // Èç¹û²»´æÔÚ¶ÔÓ¦Éî¶ÈµÄ½ÚµãÎÒÃÇ²Å²åÈë
+                // å¦‚æœä¸å­˜åœ¨å¯¹åº”æ·±åº¦çš„èŠ‚ç‚¹æˆ‘ä»¬æ‰æ’å…¥
                 if (!rightmostValueAtDepth.containsKey(depth)) {
                     rightmostValueAtDepth.put(depth, node.val);
                 }

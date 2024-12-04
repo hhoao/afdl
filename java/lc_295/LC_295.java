@@ -3,25 +3,25 @@ package lc_295;
 import java.util.PriorityQueue;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê9ÔÂ8ÈÕ
- *@todo:ÌâÄ¿ÃèÊö
-ÆÀÂÛ (326)
-Ìâ½â (493)
-Ìá½»¼ÇÂ¼
-295. Êý¾ÝÁ÷µÄÖÐÎ»Êý
-ÖÐÎ»ÊýÊÇÓÐÐòÁÐ±íÖÐ¼äµÄÊý¡£Èç¹ûÁÐ±í³¤¶ÈÊÇÅ¼Êý£¬ÖÐÎ»ÊýÔòÊÇÖÐ¼äÁ½¸öÊýµÄÆ½¾ùÖµ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´9æœˆ8æ—¥
+ *@todo:é¢˜ç›®æè¿°
+è¯„è®º (326)
+é¢˜è§£ (493)
+æäº¤è®°å½•
+295. æ•°æ®æµçš„ä¸­ä½æ•°
+ä¸­ä½æ•°æ˜¯æœ‰åºåˆ—è¡¨ä¸­é—´çš„æ•°ã€‚å¦‚æžœåˆ—è¡¨é•¿åº¦æ˜¯å¶æ•°ï¼Œä¸­ä½æ•°åˆ™æ˜¯ä¸­é—´ä¸¤ä¸ªæ•°çš„å¹³å‡å€¼ã€‚
 
-ÀýÈç£¬
+ä¾‹å¦‚ï¼Œ
 
-[2,3,4] µÄÖÐÎ»ÊýÊÇ 3
+[2,3,4] çš„ä¸­ä½æ•°æ˜¯ 3
 
-[2,3] µÄÖÐÎ»ÊýÊÇ (2 + 3) / 2 = 2.5
+[2,3] çš„ä¸­ä½æ•°æ˜¯ (2 + 3) / 2 = 2.5
 
-Éè¼ÆÒ»¸öÖ§³ÖÒÔÏÂÁ½ÖÖ²Ù×÷µÄÊý¾Ý½á¹¹£º
+è®¾è®¡ä¸€ä¸ªæ”¯æŒä»¥ä¸‹ä¸¤ç§æ“ä½œçš„æ•°æ®ç»“æž„ï¼š
 
-void addNum(int num) - ´ÓÊý¾ÝÁ÷ÖÐÌí¼ÓÒ»¸öÕûÊýµ½Êý¾Ý½á¹¹ÖÐ¡£
-double findMedian() - ·µ»ØÄ¿Ç°ËùÓÐÔªËØµÄÖÐÎ»Êý¡£
+void addNum(int num) - ä»Žæ•°æ®æµä¸­æ·»åŠ ä¸€ä¸ªæ•´æ•°åˆ°æ•°æ®ç»“æž„ä¸­ã€‚
+double findMedian() - è¿”å›žç›®å‰æ‰€æœ‰å…ƒç´ çš„ä¸­ä½æ•°ã€‚
 */
 public class LC_295 {
 	public static void main(String[] args) {

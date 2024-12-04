@@ -4,28 +4,28 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @author �ƺ�
- *45. ��Ծ��Ϸ II
-����һ���Ǹ��������飬�����λ������ĵ�һ��λ�á�
+ * @author 黄豪
+ *45. 跳跃游戏 II
+给定一个非负整数数组，你最初位于数组的第一个位置。
 
-�����е�ÿ��Ԫ�ش������ڸ�λ�ÿ�����Ծ����󳤶ȡ�
+数组中的每个元素代表你在该位置可以跳跃的最大长度。
 
-���Ŀ����ʹ�����ٵ���Ծ����������������һ��λ�á�
+你的目标是使用最少的跳跃次数到达数组的最后一个位置。
 
-ʾ��:
+示例:
 
-����: [2,3,1,1,4]
-���: 2
-����: �������һ��λ�õ���С��Ծ���� 2��
-     ���±�Ϊ 0 �����±�Ϊ 1 ��λ�ã��� 1 ����Ȼ���� 3 ��������������һ��λ�á�
-˵��:
+输入: [2,3,1,1,4]
+输出: 2
+解释: 跳到最后一个位置的最小跳跃数是 2。
+     从下标为 0 跳到下标为 1 的位置，跳 1 步，然后跳 3 步到达数组的最后一个位置。
+说明:
 
-���������ǿ��Ե�����������һ��λ�á�
+假设你总是可以到达数组的最后一个位置。
  */
 public class LC_45 {
 
 }
-//������ҳ���λ��
+//反向查找出发位置
 class Solution {
     public int jump(int[] nums) {
         int position = nums.length - 1;
@@ -42,7 +42,7 @@ class Solution {
         return steps;
     }
 }
-//������ҿɵ�������λ��
+//正向查找可到达的最大位置
 class Solution1 {
     public int jump(int[] nums) {
         int length = nums.length;
@@ -59,13 +59,13 @@ class Solution1 {
         return steps;
     }
 }
-//̰���㷨
+//贪心算法
 class Solution2 {
 
-    //̰���㷨��
-    //����ǰ����λ��i�ϣ�������һ����Ծ�Ŀ�ѡ��ΧΪ����[i+1, i+nums[i]]��
-    //��������[i+1, i+nums[i]]�е�ÿ���㣬������ÿ������¸��Ƿ�Χ��
-    //������λ��i�ϵ���һ����Ծ��������[i+1, i+nums[i]]��ѡ���¸��Ƿ�Χ����λ�á�
+    //贪心算法：
+    //若当前处于位置i上，则其下一步跳跃的可选择范围为区间[i+1, i+nums[i]]，
+    //遍历区间[i+1, i+nums[i]]中的每个点，并计算每个点的新覆盖范围，
+    //最终在位置i上的下一步跳跃将从区间[i+1, i+nums[i]]中选择新覆盖范围最大的位置。
 
     public int jump(int[] nums) {
         return bfs(nums);
@@ -83,17 +83,17 @@ class Solution2 {
             while(queueSize-- > 0) {
                 int curr = queue.poll();
 
-                //��ǰ�㼴��Ŀ��λ�ã�ֱ�ӷ���step
+                //当前点即是目标位置，直接返回step
                 if(curr == n-1) {
                     return step;
                 }
 
-                //��ǰ��ĸ��Ƿ�Χ����Ŀ��λ�ã�ֱ�ӷ���step+1
+                //当前点的覆盖范围包括目标位置，直接返回step+1
                 if(curr + nums[curr] >= n-1) {
                     return 1 + step;
                 }
 
-                //̰�ģ�ÿ����Ծѡ���ܹ�ʹ�µĸ��Ƿ�Χ����λ��
+                //贪心：每次跳跃选择能够使新的覆盖范围最大的位置
                 int maxCover = 0;
                 int nextPosition = -1;
                 for(int i = 1; i <= nums[curr]; i++) {
@@ -103,7 +103,7 @@ class Solution2 {
                         nextPosition = tmp;
                     }
                 }
-                //���µ�������Ծ�������в�ʹ������1
+                //将新的最优跳跃点放入队列并使步数加1
                 if(nextPosition != -1) {
                     queue.offer(nextPosition);
                     step++;

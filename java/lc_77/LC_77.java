@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *77. ×éºÏ
-¸ø¶¨Á½¸öÕûÊı n ºÍ k£¬·µ»Ø 1 ... n ÖĞËùÓĞ¿ÉÄÜµÄ k ¸öÊıµÄ×éºÏ¡£
+ * @author é»„è±ª
+ *77. ç»„åˆ
+ç»™å®šä¸¤ä¸ªæ•´æ•° n å’Œ kï¼Œè¿”å› 1 ... n ä¸­æ‰€æœ‰å¯èƒ½çš„ k ä¸ªæ•°çš„ç»„åˆã€‚
  */
 public class LC_77 {
 	
@@ -21,20 +21,20 @@ class Solution {
     }
 
     public void dfs(int cur, int n, int k) {
-        // ¼ôÖ¦£ºtemp ³¤¶È¼ÓÉÏÇø¼ä [cur, n] µÄ³¤¶ÈĞ¡ÓÚ k£¬²»¿ÉÄÜ¹¹Ôì³ö³¤¶ÈÎª k µÄ temp
+        // å‰ªæï¼štemp é•¿åº¦åŠ ä¸ŠåŒºé—´ [cur, n] çš„é•¿åº¦å°äº kï¼Œä¸å¯èƒ½æ„é€ å‡ºé•¿åº¦ä¸º k çš„ temp
         if (temp.size() + (n - cur + 1) < k) {
             return;
         }
-        // ¼ÇÂ¼ºÏ·¨µÄ´ğ°¸
+        // è®°å½•åˆæ³•çš„ç­”æ¡ˆ
         if (temp.size() == k) {
             ans.add(new ArrayList<Integer>(temp));
             return;
         }
-        // ¿¼ÂÇÑ¡Ôñµ±Ç°Î»ÖÃ
+        // è€ƒè™‘é€‰æ‹©å½“å‰ä½ç½®
         temp.add(cur);
         dfs(cur + 1, n, k);
         temp.remove(temp.size() - 1);
-        // ¿¼ÂÇ²»Ñ¡Ôñµ±Ç°Î»ÖÃ
+        // è€ƒè™‘ä¸é€‰æ‹©å½“å‰ä½ç½®
         dfs(cur + 1, n, k);
     }
 }

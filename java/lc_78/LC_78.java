@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *78. ×Ó¼¯
-¸øÄãÒ»¸öÕûÊıÊı×é nums £¬Êı×éÖĞµÄÔªËØ »¥²»ÏàÍ¬ ¡£·µ»Ø¸ÃÊı×éËùÓĞ¿ÉÄÜµÄ×Ó¼¯£¨Ãİ¼¯£©¡£
+ * @author é»„è±ª
+ *78. å­é›†
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ nums ï¼Œæ•°ç»„ä¸­çš„å…ƒç´  äº’ä¸ç›¸åŒ ã€‚è¿”å›è¯¥æ•°ç»„æ‰€æœ‰å¯èƒ½çš„å­é›†ï¼ˆå¹‚é›†ï¼‰ã€‚
 
-½â¼¯ ²»ÄÜ °üº¬ÖØ¸´µÄ×Ó¼¯¡£Äã¿ÉÒÔ°´ ÈÎÒâË³Ğò ·µ»Ø½â¼¯¡£
+è§£é›† ä¸èƒ½ åŒ…å«é‡å¤çš„å­é›†ã€‚ä½ å¯ä»¥æŒ‰ ä»»æ„é¡ºåº è¿”å›è§£é›†ã€‚
  */
 public class LC_78 {
 
 }
-//·½·¨Ò»£ºµü´ú·¨ÊµÏÖ×Ó¼¯Ã¶¾Ù
+//æ–¹æ³•ä¸€ï¼šè¿­ä»£æ³•å®ç°å­é›†æšä¸¾
 
 class Solution {
     List<Integer> t = new ArrayList<Integer>();
@@ -33,7 +33,7 @@ class Solution {
         return ans;
     }
 }
-//µİ¹é»ØËİ
+//é€’å½’å›æº¯
 class Solution1 {
     List<Integer> t = new ArrayList<Integer>();
     List<List<Integer>> ans = new ArrayList<List<Integer>>();

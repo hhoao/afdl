@@ -7,19 +7,19 @@ import java.util.PriorityQueue;
 import java.util.Stack;
 
 /**
- * @author »ÆºÀ
- *155. ×îĞ¡Õ»
-Éè¼ÆÒ»¸öÖ§³Ö push £¬pop £¬top ²Ù×÷£¬²¢ÄÜÔÚ³£ÊıÊ±¼äÄÚ¼ìË÷µ½×îĞ¡ÔªËØµÄÕ»¡£
+ * @author é»„è±ª
+ *155. æœ€å°æ ˆ
+è®¾è®¡ä¸€ä¸ªæ”¯æŒ push ï¼Œpop ï¼Œtop æ“ä½œï¼Œå¹¶èƒ½åœ¨å¸¸æ•°æ—¶é—´å†…æ£€ç´¢åˆ°æœ€å°å…ƒç´ çš„æ ˆã€‚
 
-push(x) ¡ª¡ª ½«ÔªËØ x ÍÆÈëÕ»ÖĞ¡£
-pop() ¡ª¡ª É¾³ıÕ»¶¥µÄÔªËØ¡£
-top() ¡ª¡ª »ñÈ¡Õ»¶¥ÔªËØ¡£
-getMin() ¡ª¡ª ¼ìË÷Õ»ÖĞµÄ×îĞ¡ÔªËØ¡£
+push(x) â€”â€” å°†å…ƒç´  x æ¨å…¥æ ˆä¸­ã€‚
+pop() â€”â€” åˆ é™¤æ ˆé¡¶çš„å…ƒç´ ã€‚
+top() â€”â€” è·å–æ ˆé¡¶å…ƒç´ ã€‚
+getMin() â€”â€” æ£€ç´¢æ ˆä¸­çš„æœ€å°å…ƒç´ ã€‚
  */
 public class LC_155 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class MinStack {
     private Deque<Integer> stack;
     private PriorityQueue<Integer> queue;
@@ -46,7 +46,7 @@ class MinStack {
         return queue.peek();
     }
 }
-//¸¨ÖúÕ»
+//è¾…åŠ©æ ˆ
 class MinStack1 {
     Deque<Integer> xStack;
     Deque<Integer> minStack;

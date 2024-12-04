@@ -4,21 +4,21 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *208. ÊµÏÖ Trie (Ç°×ºÊ÷)
-Trie£¨·¢ÒôÀàËÆ "try"£©»òÕßËµ Ç°×ºÊ÷ ÊÇÒ»ÖÖÊ÷ĞÎÊı¾İ½á¹¹£¬ÓÃÓÚ¸ßĞ§µØ´æ´¢ºÍ¼ìË÷×Ö·û´®Êı¾İ¼¯ÖĞµÄ¼ü¡£ÕâÒ»Êı¾İ½á¹¹ÓĞÏàµ±¶àµÄÓ¦ÓÃÇé¾°£¬ÀıÈç×Ô¶¯²¹ÍêºÍÆ´Ğ´¼ì²é¡£
+ * @author é»„è±ª
+ *208. å®ç° Trie (å‰ç¼€æ ‘)
+Trieï¼ˆå‘éŸ³ç±»ä¼¼ "try"ï¼‰æˆ–è€…è¯´ å‰ç¼€æ ‘ æ˜¯ä¸€ç§æ ‘å½¢æ•°æ®ç»“æ„ï¼Œç”¨äºé«˜æ•ˆåœ°å­˜å‚¨å’Œæ£€ç´¢å­—ç¬¦ä¸²æ•°æ®é›†ä¸­çš„é”®ã€‚è¿™ä¸€æ•°æ®ç»“æ„æœ‰ç›¸å½“å¤šçš„åº”ç”¨æƒ…æ™¯ï¼Œä¾‹å¦‚è‡ªåŠ¨è¡¥å®Œå’Œæ‹¼å†™æ£€æŸ¥ã€‚
 
-ÇëÄãÊµÏÖ Trie Àà£º
+è¯·ä½ å®ç° Trie ç±»ï¼š
 
-Trie() ³õÊ¼»¯Ç°×ºÊ÷¶ÔÏó¡£
-void insert(String word) ÏòÇ°×ºÊ÷ÖĞ²åÈë×Ö·û´® word ¡£
-boolean search(String word) Èç¹û×Ö·û´® word ÔÚÇ°×ºÊ÷ÖĞ£¬·µ»Ø true£¨¼´£¬ÔÚ¼ìË÷Ö®Ç°ÒÑ¾­²åÈë£©£»·ñÔò£¬·µ»Ø false ¡£
-boolean startsWith(String prefix) Èç¹ûÖ®Ç°ÒÑ¾­²åÈëµÄ×Ö·û´® word µÄÇ°×ºÖ®Ò»Îª prefix £¬·µ»Ø true £»·ñÔò£¬·µ»Ø false ¡£
+Trie() åˆå§‹åŒ–å‰ç¼€æ ‘å¯¹è±¡ã€‚
+void insert(String word) å‘å‰ç¼€æ ‘ä¸­æ’å…¥å­—ç¬¦ä¸² word ã€‚
+boolean search(String word) å¦‚æœå­—ç¬¦ä¸² word åœ¨å‰ç¼€æ ‘ä¸­ï¼Œè¿”å› trueï¼ˆå³ï¼Œåœ¨æ£€ç´¢ä¹‹å‰å·²ç»æ’å…¥ï¼‰ï¼›å¦åˆ™ï¼Œè¿”å› false ã€‚
+boolean startsWith(String prefix) å¦‚æœä¹‹å‰å·²ç»æ’å…¥çš„å­—ç¬¦ä¸² word çš„å‰ç¼€ä¹‹ä¸€ä¸º prefix ï¼Œè¿”å› true ï¼›å¦åˆ™ï¼Œè¿”å› false ã€‚
  */
 public class LC_208 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Trie {
     private Set<String> dic;
     /** Initialize your data structure here. */
@@ -46,7 +46,7 @@ class Trie {
         return false;
     }
 }
-//¸ÄÁ¼
+//æ”¹è‰¯
 class Trie1 {
     public  Trie1[] tries;
     public  boolean isEnd;
@@ -95,7 +95,7 @@ class Trie1 {
         return true;
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Trie2 {
     private Trie2[] children;
     private boolean isEnd;

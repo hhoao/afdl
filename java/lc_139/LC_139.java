@@ -8,19 +8,19 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *139. µ¥´Ê²ğ·Ö
-¸ø¶¨Ò»¸ö·Ç¿Õ×Ö·û´® s ºÍÒ»¸ö°üº¬·Ç¿Õµ¥´ÊµÄÁĞ±í wordDict£¬ÅĞ¶¨ s ÊÇ·ñ¿ÉÒÔ±»¿Õ¸ñ²ğ·ÖÎªÒ»¸ö»ò¶à¸öÔÚ×ÖµäÖĞ³öÏÖµÄµ¥´Ê¡£
+ * @author é»„è±ª
+ *139. å•è¯æ‹†åˆ†
+ç»™å®šä¸€ä¸ªéç©ºå­—ç¬¦ä¸² s å’Œä¸€ä¸ªåŒ…å«éç©ºå•è¯çš„åˆ—è¡¨ wordDictï¼Œåˆ¤å®š s æ˜¯å¦å¯ä»¥è¢«ç©ºæ ¼æ‹†åˆ†ä¸ºä¸€ä¸ªæˆ–å¤šä¸ªåœ¨å­—å…¸ä¸­å‡ºç°çš„å•è¯ã€‚
 
-ËµÃ÷£º
+è¯´æ˜ï¼š
 
-²ğ·ÖÊ±¿ÉÒÔÖØ¸´Ê¹ÓÃ×ÖµäÖĞµÄµ¥´Ê¡£
-Äã¿ÉÒÔ¼ÙÉè×ÖµäÖĞÃ»ÓĞÖØ¸´µÄµ¥´Ê¡£
+æ‹†åˆ†æ—¶å¯ä»¥é‡å¤ä½¿ç”¨å­—å…¸ä¸­çš„å•è¯ã€‚
+ä½ å¯ä»¥å‡è®¾å­—å…¸ä¸­æ²¡æœ‰é‡å¤çš„å•è¯ã€‚
  */
 public class LC_139 {
 
 }
-//ÎÒµÄ´úÂë ³¬Ê±
+//æˆ‘çš„ä»£ç  è¶…æ—¶
 class Solution {
     Map<Integer, List<Integer>> indexMap = new HashMap<>();
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -53,7 +53,7 @@ class Solution {
         return false;
     }
 }
-//¹Ù·½ ¶¯Ì¬¹æ»®
+//å®˜æ–¹ åŠ¨æ€è§„åˆ’
 class Solution1 {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> wordDictSet = new HashSet<>(wordDict);

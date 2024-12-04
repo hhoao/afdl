@@ -1,14 +1,14 @@
 package lc_53;
 
 /**
- * @author »ÆºÀ
- *53. ×î´ó×ÓĞòºÍ
-¸ø¶¨Ò»¸öÕûÊıÊı×é nums £¬ÕÒµ½Ò»¸ö¾ßÓĞ×î´óºÍµÄÁ¬Ğø×ÓÊı×é£¨×ÓÊı×é×îÉÙ°üº¬Ò»¸öÔªËØ£©£¬·µ»ØÆä×î´óºÍ¡£
+ * @author é»„è±ª
+ *53. æœ€å¤§å­åºå’Œ
+ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„ nums ï¼Œæ‰¾åˆ°ä¸€ä¸ªå…·æœ‰æœ€å¤§å’Œçš„è¿ç»­å­æ•°ç»„ï¼ˆå­æ•°ç»„æœ€å°‘åŒ…å«ä¸€ä¸ªå…ƒç´ ï¼‰ï¼Œè¿”å›å…¶æœ€å¤§å’Œã€‚
  */
 public class LC_53 {
     
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int maxSubArray(int[] nums) {
         int pre = 0, maxAns = nums[0];
@@ -19,7 +19,7 @@ class Solution {
         return maxAns;
     }
 }
-//·½·¨¶ş£º·ÖÖÎ
+//æ–¹æ³•äºŒï¼šåˆ†æ²»
 class Solution1 {
     public class Status {
         public int lSum, rSum, mSum, iSum;

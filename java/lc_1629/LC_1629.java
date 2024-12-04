@@ -5,48 +5,48 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ9ÈÕ
- *@todo:1629. °´¼ü³ÖÐøÊ±¼ä×î³¤µÄ¼ü
-LeetCode Éè¼ÆÁËÒ»¿îÐÂÊ½¼üÅÌ£¬ÕýÔÚ²âÊÔÆä¿ÉÓÃÐÔ¡£²âÊÔÈËÔ±½«»áµã»÷Ò»ÏµÁÐ¼ü£¨×Ü¼Æ n ¸ö£©£¬Ã¿´ÎÒ»¸ö¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ9æ—¥
+ *@todo:1629. æŒ‰é”®æŒç»­æ—¶é—´æœ€é•¿çš„é”®
+LeetCode è®¾è®¡äº†ä¸€æ¬¾æ–°å¼é”®ç›˜ï¼Œæ­£åœ¨æµ‹è¯•å…¶å¯ç”¨æ€§ã€‚æµ‹è¯•äººå‘˜å°†ä¼šç‚¹å‡»ä¸€ç³»åˆ—é”®ï¼ˆæ€»è®¡ n ä¸ªï¼‰ï¼Œæ¯æ¬¡ä¸€ä¸ªã€‚
 
-¸øÄãÒ»¸ö³¤¶ÈÎª n µÄ×Ö·û´® keysPressed £¬ÆäÖÐ keysPressed[i] ±íÊ¾²âÊÔÐòÁÐÖÐµÚ i ¸ö±»°´ÏÂµÄ¼ü¡£releaseTimes ÊÇÒ»¸öÉýÐòÅÅÁÐµÄÁÐ±í£¬ÆäÖÐ releaseTimes[i] ±íÊ¾ËÉ¿ªµÚ i ¸ö¼üµÄÊ±¼ä¡£×Ö·û´®ºÍÊý×éµÄ ÏÂ±ê¶¼´Ó 0 ¿ªÊ¼ ¡£µÚ 0 ¸ö¼üÔÚÊ±¼äÎª 0 Ê±±»°´ÏÂ£¬½ÓÏÂÀ´Ã¿¸ö¼ü¶¼ Ç¡ºÃ ÔÚÇ°Ò»¸ö¼üËÉ¿ªÊ±±»°´ÏÂ¡£
+ç»™ä½ ä¸€ä¸ªé•¿åº¦ä¸º n çš„å­—ç¬¦ä¸² keysPressed ï¼Œå…¶ä¸­ keysPressed[i] è¡¨ç¤ºæµ‹è¯•åºåˆ—ä¸­ç¬¬ i ä¸ªè¢«æŒ‰ä¸‹çš„é”®ã€‚releaseTimes æ˜¯ä¸€ä¸ªå‡åºæŽ’åˆ—çš„åˆ—è¡¨ï¼Œå…¶ä¸­ releaseTimes[i] è¡¨ç¤ºæ¾å¼€ç¬¬ i ä¸ªé”®çš„æ—¶é—´ã€‚å­—ç¬¦ä¸²å’Œæ•°ç»„çš„ ä¸‹æ ‡éƒ½ä»Ž 0 å¼€å§‹ ã€‚ç¬¬ 0 ä¸ªé”®åœ¨æ—¶é—´ä¸º 0 æ—¶è¢«æŒ‰ä¸‹ï¼ŒæŽ¥ä¸‹æ¥æ¯ä¸ªé”®éƒ½ æ°å¥½ åœ¨å‰ä¸€ä¸ªé”®æ¾å¼€æ—¶è¢«æŒ‰ä¸‹ã€‚
 
-²âÊÔÈËÔ±ÏëÒªÕÒ³ö°´¼ü ³ÖÐøÊ±¼ä×î³¤ µÄ¼ü¡£µÚ i ´Î°´¼üµÄ³ÖÐøÊ±¼äÎª releaseTimes[i] - releaseTimes[i - 1] £¬µÚ 0 ´Î°´¼üµÄ³ÖÐøÊ±¼äÎª releaseTimes[0] ¡£
+æµ‹è¯•äººå‘˜æƒ³è¦æ‰¾å‡ºæŒ‰é”® æŒç»­æ—¶é—´æœ€é•¿ çš„é”®ã€‚ç¬¬ i æ¬¡æŒ‰é”®çš„æŒç»­æ—¶é—´ä¸º releaseTimes[i] - releaseTimes[i - 1] ï¼Œç¬¬ 0 æ¬¡æŒ‰é”®çš„æŒç»­æ—¶é—´ä¸º releaseTimes[0] ã€‚
 
-×¢Òâ£¬²âÊÔÆÚ¼ä£¬Í¬Ò»¸ö¼ü¿ÉÒÔÔÚ²»Í¬Ê±¿Ì±»¶à´Î°´ÏÂ£¬¶øÃ¿´ÎµÄ³ÖÐøÊ±¼ä¶¼¿ÉÄÜ²»Í¬¡£
+æ³¨æ„ï¼Œæµ‹è¯•æœŸé—´ï¼ŒåŒä¸€ä¸ªé”®å¯ä»¥åœ¨ä¸åŒæ—¶åˆ»è¢«å¤šæ¬¡æŒ‰ä¸‹ï¼Œè€Œæ¯æ¬¡çš„æŒç»­æ—¶é—´éƒ½å¯èƒ½ä¸åŒã€‚
 
-Çë·µ»Ø°´¼ü ³ÖÐøÊ±¼ä×î³¤ µÄ¼ü£¬Èç¹ûÓÐ¶à¸öÕâÑùµÄ¼ü£¬Ôò·µ»Ø °´×ÖÄ¸Ë³ÐòÅÅÁÐ×î´ó µÄÄÇ¸ö¼ü¡£
+è¯·è¿”å›žæŒ‰é”® æŒç»­æ—¶é—´æœ€é•¿ çš„é”®ï¼Œå¦‚æžœæœ‰å¤šä¸ªè¿™æ ·çš„é”®ï¼Œåˆ™è¿”å›ž æŒ‰å­—æ¯é¡ºåºæŽ’åˆ—æœ€å¤§ çš„é‚£ä¸ªé”®ã€‚
 
  
 
-Ê¾Àý 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºreleaseTimes = [9,29,49,50], keysPressed = "cbcd"
-Êä³ö£º"c"
-½âÊÍ£º°´¼üË³ÐòºÍ³ÖÐøÊ±¼äÈçÏÂ£º
-°´ÏÂ 'c' £¬³ÖÐøÊ±¼ä 9£¨Ê±¼ä 0 °´ÏÂ£¬Ê±¼ä 9 ËÉ¿ª£©
-°´ÏÂ 'b' £¬³ÖÐøÊ±¼ä 29 - 9 = 20£¨ËÉ¿ªÉÏÒ»¸ö¼üµÄÊ±¼ä 9 °´ÏÂ£¬Ê±¼ä 29 ËÉ¿ª£©
-°´ÏÂ 'c' £¬³ÖÐøÊ±¼ä 49 - 29 = 20£¨ËÉ¿ªÉÏÒ»¸ö¼üµÄÊ±¼ä 29 °´ÏÂ£¬Ê±¼ä 49 ËÉ¿ª£©
-°´ÏÂ 'd' £¬³ÖÐøÊ±¼ä 50 - 49 = 1£¨ËÉ¿ªÉÏÒ»¸ö¼üµÄÊ±¼ä 49 °´ÏÂ£¬Ê±¼ä 50 ËÉ¿ª£©
-°´¼ü³ÖÐøÊ±¼ä×î³¤µÄ¼üÊÇ 'b' ºÍ 'c'£¨µÚ¶þ´Î°´ÏÂÊ±£©£¬³ÖÐøÊ±¼ä¶¼ÊÇ 20
-'c' °´×ÖÄ¸Ë³ÐòÅÅÁÐ±È 'b' ´ó£¬ËùÒÔ´ð°¸ÊÇ 'c'
-Ê¾Àý 2£º
+è¾“å…¥ï¼šreleaseTimes = [9,29,49,50], keysPressed = "cbcd"
+è¾“å‡ºï¼š"c"
+è§£é‡Šï¼šæŒ‰é”®é¡ºåºå’ŒæŒç»­æ—¶é—´å¦‚ä¸‹ï¼š
+æŒ‰ä¸‹ 'c' ï¼ŒæŒç»­æ—¶é—´ 9ï¼ˆæ—¶é—´ 0 æŒ‰ä¸‹ï¼Œæ—¶é—´ 9 æ¾å¼€ï¼‰
+æŒ‰ä¸‹ 'b' ï¼ŒæŒç»­æ—¶é—´ 29 - 9 = 20ï¼ˆæ¾å¼€ä¸Šä¸€ä¸ªé”®çš„æ—¶é—´ 9 æŒ‰ä¸‹ï¼Œæ—¶é—´ 29 æ¾å¼€ï¼‰
+æŒ‰ä¸‹ 'c' ï¼ŒæŒç»­æ—¶é—´ 49 - 29 = 20ï¼ˆæ¾å¼€ä¸Šä¸€ä¸ªé”®çš„æ—¶é—´ 29 æŒ‰ä¸‹ï¼Œæ—¶é—´ 49 æ¾å¼€ï¼‰
+æŒ‰ä¸‹ 'd' ï¼ŒæŒç»­æ—¶é—´ 50 - 49 = 1ï¼ˆæ¾å¼€ä¸Šä¸€ä¸ªé”®çš„æ—¶é—´ 49 æŒ‰ä¸‹ï¼Œæ—¶é—´ 50 æ¾å¼€ï¼‰
+æŒ‰é”®æŒç»­æ—¶é—´æœ€é•¿çš„é”®æ˜¯ 'b' å’Œ 'c'ï¼ˆç¬¬äºŒæ¬¡æŒ‰ä¸‹æ—¶ï¼‰ï¼ŒæŒç»­æ—¶é—´éƒ½æ˜¯ 20
+'c' æŒ‰å­—æ¯é¡ºåºæŽ’åˆ—æ¯” 'b' å¤§ï¼Œæ‰€ä»¥ç­”æ¡ˆæ˜¯ 'c'
+ç¤ºä¾‹ 2ï¼š
 
-ÊäÈë£ºreleaseTimes = [12,23,36,46,62], keysPressed = "spuda"
-Êä³ö£º"a"
-½âÊÍ£º°´¼üË³ÐòºÍ³ÖÐøÊ±¼äÈçÏÂ£º
-°´ÏÂ 's' £¬³ÖÐøÊ±¼ä 12
-°´ÏÂ 'p' £¬³ÖÐøÊ±¼ä 23 - 12 = 11
-°´ÏÂ 'u' £¬³ÖÐøÊ±¼ä 36 - 23 = 13
-°´ÏÂ 'd' £¬³ÖÐøÊ±¼ä 46 - 36 = 10
-°´ÏÂ 'a' £¬³ÖÐøÊ±¼ä 62 - 46 = 16
-°´¼ü³ÖÐøÊ±¼ä×î³¤µÄ¼üÊÇ 'a' £¬³ÖÐøÊ±¼ä 16
+è¾“å…¥ï¼šreleaseTimes = [12,23,36,46,62], keysPressed = "spuda"
+è¾“å‡ºï¼š"a"
+è§£é‡Šï¼šæŒ‰é”®é¡ºåºå’ŒæŒç»­æ—¶é—´å¦‚ä¸‹ï¼š
+æŒ‰ä¸‹ 's' ï¼ŒæŒç»­æ—¶é—´ 12
+æŒ‰ä¸‹ 'p' ï¼ŒæŒç»­æ—¶é—´ 23 - 12 = 11
+æŒ‰ä¸‹ 'u' ï¼ŒæŒç»­æ—¶é—´ 36 - 23 = 13
+æŒ‰ä¸‹ 'd' ï¼ŒæŒç»­æ—¶é—´ 46 - 36 = 10
+æŒ‰ä¸‹ 'a' ï¼ŒæŒç»­æ—¶é—´ 62 - 46 = 16
+æŒ‰é”®æŒç»­æ—¶é—´æœ€é•¿çš„é”®æ˜¯ 'a' ï¼ŒæŒç»­æ—¶é—´ 16
 */
 public class LC_1629 {
 
 }
-//Ò»´Î±éÀú
+//ä¸€æ¬¡éåŽ†
 class Solution {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
         List<Character> ans = new ArrayList<>();
@@ -68,7 +68,7 @@ class Solution {
         return ans.get(ans.size() - 1);
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1 {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
         int n = releaseTimes.length;

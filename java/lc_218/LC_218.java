@@ -9,7 +9,7 @@ import java.util.TreeMap;
 public class LC_218 {
 
 }
-//É¨ÃèÏß·¨
+//æ‰«æçº¿æ³•
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]);

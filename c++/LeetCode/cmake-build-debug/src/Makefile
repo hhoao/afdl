@@ -169,6 +169,62 @@ all_145/fast:
 .PHONY : all_145/fast
 
 # Convenience name for target.
+src/CMakeFiles/all_1590.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_1590.dir/rule
+.PHONY : src/CMakeFiles/all_1590.dir/rule
+
+# Convenience name for target.
+all_1590: src/CMakeFiles/all_1590.dir/rule
+.PHONY : all_1590
+
+# fast build rule for target.
+all_1590/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1590.dir/build.make src/CMakeFiles/all_1590.dir/build
+.PHONY : all_1590/fast
+
+# Convenience name for target.
+src/CMakeFiles/all_1615.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_1615.dir/rule
+.PHONY : src/CMakeFiles/all_1615.dir/rule
+
+# Convenience name for target.
+all_1615: src/CMakeFiles/all_1615.dir/rule
+.PHONY : all_1615
+
+# fast build rule for target.
+all_1615/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1615.dir/build.make src/CMakeFiles/all_1615.dir/build
+.PHONY : all_1615/fast
+
+# Convenience name for target.
+src/CMakeFiles/all_1617.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_1617.dir/rule
+.PHONY : src/CMakeFiles/all_1617.dir/rule
+
+# Convenience name for target.
+all_1617: src/CMakeFiles/all_1617.dir/rule
+.PHONY : all_1617
+
+# fast build rule for target.
+all_1617/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1617.dir/build.make src/CMakeFiles/all_1617.dir/build
+.PHONY : all_1617/fast
+
+# Convenience name for target.
+src/CMakeFiles/all_17.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_17.dir/rule
+.PHONY : src/CMakeFiles/all_17.dir/rule
+
+# Convenience name for target.
+all_17: src/CMakeFiles/all_17.dir/rule
+.PHONY : all_17
+
+# fast build rule for target.
+all_17/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_17.dir/build.make src/CMakeFiles/all_17.dir/build
+.PHONY : all_17/fast
+
+# Convenience name for target.
 src/CMakeFiles/all_221.dir/rule:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_221.dir/rule
 .PHONY : src/CMakeFiles/all_221.dir/rule
@@ -181,6 +237,48 @@ all_221: src/CMakeFiles/all_221.dir/rule
 all_221/fast:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_221.dir/build.make src/CMakeFiles/all_221.dir/build
 .PHONY : all_221/fast
+
+# Convenience name for target.
+src/CMakeFiles/all_2383.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_2383.dir/rule
+.PHONY : src/CMakeFiles/all_2383.dir/rule
+
+# Convenience name for target.
+all_2383: src/CMakeFiles/all_2383.dir/rule
+.PHONY : all_2383
+
+# fast build rule for target.
+all_2383/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2383.dir/build.make src/CMakeFiles/all_2383.dir/build
+.PHONY : all_2383/fast
+
+# Convenience name for target.
+src/CMakeFiles/all_2389.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_2389.dir/rule
+.PHONY : src/CMakeFiles/all_2389.dir/rule
+
+# Convenience name for target.
+all_2389: src/CMakeFiles/all_2389.dir/rule
+.PHONY : all_2389
+
+# fast build rule for target.
+all_2389/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2389.dir/build.make src/CMakeFiles/all_2389.dir/build
+.PHONY : all_2389/fast
+
+# Convenience name for target.
+src/CMakeFiles/all_2488.dir/rule:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/all_2488.dir/rule
+.PHONY : src/CMakeFiles/all_2488.dir/rule
+
+# Convenience name for target.
+all_2488: src/CMakeFiles/all_2488.dir/rule
+.PHONY : all_2488
+
+# fast build rule for target.
+all_2488/fast:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2488.dir/build.make src/CMakeFiles/all_2488.dir/build
+.PHONY : all_2488/fast
 
 # Convenience name for target.
 src/CMakeFiles/all_310.dir/rule:
@@ -352,6 +450,102 @@ all/145_binary_tree_postorder_traversal/Solution.cpp.s:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_145.dir/build.make src/CMakeFiles/all_145.dir/all/145_binary_tree_postorder_traversal/Solution.cpp.s
 .PHONY : all/145_binary_tree_postorder_traversal/Solution.cpp.s
 
+all/1590_make_sum_divisible_by_p/Solution.o: all/1590_make_sum_divisible_by_p/Solution.cpp.o
+.PHONY : all/1590_make_sum_divisible_by_p/Solution.o
+
+# target to build an object file
+all/1590_make_sum_divisible_by_p/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1590.dir/build.make src/CMakeFiles/all_1590.dir/all/1590_make_sum_divisible_by_p/Solution.cpp.o
+.PHONY : all/1590_make_sum_divisible_by_p/Solution.cpp.o
+
+all/1590_make_sum_divisible_by_p/Solution.i: all/1590_make_sum_divisible_by_p/Solution.cpp.i
+.PHONY : all/1590_make_sum_divisible_by_p/Solution.i
+
+# target to preprocess a source file
+all/1590_make_sum_divisible_by_p/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1590.dir/build.make src/CMakeFiles/all_1590.dir/all/1590_make_sum_divisible_by_p/Solution.cpp.i
+.PHONY : all/1590_make_sum_divisible_by_p/Solution.cpp.i
+
+all/1590_make_sum_divisible_by_p/Solution.s: all/1590_make_sum_divisible_by_p/Solution.cpp.s
+.PHONY : all/1590_make_sum_divisible_by_p/Solution.s
+
+# target to generate assembly for a file
+all/1590_make_sum_divisible_by_p/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1590.dir/build.make src/CMakeFiles/all_1590.dir/all/1590_make_sum_divisible_by_p/Solution.cpp.s
+.PHONY : all/1590_make_sum_divisible_by_p/Solution.cpp.s
+
+all/1615_Maximal_Network_Rank/Solution.o: all/1615_Maximal_Network_Rank/Solution.cpp.o
+.PHONY : all/1615_Maximal_Network_Rank/Solution.o
+
+# target to build an object file
+all/1615_Maximal_Network_Rank/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1615.dir/build.make src/CMakeFiles/all_1615.dir/all/1615_Maximal_Network_Rank/Solution.cpp.o
+.PHONY : all/1615_Maximal_Network_Rank/Solution.cpp.o
+
+all/1615_Maximal_Network_Rank/Solution.i: all/1615_Maximal_Network_Rank/Solution.cpp.i
+.PHONY : all/1615_Maximal_Network_Rank/Solution.i
+
+# target to preprocess a source file
+all/1615_Maximal_Network_Rank/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1615.dir/build.make src/CMakeFiles/all_1615.dir/all/1615_Maximal_Network_Rank/Solution.cpp.i
+.PHONY : all/1615_Maximal_Network_Rank/Solution.cpp.i
+
+all/1615_Maximal_Network_Rank/Solution.s: all/1615_Maximal_Network_Rank/Solution.cpp.s
+.PHONY : all/1615_Maximal_Network_Rank/Solution.s
+
+# target to generate assembly for a file
+all/1615_Maximal_Network_Rank/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1615.dir/build.make src/CMakeFiles/all_1615.dir/all/1615_Maximal_Network_Rank/Solution.cpp.s
+.PHONY : all/1615_Maximal_Network_Rank/Solution.cpp.s
+
+all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.o: all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.o
+.PHONY : all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.o
+
+# target to build an object file
+all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1617.dir/build.make src/CMakeFiles/all_1617.dir/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.o
+.PHONY : all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.o
+
+all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.i: all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.i
+.PHONY : all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.i
+
+# target to preprocess a source file
+all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1617.dir/build.make src/CMakeFiles/all_1617.dir/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.i
+.PHONY : all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.i
+
+all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.s: all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.s
+.PHONY : all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.s
+
+# target to generate assembly for a file
+all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_1617.dir/build.make src/CMakeFiles/all_1617.dir/all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.s
+.PHONY : all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.cpp.s
+
+all/17_05_Find_Longest_Subarray_LCCI/Solution.o: all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.o
+.PHONY : all/17_05_Find_Longest_Subarray_LCCI/Solution.o
+
+# target to build an object file
+all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_17.dir/build.make src/CMakeFiles/all_17.dir/all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.o
+.PHONY : all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.o
+
+all/17_05_Find_Longest_Subarray_LCCI/Solution.i: all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.i
+.PHONY : all/17_05_Find_Longest_Subarray_LCCI/Solution.i
+
+# target to preprocess a source file
+all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_17.dir/build.make src/CMakeFiles/all_17.dir/all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.i
+.PHONY : all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.i
+
+all/17_05_Find_Longest_Subarray_LCCI/Solution.s: all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.s
+.PHONY : all/17_05_Find_Longest_Subarray_LCCI/Solution.s
+
+# target to generate assembly for a file
+all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_17.dir/build.make src/CMakeFiles/all_17.dir/all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.s
+.PHONY : all/17_05_Find_Longest_Subarray_LCCI/Solution.cpp.s
+
 all/221_maximal_square/Solution.o: all/221_maximal_square/Solution.cpp.o
 .PHONY : all/221_maximal_square/Solution.o
 
@@ -375,6 +569,78 @@ all/221_maximal_square/Solution.s: all/221_maximal_square/Solution.cpp.s
 all/221_maximal_square/Solution.cpp.s:
 	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_221.dir/build.make src/CMakeFiles/all_221.dir/all/221_maximal_square/Solution.cpp.s
 .PHONY : all/221_maximal_square/Solution.cpp.s
+
+all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.o: all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.o
+.PHONY : all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.o
+
+# target to build an object file
+all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2383.dir/build.make src/CMakeFiles/all_2383.dir/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.o
+.PHONY : all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.o
+
+all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.i: all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.i
+.PHONY : all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.i
+
+# target to preprocess a source file
+all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2383.dir/build.make src/CMakeFiles/all_2383.dir/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.i
+.PHONY : all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.i
+
+all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.s: all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.s
+.PHONY : all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.s
+
+# target to generate assembly for a file
+all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2383.dir/build.make src/CMakeFiles/all_2383.dir/all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.s
+.PHONY : all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.cpp.s
+
+all/2389_Longest_Subsequence_With_Limited_Sum/Solution.o: all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.o
+.PHONY : all/2389_Longest_Subsequence_With_Limited_Sum/Solution.o
+
+# target to build an object file
+all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2389.dir/build.make src/CMakeFiles/all_2389.dir/all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.o
+.PHONY : all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.o
+
+all/2389_Longest_Subsequence_With_Limited_Sum/Solution.i: all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.i
+.PHONY : all/2389_Longest_Subsequence_With_Limited_Sum/Solution.i
+
+# target to preprocess a source file
+all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2389.dir/build.make src/CMakeFiles/all_2389.dir/all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.i
+.PHONY : all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.i
+
+all/2389_Longest_Subsequence_With_Limited_Sum/Solution.s: all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.s
+.PHONY : all/2389_Longest_Subsequence_With_Limited_Sum/Solution.s
+
+# target to generate assembly for a file
+all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2389.dir/build.make src/CMakeFiles/all_2389.dir/all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.s
+.PHONY : all/2389_Longest_Subsequence_With_Limited_Sum/Solution.cpp.s
+
+all/2488_Count_Subarrays_With_Median_K/Solution.o: all/2488_Count_Subarrays_With_Median_K/Solution.cpp.o
+.PHONY : all/2488_Count_Subarrays_With_Median_K/Solution.o
+
+# target to build an object file
+all/2488_Count_Subarrays_With_Median_K/Solution.cpp.o:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2488.dir/build.make src/CMakeFiles/all_2488.dir/all/2488_Count_Subarrays_With_Median_K/Solution.cpp.o
+.PHONY : all/2488_Count_Subarrays_With_Median_K/Solution.cpp.o
+
+all/2488_Count_Subarrays_With_Median_K/Solution.i: all/2488_Count_Subarrays_With_Median_K/Solution.cpp.i
+.PHONY : all/2488_Count_Subarrays_With_Median_K/Solution.i
+
+# target to preprocess a source file
+all/2488_Count_Subarrays_With_Median_K/Solution.cpp.i:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2488.dir/build.make src/CMakeFiles/all_2488.dir/all/2488_Count_Subarrays_With_Median_K/Solution.cpp.i
+.PHONY : all/2488_Count_Subarrays_With_Median_K/Solution.cpp.i
+
+all/2488_Count_Subarrays_With_Median_K/Solution.s: all/2488_Count_Subarrays_With_Median_K/Solution.cpp.s
+.PHONY : all/2488_Count_Subarrays_With_Median_K/Solution.s
+
+# target to generate assembly for a file
+all/2488_Count_Subarrays_With_Median_K/Solution.cpp.s:
+	cd /home/hhoa/hhoa/algorithm/c++/LeetCode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/all_2488.dir/build.make src/CMakeFiles/all_2488.dir/all/2488_Count_Subarrays_With_Median_K/Solution.cpp.s
+.PHONY : all/2488_Count_Subarrays_With_Median_K/Solution.cpp.s
 
 all/310_minimum_height_trees/Solution.o: all/310_minimum_height_trees/Solution.cpp.o
 .PHONY : all/310_minimum_height_trees/Solution.o
@@ -556,7 +822,14 @@ help:
 	@echo "... all_10"
 	@echo "... all_144"
 	@echo "... all_145"
+	@echo "... all_1590"
+	@echo "... all_1615"
+	@echo "... all_1617"
+	@echo "... all_17"
 	@echo "... all_221"
+	@echo "... all_2383"
+	@echo "... all_2389"
+	@echo "... all_2488"
 	@echo "... all_310"
 	@echo "... all_94"
 	@echo "... lcof_03"
@@ -573,9 +846,30 @@ help:
 	@echo "... all/145_binary_tree_postorder_traversal/Solution.o"
 	@echo "... all/145_binary_tree_postorder_traversal/Solution.i"
 	@echo "... all/145_binary_tree_postorder_traversal/Solution.s"
+	@echo "... all/1590_make_sum_divisible_by_p/Solution.o"
+	@echo "... all/1590_make_sum_divisible_by_p/Solution.i"
+	@echo "... all/1590_make_sum_divisible_by_p/Solution.s"
+	@echo "... all/1615_Maximal_Network_Rank/Solution.o"
+	@echo "... all/1615_Maximal_Network_Rank/Solution.i"
+	@echo "... all/1615_Maximal_Network_Rank/Solution.s"
+	@echo "... all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.o"
+	@echo "... all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.i"
+	@echo "... all/1617_Count_Subtrees_With_Max_Distance_Between_Cities/Solution.s"
+	@echo "... all/17_05_Find_Longest_Subarray_LCCI/Solution.o"
+	@echo "... all/17_05_Find_Longest_Subarray_LCCI/Solution.i"
+	@echo "... all/17_05_Find_Longest_Subarray_LCCI/Solution.s"
 	@echo "... all/221_maximal_square/Solution.o"
 	@echo "... all/221_maximal_square/Solution.i"
 	@echo "... all/221_maximal_square/Solution.s"
+	@echo "... all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.o"
+	@echo "... all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.i"
+	@echo "... all/2383_Minimum_Hours_of_Training_to_Win_a_Competition/Solution.s"
+	@echo "... all/2389_Longest_Subsequence_With_Limited_Sum/Solution.o"
+	@echo "... all/2389_Longest_Subsequence_With_Limited_Sum/Solution.i"
+	@echo "... all/2389_Longest_Subsequence_With_Limited_Sum/Solution.s"
+	@echo "... all/2488_Count_Subarrays_With_Median_K/Solution.o"
+	@echo "... all/2488_Count_Subarrays_With_Median_K/Solution.i"
+	@echo "... all/2488_Count_Subarrays_With_Median_K/Solution.s"
 	@echo "... all/310_minimum_height_trees/Solution.o"
 	@echo "... all/310_minimum_height_trees/Solution.i"
 	@echo "... all/310_minimum_height_trees/Solution.s"

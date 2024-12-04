@@ -1,21 +1,21 @@
 package lc_518;
 
 /*
- *@author: �ƺ�
- *@date : 2021��10��28��
- *@todo:518. ��Ǯ�һ� II
-����һ���������� coins ��ʾ��ͬ����Ӳ�ң�����һ������ amount ��ʾ�ܽ�
+ *@author: 黄豪
+ *@date : 2021年10月28日
+ *@todo:518. 零钱兑换 II
+给你一个整数数组 coins 表示不同面额的硬币，另给一个整数 amount 表示总金额。
 
-������㲢���ؿ��Դճ��ܽ���Ӳ�������������κ�Ӳ����϶��޷��ճ��ܽ����� 0 ��
+请你计算并返回可以凑成总金额的硬币组合数。如果任何硬币组合都无法凑出总金额，返回 0 。
 
-����ÿһ������Ӳ�������޸��� 
+假设每一种面额的硬币有无限个。 
 
-��Ŀ���ݱ�֤������� 32 λ������������
+题目数据保证结果符合 32 位带符号整数。
 */
 public class LC_518 {
 
 }
-//��̬�滮
+//动态规划
 class Solution {
     public int change(int amount, int[] coins) {
         int[] dp = new int[amount + 1];

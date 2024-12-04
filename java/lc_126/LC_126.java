@@ -12,19 +12,19 @@ import java.util.Queue;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *126. µ¥´Ê½ÓÁú II
-¸ø¶¨Á½¸öµ¥´Ê£¨beginWord ºÍ endWord£©ºÍÒ»¸ö×Öµä wordList£¬ÕÒ³öËùÓĞ´Ó beginWord µ½ endWord µÄ×î¶Ì×ª»»ĞòÁĞ¡£×ª»»Ğè×ñÑ­ÈçÏÂ¹æÔò£º
+ * @author é»„è±ª
+ *126. å•è¯æ¥é¾™ II
+ç»™å®šä¸¤ä¸ªå•è¯ï¼ˆbeginWord å’Œ endWordï¼‰å’Œä¸€ä¸ªå­—å…¸ wordListï¼Œæ‰¾å‡ºæ‰€æœ‰ä» beginWord åˆ° endWord çš„æœ€çŸ­è½¬æ¢åºåˆ—ã€‚è½¬æ¢éœ€éµå¾ªå¦‚ä¸‹è§„åˆ™ï¼š
 
-Ã¿´Î×ª»»Ö»ÄÜ¸Ä±äÒ»¸ö×ÖÄ¸¡£
-×ª»»ºóµÃµ½µÄµ¥´Ê±ØĞëÊÇ×ÖµäÖĞµÄµ¥´Ê¡£
-ËµÃ÷:
+æ¯æ¬¡è½¬æ¢åªèƒ½æ”¹å˜ä¸€ä¸ªå­—æ¯ã€‚
+è½¬æ¢åå¾—åˆ°çš„å•è¯å¿…é¡»æ˜¯å­—å…¸ä¸­çš„å•è¯ã€‚
+è¯´æ˜:
 
-Èç¹û²»´æÔÚÕâÑùµÄ×ª»»ĞòÁĞ£¬·µ»ØÒ»¸ö¿ÕÁĞ±í¡£
-ËùÓĞµ¥´Ê¾ßÓĞÏàÍ¬µÄ³¤¶È¡£
-ËùÓĞµ¥´ÊÖ»ÓÉĞ¡Ğ´×ÖÄ¸×é³É¡£
-×ÖµäÖĞ²»´æÔÚÖØ¸´µÄµ¥´Ê¡£
-Äã¿ÉÒÔ¼ÙÉè beginWord ºÍ endWord ÊÇ·Ç¿ÕµÄ£¬ÇÒ¶şÕß²»ÏàÍ¬¡£
+å¦‚æœä¸å­˜åœ¨è¿™æ ·çš„è½¬æ¢åºåˆ—ï¼Œè¿”å›ä¸€ä¸ªç©ºåˆ—è¡¨ã€‚
+æ‰€æœ‰å•è¯å…·æœ‰ç›¸åŒçš„é•¿åº¦ã€‚
+æ‰€æœ‰å•è¯åªç”±å°å†™å­—æ¯ç»„æˆã€‚
+å­—å…¸ä¸­ä¸å­˜åœ¨é‡å¤çš„å•è¯ã€‚
+ä½ å¯ä»¥å‡è®¾ beginWord å’Œ endWord æ˜¯éç©ºçš„ï¼Œä¸”äºŒè€…ä¸ç›¸åŒã€‚
  */
 public class LC_126 {
 	public static void main(String[] args) {
@@ -44,12 +44,12 @@ public class LC_126 {
         System.out.println(res);
     }
 }
-//¹ã¶ÈÓÅÏÈËÑË÷//¹¹Í¼
+//å¹¿åº¦ä¼˜å…ˆæœç´¢//æ„å›¾
 class Solution {
     private static final int INF = 1 << 20;
-    private Map<String, Integer> wordId; // µ¥´Êµ½idµÄÓ³Éä
-    private ArrayList<String> idWord; // idµ½µ¥´ÊµÄÓ³Éä
-    private ArrayList<Integer>[] edges; // Í¼µÄ±ß
+    private Map<String, Integer> wordId; // å•è¯åˆ°idçš„æ˜ å°„
+    private ArrayList<String> idWord; // idåˆ°å•è¯çš„æ˜ å°„
+    private ArrayList<Integer>[] edges; // å›¾çš„è¾¹
 
     public Solution() {
         wordId = new HashMap<>();
@@ -58,32 +58,32 @@ class Solution {
 
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         int id = 0;
-        // ½«wordListËùÓĞµ¥´Ê¼ÓÈëwordIdÖĞ ÏàÍ¬µÄÖ»±£ÁôÒ»¸ö // ²¢ÎªÃ¿Ò»¸öµ¥´Ê·ÖÅäÒ»¸öid
+        // å°†wordListæ‰€æœ‰å•è¯åŠ å…¥wordIdä¸­ ç›¸åŒçš„åªä¿ç•™ä¸€ä¸ª // å¹¶ä¸ºæ¯ä¸€ä¸ªå•è¯åˆ†é…ä¸€ä¸ªid
         for (String word : wordList) {
             if (!wordId.containsKey(word)) { 
                 wordId.put(word, id++);
                 idWord.add(word);
             }
         }
-        // ÈôendWord²»ÔÚwordListÖĞ ÔòÎŞ½â
+        // è‹¥endWordä¸åœ¨wordListä¸­ åˆ™æ— è§£
         if (!wordId.containsKey(endWord)) {
             return new ArrayList<>();
         }
-        // °ÑbeginWordÒ²¼ÓÈëwordIdÖĞ
+        // æŠŠbeginWordä¹ŸåŠ å…¥wordIdä¸­
         if (!wordId.containsKey(beginWord)) {
             wordId.put(beginWord, id++);
             idWord.add(beginWord);
         }
 
-        // ³õÊ¼»¯´æ±ßÓÃµÄÊı×é
+        // åˆå§‹åŒ–å­˜è¾¹ç”¨çš„æ•°ç»„
         edges = new ArrayList[idWord.size()];
         for (int i = 0; i < idWord.size(); i++) {
             edges[i] = new ArrayList<>();
         }
-        // Ìí¼Ó±ß
+        // æ·»åŠ è¾¹
         for (int i = 0; i < idWord.size(); i++) {
             for (int j = i + 1; j < idWord.size(); j++) {
-                // ÈôÁ½Õß¿ÉÒÔÍ¨¹ı×ª»»µÃµ½ ÔòÔÚËüÃÇ¼ä½¨Ò»ÌõÎŞÏò±ß
+                // è‹¥ä¸¤è€…å¯ä»¥é€šè¿‡è½¬æ¢å¾—åˆ° åˆ™åœ¨å®ƒä»¬é—´å»ºä¸€æ¡æ— å‘è¾¹
                 if (transformCheck(idWord.get(i), idWord.get(j))) {
                     edges[i].add(j);
                     edges[j].add(i);
@@ -91,39 +91,39 @@ class Solution {
             }
         }
 
-        int dest = wordId.get(endWord); // Ä¿µÄID
-        List<List<String>> res = new ArrayList<>(); // ´æ´ğ°¸
-        int[] cost = new int[id]; // µ½Ã¿¸öµãµÄ´ú¼Û
+        int dest = wordId.get(endWord); // ç›®çš„ID
+        List<List<String>> res = new ArrayList<>(); // å­˜ç­”æ¡ˆ
+        int[] cost = new int[id]; // åˆ°æ¯ä¸ªç‚¹çš„ä»£ä»·
         for (int i = 0; i < id; i++) {
-            cost[i] = INF; // Ã¿¸öµãµÄ´ú¼Û³õÊ¼»¯ÎªÎŞÇî´ó
+            cost[i] = INF; // æ¯ä¸ªç‚¹çš„ä»£ä»·åˆå§‹åŒ–ä¸ºæ— ç©·å¤§
         }
 
-        // ½«Æğµã¼ÓÈë¶ÓÁĞ ²¢½«ÆäcostÉèÎª0
+        // å°†èµ·ç‚¹åŠ å…¥é˜Ÿåˆ— å¹¶å°†å…¶costè®¾ä¸º0
         Queue<ArrayList<Integer>> q = new LinkedList<>();
         ArrayList<Integer> tmpBegin = new ArrayList<>();
         tmpBegin.add(wordId.get(beginWord));
         q.add(tmpBegin);
         cost[wordId.get(beginWord)] = 0;
 
-        // ¿ªÊ¼¹ã¶ÈÓÅÏÈËÑË÷
+        // å¼€å§‹å¹¿åº¦ä¼˜å…ˆæœç´¢
         while (!q.isEmpty()) {
             ArrayList<Integer> now = q.poll();
-            int last = now.get(now.size() - 1); // ×î½ü·ÃÎÊµÄµã
-            if (last == dest) { // Èô¸ÃµãÎªÖÕµãÔò½«Æä´æÈë´ğ°¸resÖĞ
+            int last = now.get(now.size() - 1); // æœ€è¿‘è®¿é—®çš„ç‚¹
+            if (last == dest) { // è‹¥è¯¥ç‚¹ä¸ºç»ˆç‚¹åˆ™å°†å…¶å­˜å…¥ç­”æ¡ˆresä¸­
                 ArrayList<String> tmp = new ArrayList<>();
                 for (int index : now) {
-                    tmp.add(idWord.get(index)); // ×ª»»Îª¶ÔÓ¦µÄword
+                    tmp.add(idWord.get(index)); // è½¬æ¢ä¸ºå¯¹åº”çš„word
                 }
                 res.add(tmp);
-            } else { // ¸Ãµã²»ÎªÖÕµã ¼ÌĞøËÑË÷
+            } else { // è¯¥ç‚¹ä¸ä¸ºç»ˆç‚¹ ç»§ç»­æœç´¢
                 for (int i = 0; i < edges[last].size(); i++) {
                     int to = edges[last].get(i);
-                    // ´Ë´¦<=Ä¿µÄÔÚÓÚ°Ñ´ú¼ÛÏàÍ¬µÄ²»Í¬Â·¾¶È«²¿±£ÁôÏÂÀ´
+                    // æ­¤å¤„<=ç›®çš„åœ¨äºæŠŠä»£ä»·ç›¸åŒçš„ä¸åŒè·¯å¾„å…¨éƒ¨ä¿ç•™ä¸‹æ¥
                     if (cost[last] + 1 <= cost[to]) {
                         cost[to] = cost[last] + 1;
-                        // °Ñto¼ÓÈëÂ·¾¶ÖĞ
+                        // æŠŠtoåŠ å…¥è·¯å¾„ä¸­
                         ArrayList<Integer> tmp = new ArrayList<>(now); tmp.add(to);
-                        q.add(tmp); // °ÑÕâ¸öÂ·¾¶¼ÓÈë¶ÓÁĞ
+                        q.add(tmp); // æŠŠè¿™ä¸ªè·¯å¾„åŠ å…¥é˜Ÿåˆ—
                     }
                 }
             }
@@ -131,7 +131,7 @@ class Solution {
         return res;
     }
 
-    // Á½¸ö×Ö·û´®ÊÇ·ñ¿ÉÒÔÍ¨¹ı¸Ä±äÒ»¸ö×ÖÄ¸ºóÏàµÈ
+    // ä¸¤ä¸ªå­—ç¬¦ä¸²æ˜¯å¦å¯ä»¥é€šè¿‡æ”¹å˜ä¸€ä¸ªå­—æ¯åç›¸ç­‰
     boolean transformCheck(String str1, String str2) {
         int differences = 0;
         for (int i = 0; i < str1.length() && differences < 2; i++) {
@@ -142,24 +142,24 @@ class Solution {
         return differences == 1;
     } 
 }
-//Ë«Ïò¹¹Í¼
+//åŒå‘æ„å›¾
 class Solution1 {
 
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
-        // ÏÈ½« wordList ·Åµ½¹şÏ£±íÀï£¬±ãÓÚÅĞ¶ÏÄ³¸öµ¥´ÊÊÇ·ñÔÚ wordList Àï
+        // å…ˆå°† wordList æ”¾åˆ°å“ˆå¸Œè¡¨é‡Œï¼Œä¾¿äºåˆ¤æ–­æŸä¸ªå•è¯æ˜¯å¦åœ¨ wordList é‡Œ
         List<List<String>> res = new ArrayList<>();
         Set<String> wordSet = new HashSet<>(wordList);
         if (wordSet.size() == 0 || !wordSet.contains(endWord)) {
             return res;
         }
-        // µÚ 1 ²½£ºÊ¹ÓÃË«Ïò¹ã¶ÈÓÅÏÈ±éÀúµÃµ½ºó¼Ì½áµãÁĞ±í successors
-        // key£º×Ö·û´®£¬value£º¹ã¶ÈÓÅÏÈ±éÀú¹ı³ÌÖĞ key µÄºó¼Ì½áµãÁĞ±í
+        // ç¬¬ 1 æ­¥ï¼šä½¿ç”¨åŒå‘å¹¿åº¦ä¼˜å…ˆéå†å¾—åˆ°åç»§ç»“ç‚¹åˆ—è¡¨ successors
+        // keyï¼šå­—ç¬¦ä¸²ï¼Œvalueï¼šå¹¿åº¦ä¼˜å…ˆéå†è¿‡ç¨‹ä¸­ key çš„åç»§ç»“ç‚¹åˆ—è¡¨
         Map<String, Set<String>> successors = new HashMap<>();
         boolean found = bidirectionalBfs(beginWord, endWord, wordSet, successors);
         if (!found) {
             return res;
         }
-        // µÚ 2 ²½£º»ùÓÚºó¼Ì½áµãÁĞ±í successors £¬Ê¹ÓÃ»ØËİËã·¨µÃµ½ËùÓĞ×î¶ÌÂ·¾¶ÁĞ±í
+        // ç¬¬ 2 æ­¥ï¼šåŸºäºåç»§ç»“ç‚¹åˆ—è¡¨ successors ï¼Œä½¿ç”¨å›æº¯ç®—æ³•å¾—åˆ°æ‰€æœ‰æœ€çŸ­è·¯å¾„åˆ—è¡¨
         Deque<String> path = new ArrayDeque<>();
         path.addLast(beginWord);
         dfs(beginWord, endWord, successors, path, res);
@@ -170,7 +170,7 @@ class Solution1 {
                                      String endWord,
                                      Set<String> wordSet,
                                      Map<String, Set<String>> successors) {
-        // ¼ÇÂ¼·ÃÎÊ¹ıµÄµ¥´Ê
+        // è®°å½•è®¿é—®è¿‡çš„å•è¯
         Set<String> visited = new HashSet<>();
         visited.add(beginWord);
         visited.add(endWord);
@@ -183,19 +183,19 @@ class Solution1 {
         int wordLen = beginWord.length();
         boolean forward = true;
         boolean found = false;
-        // ÔÚ±£Ö¤ÁË beginVisited ×ÜÊÇ½ÏĞ¡£¨¿ÉÒÔµÈÓÚ£©´óĞ¡µÄ¼¯ºÏÇ°ÌáÏÂ£¬&& !endVisited.isEmpty() ¿ÉÒÔÊ¡ÂÔ
+        // åœ¨ä¿è¯äº† beginVisited æ€»æ˜¯è¾ƒå°ï¼ˆå¯ä»¥ç­‰äºï¼‰å¤§å°çš„é›†åˆå‰æä¸‹ï¼Œ&& !endVisited.isEmpty() å¯ä»¥çœç•¥
         while (!beginVisited.isEmpty() && !endVisited.isEmpty()) {
-            // Ò»Ö±±£Ö¤ beginVisited ÊÇÏà¶Ô½ÏĞ¡µÄ¼¯ºÏ£¬·½±ãºóĞø±àÂë
+            // ä¸€ç›´ä¿è¯ beginVisited æ˜¯ç›¸å¯¹è¾ƒå°çš„é›†åˆï¼Œæ–¹ä¾¿åç»­ç¼–ç 
             if (beginVisited.size() > endVisited.size()) {
                 Set<String> temp = beginVisited;
                 beginVisited = endVisited;
                 endVisited = temp;
 
-                // Ö»Òª½»»»£¬¾Í¸ü¸Ä·½Ïò£¬ÒÔ±ãÎ¬»¤ successors µÄ¶¨Òå
+                // åªè¦äº¤æ¢ï¼Œå°±æ›´æ”¹æ–¹å‘ï¼Œä»¥ä¾¿ç»´æŠ¤ successors çš„å®šä¹‰
                 forward = !forward;
             }
             Set<String> nextLevelVisited = new HashSet<>();
-            // Ä¬ÈÏ beginVisited ÊÇĞ¡¼¯ºÏ£¬Òò´Ë´Ó beginVisited ³ö·¢
+            // é»˜è®¤ beginVisited æ˜¯å°é›†åˆï¼Œå› æ­¤ä» beginVisited å‡ºå‘
             for (String currentWord : beginVisited) {
                 char[] charArray = currentWord.toCharArray();
                 for (int i = 0; i < wordLen; i++) {
@@ -209,7 +209,7 @@ class Solution1 {
                         if (wordSet.contains(nextWord)) {
                             if (endVisited.contains(nextWord)) {
                                 found = true;
-                                // ÔÚÁíÒ»²àÕÒµ½µ¥´ÊÒÔºó£¬»¹Ğè°ÑÕâÒ»²ã¹ØÏµÌí¼Óµ½¡¸ºó¼Ì½áµãÁĞ±í¡¹
+                                // åœ¨å¦ä¸€ä¾§æ‰¾åˆ°å•è¯ä»¥åï¼Œè¿˜éœ€æŠŠè¿™ä¸€å±‚å…³ç³»æ·»åŠ åˆ°ã€Œåç»§ç»“ç‚¹åˆ—è¡¨ã€
                                 addToSuccessors(successors, forward, currentWord, nextWord);
                             }
 
@@ -262,7 +262,7 @@ class Solution1 {
             nextWord = temp;
         }
 
-        // Java 1.8 ÒÔºóÖ§³Ö
+        // Java 1.8 ä»¥åæ”¯æŒ
         successors.computeIfAbsent(currentWord, a -> new HashSet<>());
         successors.get(currentWord).add(nextWord);
     }

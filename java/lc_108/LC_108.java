@@ -3,16 +3,16 @@ package lc_108;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *108. ½«ÓÐÐòÊý×é×ª»»Îª¶þ²æËÑË÷Ê÷
-¸øÄãÒ»¸öÕûÊýÊý×é nums £¬ÆäÖÐÔªËØÒÑ¾­°´ ÉýÐò ÅÅÁÐ£¬ÇëÄã½«Æä×ª»»ÎªÒ»¿Ã ¸ß¶ÈÆ½ºâ ¶þ²æËÑË÷Ê÷¡£
+ * @author é»„è±ª
+ *108. å°†æœ‰åºæ•°ç»„è½¬æ¢ä¸ºäºŒå‰æœç´¢æ ‘
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ nums ï¼Œå…¶ä¸­å…ƒç´ å·²ç»æŒ‰ å‡åº æŽ’åˆ—ï¼Œè¯·ä½ å°†å…¶è½¬æ¢ä¸ºä¸€æ£µ é«˜åº¦å¹³è¡¡ äºŒå‰æœç´¢æ ‘ã€‚
 
-¸ß¶ÈÆ½ºâ ¶þ²æÊ÷ÊÇÒ»¿ÃÂú×ã¡¸Ã¿¸ö½ÚµãµÄ×óÓÒÁ½¸ö×ÓÊ÷µÄ¸ß¶È²îµÄ¾ø¶ÔÖµ²»³¬¹ý 1 ¡¹µÄ¶þ²æÊ÷¡£
+é«˜åº¦å¹³è¡¡ äºŒå‰æ ‘æ˜¯ä¸€æ£µæ»¡è¶³ã€Œæ¯ä¸ªèŠ‚ç‚¹çš„å·¦å³ä¸¤ä¸ªå­æ ‘çš„é«˜åº¦å·®çš„ç»å¯¹å€¼ä¸è¶…è¿‡ 1 ã€çš„äºŒå‰æ ‘ã€‚
  */
 public class LC_108 {
 
 }
-//ÖÐÐò±éÀú,×ó±ßÊý×Ö×÷Îª¸ù½Úµã
+//ä¸­åºéåŽ†,å·¦è¾¹æ•°å­—ä½œä¸ºæ ¹èŠ‚ç‚¹
 class Solution{
 	public TreeNode sortedArrayToBST(int[] nums) {
 		return buildBST(nums, 0, nums.length - 1);

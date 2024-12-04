@@ -1,15 +1,15 @@
 package lc_576;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê8ÔÂ15ÈÕ
- *@todo:¸øÄãÒ»¸ö´óÐ¡Îª m x n µÄÍø¸ñºÍÒ»¸öÇò¡£ÇòµÄÆðÊ¼×ø±êÎª [startRow, startColumn] ¡£Äã¿ÉÒÔ½«ÇòÒÆµ½ÔÚËÄ¸ö·½ÏòÉÏÏàÁÚµÄµ¥Ôª¸ñÄÚ£¨¿ÉÒÔ´©¹ýÍø¸ñ±ß½çµ½´ïÍø¸ñÖ®Íâ£©¡£Äã ×î¶à ¿ÉÒÔÒÆ¶¯ maxMove ´ÎÇò¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´8æœˆ15æ—¥
+ *@todo:ç»™ä½ ä¸€ä¸ªå¤§å°ä¸º m x n çš„ç½‘æ ¼å’Œä¸€ä¸ªçƒã€‚çƒçš„èµ·å§‹åæ ‡ä¸º [startRow, startColumn] ã€‚ä½ å¯ä»¥å°†çƒç§»åˆ°åœ¨å››ä¸ªæ–¹å‘ä¸Šç›¸é‚»çš„å•å…ƒæ ¼å†…ï¼ˆå¯ä»¥ç©¿è¿‡ç½‘æ ¼è¾¹ç•Œåˆ°è¾¾ç½‘æ ¼ä¹‹å¤–ï¼‰ã€‚ä½  æœ€å¤š å¯ä»¥ç§»åŠ¨ maxMove æ¬¡çƒã€‚
 
-¸øÄãÎå¸öÕûÊý m¡¢n¡¢maxMove¡¢startRow ÒÔ¼° startColumn £¬ÕÒ³ö²¢·µ»Ø¿ÉÒÔ½«ÇòÒÆ³ö±ß½çµÄÂ·¾¶ÊýÁ¿¡£ÒòÎª´ð°¸¿ÉÄÜ·Ç³£´ó£¬·µ»Ø¶Ô 109 + 7 È¡Óà ºóµÄ½á¹û¡£
+ç»™ä½ äº”ä¸ªæ•´æ•° mã€nã€maxMoveã€startRow ä»¥åŠ startColumn ï¼Œæ‰¾å‡ºå¹¶è¿”å›žå¯ä»¥å°†çƒç§»å‡ºè¾¹ç•Œçš„è·¯å¾„æ•°é‡ã€‚å› ä¸ºç­”æ¡ˆå¯èƒ½éžå¸¸å¤§ï¼Œè¿”å›žå¯¹ 109 + 7 å–ä½™ åŽçš„ç»“æžœã€‚
 
-À´Ô´£ºÁ¦¿Û£¨LeetCode£©
-Á´½Ó£ºhttps://leetcode-cn.com/problems/out-of-boundary-paths
-Öø×÷È¨¹éÁì¿ÛÍøÂçËùÓÐ¡£ÉÌÒµ×ªÔØÇëÁªÏµ¹Ù·½ÊÚÈ¨£¬·ÇÉÌÒµ×ªÔØÇë×¢Ã÷³ö´¦¡£
+æ¥æºï¼šåŠ›æ‰£ï¼ˆLeetCodeï¼‰
+é“¾æŽ¥ï¼šhttps://leetcode-cn.com/problems/out-of-boundary-paths
+è‘—ä½œæƒå½’é¢†æ‰£ç½‘ç»œæ‰€æœ‰ã€‚å•†ä¸šè½¬è½½è¯·è”ç³»å®˜æ–¹æŽˆæƒï¼Œéžå•†ä¸šè½¬è½½è¯·æ³¨æ˜Žå‡ºå¤„ã€‚
 */
 public class LC_576 {
 	public static void main(String[] args) {

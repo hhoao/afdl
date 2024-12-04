@@ -9,13 +9,13 @@ public class LC_4{
 		Set<Integer> s1 = new HashSet<Integer>();
 		Set<Integer> s2= new HashSet<Integer>();
 
-		System.out.printf("ÇëÏòs1ÖĞÊäÈëÊı(·ÇÊı×ÖÖÕÖ¹):");
+		System.out.printf("è¯·å‘s1ä¸­è¾“å…¥æ•°(éæ•°å­—ç»ˆæ­¢):");
 		while(s.hasNextInt()){
 			int a = s.nextInt();
 			s1.add(a);
 		}
 
-		System.out.printf("ÇëÏòs2ÖĞÊäÈëÊı(·ÇÊı×ÖÖÕÖ¹):");
+		System.out.printf("è¯·å‘s2ä¸­è¾“å…¥æ•°(éæ•°å­—ç»ˆæ­¢):");
 		Scanner k = new Scanner(System.in);
 		while(k.hasNextInt()){
 			int a = k.nextInt();
@@ -68,22 +68,22 @@ class Solution {
     }
 
 	public static int getKthElement(int[] nums1, int[] nums2, int k) {
-        /* Ö÷ÒªË¼Â·£ºÒªÕÒµ½µÚ k (k>1) Ğ¡µÄÔªËØ£¬ÄÇÃ´¾ÍÈ¡ pivot1 = nums1[k/2-1] ºÍ pivot2 = nums2[k/2-1] ½øĞĞ±È½Ï
-         * ÕâÀïµÄ "/" ±íÊ¾Õû³ı
-         * nums1 ÖĞĞ¡ÓÚµÈÓÚ pivot1 µÄÔªËØÓĞ nums1[0 .. k/2-2] ¹²¼Æ k/2-1 ¸ö
-         * nums2 ÖĞĞ¡ÓÚµÈÓÚ pivot2 µÄÔªËØÓĞ nums2[0 .. k/2-2] ¹²¼Æ k/2-1 ¸ö
-         * È¡ pivot = min(pivot1, pivot2)£¬Á½¸öÊı×éÖĞĞ¡ÓÚµÈÓÚ pivot µÄÔªËØ¹²¼Æ²»»á³¬¹ı (k/2-1) + (k/2-1) <= k-2 ¸ö
-         * ÕâÑù pivot ±¾Éí×î´óÒ²Ö»ÄÜÊÇµÚ k-1 Ğ¡µÄÔªËØ
-         * Èç¹û pivot = pivot1£¬ÄÇÃ´ nums1[0 .. k/2-1] ¶¼²»¿ÉÄÜÊÇµÚ k Ğ¡µÄÔªËØ¡£°ÑÕâĞ©ÔªËØÈ«²¿ "É¾³ı"£¬Ê£ÏÂµÄ×÷ÎªĞÂµÄ nums1 Êı×é
-         * Èç¹û pivot = pivot2£¬ÄÇÃ´ nums2[0 .. k/2-1] ¶¼²»¿ÉÄÜÊÇµÚ k Ğ¡µÄÔªËØ¡£°ÑÕâĞ©ÔªËØÈ«²¿ "É¾³ı"£¬Ê£ÏÂµÄ×÷ÎªĞÂµÄ nums2 Êı×é
-         * ÓÉÓÚÎÒÃÇ "É¾³ı" ÁËÒ»Ğ©ÔªËØ£¨ÕâĞ©ÔªËØ¶¼±ÈµÚ k Ğ¡µÄÔªËØÒªĞ¡£©£¬Òò´ËĞèÒªĞŞ¸Ä k µÄÖµ£¬¼õÈ¥É¾³ıµÄÊıµÄ¸öÊı
+        /* ä¸»è¦æ€è·¯ï¼šè¦æ‰¾åˆ°ç¬¬ k (k>1) å°çš„å…ƒç´ ï¼Œé‚£ä¹ˆå°±å– pivot1 = nums1[k/2-1] å’Œ pivot2 = nums2[k/2-1] è¿›è¡Œæ¯”è¾ƒ
+         * è¿™é‡Œçš„ "/" è¡¨ç¤ºæ•´é™¤
+         * nums1 ä¸­å°äºç­‰äº pivot1 çš„å…ƒç´ æœ‰ nums1[0 .. k/2-2] å…±è®¡ k/2-1 ä¸ª
+         * nums2 ä¸­å°äºç­‰äº pivot2 çš„å…ƒç´ æœ‰ nums2[0 .. k/2-2] å…±è®¡ k/2-1 ä¸ª
+         * å– pivot = min(pivot1, pivot2)ï¼Œä¸¤ä¸ªæ•°ç»„ä¸­å°äºç­‰äº pivot çš„å…ƒç´ å…±è®¡ä¸ä¼šè¶…è¿‡ (k/2-1) + (k/2-1) <= k-2 ä¸ª
+         * è¿™æ · pivot æœ¬èº«æœ€å¤§ä¹Ÿåªèƒ½æ˜¯ç¬¬ k-1 å°çš„å…ƒç´ 
+         * å¦‚æœ pivot = pivot1ï¼Œé‚£ä¹ˆ nums1[0 .. k/2-1] éƒ½ä¸å¯èƒ½æ˜¯ç¬¬ k å°çš„å…ƒç´ ã€‚æŠŠè¿™äº›å…ƒç´ å…¨éƒ¨ "åˆ é™¤"ï¼Œå‰©ä¸‹çš„ä½œä¸ºæ–°çš„ nums1 æ•°ç»„
+         * å¦‚æœ pivot = pivot2ï¼Œé‚£ä¹ˆ nums2[0 .. k/2-1] éƒ½ä¸å¯èƒ½æ˜¯ç¬¬ k å°çš„å…ƒç´ ã€‚æŠŠè¿™äº›å…ƒç´ å…¨éƒ¨ "åˆ é™¤"ï¼Œå‰©ä¸‹çš„ä½œä¸ºæ–°çš„ nums2 æ•°ç»„
+         * ç”±äºæˆ‘ä»¬ "åˆ é™¤" äº†ä¸€äº›å…ƒç´ ï¼ˆè¿™äº›å…ƒç´ éƒ½æ¯”ç¬¬ k å°çš„å…ƒç´ è¦å°ï¼‰ï¼Œå› æ­¤éœ€è¦ä¿®æ”¹ k çš„å€¼ï¼Œå‡å»åˆ é™¤çš„æ•°çš„ä¸ªæ•°
          */
 
         int length1 = nums1.length, length2 = nums2.length;
         int index1 = 0, index2 = 0;
 
         while (true) {
-            // ±ß½çÇé¿ö
+            // è¾¹ç•Œæƒ…å†µ
             if (index1 == length1) {
                 return nums2[index2 + k - 1];
             }
@@ -94,7 +94,7 @@ class Solution {
                 return Math.min(nums1[index1], nums2[index2]);
             }
             
-            // Õı³£Çé¿ö
+            // æ­£å¸¸æƒ…å†µ
             int half = k / 2;
             int newIndex1 = Math.min(index1 + half, length1) - 1;
             int newIndex2 = Math.min(index2 + half, length2) - 1;

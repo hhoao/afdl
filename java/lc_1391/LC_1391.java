@@ -4,24 +4,24 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ19ÈÕ
- *@todo:1391. ¼ì²éÍø¸ñÖĞÊÇ·ñ´æÔÚÓĞĞ§Â·¾¶
-¸øÄãÒ»¸ö m x n µÄÍø¸ñ grid¡£Íø¸ñÀïµÄÃ¿¸öµ¥Ôª¶¼´ú±íÒ»Ìõ½ÖµÀ¡£grid[i][j] µÄ½ÖµÀ¿ÉÒÔÊÇ£º
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ19æ—¥
+ *@todo:1391. æ£€æŸ¥ç½‘æ ¼ä¸­æ˜¯å¦å­˜åœ¨æœ‰æ•ˆè·¯å¾„
+ç»™ä½ ä¸€ä¸ª m x n çš„ç½‘æ ¼ gridã€‚ç½‘æ ¼é‡Œçš„æ¯ä¸ªå•å…ƒéƒ½ä»£è¡¨ä¸€æ¡è¡—é“ã€‚grid[i][j] çš„è¡—é“å¯ä»¥æ˜¯ï¼š
 
-1 ±íÊ¾Á¬½Ó×óµ¥Ôª¸ñºÍÓÒµ¥Ôª¸ñµÄ½ÖµÀ¡£
-2 ±íÊ¾Á¬½ÓÉÏµ¥Ôª¸ñºÍÏÂµ¥Ôª¸ñµÄ½ÖµÀ¡£
-3 ±íÊ¾Á¬½Ó×óµ¥Ôª¸ñºÍÏÂµ¥Ôª¸ñµÄ½ÖµÀ¡£
-4 ±íÊ¾Á¬½ÓÓÒµ¥Ôª¸ñºÍÏÂµ¥Ôª¸ñµÄ½ÖµÀ¡£
-5 ±íÊ¾Á¬½Ó×óµ¥Ôª¸ñºÍÉÏµ¥Ôª¸ñµÄ½ÖµÀ¡£
-6 ±íÊ¾Á¬½ÓÓÒµ¥Ôª¸ñºÍÉÏµ¥Ôª¸ñµÄ½ÖµÀ¡£
+1 è¡¨ç¤ºè¿æ¥å·¦å•å…ƒæ ¼å’Œå³å•å…ƒæ ¼çš„è¡—é“ã€‚
+2 è¡¨ç¤ºè¿æ¥ä¸Šå•å…ƒæ ¼å’Œä¸‹å•å…ƒæ ¼çš„è¡—é“ã€‚
+3 è¡¨ç¤ºè¿æ¥å·¦å•å…ƒæ ¼å’Œä¸‹å•å…ƒæ ¼çš„è¡—é“ã€‚
+4 è¡¨ç¤ºè¿æ¥å³å•å…ƒæ ¼å’Œä¸‹å•å…ƒæ ¼çš„è¡—é“ã€‚
+5 è¡¨ç¤ºè¿æ¥å·¦å•å…ƒæ ¼å’Œä¸Šå•å…ƒæ ¼çš„è¡—é“ã€‚
+6 è¡¨ç¤ºè¿æ¥å³å•å…ƒæ ¼å’Œä¸Šå•å…ƒæ ¼çš„è¡—é“ã€‚
 */
 public class LC_1391 {
 	public static void main(String[] args) {
 		System.out.println(new Solution().hasValidPath(new int[][]{{2,4,3},{6,5,2}}));
 	}
 }
-//¶ÓÁĞ
+//é˜Ÿåˆ—
 class Solution {
     public boolean hasValidPath(int[][] grid) {
         int n = grid.length, m = grid[0].length;
@@ -37,26 +37,26 @@ class Solution {
             if (type == 1){
                 if (y > 0 && !vis[x][y - 1] && (grid[x][y - 1] == 4 || grid[x][y - 1] == 6 || grid[x][y - 1] == 1)){
                     queue.offer(new Integer[]{x, y - 1, grid[x][y - 1]});
-                }//Ïò×ó
+                }//å‘å·¦
                 if (y < m - 1 && !vis[x][y + 1] && (grid[x][y + 1] == 3 || grid[x][y + 1] == 5 || grid[x][y + 1] == 1)){
                     queue.offer(new Integer[]{x, y + 1, grid[x][y + 1]});
-                }//ÏòÓÒ
+                }//å‘å³
             }
             else if (type == 2){
                 if (x > 0 && !vis[x - 1][y] && (grid[x - 1][y] == 3 || grid[x - 1][y] == 4 || grid[x - 1][y] == 2)){
                     queue.offer(new Integer[]{x - 1, y, grid[x - 1][y]});
-                }//ÏòÉÏ
+                }//å‘ä¸Š
                 if (x < n - 1 && !vis[x+1][y] && (grid[x+1][y] == 2 || grid[x+1][y] == 6 || grid[x+1][y] == 5)){
                     queue.offer(new Integer[]{x+1, y, grid[x+1][y]});
-                }//ÏòÏÂ
+                }//å‘ä¸‹
             }
             else if (type == 3){
                 if (y > 0 && !vis[x][y - 1] && (grid[x][y - 1] == 4 || grid[x][y - 1] == 6 || grid[x][y - 1] == 1)){
                     queue.offer(new Integer[]{x, y - 1, grid[x][y - 1]});
-                }//Ïò×ó
+                }//å‘å·¦
                 if (x < n - 1 && !vis[x+1][y] && (grid[x+1][y] == 2 || grid[x+1][y] == 6 || grid[x+1][y] == 5)){
                     queue.offer(new Integer[]{x+1, y, grid[x+1][y]});
-                }//ÏòÏÂ
+                }//å‘ä¸‹
             }
             else if (type == 4){
                 if (x < n - 1 && !vis[x + 1][y] && (grid[x][y + 1] == 3 || grid[x][y + 1] == 5 || grid[x][y + 1] == 1)){
@@ -69,15 +69,15 @@ class Solution {
             else if (type == 5){
                 if (x > 0 && !vis[x - 1][y] && (grid[x - 1][y] == 3 || grid[x - 1][y] == 4 || grid[x - 1][y] == 2)){
                     queue.offer(new Integer[]{x - 1, y, grid[x - 1][y]});
-                }//ÏòÉÏ
+                }//å‘ä¸Š
                 if (y > 0 && !vis[x][y - 1] && (grid[x][y - 1] == 4 || grid[x][y - 1] == 6 || grid[x][y - 1] == 1)){
                     queue.offer(new Integer[]{x, y - 1, grid[x][y - 1]});
-                }//Ïò×ó
+                }//å‘å·¦
             }
             else if (type == 6){
                 if (x > 0 && !vis[x - 1][y] && (grid[x - 1][y] == 3 || grid[x - 1][y] == 4 || grid[x - 1][y] == 2)){
                     queue.offer(new Integer[]{x - 1, y, grid[x - 1][y]});
-                }//ÏòÉÏ
+                }//å‘ä¸Š
                 if (y < m - 1 && !vis[x][y + 1] && (grid[x][y + 1] == 3 || grid[x][y + 1] == 5 || grid[x][y + 1] == 1)){
                     queue.offer(new Integer[]{x, y + 1, grid[x][y + 1]});
                 }

@@ -14,3 +14,5 @@ add_test([=[stack_test]=] "/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-bu
 set_tests_properties([=[stack_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt;26;add_test;/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt;0;")
 add_test([=[tree_test]=] "/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/tree_test")
 set_tests_properties([=[tree_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt;26;add_test;/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt;0;")
+add_test([=[union_find_set_test]=] "/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/union_find_set_test")
+set_tests_properties([=[union_find_set_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt;26;add_test;/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt;0;")

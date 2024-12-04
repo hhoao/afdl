@@ -1,18 +1,18 @@
 package lc_48;
 
 /**
- * @author »ÆºÀ
- *48. Ğı×ªÍ¼Ïñ
-¸ø¶¨Ò»¸ö n ¡Á n µÄ¶şÎ¬¾ØÕó matrix ±íÊ¾Ò»¸öÍ¼Ïñ¡£ÇëÄã½«Í¼ÏñË³Ê±ÕëĞı×ª 90 ¶È¡£
+ * @author é»„è±ª
+ *48. æ—‹è½¬å›¾åƒ
+ç»™å®šä¸€ä¸ª n Ã— n çš„äºŒç»´çŸ©é˜µ matrix è¡¨ç¤ºä¸€ä¸ªå›¾åƒã€‚è¯·ä½ å°†å›¾åƒé¡ºæ—¶é’ˆæ—‹è½¬ 90 åº¦ã€‚
 
-Äã±ØĞëÔÚ Ô­µØ Ğı×ªÍ¼Ïñ£¬ÕâÒâÎ¶×ÅÄãĞèÒªÖ±½ÓĞŞ¸ÄÊäÈëµÄ¶şÎ¬¾ØÕó¡£Çë²»Òª Ê¹ÓÃÁíÒ»¸ö¾ØÕóÀ´Ğı×ªÍ¼Ïñ¡£
+ä½ å¿…é¡»åœ¨ åŸåœ° æ—‹è½¬å›¾åƒï¼Œè¿™æ„å‘³ç€ä½ éœ€è¦ç›´æ¥ä¿®æ”¹è¾“å…¥çš„äºŒç»´çŸ©é˜µã€‚è¯·ä¸è¦ ä½¿ç”¨å¦ä¸€ä¸ªçŸ©é˜µæ¥æ—‹è½¬å›¾åƒã€‚
 
  
  */
 public class LC_48 {
 
 }
-//Ê¹ÓÃ¸¨ÖúÊı×é
+//ä½¿ç”¨è¾…åŠ©æ•°ç»„
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -29,7 +29,7 @@ class Solution {
         }
     }
 }
-//Ô­µØĞı×ª
+//åŸåœ°æ—‹è½¬
 class Solution1 {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -44,11 +44,11 @@ class Solution1 {
         }
     }
 }
-//ÓÃ·­×ª´úÌæĞı×ª
+//ç”¨ç¿»è½¬ä»£æ›¿æ—‹è½¬
 class Solution2 {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
-        // Ë®Æ½·­×ª
+        // æ°´å¹³ç¿»è½¬
         for (int i = 0; i < n / 2; ++i) {
             for (int j = 0; j < n; ++j) {
                 int temp = matrix[i][j];
@@ -56,7 +56,7 @@ class Solution2 {
                 matrix[n - i - 1][j] = temp;
             }
         }
-        // Ö÷¶Ô½ÇÏß·­×ª
+        // ä¸»å¯¹è§’çº¿ç¿»è½¬
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < i; ++j) {
                 int temp = matrix[i][j];

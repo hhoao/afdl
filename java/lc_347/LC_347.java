@@ -8,16 +8,16 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ17ÈÕ
- *@todo:347. Ç° K ¸ö¸ßÆµÔªËØ
-¸øÄãÒ»¸öÕûÊıÊı×é nums ºÍÒ»¸öÕûÊı k £¬ÇëÄã·µ»ØÆäÖĞ³öÏÖÆµÂÊÇ° k ¸ßµÄÔªËØ¡£Äã¿ÉÒÔ°´ ÈÎÒâË³Ğò ·µ»Ø´ğ°¸¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ17æ—¥
+ *@todo:347. å‰ K ä¸ªé«˜é¢‘å…ƒç´ 
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ nums å’Œä¸€ä¸ªæ•´æ•° k ï¼Œè¯·ä½ è¿”å›å…¶ä¸­å‡ºç°é¢‘ç‡å‰ k é«˜çš„å…ƒç´ ã€‚ä½ å¯ä»¥æŒ‰ ä»»æ„é¡ºåº è¿”å›ç­”æ¡ˆã€‚
 */
 public class LC_347 {
 
 }
 
-//¹şÏ£±í
+//å“ˆå¸Œè¡¨
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -35,7 +35,7 @@ class Solution {
         return ret;
     }
 }
-//ÅÅĞò+ÓÅÏÈ¶ÓÁĞ(×î¿ì)
+//æ’åº+ä¼˜å…ˆé˜Ÿåˆ—(æœ€å¿«)
 class Solution1 {
     public int[] topKFrequent(int[] nums, int k) {
         Arrays.sort(nums);
@@ -58,7 +58,7 @@ class Solution1 {
         return ret;
     }
 }
-//¹şÏ£±íºÍ×îĞ¡¶Ñ(ÓÅÏÈ¶ÓÁĞ)
+//å“ˆå¸Œè¡¨å’Œæœ€å°å †(ä¼˜å…ˆé˜Ÿåˆ—)
 class Solution2 {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();

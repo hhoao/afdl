@@ -1,18 +1,18 @@
 package lc_62;
 
 /**
- * @author »ÆºÀ
- *62. ²»Í¬Â·¾¶
-Ò»¸ö»úÆ÷ÈËÎ»ÓÚÒ»¸ö m x n Íø¸ñµÄ×óÉÏ½Ç £¨ÆðÊ¼µãÔÚÏÂÍ¼ÖÐ±ê¼ÇÎª ¡°Start¡± £©¡£
+ * @author é»„è±ª
+ *62. ä¸åŒè·¯å¾„
+ä¸€ä¸ªæœºå™¨äººä½äºŽä¸€ä¸ª m x n ç½‘æ ¼çš„å·¦ä¸Šè§’ ï¼ˆèµ·å§‹ç‚¹åœ¨ä¸‹å›¾ä¸­æ ‡è®°ä¸º â€œStartâ€ ï¼‰ã€‚
 
-»úÆ÷ÈËÃ¿´ÎÖ»ÄÜÏòÏÂ»òÕßÏòÓÒÒÆ¶¯Ò»²½¡£»úÆ÷ÈËÊÔÍ¼´ïµ½Íø¸ñµÄÓÒÏÂ½Ç£¨ÔÚÏÂÍ¼ÖÐ±ê¼ÇÎª ¡°Finish¡± £©¡£
+æœºå™¨äººæ¯æ¬¡åªèƒ½å‘ä¸‹æˆ–è€…å‘å³ç§»åŠ¨ä¸€æ­¥ã€‚æœºå™¨äººè¯•å›¾è¾¾åˆ°ç½‘æ ¼çš„å³ä¸‹è§’ï¼ˆåœ¨ä¸‹å›¾ä¸­æ ‡è®°ä¸º â€œFinishâ€ ï¼‰ã€‚
 
-ÎÊ×Ü¹²ÓÐ¶àÉÙÌõ²»Í¬µÄÂ·¾¶£¿
+é—®æ€»å…±æœ‰å¤šå°‘æ¡ä¸åŒçš„è·¯å¾„ï¼Ÿ
  */
 public class LC_62 {
 
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] f = new int[m][n];
@@ -30,7 +30,7 @@ class Solution {
         return f[m - 1][n - 1];
     }
 }
-//×éºÏÊýÑ§
+//ç»„åˆæ•°å­¦
 class Solution1 {
     public int uniquePaths(int m, int n) {
         long ans = 1;

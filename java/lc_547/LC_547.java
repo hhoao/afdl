@@ -1,21 +1,21 @@
 package lc_547;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ13ÈÕ
- *@todo:547. Ê¡·ÝÊýÁ¿
-ÓÐ n ¸ö³ÇÊÐ£¬ÆäÖÐÒ»Ð©±Ë´ËÏàÁ¬£¬ÁíÒ»Ð©Ã»ÓÐÏàÁ¬¡£Èç¹û³ÇÊÐ a Óë³ÇÊÐ b Ö±½ÓÏàÁ¬£¬ÇÒ³ÇÊÐ b Óë³ÇÊÐ c Ö±½ÓÏàÁ¬£¬ÄÇÃ´³ÇÊÐ a Óë³ÇÊÐ c ¼ä½ÓÏàÁ¬¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ13æ—¥
+ *@todo:547. çœä»½æ•°é‡
+æœ‰ n ä¸ªåŸŽå¸‚ï¼Œå…¶ä¸­ä¸€äº›å½¼æ­¤ç›¸è¿žï¼Œå¦ä¸€äº›æ²¡æœ‰ç›¸è¿žã€‚å¦‚æžœåŸŽå¸‚ a ä¸ŽåŸŽå¸‚ b ç›´æŽ¥ç›¸è¿žï¼Œä¸”åŸŽå¸‚ b ä¸ŽåŸŽå¸‚ c ç›´æŽ¥ç›¸è¿žï¼Œé‚£ä¹ˆåŸŽå¸‚ a ä¸ŽåŸŽå¸‚ c é—´æŽ¥ç›¸è¿žã€‚
 
-Ê¡·Ý ÊÇÒ»×éÖ±½Ó»ò¼ä½ÓÏàÁ¬µÄ³ÇÊÐ£¬×éÄÚ²»º¬ÆäËûÃ»ÓÐÏàÁ¬µÄ³ÇÊÐ¡£
+çœä»½ æ˜¯ä¸€ç»„ç›´æŽ¥æˆ–é—´æŽ¥ç›¸è¿žçš„åŸŽå¸‚ï¼Œç»„å†…ä¸å«å…¶ä»–æ²¡æœ‰ç›¸è¿žçš„åŸŽå¸‚ã€‚
 
-¸øÄãÒ»¸ö n x n µÄ¾ØÕó isConnected £¬ÆäÖÐ isConnected[i][j] = 1 ±íÊ¾µÚ i ¸ö³ÇÊÐºÍµÚ j ¸ö³ÇÊÐÖ±½ÓÏàÁ¬£¬¶ø isConnected[i][j] = 0 ±íÊ¾¶þÕß²»Ö±½ÓÏàÁ¬¡£
+ç»™ä½ ä¸€ä¸ª n x n çš„çŸ©é˜µ isConnected ï¼Œå…¶ä¸­ isConnected[i][j] = 1 è¡¨ç¤ºç¬¬ i ä¸ªåŸŽå¸‚å’Œç¬¬ j ä¸ªåŸŽå¸‚ç›´æŽ¥ç›¸è¿žï¼Œè€Œ isConnected[i][j] = 0 è¡¨ç¤ºäºŒè€…ä¸ç›´æŽ¥ç›¸è¿žã€‚
 
-·µ»Ø¾ØÕóÖÐ Ê¡·Ý µÄÊýÁ¿¡£
+è¿”å›žçŸ©é˜µä¸­ çœä»½ çš„æ•°é‡ã€‚
 */
 public class LC_547 {
 
 }
-//Éî¶ÈÓÅÏÈËÑË÷
+//æ·±åº¦ä¼˜å…ˆæœç´¢
 class Solution {
     boolean[] visited;
     public int findCircleNum(int[][] isConnected) {
@@ -45,7 +45,7 @@ class Solution {
         }
     }
 }
-//²¢²é¼¯
+//å¹¶æŸ¥é›†
 class Solution1 {
     class UnionFind{
         int[] parent;

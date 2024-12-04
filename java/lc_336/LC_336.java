@@ -5,10 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ14ÈÕ
- *@todo:336. »ØÎÄ¶Ô
-¸ø¶¨Ò»×é »¥²»ÏàÍ¬ µÄµ¥´Ê£¬ ÕÒ³öËùÓĞ ²»Í¬ µÄË÷Òı¶Ô (i, j)£¬Ê¹µÃÁĞ±íÖĞµÄÁ½¸öµ¥´Ê£¬ words[i] + words[j] £¬¿ÉÆ´½Ó³É»ØÎÄ´®¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ14æ—¥
+ *@todo:336. å›æ–‡å¯¹
+ç»™å®šä¸€ç»„ äº’ä¸ç›¸åŒ çš„å•è¯ï¼Œ æ‰¾å‡ºæ‰€æœ‰ ä¸åŒ çš„ç´¢å¼•å¯¹ (i, j)ï¼Œä½¿å¾—åˆ—è¡¨ä¸­çš„ä¸¤ä¸ªå•è¯ï¼Œ words[i] + words[j] ï¼Œå¯æ‹¼æ¥æˆå›æ–‡ä¸²ã€‚
 */
 public class LC_336 {
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class LC_336 {
 		solution.palindromePairs(new String[] {"abcd","dcba","lls","s","sssll"});
 	}
 }
-//×ÖµäÊ÷+±©Á¦
+//å­—å…¸æ ‘+æš´åŠ›
 class Solution {
     class Node{
         Node[] word;

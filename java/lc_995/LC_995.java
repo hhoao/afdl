@@ -1,32 +1,32 @@
 package lc_995;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ2ÈÕ
- *@todo:995. K Á¬ÐøÎ»µÄ×îÐ¡·­×ª´ÎÊý
-ÔÚ½ö°üº¬ 0 ºÍ 1 µÄÊý×é A ÖÐ£¬Ò»´Î K Î»·­×ª°üÀ¨Ñ¡ÔñÒ»¸ö³¤¶ÈÎª K µÄ£¨Á¬Ðø£©×ÓÊý×é£¬Í¬Ê±½«×ÓÊý×éÖÐµÄÃ¿¸ö 0 ¸ü¸ÄÎª 1£¬¶øÃ¿¸ö 1 ¸ü¸ÄÎª 0¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ2æ—¥
+ *@todo:995. K è¿žç»­ä½çš„æœ€å°ç¿»è½¬æ¬¡æ•°
+åœ¨ä»…åŒ…å« 0 å’Œ 1 çš„æ•°ç»„ A ä¸­ï¼Œä¸€æ¬¡ K ä½ç¿»è½¬åŒ…æ‹¬é€‰æ‹©ä¸€ä¸ªé•¿åº¦ä¸º K çš„ï¼ˆè¿žç»­ï¼‰å­æ•°ç»„ï¼ŒåŒæ—¶å°†å­æ•°ç»„ä¸­çš„æ¯ä¸ª 0 æ›´æ”¹ä¸º 1ï¼Œè€Œæ¯ä¸ª 1 æ›´æ”¹ä¸º 0ã€‚
 
-·µ»ØËùÐèµÄ K Î»·­×ªµÄ×îÐ¡´ÎÊý£¬ÒÔ±ãÊý×éÃ»ÓÐÖµÎª 0 µÄÔªËØ¡£Èç¹û²»¿ÉÄÜ£¬·µ»Ø -1¡£
+è¿”å›žæ‰€éœ€çš„ K ä½ç¿»è½¬çš„æœ€å°æ¬¡æ•°ï¼Œä»¥ä¾¿æ•°ç»„æ²¡æœ‰å€¼ä¸º 0 çš„å…ƒç´ ã€‚å¦‚æžœä¸å¯èƒ½ï¼Œè¿”å›ž -1ã€‚
 
  
 
-Ê¾Àý 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºA = [0,1,0], K = 1
-Êä³ö£º2
-½âÊÍ£ºÏÈ·­×ª A[0]£¬È»ºó·­×ª A[2]¡£
-Ê¾Àý 2£º
+è¾“å…¥ï¼šA = [0,1,0], K = 1
+è¾“å‡ºï¼š2
+è§£é‡Šï¼šå…ˆç¿»è½¬ A[0]ï¼Œç„¶åŽç¿»è½¬ A[2]ã€‚
+ç¤ºä¾‹ 2ï¼š
 
-ÊäÈë£ºA = [1,1,0], K = 2
-Êä³ö£º-1
-½âÊÍ£ºÎÞÂÛÎÒÃÇÔõÑù·­×ª´óÐ¡Îª 2 µÄ×ÓÊý×é£¬ÎÒÃÇ¶¼²»ÄÜÊ¹Êý×é±äÎª [1,1,1]¡£
+è¾“å…¥ï¼šA = [1,1,0], K = 2
+è¾“å‡ºï¼š-1
+è§£é‡Šï¼šæ— è®ºæˆ‘ä»¬æ€Žæ ·ç¿»è½¬å¤§å°ä¸º 2 çš„å­æ•°ç»„ï¼Œæˆ‘ä»¬éƒ½ä¸èƒ½ä½¿æ•°ç»„å˜ä¸º [1,1,1]ã€‚
 */
 public class LC_995 {
 	public static void main(String[] args) {
 		new Solution().minKBitFlips(new int[] {0,0,0,1,0,1,1,0},3);
 	}
 }
-//²î·ÖÊý×é
+//å·®åˆ†æ•°ç»„
 class Solution {
     public int minKBitFlips(int[] nums, int k) {
         int n = nums.length;
@@ -46,7 +46,7 @@ class Solution {
         return ans;
     }
 }
-//»¬¶¯´°¿Ú
+//æ»‘åŠ¨çª—å£
 class Solution1 {
     public int minKBitFlips(int[] nums, int k) {
         int n = nums.length;
@@ -54,7 +54,7 @@ class Solution1 {
         for (int i = 0; i < n; ++i) {
             if (i >= k && nums[i - k] > 1) {
                 revCnt ^= 1;
-                nums[i - k] -= 2; // ¸´Ô­Êý×éÔªËØ£¬ÈôÔÊÐíÐÞ¸ÄÊý×é nums£¬Ôò¿ÉÒÔÊ¡ÂÔ
+                nums[i - k] -= 2; // å¤åŽŸæ•°ç»„å…ƒç´ ï¼Œè‹¥å…è®¸ä¿®æ”¹æ•°ç»„ numsï¼Œåˆ™å¯ä»¥çœç•¥
             }
             if (nums[i] == revCnt) {
                 if (i + k > n) {

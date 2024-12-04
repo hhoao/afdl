@@ -6,14 +6,14 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *101. ¶Ô³Æ¶ş²æÊ÷
-¸ø¶¨Ò»¸ö¶ş²æÊ÷£¬¼ì²éËüÊÇ·ñÊÇ¾µÏñ¶Ô³ÆµÄ¡£
+ * @author é»„è±ª
+ *101. å¯¹ç§°äºŒå‰æ ‘
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘ï¼Œæ£€æŸ¥å®ƒæ˜¯å¦æ˜¯é•œåƒå¯¹ç§°çš„ã€‚
  */
 public class LC_101 {
 
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         return check(root, root);
@@ -29,7 +29,7 @@ class Solution {
         return p.val == q.val && check(p.left, q.right) && check(p.right, q.left);
     }
 }
-//µü´ú
+//è¿­ä»£
 class Solution1 {
     public boolean isSymmetric(TreeNode root) {
         return check(root, root);

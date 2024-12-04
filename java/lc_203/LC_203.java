@@ -3,14 +3,14 @@ package lc_203;
 import tools.ListNode;
 
 /**
- * @author »ÆºÀ
- *203. ÒÆ³ıÁ´±íÔªËØ
-¸øÄãÒ»¸öÁ´±íµÄÍ·½Úµã head ºÍÒ»¸öÕûÊı val £¬ÇëÄãÉ¾³ıÁ´±íÖĞËùÓĞÂú×ã Node.val == val µÄ½Úµã£¬²¢·µ»Ø ĞÂµÄÍ·½Úµã ¡£
+ * @author é»„è±ª
+ *203. ç§»é™¤é“¾è¡¨å…ƒç´ 
+ç»™ä½ ä¸€ä¸ªé“¾è¡¨çš„å¤´èŠ‚ç‚¹ head å’Œä¸€ä¸ªæ•´æ•° val ï¼Œè¯·ä½ åˆ é™¤é“¾è¡¨ä¸­æ‰€æœ‰æ»¡è¶³ Node.val == val çš„èŠ‚ç‚¹ï¼Œå¹¶è¿”å› æ–°çš„å¤´èŠ‚ç‚¹ ã€‚
  */
 public class LC_203 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) return head;

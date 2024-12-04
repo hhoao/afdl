@@ -3,24 +3,24 @@ package lc_141;
 import tools.ListNode;
 
 /**
- * @author »ÆºÀ
- *141. »·ÐÎÁ´±í
-¸ø¶¨Ò»¸öÁ´±í£¬ÅÐ¶ÏÁ´±íÖÐÊÇ·ñÓÐ»·¡£
+ * @author é»„è±ª
+ *141. çŽ¯å½¢é“¾è¡¨
+ç»™å®šä¸€ä¸ªé“¾è¡¨ï¼Œåˆ¤æ–­é“¾è¡¨ä¸­æ˜¯å¦æœ‰çŽ¯ã€‚
 
-Èç¹ûÁ´±íÖÐÓÐÄ³¸ö½Úµã£¬¿ÉÒÔÍ¨¹ýÁ¬Ðø¸ú×Ù next Ö¸ÕëÔÙ´Îµ½´ï£¬ÔòÁ´±íÖÐ´æÔÚ»·¡£ ÎªÁË±íÊ¾¸ø¶¨Á´±íÖÐµÄ»·£¬ÎÒÃÇÊ¹ÓÃÕûÊý pos À´±íÊ¾Á´±íÎ²Á¬½Óµ½Á´±íÖÐµÄÎ»ÖÃ£¨Ë÷Òý´Ó 0 ¿ªÊ¼£©¡£ Èç¹û pos ÊÇ -1£¬ÔòÔÚ¸ÃÁ´±íÖÐÃ»ÓÐ»·¡£×¢Òâ£ºpos ²»×÷Îª²ÎÊý½øÐÐ´«µÝ£¬½ö½öÊÇÎªÁË±êÊ¶Á´±íµÄÊµ¼ÊÇé¿ö¡£
+å¦‚æžœé“¾è¡¨ä¸­æœ‰æŸä¸ªèŠ‚ç‚¹ï¼Œå¯ä»¥é€šè¿‡è¿žç»­è·Ÿè¸ª next æŒ‡é’ˆå†æ¬¡åˆ°è¾¾ï¼Œåˆ™é“¾è¡¨ä¸­å­˜åœ¨çŽ¯ã€‚ ä¸ºäº†è¡¨ç¤ºç»™å®šé“¾è¡¨ä¸­çš„çŽ¯ï¼Œæˆ‘ä»¬ä½¿ç”¨æ•´æ•° pos æ¥è¡¨ç¤ºé“¾è¡¨å°¾è¿žæŽ¥åˆ°é“¾è¡¨ä¸­çš„ä½ç½®ï¼ˆç´¢å¼•ä»Ž 0 å¼€å§‹ï¼‰ã€‚ å¦‚æžœ pos æ˜¯ -1ï¼Œåˆ™åœ¨è¯¥é“¾è¡¨ä¸­æ²¡æœ‰çŽ¯ã€‚æ³¨æ„ï¼špos ä¸ä½œä¸ºå‚æ•°è¿›è¡Œä¼ é€’ï¼Œä»…ä»…æ˜¯ä¸ºäº†æ ‡è¯†é“¾è¡¨çš„å®žé™…æƒ…å†µã€‚
 
-Èç¹ûÁ´±íÖÐ´æÔÚ»·£¬Ôò·µ»Ø true ¡£ ·ñÔò£¬·µ»Ø false ¡£
+å¦‚æžœé“¾è¡¨ä¸­å­˜åœ¨çŽ¯ï¼Œåˆ™è¿”å›ž true ã€‚ å¦åˆ™ï¼Œè¿”å›ž false ã€‚
 
  
 
-½ø½×£º
+è¿›é˜¶ï¼š
 
-ÄãÄÜÓÃ O(1)£¨¼´£¬³£Á¿£©ÄÚ´æ½â¾ö´ËÎÊÌâÂð£¿
+ä½ èƒ½ç”¨ O(1)ï¼ˆå³ï¼Œå¸¸é‡ï¼‰å†…å­˜è§£å†³æ­¤é—®é¢˜å—ï¼Ÿ
  */
 public class LC_141 {
 
 }
-//¿ìÂýÖ¸Õë
+//å¿«æ…¢æŒ‡é’ˆ
 class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) return false;

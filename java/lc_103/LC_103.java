@@ -11,9 +11,9 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *103. ¶þ²æÊ÷µÄ¾â³ÝÐÎ²ãÐò±éÀú
-¸ø¶¨Ò»¸ö¶þ²æÊ÷£¬·µ»ØÆä½ÚµãÖµµÄ¾â³ÝÐÎ²ãÐò±éÀú¡££¨¼´ÏÈ´Ó×óÍùÓÒ£¬ÔÙ´ÓÓÒÍù×ó½øÐÐÏÂÒ»²ã±éÀú£¬ÒÔ´ËÀàÍÆ£¬²ãÓë²ãÖ®¼ä½»Ìæ½øÐÐ£©¡£
+ * @author é»„è±ª
+ *103. äºŒå‰æ ‘çš„é”¯é½¿å½¢å±‚åºéåŽ†
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘ï¼Œè¿”å›žå…¶èŠ‚ç‚¹å€¼çš„é”¯é½¿å½¢å±‚åºéåŽ†ã€‚ï¼ˆå³å…ˆä»Žå·¦å¾€å³ï¼Œå†ä»Žå³å¾€å·¦è¿›è¡Œä¸‹ä¸€å±‚éåŽ†ï¼Œä»¥æ­¤ç±»æŽ¨ï¼Œå±‚ä¸Žå±‚ä¹‹é—´äº¤æ›¿è¿›è¡Œï¼‰ã€‚
  */
 public class LC_103 {
 

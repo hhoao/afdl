@@ -6,15 +6,15 @@ import java.util.Deque;
 import tools.TreeNode;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ25ÈÕ
- *@todo:1609. ÆæÅ¼Ê÷
-Èç¹ûÒ»¿Ã¶þ²æÊ÷Âú×ãÏÂÊö¼¸¸öÌõ¼þ£¬Ôò¿ÉÒÔ³ÆÎª ÆæÅ¼Ê÷ £º
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ25æ—¥
+ *@todo:1609. å¥‡å¶æ ‘
+å¦‚æžœä¸€æ£µäºŒå‰æ ‘æ»¡è¶³ä¸‹è¿°å‡ ä¸ªæ¡ä»¶ï¼Œåˆ™å¯ä»¥ç§°ä¸º å¥‡å¶æ ‘ ï¼š
 
-¶þ²æÊ÷¸ù½ÚµãËùÔÚ²ãÏÂ±êÎª 0 £¬¸ùµÄ×Ó½ÚµãËùÔÚ²ãÏÂ±êÎª 1 £¬¸ùµÄËï½ÚµãËùÔÚ²ãÏÂ±êÎª 2 £¬ÒÀ´ËÀàÍÆ¡£
-Å¼ÊýÏÂ±ê ²ãÉÏµÄËùÓÐ½ÚµãµÄÖµ¶¼ÊÇ Ææ ÕûÊý£¬´Ó×óµ½ÓÒ°´Ë³Ðò ÑÏ¸ñµÝÔö
-ÆæÊýÏÂ±ê ²ãÉÏµÄËùÓÐ½ÚµãµÄÖµ¶¼ÊÇ Å¼ ÕûÊý£¬´Ó×óµ½ÓÒ°´Ë³Ðò ÑÏ¸ñµÝ¼õ
-¸øÄã¶þ²æÊ÷µÄ¸ù½Úµã£¬Èç¹û¶þ²æÊ÷Îª ÆæÅ¼Ê÷ £¬Ôò·µ»Ø true £¬·ñÔò·µ»Ø false ¡£
+äºŒå‰æ ‘æ ¹èŠ‚ç‚¹æ‰€åœ¨å±‚ä¸‹æ ‡ä¸º 0 ï¼Œæ ¹çš„å­èŠ‚ç‚¹æ‰€åœ¨å±‚ä¸‹æ ‡ä¸º 1 ï¼Œæ ¹çš„å­™èŠ‚ç‚¹æ‰€åœ¨å±‚ä¸‹æ ‡ä¸º 2 ï¼Œä¾æ­¤ç±»æŽ¨ã€‚
+å¶æ•°ä¸‹æ ‡ å±‚ä¸Šçš„æ‰€æœ‰èŠ‚ç‚¹çš„å€¼éƒ½æ˜¯ å¥‡ æ•´æ•°ï¼Œä»Žå·¦åˆ°å³æŒ‰é¡ºåº ä¸¥æ ¼é€’å¢ž
+å¥‡æ•°ä¸‹æ ‡ å±‚ä¸Šçš„æ‰€æœ‰èŠ‚ç‚¹çš„å€¼éƒ½æ˜¯ å¶ æ•´æ•°ï¼Œä»Žå·¦åˆ°å³æŒ‰é¡ºåº ä¸¥æ ¼é€’å‡
+ç»™ä½ äºŒå‰æ ‘çš„æ ¹èŠ‚ç‚¹ï¼Œå¦‚æžœäºŒå‰æ ‘ä¸º å¥‡å¶æ ‘ ï¼Œåˆ™è¿”å›ž true ï¼Œå¦åˆ™è¿”å›ž false ã€‚
 */
 public class LC_1609 {
 
@@ -34,7 +34,7 @@ public class LC_1609 {
  *     }
  * }
  */
-//¶ÓÁÐ²ãÐò±éÀú
+//é˜Ÿåˆ—å±‚åºéåŽ†
 class Solution {
     public boolean isEvenOddTree(TreeNode root) {
         Deque<TreeNode> queue = new ArrayDeque<>();

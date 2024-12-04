@@ -7,7 +7,7 @@ import java.util.List;
 public class LC_204 {
 
 }
-//·½·¨¶ş£º°£ÊÏÉ¸
+//æ–¹æ³•äºŒï¼šåŸƒæ°ç­›
 class Solution {
     public int countPrimes(int n) {
         int res = 0;
@@ -26,7 +26,7 @@ class Solution {
         return res;
     }
 }
-//ÏßĞÔÉ¸Ñ¡
+//çº¿æ€§ç­›é€‰
 class Solution1{
 	public int countPrimes(int n) {
 		List<Integer> primes = new ArrayList<>();

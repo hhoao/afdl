@@ -3,7 +3,7 @@ package lc_168;
 public class LC_168 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public String convertToTitle(int columnNumber) {
         StringBuffer sbu = new StringBuffer();

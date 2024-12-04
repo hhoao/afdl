@@ -4,27 +4,27 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ21ÈÕ
- *@todo:402. ÒÆµô K Î»Êý×Ö
-¸øÄãÒ»¸öÒÔ×Ö·û´®±íÊ¾µÄ·Ç¸ºÕûÊý num ºÍÒ»¸öÕûÊý k £¬ÒÆ³ýÕâ¸öÊýÖÐµÄ k Î»Êý×Ö£¬Ê¹µÃÊ£ÏÂµÄÊý×Ö×îÐ¡¡£ÇëÄãÒÔ×Ö·û´®ÐÎÊ½·µ»ØÕâ¸ö×îÐ¡µÄÊý×Ö¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ21æ—¥
+ *@todo:402. ç§»æŽ‰ K ä½æ•°å­—
+ç»™ä½ ä¸€ä¸ªä»¥å­—ç¬¦ä¸²è¡¨ç¤ºçš„éžè´Ÿæ•´æ•° num å’Œä¸€ä¸ªæ•´æ•° k ï¼Œç§»é™¤è¿™ä¸ªæ•°ä¸­çš„ k ä½æ•°å­—ï¼Œä½¿å¾—å‰©ä¸‹çš„æ•°å­—æœ€å°ã€‚è¯·ä½ ä»¥å­—ç¬¦ä¸²å½¢å¼è¿”å›žè¿™ä¸ªæœ€å°çš„æ•°å­—ã€‚
 
  
-Ê¾Àý 1 £º
+ç¤ºä¾‹ 1 ï¼š
 
-ÊäÈë£ºnum = "1432219", k = 3
-Êä³ö£º"1219"
-½âÊÍ£ºÒÆ³ýµôÈý¸öÊý×Ö 4, 3, ºÍ 2 ÐÎ³ÉÒ»¸öÐÂµÄ×îÐ¡µÄÊý×Ö 1219 ¡£
-Ê¾Àý 2 £º
+è¾“å…¥ï¼šnum = "1432219", k = 3
+è¾“å‡ºï¼š"1219"
+è§£é‡Šï¼šç§»é™¤æŽ‰ä¸‰ä¸ªæ•°å­— 4, 3, å’Œ 2 å½¢æˆä¸€ä¸ªæ–°çš„æœ€å°çš„æ•°å­— 1219 ã€‚
+ç¤ºä¾‹ 2 ï¼š
 
-ÊäÈë£ºnum = "10200", k = 1
-Êä³ö£º"200"
-½âÊÍ£ºÒÆµôÊ×Î»µÄ 1 Ê£ÏÂµÄÊý×ÖÎª 200. ×¢ÒâÊä³ö²»ÄÜÓÐÈÎºÎÇ°µ¼Áã¡£
+è¾“å…¥ï¼šnum = "10200", k = 1
+è¾“å‡ºï¼š"200"
+è§£é‡Šï¼šç§»æŽ‰é¦–ä½çš„ 1 å‰©ä¸‹çš„æ•°å­—ä¸º 200. æ³¨æ„è¾“å‡ºä¸èƒ½æœ‰ä»»ä½•å‰å¯¼é›¶ã€‚
 */
 public class LC_402 {
 
 }
-//µ¥µ÷Õ»
+//å•è°ƒæ ˆ
 class Solution {
     public String removeKdigits(String num, int k) {
         Deque<Character> deque = new ArrayDeque<>();

@@ -4,23 +4,23 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /*
- *@author: �ƺ�
- *@date : 2021��12��12��
- *@todo:1970. ���ܴ�����������һ��
-����һ���±�� 1 ��ʼ�Ķ����ƾ������� 0 ��ʾ½�أ�1 ��ʾˮ��ͬʱ���� row �� col �ֱ��ʾ�������к��е���Ŀ��
+ *@author: 黄豪
+ *@date : 2021年12月12日
+ *@todo:1970. 你能穿过矩阵的最后一天
+给你一个下标从 1 开始的二进制矩阵，其中 0 表示陆地，1 表示水域。同时给你 row 和 col 分别表示矩阵中行和列的数目。
 
-һ��ʼ�ڵ� 0 �죬���� ������ ½�� ����ÿһ�춼����һ����½�ر� ˮ ��û���ˮ�򡣸���һ���±�� 1 ��ʼ�Ķ�ά���� cells ������ cells[i] = [ri, ci] ��ʾ�ڵ� i �죬�� ri �� ci �У��±궼�Ǵ� 1 ��ʼ����½�ػ��� ˮ�� ��Ҳ���� 0 ��� 1 ����
+一开始在第 0 天，整个 矩阵都是 陆地 。但每一天都会有一块新陆地被 水 淹没变成水域。给你一个下标从 1 开始的二维数组 cells ，其中 cells[i] = [ri, ci] 表示在第 i 天，第 ri 行 ci 列（下标都是从 1 开始）的陆地会变成 水域 （也就是 0 变成 1 ）。
 
-����֪���Ӿ����� ���� һ���ߵ��� ���� һ�У���ֻ����½�ظ��ӵ� ���һ�� ����һ�졣����Դ�������һ�е� ���� ���ӳ���������������һ�е� ���� ���ӡ���ֻ������ �ĸ� ���������ƶ���Ҳ�����������ң���
+你想知道从矩阵最 上面 一行走到最 下面 一行，且只经过陆地格子的 最后一天 是哪一天。你可以从最上面一行的 任意 格子出发，到达最下面一行的 任意 格子。你只能沿着 四个 基本方向移动（也就是上下左右）。
 
-�뷵��ֻ����½�ظ����ܴ��� ���� һ���ߵ��� ���� һ�е� ���һ�� ��
+请返回只经过陆地格子能从最 上面 一行走到最 下面 一行的 最后一天 。
 */
 public class LC_1970 {
 	public static void main(String[] args) {
 		System.out.println(new Solution().latestDayToCross(6, 2, new int[][]{{6,2},{6,2},{2,1},{4,1},{6,1},{3,1},{2,2},{3,2},{1,1},{5,1},{5,2},{1,2}}));
 	}
 }
-//�����������+���ֲ���
+//广度优先搜索+二分查找
 class Solution {
     int[][] dirs = new int[][]{{1, 0}, {0, 1}, {0, -1}, {-1, 0}};
     boolean bfs(int row, int col, int[][] area){
@@ -72,7 +72,7 @@ class Solution {
     }
 }
 
-//���鼯+ʱ�⵹��
+//并查集+时光倒流
 class UnionFind{
 	private int[] parent;
 	private int[] size;

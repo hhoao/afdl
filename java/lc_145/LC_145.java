@@ -11,14 +11,14 @@ import java.util.Stack;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *145. ¶ş²æÊ÷µÄºóĞò±éÀú
-¸ø¶¨Ò»¸ö¶ş²æÊ÷£¬·µ»ØËüµÄ ºóĞò ±éÀú¡£
+ * @author é»„è±ª
+ *145. äºŒå‰æ ‘çš„ååºéå†
+ç»™å®šä¸€ä¸ªäºŒå‰æ ‘ï¼Œè¿”å›å®ƒçš„ ååº éå†ã€‚
  */
 public class LC_145 {
 
 }
-//Òì¹¹
+//å¼‚æ„
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
@@ -38,7 +38,7 @@ class Solution {
         return ans;
     }
 }
-//Õ»µü´ú
+//æ ˆè¿­ä»£
 class Solution1 {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
@@ -66,7 +66,7 @@ class Solution1 {
         return res;
     }
 }
-//mirrors±éÀú 
+//mirrorséå† 
 class Solution2 {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();

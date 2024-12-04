@@ -7,21 +7,21 @@ import java.util.LinkedList;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ18ÈÕ
- *@todo:1190. ·´×ªÃ¿¶ÔÀ¨ºÅ¼äµÄ×Ó´®
-¸ø³öÒ»¸ö×Ö·û´® s£¨½öº¬ÓĞĞ¡Ğ´Ó¢ÎÄ×ÖÄ¸ºÍÀ¨ºÅ£©¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ18æ—¥
+ *@todo:1190. åè½¬æ¯å¯¹æ‹¬å·é—´çš„å­ä¸²
+ç»™å‡ºä¸€ä¸ªå­—ç¬¦ä¸² sï¼ˆä»…å«æœ‰å°å†™è‹±æ–‡å­—æ¯å’Œæ‹¬å·ï¼‰ã€‚
 
-ÇëÄã°´ÕÕ´ÓÀ¨ºÅÄÚµ½ÍâµÄË³Ğò£¬Öğ²ã·´×ªÃ¿¶ÔÆ¥ÅäÀ¨ºÅÖĞµÄ×Ö·û´®£¬²¢·µ»Ø×îÖÕµÄ½á¹û¡£
+è¯·ä½ æŒ‰ç…§ä»æ‹¬å·å†…åˆ°å¤–çš„é¡ºåºï¼Œé€å±‚åè½¬æ¯å¯¹åŒ¹é…æ‹¬å·ä¸­çš„å­—ç¬¦ä¸²ï¼Œå¹¶è¿”å›æœ€ç»ˆçš„ç»“æœã€‚
 
-×¢Òâ£¬ÄúµÄ½á¹ûÖĞ ²»Ó¦ °üº¬ÈÎºÎÀ¨ºÅ¡£
+æ³¨æ„ï¼Œæ‚¨çš„ç»“æœä¸­ ä¸åº” åŒ…å«ä»»ä½•æ‹¬å·ã€‚
 */
 public class LC_1190 {
 	public static void main(String[] args) {
 		System.out.println(new Solution2().reverseParentheses("(ed(et(oc))el)"));
 	}
 }
-//µü´ú
+//è¿­ä»£
 class Solution {
     public String reverseParentheses(String s) {
         Map<Integer, StringBuilder> tierMap = new HashMap<>();
@@ -53,7 +53,7 @@ class Solution {
         return tierMap.get(0).toString();
     }
 }
-//Õ»
+//æ ˆ
 class Solution1 {
     public String reverseParentheses(String s) {
         int n = s.length();
@@ -76,7 +76,7 @@ class Solution1 {
         return sb.toString();
     }
 }
-//Ô¤´¦ÀíÀ¨ºÅ
+//é¢„å¤„ç†æ‹¬å·
 class Solution2 {
     public String reverseParentheses(String s) {
         int n = s.length();

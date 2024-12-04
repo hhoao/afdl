@@ -1,35 +1,35 @@
 package lc_334;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ12ÈÕ
- *@todo:334. µÝÔöµÄÈýÔª×ÓÐòÁÐ
-¸øÄãÒ»¸öÕûÊýÊý×é nums £¬ÅÐ¶ÏÕâ¸öÊý×éÖÐÊÇ·ñ´æÔÚ³¤¶ÈÎª 3 µÄµÝÔö×ÓÐòÁÐ¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ12æ—¥
+ *@todo:334. é€’å¢žçš„ä¸‰å…ƒå­åºåˆ—
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ nums ï¼Œåˆ¤æ–­è¿™ä¸ªæ•°ç»„ä¸­æ˜¯å¦å­˜åœ¨é•¿åº¦ä¸º 3 çš„é€’å¢žå­åºåˆ—ã€‚
 
-Èç¹û´æÔÚÕâÑùµÄÈýÔª×éÏÂ±ê (i, j, k) ÇÒÂú×ã i < j < k £¬Ê¹µÃ nums[i] < nums[j] < nums[k] £¬·µ»Ø true £»·ñÔò£¬·µ»Ø false ¡£
+å¦‚æžœå­˜åœ¨è¿™æ ·çš„ä¸‰å…ƒç»„ä¸‹æ ‡ (i, j, k) ä¸”æ»¡è¶³ i < j < k ï¼Œä½¿å¾— nums[i] < nums[j] < nums[k] ï¼Œè¿”å›ž true ï¼›å¦åˆ™ï¼Œè¿”å›ž false ã€‚
 
  
 
-Ê¾Àý 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºnums = [1,2,3,4,5]
-Êä³ö£ºtrue
-½âÊÍ£ºÈÎºÎ i < j < k µÄÈýÔª×é¶¼Âú×ãÌâÒâ
-Ê¾Àý 2£º
+è¾“å…¥ï¼šnums = [1,2,3,4,5]
+è¾“å‡ºï¼štrue
+è§£é‡Šï¼šä»»ä½• i < j < k çš„ä¸‰å…ƒç»„éƒ½æ»¡è¶³é¢˜æ„
+ç¤ºä¾‹ 2ï¼š
 
-ÊäÈë£ºnums = [5,4,3,2,1]
-Êä³ö£ºfalse
-½âÊÍ£º²»´æÔÚÂú×ãÌâÒâµÄÈýÔª×é
-Ê¾Àý 3£º
+è¾“å…¥ï¼šnums = [5,4,3,2,1]
+è¾“å‡ºï¼šfalse
+è§£é‡Šï¼šä¸å­˜åœ¨æ»¡è¶³é¢˜æ„çš„ä¸‰å…ƒç»„
+ç¤ºä¾‹ 3ï¼š
 
-ÊäÈë£ºnums = [2,1,5,0,4,6]
-Êä³ö£ºtrue
-½âÊÍ£ºÈýÔª×é (3, 4, 5) Âú×ãÌâÒâ£¬ÒòÎª nums[3] == 0 < nums[4] == 4 < nums[5] == 6
+è¾“å…¥ï¼šnums = [2,1,5,0,4,6]
+è¾“å‡ºï¼štrue
+è§£é‡Šï¼šä¸‰å…ƒç»„ (3, 4, 5) æ»¡è¶³é¢˜æ„ï¼Œå› ä¸º nums[3] == 0 < nums[4] == 4 < nums[5] == 6
 */
 public class LC_334 {
 
 }
-//ÎÒµÄÌâ½â
+//æˆ‘çš„é¢˜è§£
 class Solution {
     public boolean increasingTriplet(int[] nums) {
         int n = nums.length;

@@ -6,16 +6,16 @@ import java.util.List;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ1ÈÕ
- *@todo:638. ´óÀñ°ü
-ÔÚ LeetCode ÉÌµêÖÐ£¬ ÓÐ n ¼þÔÚÊÛµÄÎïÆ·¡£Ã¿¼þÎïÆ·¶¼ÓÐ¶ÔÓ¦µÄ¼Û¸ñ¡£È»¶ø£¬Ò²ÓÐÒ»Ð©´óÀñ°ü£¬Ã¿¸ö´óÀñ°üÒÔÓÅ»ÝµÄ¼Û¸ñÀ¦°óÏúÊÛÒ»×éÎïÆ·¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ1æ—¥
+ *@todo:638. å¤§ç¤¼åŒ…
+åœ¨ LeetCode å•†åº—ä¸­ï¼Œ æœ‰ n ä»¶åœ¨å”®çš„ç‰©å“ã€‚æ¯ä»¶ç‰©å“éƒ½æœ‰å¯¹åº”çš„ä»·æ ¼ã€‚ç„¶è€Œï¼Œä¹Ÿæœ‰ä¸€äº›å¤§ç¤¼åŒ…ï¼Œæ¯ä¸ªå¤§ç¤¼åŒ…ä»¥ä¼˜æƒ çš„ä»·æ ¼æ†ç»‘é”€å”®ä¸€ç»„ç‰©å“ã€‚
 
-¸øÄãÒ»¸öÕûÊýÊý×é price ±íÊ¾ÎïÆ·¼Û¸ñ£¬ÆäÖÐ price[i] ÊÇµÚ i ¼þÎïÆ·µÄ¼Û¸ñ¡£ÁíÓÐÒ»¸öÕûÊýÊý×é needs ±íÊ¾¹ºÎïÇåµ¥£¬ÆäÖÐ needs[i] ÊÇÐèÒª¹ºÂòµÚ i ¼þÎïÆ·µÄÊýÁ¿¡£
+ç»™ä½ ä¸€ä¸ªæ•´æ•°æ•°ç»„ price è¡¨ç¤ºç‰©å“ä»·æ ¼ï¼Œå…¶ä¸­ price[i] æ˜¯ç¬¬ i ä»¶ç‰©å“çš„ä»·æ ¼ã€‚å¦æœ‰ä¸€ä¸ªæ•´æ•°æ•°ç»„ needs è¡¨ç¤ºè´­ç‰©æ¸…å•ï¼Œå…¶ä¸­ needs[i] æ˜¯éœ€è¦è´­ä¹°ç¬¬ i ä»¶ç‰©å“çš„æ•°é‡ã€‚
 
-»¹ÓÐÒ»¸öÊý×é special ±íÊ¾´óÀñ°ü£¬special[i] µÄ³¤¶ÈÎª n + 1 £¬ÆäÖÐ special[i][j] ±íÊ¾µÚ i ¸ö´óÀñ°üÖÐÄÚº¬µÚ j ¼þÎïÆ·µÄÊýÁ¿£¬ÇÒ special[i][n] £¨Ò²¾ÍÊÇÊý×éÖÐµÄ×îºóÒ»¸öÕûÊý£©ÎªµÚ i ¸ö´óÀñ°üµÄ¼Û¸ñ¡£
+è¿˜æœ‰ä¸€ä¸ªæ•°ç»„ special è¡¨ç¤ºå¤§ç¤¼åŒ…ï¼Œspecial[i] çš„é•¿åº¦ä¸º n + 1 ï¼Œå…¶ä¸­ special[i][j] è¡¨ç¤ºç¬¬ i ä¸ªå¤§ç¤¼åŒ…ä¸­å†…å«ç¬¬ j ä»¶ç‰©å“çš„æ•°é‡ï¼Œä¸” special[i][n] ï¼ˆä¹Ÿå°±æ˜¯æ•°ç»„ä¸­çš„æœ€åŽä¸€ä¸ªæ•´æ•°ï¼‰ä¸ºç¬¬ i ä¸ªå¤§ç¤¼åŒ…çš„ä»·æ ¼ã€‚
 
-·µ»Ø È·ÇÐ Âú×ã¹ºÎïÇåµ¥ËùÐè»¨·ÑµÄ×îµÍ¼Û¸ñ£¬Äã¿ÉÒÔ³ä·ÖÀûÓÃ´óÀñ°üµÄÓÅ»Ý»î¶¯¡£Äã²»ÄÜ¹ºÂò³¬³ö¹ºÎïÇåµ¥Ö¸¶¨ÊýÁ¿µÄÎïÆ·£¬¼´Ê¹ÄÇÑù»á½µµÍÕûÌå¼Û¸ñ¡£ÈÎÒâ´óÀñ°ü¿ÉÎÞÏÞ´Î¹ºÂò¡£
+è¿”å›ž ç¡®åˆ‡ æ»¡è¶³è´­ç‰©æ¸…å•æ‰€éœ€èŠ±è´¹çš„æœ€ä½Žä»·æ ¼ï¼Œä½ å¯ä»¥å……åˆ†åˆ©ç”¨å¤§ç¤¼åŒ…çš„ä¼˜æƒ æ´»åŠ¨ã€‚ä½ ä¸èƒ½è´­ä¹°è¶…å‡ºè´­ç‰©æ¸…å•æŒ‡å®šæ•°é‡çš„ç‰©å“ï¼Œå³ä½¿é‚£æ ·ä¼šé™ä½Žæ•´ä½“ä»·æ ¼ã€‚ä»»æ„å¤§ç¤¼åŒ…å¯æ— é™æ¬¡è´­ä¹°ã€‚
 */
 class Solution {
     Map<List<Integer>, Integer> memo = new HashMap<>();

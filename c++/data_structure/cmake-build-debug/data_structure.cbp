@@ -431,6 +431,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="union_find_set">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libunion_find_set.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 union_find_set"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="union_find_set/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/libunion_find_set.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 union_find_set/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="b_tree_test">
 				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/b_tree_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
@@ -661,6 +707,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="union_find_set_test">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/union_find_set_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 union_find_set_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="union_find_set_test/fast">
+				<Option output="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/union_find_set_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hhoa/hhoa/algorithm/c++/data_structure/header"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 union_find_set_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test">
 				<Option working_dir="/home/hhoa/hhoa/algorithm/c++/data_structure/cmake-build-debug"/>
 				<Option type="4"/>
@@ -719,6 +811,9 @@
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/tree_map.cpp">
 			<Option target="tree_map"/>
 		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/src/union_find_set.cpp">
+			<Option target="union_find_set"/>
+		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/b_tree_test.cpp">
 			<Option target="b_tree_test"/>
 		</Unit>
@@ -733,6 +828,9 @@
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/tree_test.cpp">
 			<Option target="tree_test"/>
+		</Unit>
+		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/test/union_find_set_test.cpp">
+			<Option target="union_find_set_test"/>
 		</Unit>
 		<Unit filename="/home/hhoa/hhoa/algorithm/c++/data_structure/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -3,19 +3,19 @@ package lc_274;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê5ÔÂ3ÈÕ
- *@todo:274. H Ö¸Êý
-¸ø¶¨Ò»Î»ÑÐ¾¿ÕßÂÛÎÄ±»ÒýÓÃ´ÎÊýµÄÊý×é£¨±»ÒýÓÃ´ÎÊýÊÇ·Ç¸ºÕûÊý£©¡£±àÐ´Ò»¸ö·½·¨£¬¼ÆËã³öÑÐ¾¿ÕßµÄ h Ö¸Êý¡£
+ *@author: ï¿½Æºï¿½
+ *@date : 2021ï¿½ï¿½5ï¿½ï¿½3ï¿½ï¿½
+ *@todo:274. H Ö¸ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½Ð¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¨ï¿½ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½Ç·Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¾ï¿½ï¿½ßµï¿½ h Ö¸ï¿½ï¿½ï¿½ï¿½
 
-h Ö¸ÊýµÄ¶¨Òå£ºh ´ú±í¡°¸ßÒýÓÃ´ÎÊý¡±£¨high citations£©£¬Ò»Ãû¿ÆÑÐÈËÔ±µÄ h Ö¸ÊýÊÇÖ¸Ëû£¨Ëý£©µÄ £¨N ÆªÂÛÎÄÖÐ£©×Ü¹²ÓÐ h ÆªÂÛÎÄ·Ö±ð±»ÒýÓÃÁËÖÁÉÙ h ´Î¡£ÇÒÆäÓàµÄ N - h ÆªÂÛÎÄÃ¿Æª±»ÒýÓÃ´ÎÊý ²»³¬¹ý h ´Î¡£
+h Ö¸ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½å£ºh ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½high citationsï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ h Ö¸ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½N Æªï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ h Æªï¿½ï¿½ï¿½Ä·Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ h ï¿½Î¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ N - h Æªï¿½ï¿½ï¿½ï¿½Ã¿Æªï¿½ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ h ï¿½Î¡ï¿½
 
-ÀýÈç£ºÄ³ÈËµÄ h Ö¸ÊýÊÇ 20£¬Õâ±íÊ¾ËûÒÑ·¢±íµÄÂÛÎÄÖÐ£¬Ã¿Æª±»ÒýÓÃÁËÖÁÉÙ 20 ´ÎµÄÂÛÎÄ×Ü¹²ÓÐ 20 Æª¡£
+ï¿½ï¿½ï¿½ç£ºÄ³ï¿½Ëµï¿½ h Ö¸ï¿½ï¿½ï¿½ï¿½ 20ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ñ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½Ã¿Æªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 20 ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ 20 Æªï¿½ï¿½
 */
 public class LC_274 {
 
 }
-//ÎÒµÄ´úÂë
+//ï¿½ÒµÄ´ï¿½ï¿½ï¿½
 class Solution {
     public int hIndex(int[] citations) {
         if (citations.length == 0) return 0;
@@ -27,5 +27,24 @@ class Solution {
             i--;
         }
         return n;
+    }
+}
+
+class Solution1 {
+    public int hIndex(int[] citations) {
+        Arrays.sort(citations);
+        int n = citations.length;
+        int l = 0, r = n - 1;
+        while (l < r) {
+            int mid = (r - l) / 2 + l;
+            if (citations[mid] > n - mid - 1) {
+                r = mid;
+            } else if (citations[mid] < n - mid - 1) {
+                l = mid + 1;
+            } else {
+                return n - mid - 1;
+            }
+        }
+        return citations[l] >= n - l ? n - l : n - l - 1;
     }
 }

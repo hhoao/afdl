@@ -4,35 +4,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author �ƺ�
- *37. ������
-��дһ������ͨ�����ո�������������⡣
+ * @author 黄豪
+ *37. 解数独
+编写一个程序，通过填充空格来解决数独问题。
 
-һ�������Ľⷨ����ѭ���¹���
+一个数独的解法需遵循如下规则：
 
-���� 1-9 ��ÿһ��ֻ�ܳ���һ�Ρ�
-���� 1-9 ��ÿһ��ֻ�ܳ���һ�Ρ�
-���� 1-9 ��ÿһ���Դ�ʵ�߷ָ��� 3x3 ����ֻ�ܳ���һ�Ρ�
-�հ׸��� '.' ��ʾ��
-
-
-
-һ��������
+数字 1-9 在每一行只能出现一次。
+数字 1-9 在每一列只能出现一次。
+数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
+空白格用 '.' 表示。
 
 
 
-�𰸱���ɺ�ɫ��
+一个数独。
 
-��ʾ��
 
-��������������ֻ�������� 1-9 ���ַ� '.' ��
-����Լ������������ֻ��Ψһ�⡣
-����������Զ�� 9x9 ��ʽ�ġ�
+
+答案被标成红色。
+
+提示：
+
+给定的数独序列只包含数字 1-9 和字符 '.' 。
+你可以假设给定的数独只有唯一解。
+给定数独永远是 9x9 形式的。
  */
 public class LC_37 {
 
 }
-//�ݹ�
+//递归
 class Solution {
     private boolean[][] line = new boolean[9][9];
     private boolean[][] column = new boolean[9][9];
@@ -73,7 +73,7 @@ class Solution {
         }
     }
 }
-//λ������Ż�
+//位运算符优化
 class Solution2 {
     private int[] line = new int[9];
     private int[] column = new int[9];
@@ -121,7 +121,7 @@ class Solution2 {
         block[i / 3][j / 3] ^= (1 << digit);
     }
 }
-//ö���Ż�
+//枚举优化
 class Solution3 {
     private int[] line = new int[9];
     private int[] column = new int[9];

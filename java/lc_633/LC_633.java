@@ -1,14 +1,14 @@
 package lc_633;
 
 /**
- * @author »ÆºÀ
- *633. Æ½·½ÊıÖ®ºÍ
-¸ø¶¨Ò»¸ö·Ç¸ºÕûÊı c £¬ÄãÒªÅĞ¶ÏÊÇ·ñ´æÔÚÁ½¸öÕûÊı a ºÍ b£¬Ê¹µÃ a2 + b2 = c ¡£
+ * @author é»„è±ª
+ *633. å¹³æ–¹æ•°ä¹‹å’Œ
+ç»™å®šä¸€ä¸ªéè´Ÿæ•´æ•° c ï¼Œä½ è¦åˆ¤æ–­æ˜¯å¦å­˜åœ¨ä¸¤ä¸ªæ•´æ•° a å’Œ bï¼Œä½¿å¾— a2 + b2 = c ã€‚
  */
 public class LC_633 {
 
 }
-//Ë«Ö¸Õë
+//åŒæŒ‡é’ˆ
 class Solution {
     public boolean judgeSquareSum(int c) {
         long  l = 0, r = (int) Math.sqrt(c);
@@ -24,7 +24,7 @@ class Solution {
         return false;
     }
 }
-//math sqlº¯Êı
+//math sqlå‡½æ•°
 class Solution1 {
     public boolean judgeSquareSum(int c) {
         for (long a = 0; a * a <= c; a++) {

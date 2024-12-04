@@ -1,19 +1,19 @@
 package lc_1518;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ17ÈÕ
- *@todo:1518. »»¾ÆÎÊÌâ
-Ğ¡Çø±ãÀûµêÕıÔÚ´ÙÏú£¬ÓÃ numExchange ¸ö¿Õ¾ÆÆ¿¿ÉÒÔ¶Ò»»Ò»Æ¿ĞÂ¾Æ¡£Äã¹ºÈëÁË numBottles Æ¿¾Æ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ17æ—¥
+ *@todo:1518. æ¢é…’é—®é¢˜
+å°åŒºä¾¿åˆ©åº—æ­£åœ¨ä¿ƒé”€ï¼Œç”¨ numExchange ä¸ªç©ºé…’ç“¶å¯ä»¥å…‘æ¢ä¸€ç“¶æ–°é…’ã€‚ä½ è´­å…¥äº† numBottles ç“¶é…’ã€‚
 
-Èç¹ûºÈµôÁË¾ÆÆ¿ÖĞµÄ¾Æ£¬ÄÇÃ´¾ÆÆ¿¾Í»á±ä³É¿ÕµÄ¡£
+å¦‚æœå–æ‰äº†é…’ç“¶ä¸­çš„é…’ï¼Œé‚£ä¹ˆé…’ç“¶å°±ä¼šå˜æˆç©ºçš„ã€‚
 
-ÇëÄã¼ÆËã ×î¶à ÄÜºÈµ½¶àÉÙÆ¿¾Æ¡£
+è¯·ä½ è®¡ç®— æœ€å¤š èƒ½å–åˆ°å¤šå°‘ç“¶é…’ã€‚
 */
 public class LC_1518 {
 
 }
-//Ä£Äâ
+//æ¨¡æ‹Ÿ
 class Solution {
     public int numWaterBottles(int numBottles, int numExchange) {
         int ans = numBottles;
@@ -24,7 +24,7 @@ class Solution {
         return ans;
     }
 }
-//ÊıÑ§
+//æ•°å­¦
 class Solution1 {
     public int numWaterBottles(int numBottles, int numExchange) {
         int cnt = numBottles / (numExchange - 1);

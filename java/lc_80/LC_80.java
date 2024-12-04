@@ -1,34 +1,34 @@
 package lc_80;
 
 /**
- * @author »ÆºÀ
- *80. É¾³ýÅÅÐòÊý×éÖÐµÄÖØ¸´Ïî II
-¸ø¶¨Ò»¸öÔöÐòÅÅÁÐÊý×é nums £¬ÄãÐèÒªÔÚ Ô­µØ É¾³ýÖØ¸´³öÏÖµÄÔªËØ£¬Ê¹µÃÃ¿¸öÔªËØ×î¶à³öÏÖÁ½´Î£¬·µ»ØÒÆ³ýºóÊý×éµÄÐÂ³¤¶È¡£
+ * @author é»„è±ª
+ *80. åˆ é™¤æŽ’åºæ•°ç»„ä¸­çš„é‡å¤é¡¹ II
+ç»™å®šä¸€ä¸ªå¢žåºæŽ’åˆ—æ•°ç»„ nums ï¼Œä½ éœ€è¦åœ¨ åŽŸåœ° åˆ é™¤é‡å¤å‡ºçŽ°çš„å…ƒç´ ï¼Œä½¿å¾—æ¯ä¸ªå…ƒç´ æœ€å¤šå‡ºçŽ°ä¸¤æ¬¡ï¼Œè¿”å›žç§»é™¤åŽæ•°ç»„çš„æ–°é•¿åº¦ã€‚
 
-²»ÒªÊ¹ÓÃ¶îÍâµÄÊý×é¿Õ¼ä£¬Äã±ØÐëÔÚ Ô­µØ ÐÞ¸ÄÊäÈëÊý×é ²¢ÔÚÊ¹ÓÃ O(1) ¶îÍâ¿Õ¼äµÄÌõ¼þÏÂÍê³É¡£
+ä¸è¦ä½¿ç”¨é¢å¤–çš„æ•°ç»„ç©ºé—´ï¼Œä½ å¿…é¡»åœ¨ åŽŸåœ° ä¿®æ”¹è¾“å…¥æ•°ç»„ å¹¶åœ¨ä½¿ç”¨ O(1) é¢å¤–ç©ºé—´çš„æ¡ä»¶ä¸‹å®Œæˆã€‚
 
  
 
-ËµÃ÷£º
+è¯´æ˜Žï¼š
 
-ÎªÊ²Ã´·µ»ØÊýÖµÊÇÕûÊý£¬µ«Êä³öµÄ´ð°¸ÊÇÊý×éÄØ£¿
+ä¸ºä»€ä¹ˆè¿”å›žæ•°å€¼æ˜¯æ•´æ•°ï¼Œä½†è¾“å‡ºçš„ç­”æ¡ˆæ˜¯æ•°ç»„å‘¢ï¼Ÿ
 
-Çë×¢Òâ£¬ÊäÈëÊý×éÊÇÒÔ¡°ÒýÓÃ¡±·½Ê½´«µÝµÄ£¬ÕâÒâÎ¶×ÅÔÚº¯ÊýÀïÐÞ¸ÄÊäÈëÊý×é¶ÔÓÚµ÷ÓÃÕßÊÇ¿É¼ûµÄ¡£
+è¯·æ³¨æ„ï¼Œè¾“å…¥æ•°ç»„æ˜¯ä»¥â€œå¼•ç”¨â€æ–¹å¼ä¼ é€’çš„ï¼Œè¿™æ„å‘³ç€åœ¨å‡½æ•°é‡Œä¿®æ”¹è¾“å…¥æ•°ç»„å¯¹äºŽè°ƒç”¨è€…æ˜¯å¯è§çš„ã€‚
 
-Äã¿ÉÒÔÏëÏóÄÚ²¿²Ù×÷ÈçÏÂ£º
+ä½ å¯ä»¥æƒ³è±¡å†…éƒ¨æ“ä½œå¦‚ä¸‹ï¼š
 
-// nums ÊÇÒÔ¡°ÒýÓÃ¡±·½Ê½´«µÝµÄ¡£Ò²¾ÍÊÇËµ£¬²»¶ÔÊµ²Î×öÈÎºÎ¿½±´
+// nums æ˜¯ä»¥â€œå¼•ç”¨â€æ–¹å¼ä¼ é€’çš„ã€‚ä¹Ÿå°±æ˜¯è¯´ï¼Œä¸å¯¹å®žå‚åšä»»ä½•æ‹·è´
 int len = removeDuplicates(nums);
 
-// ÔÚº¯ÊýÀïÐÞ¸ÄÊäÈëÊý×é¶ÔÓÚµ÷ÓÃÕßÊÇ¿É¼ûµÄ¡£
-// ¸ù¾ÝÄãµÄº¯Êý·µ»ØµÄ³¤¶È, Ëü»á´òÓ¡³öÊý×éÖÐ¸Ã³¤¶È·¶Î§ÄÚµÄËùÓÐÔªËØ¡£
+// åœ¨å‡½æ•°é‡Œä¿®æ”¹è¾“å…¥æ•°ç»„å¯¹äºŽè°ƒç”¨è€…æ˜¯å¯è§çš„ã€‚
+// æ ¹æ®ä½ çš„å‡½æ•°è¿”å›žçš„é•¿åº¦, å®ƒä¼šæ‰“å°å‡ºæ•°ç»„ä¸­è¯¥é•¿åº¦èŒƒå›´å†…çš„æ‰€æœ‰å…ƒç´ ã€‚
 for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
  */
 public class LC_80 {
 }
-//É¾³ý¶àÓàµÄÖØ¸´Ïî
+//åˆ é™¤å¤šä½™çš„é‡å¤é¡¹
 class Solution {
     
     public int[] remElement(int[] arr, int index) {
@@ -62,7 +62,7 @@ class Solution {
         return length;
     }
 }
-//¸²¸Ç¶àÓàµÄÖØ¸´Ïî
+//è¦†ç›–å¤šä½™çš„é‡å¤é¡¹
 class Solution2 {
     
     public int removeDuplicates(int[] nums) {

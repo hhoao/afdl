@@ -3,18 +3,18 @@ package lc_1307;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ21ÈÕ
- *@todo:1307. ¿ÚËãÄÑÌâ
-¸øÄãÒ»¸ö·½³Ì£¬×ó±ßÓÃ words ±íÊ¾£¬ÓÒ±ßÓÃ result ±íÊ¾¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ21æ—¥
+ *@todo:1307. å£ç®—éš¾é¢˜
+ç»™ä½ ä¸€ä¸ªæ–¹ç¨‹ï¼Œå·¦è¾¹ç”¨ words è¡¨ç¤ºï¼Œå³è¾¹ç”¨ result è¡¨ç¤ºã€‚
 
-ÄãĞèÒª¸ù¾İÒÔÏÂ¹æÔò¼ì²é·½³ÌÊÇ·ñ¿É½â£º
+ä½ éœ€è¦æ ¹æ®ä»¥ä¸‹è§„åˆ™æ£€æŸ¥æ–¹ç¨‹æ˜¯å¦å¯è§£ï¼š
 
-Ã¿¸ö×Ö·û¶¼»á±»½âÂë³ÉÒ»Î»Êı×Ö£¨0 - 9£©¡£
-Ã¿¶Ô²»Í¬µÄ×Ö·û±ØĞëÓ³Éäµ½²»Í¬µÄÊı×Ö¡£
-Ã¿¸ö words[i] ºÍ result ¶¼»á±»½âÂë³ÉÒ»¸öÃ»ÓĞÇ°µ¼ÁãµÄÊı×Ö¡£
-×ó²àÊı×ÖÖ®ºÍ£¨words£©µÈÓÚÓÒ²àÊı×Ö£¨result£©¡£ 
-Èç¹û·½³Ì¿É½â£¬·µ»Ø True£¬·ñÔò·µ»Ø False¡£
+æ¯ä¸ªå­—ç¬¦éƒ½ä¼šè¢«è§£ç æˆä¸€ä½æ•°å­—ï¼ˆ0 - 9ï¼‰ã€‚
+æ¯å¯¹ä¸åŒçš„å­—ç¬¦å¿…é¡»æ˜ å°„åˆ°ä¸åŒçš„æ•°å­—ã€‚
+æ¯ä¸ª words[i] å’Œ result éƒ½ä¼šè¢«è§£ç æˆä¸€ä¸ªæ²¡æœ‰å‰å¯¼é›¶çš„æ•°å­—ã€‚
+å·¦ä¾§æ•°å­—ä¹‹å’Œï¼ˆwordsï¼‰ç­‰äºå³ä¾§æ•°å­—ï¼ˆresultï¼‰ã€‚ 
+å¦‚æœæ–¹ç¨‹å¯è§£ï¼Œè¿”å› Trueï¼Œå¦åˆ™è¿”å› Falseã€‚
 */
 public class LC_1307 {
 
@@ -22,25 +22,25 @@ public class LC_1307 {
 class Solution {
     int[] c2N = new int[26]; //char to num
     int[] n2C = new int[10]; //num to char
-    boolean[] not0 = new boolean[26]; //²»Îª0µÄ×ÖÄ¸
+    boolean[] not0 = new boolean[26]; //ä¸ä¸º0çš„å­—æ¯
     public boolean isSolvable(String[] words, String result) {
         int maxWord = 1;
         for (String word : words) {
-            //¼ÇÂ¼²»ÄÜÎªÇ°µ¼ÁãµÄ×ÖÄ¸
+            //è®°å½•ä¸èƒ½ä¸ºå‰å¯¼é›¶çš„å­—æ¯
             if (word.length() > 1) {
                 not0[word.charAt(0) - 'A'] = true;
             } 
             maxWord = Math.max(maxWord, word.length());
-            //Èç¹û´æÔÚword³¤¶È´óÓÚresult³¤¶È£¬ÎŞ½â
+            //å¦‚æœå­˜åœ¨wordé•¿åº¦å¤§äºresulté•¿åº¦ï¼Œæ— è§£
             if (word.length() > result.length()) {
                 return false;
             }
         }
-        //×î´óword³¤¶È+1Ğ¡ÓÚresult³¤¶È£¬ÎŞ½â
+        //æœ€å¤§wordé•¿åº¦+1å°äºresulté•¿åº¦ï¼Œæ— è§£
         if (maxWord + 1 < result.length()) {
             return false;
         }
-        //¼ÇÂ¼²»ÄÜÎªÇ°µ¼ÁãµÄ×ÖÄ¸
+        //è®°å½•ä¸èƒ½ä¸ºå‰å¯¼é›¶çš„å­—æ¯
         if (result.length() > 1) {
             not0[result.charAt(0) - 'A'] = true;
         }
@@ -49,37 +49,37 @@ class Solution {
         return dfs(words, result, 0, 0, 0);
     }
 
-    public boolean dfs(String[] words, String result, int wordIdx, int pos, int x) { //wordIdxÎªµ±Ç°±éÀúµ½µÄwordË÷Òı£¬posÎªÒÑ¾­Ğ£ÑéºÍµÄµ¹ÊıË÷Òı£¬ xÎª½øÎ»
-        //±éÀúµ½resultµÚÒ»Î»Ö®Ç°£¬Èô½øÎ»Îª0£¬Ç¡ºÃÕÒµ½½â
+    public boolean dfs(String[] words, String result, int wordIdx, int pos, int x) { //wordIdxä¸ºå½“å‰éå†åˆ°çš„wordç´¢å¼•ï¼Œposä¸ºå·²ç»æ ¡éªŒå’Œçš„å€’æ•°ç´¢å¼•ï¼Œ xä¸ºè¿›ä½
+        //éå†åˆ°resultç¬¬ä¸€ä½ä¹‹å‰ï¼Œè‹¥è¿›ä½ä¸º0ï¼Œæ°å¥½æ‰¾åˆ°è§£
         if (pos == result.length()) {
             return x == 0;
         }
 
-        //±éÀúÍêÒ»ÂÖwords£¬
+        //éå†å®Œä¸€è½®wordsï¼Œ
         if (wordIdx == words.length) {
-            //ËùÓĞwordµ¹ÊıposÎ»ÖÃµÄÊı×ÖºÍ
+            //æ‰€æœ‰wordå€’æ•°posä½ç½®çš„æ•°å­—å’Œ
             int sum = x;
             for (String word : words) {
-                //Èç¹ûword³¤¶È²»×ãÔòÖ±½ÓÌø¹ı
+                //å¦‚æœwordé•¿åº¦ä¸è¶³åˆ™ç›´æ¥è·³è¿‡
                 if (word.length() > pos) {
                     sum += c2N[word.charAt(word.length() - 1 - pos) - 'A'];
                 }
             }
             int num = sum % 10;
             char c = result.charAt(result.length() - 1 - pos);
-            //resultµ¹ÊıposÎ»ÖÃµÄ×ÖÄ¸ÒÑ¾­ÓĞÓ³Éä£¬Ôò±ØĞëµÈÓÚnum
+            //resultå€’æ•°posä½ç½®çš„å­—æ¯å·²ç»æœ‰æ˜ å°„ï¼Œåˆ™å¿…é¡»ç­‰äºnum
             if (c2N[c - 'A'] != -1) {
                 if (c2N[c - 'A'] == num) {
-                    //wordidx»Øµ½0£¬ posÏòÇ°½øÒ»¸ö£¬½øÎ»¸üĞÂÎªsum / 10
+                    //wordidxå›åˆ°0ï¼Œ poså‘å‰è¿›ä¸€ä¸ªï¼Œè¿›ä½æ›´æ–°ä¸ºsum / 10
                     return dfs(words, result, 0, pos + 1, sum / 10);
                 }
                 return false; 
             } else {
-                //Èç¹ûnumÒÑ¾­±»ÆäËû×ÖÄ¸Ó³Éä£¬ÎŞ½â
+                //å¦‚æœnumå·²ç»è¢«å…¶ä»–å­—æ¯æ˜ å°„ï¼Œæ— è§£
                 if (n2C[num] != -1) {
                     return false;
                 }
-                //resultµ¹ÊıposÎ»ÖÃµÄ×ÖÄ¸Ó³ÉäÎªnum
+                //resultå€’æ•°posä½ç½®çš„å­—æ¯æ˜ å°„ä¸ºnum
                 c2N[c - 'A'] = num;
                 n2C[num] = (int) c;
                 boolean check = dfs(words, result, 0, pos + 1, sum / 10);
@@ -90,24 +90,24 @@ class Solution {
                 c2N[c - 'A'] = -1;
                 return false;
             }
-        } else { //ÔÚÄ³Ò»ÂÖwordsµÄ±éÀúÖĞ
+        } else { //åœ¨æŸä¸€è½®wordsçš„éå†ä¸­
             String word = words[wordIdx];
-            //µ±Ç°word³¤¶È²»×ã£¬wordidxÏòÇ°½øÒ»¸ö
+            //å½“å‰wordé•¿åº¦ä¸è¶³ï¼Œwordidxå‘å‰è¿›ä¸€ä¸ª
             if (word.length() <= pos) {
                 return dfs(words, result, wordIdx + 1, pos, x);
             } else {
                 char c = word.charAt(word.length() - 1 - pos);
-                //wordÔÚµ¹ÊıposÎ»ÖÃÒÑ¾­ÓĞÓ³Éä
+                //wordåœ¨å€’æ•°posä½ç½®å·²ç»æœ‰æ˜ å°„
                 if (c2N[c - 'A'] != -1) {
                     return dfs(words, result, wordIdx + 1, pos, x);
                 } else {
-                    //Èç¹û¸ÃÎ»ÖÃ×ÖÄ¸²»ÄÜÎª0£¬³¢ÊÔÔÚ1~9ÖĞÎªÆä·ÖÅä
+                    //å¦‚æœè¯¥ä½ç½®å­—æ¯ä¸èƒ½ä¸º0ï¼Œå°è¯•åœ¨1~9ä¸­ä¸ºå…¶åˆ†é…
                     if (not0[c - 'A']) {
                         for (int i = 1; i < 10; i++) {
                             if (n2C[i] == -1) {
                                 n2C[i] = c;
                                 c2N[c - 'A'] = i;
-                                //wordIdxÏòÇ°½øÒ»¸ö£¬pos²»±ä
+                                //wordIdxå‘å‰è¿›ä¸€ä¸ªï¼Œposä¸å˜
                                 boolean check = dfs(words, result, wordIdx + 1, pos, x);
                                 if (check) {
                                     return true;
@@ -117,7 +117,7 @@ class Solution {
                             }
                         }
                     } else {
-                        //ÔÚ0-9ÖĞÎªÆä·ÖÅä
+                        //åœ¨0-9ä¸­ä¸ºå…¶åˆ†é…
                         for (int i = 0; i < 10; i++) {
                             if (n2C[i] == -1) {
                                 n2C[i] = c;
@@ -134,7 +134,7 @@ class Solution {
                 }
             }
         }
-        //ËùÓĞ·½°¸¶¼²»Âú×ã
+        //æ‰€æœ‰æ–¹æ¡ˆéƒ½ä¸æ»¡è¶³
         return false;
     }
 }

@@ -4,18 +4,18 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *52. N»Êºó II
-n »ÊºóÎÊÌâ ÑĞ¾¿µÄÊÇÈçºÎ½« n ¸ö»Êºó·ÅÖÃÔÚ n¡Án µÄÆåÅÌÉÏ£¬²¢ÇÒÊ¹»Êºó±Ë´ËÖ®¼ä²»ÄÜÏà»¥¹¥»÷¡£
+ * @author é»„è±ª
+ *52. Nçš‡å II
+n çš‡åé—®é¢˜ ç ”ç©¶çš„æ˜¯å¦‚ä½•å°† n ä¸ªçš‡åæ”¾ç½®åœ¨ nÃ—n çš„æ£‹ç›˜ä¸Šï¼Œå¹¶ä¸”ä½¿çš‡åå½¼æ­¤ä¹‹é—´ä¸èƒ½ç›¸äº’æ”»å‡»ã€‚
 
-¸øÄãÒ»¸öÕûÊı n £¬·µ»Ø n »ÊºóÎÊÌâ ²»Í¬µÄ½â¾ö·½°¸µÄÊıÁ¿¡£
+ç»™ä½ ä¸€ä¸ªæ•´æ•° n ï¼Œè¿”å› n çš‡åé—®é¢˜ ä¸åŒçš„è§£å†³æ–¹æ¡ˆçš„æ•°é‡ã€‚
 
  
  */
 public class LC_52 {
 
 }
-//»ùÓÚ¼¯ºÏµÄ»ØËİ
+//åŸºäºé›†åˆçš„å›æº¯
 class Solution {
     public int totalNQueens(int n) {
         Set<Integer> columns = new HashSet<Integer>();
@@ -53,7 +53,7 @@ class Solution {
         }
     }
 }
-//»ùÓÚÎ»ÔËËã·ûµÄ»ØËİ
+//åŸºäºä½è¿ç®—ç¬¦çš„å›æº¯
 class Solution1 {
     public int totalNQueens(int n) {
         return solve(n, 0, 0, 0, 0);

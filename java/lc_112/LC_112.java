@@ -6,16 +6,16 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *112. Â·¾¶×ÜºÍ
-¸øÄã¶ş²æÊ÷µÄ¸ù½Úµã root ºÍÒ»¸ö±íÊ¾Ä¿±êºÍµÄÕûÊı targetSum £¬ÅĞ¶Ï¸ÃÊ÷ÖĞÊÇ·ñ´æÔÚ ¸ù½Úµãµ½Ò¶×Ó½Úµã µÄÂ·¾¶£¬ÕâÌõÂ·¾¶ÉÏËùÓĞ½ÚµãÖµÏà¼ÓµÈÓÚÄ¿±êºÍ targetSum ¡£
+ * @author é»„è±ª
+ *112. è·¯å¾„æ€»å’Œ
+ç»™ä½ äºŒå‰æ ‘çš„æ ¹èŠ‚ç‚¹ root å’Œä¸€ä¸ªè¡¨ç¤ºç›®æ ‡å’Œçš„æ•´æ•° targetSum ï¼Œåˆ¤æ–­è¯¥æ ‘ä¸­æ˜¯å¦å­˜åœ¨ æ ¹èŠ‚ç‚¹åˆ°å¶å­èŠ‚ç‚¹ çš„è·¯å¾„ï¼Œè¿™æ¡è·¯å¾„ä¸Šæ‰€æœ‰èŠ‚ç‚¹å€¼ç›¸åŠ ç­‰äºç›®æ ‡å’Œ targetSum ã€‚
 
-Ò¶×Ó½Úµã ÊÇÖ¸Ã»ÓĞ×Ó½ÚµãµÄ½Úµã¡£
+å¶å­èŠ‚ç‚¹ æ˜¯æŒ‡æ²¡æœ‰å­èŠ‚ç‚¹çš„èŠ‚ç‚¹ã€‚
  */
 public class LC_112 {
 
 }
-//µİ¹é
+//é€’å½’
 class Solution1 {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {
@@ -27,7 +27,7 @@ class Solution1 {
         return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
 }
-//¹ã¶ÈÓÅÏÈËÑË÷
+//å¹¿åº¦ä¼˜å…ˆæœç´¢
 class Solution2 {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {

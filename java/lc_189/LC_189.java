@@ -3,7 +3,7 @@ package lc_189;
 public class LC_189 {
 
 }
-//¶îÍâµÄÊý×é
+//é¢å¤–çš„æ•°ç»„
 class Solution {
   public void rotate(int[] nums, int k) {
       int n = nums.length;
@@ -14,7 +14,7 @@ class Solution {
       System.arraycopy(newArr, 0, nums, 0, n);
   }
 }
-//»·×´ÍÆÀí
+//çŽ¯çŠ¶æŽ¨ç†
 class Solution1 {
   public void rotate(int[] nums, int k) {
       int n = nums.length;
@@ -37,7 +37,7 @@ class Solution1 {
       return y > 0 ? gcd(y, x % y) : x;
   }
 }
-//Êý×é·­×ª
+//æ•°ç»„ç¿»è½¬
 class Solution3 {
   public void rotate(int[] nums, int k) {
       k %= nums.length;

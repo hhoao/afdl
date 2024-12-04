@@ -3,9 +3,9 @@ package lc_226;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *226. ·­×ª¶ş²æÊ÷
-·­×ªÒ»¿Ã¶ş²æÊ÷¡£
+ * @author é»„è±ª
+ *226. ç¿»è½¬äºŒå‰æ ‘
+ç¿»è½¬ä¸€æ£µäºŒå‰æ ‘ã€‚
  */
 public class LC_226 {
 

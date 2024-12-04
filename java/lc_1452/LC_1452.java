@@ -8,12 +8,12 @@ import java.util.List;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ20ÈÕ
- *@todo:1452. ÊÕ²ØÇåµ¥
-¸øÄãÒ»¸öÊı×é favoriteCompanies £¬ÆäÖĞ favoriteCompanies[i] ÊÇµÚ i ÃûÓÃ»§ÊÕ²ØµÄ¹«Ë¾Çåµ¥£¨ÏÂ±ê´Ó 0 ¿ªÊ¼£©¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ20æ—¥
+ *@todo:1452. æ”¶è—æ¸…å•
+ç»™ä½ ä¸€ä¸ªæ•°ç»„ favoriteCompanies ï¼Œå…¶ä¸­ favoriteCompanies[i] æ˜¯ç¬¬ i åç”¨æˆ·æ”¶è—çš„å…¬å¸æ¸…å•ï¼ˆä¸‹æ ‡ä» 0 å¼€å§‹ï¼‰ã€‚
 
-ÇëÕÒ³ö²»ÊÇÆäËûÈÎºÎÈËÊÕ²ØµÄ¹«Ë¾Çåµ¥µÄ×Ó¼¯µÄÊÕ²ØÇåµ¥£¬²¢·µ»Ø¸ÃÇåµ¥ÏÂ±ê¡£ÏÂ±êĞèÒª°´ÉıĞòÅÅÁĞ¡£
+è¯·æ‰¾å‡ºä¸æ˜¯å…¶ä»–ä»»ä½•äººæ”¶è—çš„å…¬å¸æ¸…å•çš„å­é›†çš„æ”¶è—æ¸…å•ï¼Œå¹¶è¿”å›è¯¥æ¸…å•ä¸‹æ ‡ã€‚ä¸‹æ ‡éœ€è¦æŒ‰å‡åºæ’åˆ—ã€‚
 */
 public class LC_1452 {
 	public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class LC_1452 {
 		System.out.println(new Solution().peopleIndexes(list));
 	}
 }
-//×ÖµäÊ÷
+//å­—å…¸æ ‘
 class Solution {
     class Node{
         Node[] words;

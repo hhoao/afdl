@@ -3,10 +3,10 @@ package lc_698;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê11ÔÂ3ÈÕ
- *@todo:698. »®·ÖÎªk¸öÏàµÈµÄ×Ó¼¯
-¸ø¶¨Ò»¸öÕûÊýÊý×é  nums ºÍÒ»¸öÕýÕûÊý k£¬ÕÒ³öÊÇ·ñÓÐ¿ÉÄÜ°ÑÕâ¸öÊý×é·Ö³É k ¸ö·Ç¿Õ×Ó¼¯£¬Æä×ÜºÍ¶¼ÏàµÈ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´11æœˆ3æ—¥
+ *@todo:698. åˆ’åˆ†ä¸ºkä¸ªç›¸ç­‰çš„å­é›†
+ç»™å®šä¸€ä¸ªæ•´æ•°æ•°ç»„  nums å’Œä¸€ä¸ªæ­£æ•´æ•° kï¼Œæ‰¾å‡ºæ˜¯å¦æœ‰å¯èƒ½æŠŠè¿™ä¸ªæ•°ç»„åˆ†æˆ k ä¸ªéžç©ºå­é›†ï¼Œå…¶æ€»å’Œéƒ½ç›¸ç­‰ã€‚
 */
 public class LC_698 {
 

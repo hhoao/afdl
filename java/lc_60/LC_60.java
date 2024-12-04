@@ -3,11 +3,11 @@ package lc_60;
 import java.util.Arrays;
 
 /**
- * @author »ÆºÀ
- *60. ÅÅÁĞĞòÁĞ
-¸ø³ö¼¯ºÏ [1,2,3,...,n]£¬ÆäËùÓĞÔªËØ¹²ÓĞ n! ÖÖÅÅÁĞ¡£
+ * @author é»„è±ª
+ *60. æ’åˆ—åºåˆ—
+ç»™å‡ºé›†åˆ [1,2,3,...,n]ï¼Œå…¶æ‰€æœ‰å…ƒç´ å…±æœ‰ n! ç§æ’åˆ—ã€‚
 
-°´´óĞ¡Ë³ĞòÁĞ³öËùÓĞÅÅÁĞÇé¿ö£¬²¢Ò»Ò»±ê¼Ç£¬µ± n = 3 Ê±, ËùÓĞÅÅÁĞÈçÏÂ£º
+æŒ‰å¤§å°é¡ºåºåˆ—å‡ºæ‰€æœ‰æ’åˆ—æƒ…å†µï¼Œå¹¶ä¸€ä¸€æ ‡è®°ï¼Œå½“ n = 3 æ—¶, æ‰€æœ‰æ’åˆ—å¦‚ä¸‹ï¼š
 
 "123"
 "132"
@@ -15,7 +15,7 @@ import java.util.Arrays;
 "231"
 "312"
 "321"
-¸ø¶¨ n ºÍ k£¬·µ»ØµÚ k ¸öÅÅÁĞ¡£
+ç»™å®š n å’Œ kï¼Œè¿”å›ç¬¬ k ä¸ªæ’åˆ—ã€‚
  */
 public class LC_60 {
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class LC_60 {
 		System.out.println(s.getPermutation(3, 3));
 	}
 }
-//ÊıÑ§ + ËõĞ¡ÎÊÌâ¹æÄ£
+//æ•°å­¦ + ç¼©å°é—®é¢˜è§„æ¨¡
 class Solution {
     public String getPermutation(int n, int k) {
         int[] factorial = new int[n];

@@ -4,46 +4,46 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ24ÈÕ
- *@todo:901. ¹ÉÆ±¼Û¸ñ¿ç¶È
-±àÐ´Ò»¸ö StockSpanner Àà£¬ËüÊÕ¼¯Ä³Ð©¹ÉÆ±µÄÃ¿ÈÕ±¨¼Û£¬²¢·µ»Ø¸Ã¹ÉÆ±µ±ÈÕ¼Û¸ñµÄ¿ç¶È¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ24æ—¥
+ *@todo:901. è‚¡ç¥¨ä»·æ ¼è·¨åº¦
+ç¼–å†™ä¸€ä¸ª StockSpanner ç±»ï¼Œå®ƒæ”¶é›†æŸäº›è‚¡ç¥¨çš„æ¯æ—¥æŠ¥ä»·ï¼Œå¹¶è¿”å›žè¯¥è‚¡ç¥¨å½“æ—¥ä»·æ ¼çš„è·¨åº¦ã€‚
 
-½ñÌì¹ÉÆ±¼Û¸ñµÄ¿ç¶È±»¶¨ÒåÎª¹ÉÆ±¼Û¸ñÐ¡ÓÚ»òµÈÓÚ½ñÌì¼Û¸ñµÄ×î´óÁ¬ÐøÈÕÊý£¨´Ó½ñÌì¿ªÊ¼Íù»ØÊý£¬°üÀ¨½ñÌì£©¡£
+ä»Šå¤©è‚¡ç¥¨ä»·æ ¼çš„è·¨åº¦è¢«å®šä¹‰ä¸ºè‚¡ç¥¨ä»·æ ¼å°äºŽæˆ–ç­‰äºŽä»Šå¤©ä»·æ ¼çš„æœ€å¤§è¿žç»­æ—¥æ•°ï¼ˆä»Žä»Šå¤©å¼€å§‹å¾€å›žæ•°ï¼ŒåŒ…æ‹¬ä»Šå¤©ï¼‰ã€‚
 
-ÀýÈç£¬Èç¹ûÎ´À´7Ìì¹ÉÆ±µÄ¼Û¸ñÊÇ [100, 80, 60, 70, 60, 75, 85]£¬ÄÇÃ´¹ÉÆ±¿ç¶È½«ÊÇ [1, 1, 1, 2, 1, 4, 6]¡£
+ä¾‹å¦‚ï¼Œå¦‚æžœæœªæ¥7å¤©è‚¡ç¥¨çš„ä»·æ ¼æ˜¯ [100, 80, 60, 70, 60, 75, 85]ï¼Œé‚£ä¹ˆè‚¡ç¥¨è·¨åº¦å°†æ˜¯ [1, 1, 1, 2, 1, 4, 6]ã€‚
 
  
 
-Ê¾Àý£º
+ç¤ºä¾‹ï¼š
 
-ÊäÈë£º["StockSpanner","next","next","next","next","next","next","next"], [[],[100],[80],[60],[70],[60],[75],[85]]
-Êä³ö£º[null,1,1,1,2,1,4,6]
-½âÊÍ£º
-Ê×ÏÈ£¬³õÊ¼»¯ S = StockSpanner()£¬È»ºó£º
-S.next(100) ±»µ÷ÓÃ²¢·µ»Ø 1£¬
-S.next(80) ±»µ÷ÓÃ²¢·µ»Ø 1£¬
-S.next(60) ±»µ÷ÓÃ²¢·µ»Ø 1£¬
-S.next(70) ±»µ÷ÓÃ²¢·µ»Ø 2£¬
-S.next(60) ±»µ÷ÓÃ²¢·µ»Ø 1£¬
-S.next(75) ±»µ÷ÓÃ²¢·µ»Ø 4£¬
-S.next(85) ±»µ÷ÓÃ²¢·µ»Ø 6¡£
+è¾“å…¥ï¼š["StockSpanner","next","next","next","next","next","next","next"], [[],[100],[80],[60],[70],[60],[75],[85]]
+è¾“å‡ºï¼š[null,1,1,1,2,1,4,6]
+è§£é‡Šï¼š
+é¦–å…ˆï¼Œåˆå§‹åŒ– S = StockSpanner()ï¼Œç„¶åŽï¼š
+S.next(100) è¢«è°ƒç”¨å¹¶è¿”å›ž 1ï¼Œ
+S.next(80) è¢«è°ƒç”¨å¹¶è¿”å›ž 1ï¼Œ
+S.next(60) è¢«è°ƒç”¨å¹¶è¿”å›ž 1ï¼Œ
+S.next(70) è¢«è°ƒç”¨å¹¶è¿”å›ž 2ï¼Œ
+S.next(60) è¢«è°ƒç”¨å¹¶è¿”å›ž 1ï¼Œ
+S.next(75) è¢«è°ƒç”¨å¹¶è¿”å›ž 4ï¼Œ
+S.next(85) è¢«è°ƒç”¨å¹¶è¿”å›ž 6ã€‚
 
-×¢Òâ (ÀýÈç) S.next(75) ·µ»Ø 4£¬ÒòÎª½ØÖÁ½ñÌìµÄ×îºó 4 ¸ö¼Û¸ñ
-(°üÀ¨½ñÌìµÄ¼Û¸ñ 75) Ð¡ÓÚ»òµÈÓÚ½ñÌìµÄ¼Û¸ñ¡£
+æ³¨æ„ (ä¾‹å¦‚) S.next(75) è¿”å›ž 4ï¼Œå› ä¸ºæˆªè‡³ä»Šå¤©çš„æœ€åŽ 4 ä¸ªä»·æ ¼
+(åŒ…æ‹¬ä»Šå¤©çš„ä»·æ ¼ 75) å°äºŽæˆ–ç­‰äºŽä»Šå¤©çš„ä»·æ ¼ã€‚
  
 
-ÌáÊ¾£º
+æç¤ºï¼š
 
-µ÷ÓÃ StockSpanner.next(int price) Ê±£¬½«ÓÐ 1 <= price <= 10^5¡£
-Ã¿¸ö²âÊÔÓÃÀý×î¶à¿ÉÒÔµ÷ÓÃ  10000 ´Î StockSpanner.next¡£
-ÔÚËùÓÐ²âÊÔÓÃÀýÖÐ£¬×î¶àµ÷ÓÃ 150000 ´Î StockSpanner.next¡£
-´ËÎÊÌâµÄ×ÜÊ±¼äÏÞÖÆ¼õÉÙÁË 50%¡£
+è°ƒç”¨ StockSpanner.next(int price) æ—¶ï¼Œå°†æœ‰ 1 <= price <= 10^5ã€‚
+æ¯ä¸ªæµ‹è¯•ç”¨ä¾‹æœ€å¤šå¯ä»¥è°ƒç”¨  10000 æ¬¡ StockSpanner.nextã€‚
+åœ¨æ‰€æœ‰æµ‹è¯•ç”¨ä¾‹ä¸­ï¼Œæœ€å¤šè°ƒç”¨ 150000 æ¬¡ StockSpanner.nextã€‚
+æ­¤é—®é¢˜çš„æ€»æ—¶é—´é™åˆ¶å‡å°‘äº† 50%ã€‚
 */
 public class LC_901 {
 
 }
-//µ¥µ÷Õ»
+//å•è°ƒæ ˆ
 class StockSpanner {
     Deque<int[]> stack;
     public StockSpanner() {

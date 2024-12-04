@@ -3,8 +3,8 @@ package lc_1705;
 import java.util.PriorityQueue;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ24ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ24æ—¥
  *@todo:
 */
 public class LC_1705 {
@@ -13,7 +13,7 @@ public class LC_1705 {
 		
 	}
 }
-//×îĞ¡¶Ñ
+//æœ€å°å †
 class Solution {
     public int eatenApples(int[] apples, int[] days) {
         int n = apples.length;

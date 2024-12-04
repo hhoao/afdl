@@ -6,14 +6,14 @@ import java.util.Deque;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *938. ¶ş²æËÑË÷Ê÷µÄ·¶Î§ºÍ
-¸ø¶¨¶ş²æËÑË÷Ê÷µÄ¸ù½áµã root£¬·µ»ØÖµÎ»ÓÚ·¶Î§ [low, high] Ö®¼äµÄËùÓĞ½áµãµÄÖµµÄºÍ¡£
+ * @author é»„è±ª
+ *938. äºŒå‰æœç´¢æ ‘çš„èŒƒå›´å’Œ
+ç»™å®šäºŒå‰æœç´¢æ ‘çš„æ ¹ç»“ç‚¹ rootï¼Œè¿”å›å€¼ä½äºèŒƒå›´ [low, high] ä¹‹é—´çš„æ‰€æœ‰ç»“ç‚¹çš„å€¼çš„å’Œã€‚
  */
 public class LC_938 {
 
 }
-//ÎÒµÄ´úÂëµİ¹é
+//æˆ‘çš„ä»£ç é€’å½’
 class Solution {
     private int sum, low, high;
     public int rangeSumBST(TreeNode root, int low, int high) {
@@ -30,7 +30,7 @@ class Solution {
         inorderTraversal(root.right);
     }
 }
-//Õ»
+//æ ˆ
 class Solution1 {
     public int rangeSumBST(TreeNode root, int low, int high) {
         int sum =  0;
@@ -47,7 +47,7 @@ class Solution1 {
         return sum;
     }
 }
-//mirrorsÖĞĞò±éÀú
+//mirrorsä¸­åºéå†
 class Solution2 {
     public int rangeSumBST(TreeNode root, int low, int high) {
         int sum = 0;

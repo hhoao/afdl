@@ -3,22 +3,22 @@ package lc_435;
 import java.util.Arrays;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê10ÔÂ27ÈÕ
- *@todo:435. ÎŞÖØµşÇø¼ä
-¸ø¶¨Ò»¸öÇø¼äµÄ¼¯ºÏ£¬ÕÒµ½ĞèÒªÒÆ³ıÇø¼äµÄ×îĞ¡ÊıÁ¿£¬Ê¹Ê£ÓàÇø¼ä»¥²»ÖØµş¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´10æœˆ27æ—¥
+ *@todo:435. æ— é‡å åŒºé—´
+ç»™å®šä¸€ä¸ªåŒºé—´çš„é›†åˆï¼Œæ‰¾åˆ°éœ€è¦ç§»é™¤åŒºé—´çš„æœ€å°æ•°é‡ï¼Œä½¿å‰©ä½™åŒºé—´äº’ä¸é‡å ã€‚
 
-×¢Òâ:
+æ³¨æ„:
 
-¿ÉÒÔÈÏÎªÇø¼äµÄÖÕµã×ÜÊÇ´óÓÚËüµÄÆğµã¡£
-Çø¼ä [1,2] ºÍ [2,3] µÄ±ß½çÏà»¥¡°½Ó´¥¡±£¬µ«Ã»ÓĞÏà»¥ÖØµş¡£
+å¯ä»¥è®¤ä¸ºåŒºé—´çš„ç»ˆç‚¹æ€»æ˜¯å¤§äºå®ƒçš„èµ·ç‚¹ã€‚
+åŒºé—´ [1,2] å’Œ [2,3] çš„è¾¹ç•Œç›¸äº’â€œæ¥è§¦â€ï¼Œä½†æ²¡æœ‰ç›¸äº’é‡å ã€‚
 */
 public class LC_435 {
 	public static void main(String[] args) {
 		System.out.println(new Solution().eraseOverlapIntervals(new int[][] {{1,2}, {2,3}, {3,4}, {1,3}})); 
 	}
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution{
 	public int eraseOverlapIntervals(int[][] intervals) {
 		int n = intervals.length;
@@ -35,7 +35,7 @@ class Solution{
 		return n - f[n - 1];
 	}
 }
-//Ì°ĞÄËã·¨
+//è´ªå¿ƒç®—æ³•
 class Solution1{
 	public int eraseOverlapIntervals(int[][] intervals) {
 		int n = intervals.length;

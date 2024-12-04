@@ -3,14 +3,14 @@ package lc_156;
 import tools.ListNode;
 
 /**
- * @author »ÆºÀ
- *160. Ïà½»Á´±í
-±àĞ´Ò»¸ö³ÌĞò£¬ÕÒµ½Á½¸öµ¥Á´±íÏà½»µÄÆğÊ¼½Úµã¡£	
+ * @author é»„è±ª
+ *160. ç›¸äº¤é“¾è¡¨
+ç¼–å†™ä¸€ä¸ªç¨‹åºï¼Œæ‰¾åˆ°ä¸¤ä¸ªå•é“¾è¡¨ç›¸äº¤çš„èµ·å§‹èŠ‚ç‚¹ã€‚	
  */
 public class LC_156 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int n = 0, m = 0;

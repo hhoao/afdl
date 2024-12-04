@@ -4,26 +4,26 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @author �ƺ�
- *42. ����ˮ
-���� n ���Ǹ�������ʾÿ������Ϊ 1 �����ӵĸ߶�ͼ�����㰴�����е����ӣ�����֮���ܽӶ�����ˮ��
+ * @author 黄豪
+ *42. 接雨水
+给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
 
  
 
-ʾ�� 1��
+示例 1：
 
 
 
-���룺height = [0,1,0,2,1,0,1,3,2,1,2,1]
-�����6
-���ͣ������������� [0,1,0,2,1,0,1,3,2,1,2,1] ��ʾ�ĸ߶�ͼ������������£����Խ� 6 ����λ����ˮ����ɫ���ֱ�ʾ��ˮ���� 
-ʾ�� 2��
+输入：height = [0,1,0,2,1,0,1,3,2,1,2,1]
+输出：6
+解释：上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。 
+示例 2：
 
-���룺height = [4,2,0,3,2,5]
-�����9
+输入：height = [4,2,0,3,2,5]
+输出：9
  
 
-��ʾ��
+提示：
 
 n == height.length
 0 <= n <= 3 * 104
@@ -32,7 +32,7 @@ n == height.length
 public class LC_42 {
 
 }
-//������
+//暴力法
 class Solution{
 	public int trap(int[] height) {
 	    int ans = 0;
@@ -51,7 +51,7 @@ class Solution{
 	}
 }
 
-//��̬�滮
+//动态规划
 class Solution2{
 	public int trap(int[] height) {
 	    if (height == null || height.length == 0)
@@ -75,7 +75,7 @@ class Solution2{
 	}
 }
 
-//ջ��Ӧ��
+//栈的应用
 class Solution3{
 	public int trap(int[] height) {
 	    int ans = 0, current = 0; 
@@ -94,7 +94,7 @@ class Solution3{
 	    return ans;
 	}
 }
-//˫ָ��
+//双指针
 class Solution4{
 	public int trap(int[] height) {
 	    int left = 0, right = height.length - 1;

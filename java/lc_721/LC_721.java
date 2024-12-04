@@ -8,19 +8,19 @@ import java.util.List;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ17ÈÕ
- *@todo:721. ÕË»§ºÏ²¢
-¸ø¶¨Ò»¸öÁÐ±í accounts£¬Ã¿¸öÔªËØ accounts[i] ÊÇÒ»¸ö×Ö·û´®ÁÐ±í£¬ÆäÖÐµÚÒ»¸öÔªËØ accounts[i][0] ÊÇ Ãû³Æ (name)£¬ÆäÓàÔªËØÊÇ emails ±íÊ¾¸ÃÕË»§µÄÓÊÏäµØÖ·¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ17æ—¥
+ *@todo:721. è´¦æˆ·åˆå¹¶
+ç»™å®šä¸€ä¸ªåˆ—è¡¨ accountsï¼Œæ¯ä¸ªå…ƒç´  accounts[i] æ˜¯ä¸€ä¸ªå­—ç¬¦ä¸²åˆ—è¡¨ï¼Œå…¶ä¸­ç¬¬ä¸€ä¸ªå…ƒç´  accounts[i][0] æ˜¯ åç§° (name)ï¼Œå…¶ä½™å…ƒç´ æ˜¯ emails è¡¨ç¤ºè¯¥è´¦æˆ·çš„é‚®ç®±åœ°å€ã€‚
 
-ÏÖÔÚ£¬ÎÒÃÇÏëºÏ²¢ÕâÐ©ÕË»§¡£Èç¹ûÁ½¸öÕË»§¶¼ÓÐÒ»Ð©¹²Í¬µÄÓÊÏäµØÖ·£¬ÔòÁ½¸öÕË»§±Ø¶¨ÊôÓÚÍ¬Ò»¸öÈË¡£Çë×¢Òâ£¬¼´Ê¹Á½¸öÕË»§¾ßÓÐÏàÍ¬µÄÃû³Æ£¬ËüÃÇÒ²¿ÉÄÜÊôÓÚ²»Í¬µÄÈË£¬ÒòÎªÈËÃÇ¿ÉÄÜ¾ßÓÐÏàÍ¬µÄÃû³Æ¡£Ò»¸öÈË×î³õ¿ÉÒÔÓµÓÐÈÎÒâÊýÁ¿µÄÕË»§£¬µ«ÆäËùÓÐÕË»§¶¼¾ßÓÐÏàÍ¬µÄÃû³Æ¡£
+çŽ°åœ¨ï¼Œæˆ‘ä»¬æƒ³åˆå¹¶è¿™äº›è´¦æˆ·ã€‚å¦‚æžœä¸¤ä¸ªè´¦æˆ·éƒ½æœ‰ä¸€äº›å…±åŒçš„é‚®ç®±åœ°å€ï¼Œåˆ™ä¸¤ä¸ªè´¦æˆ·å¿…å®šå±žäºŽåŒä¸€ä¸ªäººã€‚è¯·æ³¨æ„ï¼Œå³ä½¿ä¸¤ä¸ªè´¦æˆ·å…·æœ‰ç›¸åŒçš„åç§°ï¼Œå®ƒä»¬ä¹Ÿå¯èƒ½å±žäºŽä¸åŒçš„äººï¼Œå› ä¸ºäººä»¬å¯èƒ½å…·æœ‰ç›¸åŒçš„åç§°ã€‚ä¸€ä¸ªäººæœ€åˆå¯ä»¥æ‹¥æœ‰ä»»æ„æ•°é‡çš„è´¦æˆ·ï¼Œä½†å…¶æ‰€æœ‰è´¦æˆ·éƒ½å…·æœ‰ç›¸åŒçš„åç§°ã€‚
 
-ºÏ²¢ÕË»§ºó£¬°´ÒÔÏÂ¸ñÊ½·µ»ØÕË»§£ºÃ¿¸öÕË»§µÄµÚÒ»¸öÔªËØÊÇÃû³Æ£¬ÆäÓàÔªËØÊÇ °´×Ö·û ASCII Ë³ÐòÅÅÁÐ µÄÓÊÏäµØÖ·¡£ÕË»§±¾Éí¿ÉÒÔÒÔ ÈÎÒâË³Ðò ·µ»Ø¡£
+åˆå¹¶è´¦æˆ·åŽï¼ŒæŒ‰ä»¥ä¸‹æ ¼å¼è¿”å›žè´¦æˆ·ï¼šæ¯ä¸ªè´¦æˆ·çš„ç¬¬ä¸€ä¸ªå…ƒç´ æ˜¯åç§°ï¼Œå…¶ä½™å…ƒç´ æ˜¯ æŒ‰å­—ç¬¦ ASCII é¡ºåºæŽ’åˆ— çš„é‚®ç®±åœ°å€ã€‚è´¦æˆ·æœ¬èº«å¯ä»¥ä»¥ ä»»æ„é¡ºåº è¿”å›žã€‚
 */
 public class LC_721 {
 
 }
-//²¢²é¼¯
+//å¹¶æŸ¥é›†
 class Solution {
     class UnionFind{
         public Map<String, String> parent;

@@ -1,12 +1,12 @@
 package lc_92;
 
 /**
- * @author »ÆºÀ
- *92. ·´×ªÁ´±í II
-·´×ª´ÓÎ»ÖÃ m µ½ n µÄÁ´±í¡£ÇëÊ¹ÓÃÒ»ÌËÉ¨ÃèÍê³É·´×ª¡£
+ * @author é»„è±ª
+ *92. åè½¬é“¾è¡¨ II
+åè½¬ä»Žä½ç½® m åˆ° n çš„é“¾è¡¨ã€‚è¯·ä½¿ç”¨ä¸€è¶Ÿæ‰«æå®Œæˆåè½¬ã€‚
 
-ËµÃ÷:
-1 ¡Ü m ¡Ü n ¡Ü Á´±í³¤¶È¡£
+è¯´æ˜Ž:
+1 â‰¤ m â‰¤ n â‰¤ é“¾è¡¨é•¿åº¦ã€‚
  */
 public class LC_92 {
 	public static void main(String[] args) {

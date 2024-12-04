@@ -3,20 +3,20 @@ package lc_686;
 import java.util.Random;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ22ÈÕ
- *@todo:686. ÖØ¸´µþ¼Ó×Ö·û´®Æ¥Åä
-¸ø¶¨Á½¸ö×Ö·û´® a ºÍ b£¬Ñ°ÕÒÖØ¸´µþ¼Ó×Ö·û´® a µÄ×îÐ¡´ÎÊý£¬Ê¹µÃ×Ö·û´® b ³ÉÎªµþ¼ÓºóµÄ×Ö·û´® a µÄ×Ó´®£¬Èç¹û²»´æÔÚÔò·µ»Ø -1¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ22æ—¥
+ *@todo:686. é‡å¤å åŠ å­—ç¬¦ä¸²åŒ¹é…
+ç»™å®šä¸¤ä¸ªå­—ç¬¦ä¸² a å’Œ bï¼Œå¯»æ‰¾é‡å¤å åŠ å­—ç¬¦ä¸² a çš„æœ€å°æ¬¡æ•°ï¼Œä½¿å¾—å­—ç¬¦ä¸² b æˆä¸ºå åŠ åŽçš„å­—ç¬¦ä¸² a çš„å­ä¸²ï¼Œå¦‚æžœä¸å­˜åœ¨åˆ™è¿”å›ž -1ã€‚
 
-×¢Òâ£º×Ö·û´® "abc" ÖØ¸´µþ¼Ó 0 ´ÎÊÇ ""£¬ÖØ¸´µþ¼Ó 1 ´ÎÊÇ "abc"£¬ÖØ¸´µþ¼Ó 2 ´ÎÊÇ "abcabc"¡£
+æ³¨æ„ï¼šå­—ç¬¦ä¸² "abc" é‡å¤å åŠ  0 æ¬¡æ˜¯ ""ï¼Œé‡å¤å åŠ  1 æ¬¡æ˜¯ "abc"ï¼Œé‡å¤å åŠ  2 æ¬¡æ˜¯ "abcabc"ã€‚
 */
 public class LC_686 {
 
 }
-//Ä£Äâ
+//æ¨¡æ‹Ÿ
 class Solution {
     public int repeatedStringMatch(String a, String b) {
-        // Èç¹ûbÀïÃæÓÐa²»´æÔÚµÄ×Ö·û£¬Ö±½Ó·µ»Ø-1
+        // å¦‚æžœbé‡Œé¢æœ‰aä¸å­˜åœ¨çš„å­—ç¬¦ï¼Œç›´æŽ¥è¿”å›ž-1
         boolean[] arr = new boolean[26];
         for (int i = 0; i < a.length(); i++) {
             arr[a.charAt(i) - 'a'] = true;

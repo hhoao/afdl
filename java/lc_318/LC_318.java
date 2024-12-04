@@ -1,15 +1,15 @@
 package lc_318;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ14ÈÕ
- *@todo:318. ×î´óµ¥´Ê³¤¶È³Ë»ý
-¸øÄãÒ»¸ö×Ö·û´®Êý×é words £¬ÕÒ³ö²¢·µ»Ø length(words[i]) * length(words[j]) µÄ×î´óÖµ£¬²¢ÇÒÕâÁ½¸öµ¥´Ê²»º¬ÓÐ¹«¹²×ÖÄ¸¡£Èç¹û²»´æÔÚÕâÑùµÄÁ½¸öµ¥´Ê£¬·µ»Ø 0 ¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ14æ—¥
+ *@todo:318. æœ€å¤§å•è¯é•¿åº¦ä¹˜ç§¯
+ç»™ä½ ä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„ words ï¼Œæ‰¾å‡ºå¹¶è¿”å›ž length(words[i]) * length(words[j]) çš„æœ€å¤§å€¼ï¼Œå¹¶ä¸”è¿™ä¸¤ä¸ªå•è¯ä¸å«æœ‰å…¬å…±å­—æ¯ã€‚å¦‚æžœä¸å­˜åœ¨è¿™æ ·çš„ä¸¤ä¸ªå•è¯ï¼Œè¿”å›ž 0 ã€‚
 */
 public class LC_318 {
 
 }
-//Î»ÔËËã
+//ä½è¿ç®—
 class Solution {
     public int maxProduct(String[] words) {
         int n = words.length;

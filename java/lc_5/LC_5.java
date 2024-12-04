@@ -8,7 +8,7 @@ public class LC_5 {
 	
 	}
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution_1{
 	public String longestPalindrome(String s) {
 		int n = s.length();
@@ -32,7 +32,7 @@ class Solution_1{
 		return ans;
 	}
 }
-//ÖĞĞÄÀ©É¢
+//ä¸­å¿ƒæ‰©æ•£
 class Solution_2{
 	public String longestPalindrome_2(String s) {
 		if (s == null || s.length() < 1) {
@@ -61,7 +61,7 @@ class Solution_2{
 		return right - left - 1;
 	}
 }
-//ManacherËã·¨
+//Manacherç®—æ³•
 class Solution_3{
 	public String longestPalindrome_3(String s) {
 		int start = 0, end = -1;

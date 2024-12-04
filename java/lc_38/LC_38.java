@@ -3,31 +3,31 @@ package lc_38;
 import java.util.Stack;
 
 /**
- * @author »ÆºÀ
- *38. Íâ¹ÛÊýÁÐ
-¸ø¶¨Ò»¸öÕýÕûÊý n £¬Êä³öÍâ¹ÛÊýÁÐµÄµÚ n Ïî¡£
+ * @author é»„è±ª
+ *38. å¤–è§‚æ•°åˆ—
+ç»™å®šä¸€ä¸ªæ­£æ•´æ•° n ï¼Œè¾“å‡ºå¤–è§‚æ•°åˆ—çš„ç¬¬ n é¡¹ã€‚
 
-¡¸Íâ¹ÛÊýÁÐ¡¹ÊÇÒ»¸öÕûÊýÐòÁÐ£¬´ÓÊý×Ö 1 ¿ªÊ¼£¬ÐòÁÐÖÐµÄÃ¿Ò»Ïî¶¼ÊÇ¶ÔÇ°Ò»ÏîµÄÃèÊö¡£
+ã€Œå¤–è§‚æ•°åˆ—ã€æ˜¯ä¸€ä¸ªæ•´æ•°åºåˆ—ï¼Œä»Žæ•°å­— 1 å¼€å§‹ï¼Œåºåˆ—ä¸­çš„æ¯ä¸€é¡¹éƒ½æ˜¯å¯¹å‰ä¸€é¡¹çš„æè¿°ã€‚
 
-Äã¿ÉÒÔ½«ÆäÊÓ×÷ÊÇÓÉµÝ¹é¹«Ê½¶¨ÒåµÄÊý×Ö×Ö·û´®ÐòÁÐ£º
+ä½ å¯ä»¥å°†å…¶è§†ä½œæ˜¯ç”±é€’å½’å…¬å¼å®šä¹‰çš„æ•°å­—å­—ç¬¦ä¸²åºåˆ—ï¼š
 
 countAndSay(1) = "1"
-countAndSay(n) ÊÇ¶Ô countAndSay(n-1) µÄÃèÊö£¬È»ºó×ª»»³ÉÁíÒ»¸öÊý×Ö×Ö·û´®¡£
-Ç°ÎåÏîÈçÏÂ£º
+countAndSay(n) æ˜¯å¯¹ countAndSay(n-1) çš„æè¿°ï¼Œç„¶åŽè½¬æ¢æˆå¦ä¸€ä¸ªæ•°å­—å­—ç¬¦ä¸²ã€‚
+å‰äº”é¡¹å¦‚ä¸‹ï¼š
 
 1.     1
 2.     11
 3.     21
 4.     1211
 5.     111221
-µÚÒ»ÏîÊÇÊý×Ö 1 
-ÃèÊöÇ°Ò»Ïî£¬Õâ¸öÊýÊÇ 1 ¼´ ¡° Ò» ¸ö 1 ¡±£¬¼Ç×÷ "11"
-ÃèÊöÇ°Ò»Ïî£¬Õâ¸öÊýÊÇ 11 ¼´ ¡° ¶þ ¸ö 1 ¡± £¬¼Ç×÷ "21"
-ÃèÊöÇ°Ò»Ïî£¬Õâ¸öÊýÊÇ 21 ¼´ ¡° Ò» ¸ö 2 + Ò» ¸ö 1 ¡± £¬¼Ç×÷ "1211"
-ÃèÊöÇ°Ò»Ïî£¬Õâ¸öÊýÊÇ 1211 ¼´ ¡° Ò» ¸ö 1 + Ò» ¸ö 2 + ¶þ ¸ö 1 ¡± £¬¼Ç×÷ "111221"
-Òª ÃèÊö Ò»¸öÊý×Ö×Ö·û´®£¬Ê×ÏÈÒª½«×Ö·û´®·Ö¸îÎª ×îÐ¡ ÊýÁ¿µÄ×é£¬Ã¿¸ö×é¶¼ÓÉÁ¬ÐøµÄ×î¶à ÏàÍ¬×Ö·û ×é³É¡£È»ºó¶ÔÓÚÃ¿¸ö×é£¬ÏÈÃèÊö×Ö·ûµÄÊýÁ¿£¬È»ºóÃèÊö×Ö·û£¬ÐÎ³ÉÒ»¸öÃèÊö×é¡£Òª½«ÃèÊö×ª»»ÎªÊý×Ö×Ö·û´®£¬ÏÈ½«Ã¿×éÖÐµÄ×Ö·ûÊýÁ¿ÓÃÊý×ÖÌæ»»£¬ÔÙ½«ËùÓÐÃèÊö×éÁ¬½ÓÆðÀ´¡£
+ç¬¬ä¸€é¡¹æ˜¯æ•°å­— 1 
+æè¿°å‰ä¸€é¡¹ï¼Œè¿™ä¸ªæ•°æ˜¯ 1 å³ â€œ ä¸€ ä¸ª 1 â€ï¼Œè®°ä½œ "11"
+æè¿°å‰ä¸€é¡¹ï¼Œè¿™ä¸ªæ•°æ˜¯ 11 å³ â€œ äºŒ ä¸ª 1 â€ ï¼Œè®°ä½œ "21"
+æè¿°å‰ä¸€é¡¹ï¼Œè¿™ä¸ªæ•°æ˜¯ 21 å³ â€œ ä¸€ ä¸ª 2 + ä¸€ ä¸ª 1 â€ ï¼Œè®°ä½œ "1211"
+æè¿°å‰ä¸€é¡¹ï¼Œè¿™ä¸ªæ•°æ˜¯ 1211 å³ â€œ ä¸€ ä¸ª 1 + ä¸€ ä¸ª 2 + äºŒ ä¸ª 1 â€ ï¼Œè®°ä½œ "111221"
+è¦ æè¿° ä¸€ä¸ªæ•°å­—å­—ç¬¦ä¸²ï¼Œé¦–å…ˆè¦å°†å­—ç¬¦ä¸²åˆ†å‰²ä¸º æœ€å° æ•°é‡çš„ç»„ï¼Œæ¯ä¸ªç»„éƒ½ç”±è¿žç»­çš„æœ€å¤š ç›¸åŒå­—ç¬¦ ç»„æˆã€‚ç„¶åŽå¯¹äºŽæ¯ä¸ªç»„ï¼Œå…ˆæè¿°å­—ç¬¦çš„æ•°é‡ï¼Œç„¶åŽæè¿°å­—ç¬¦ï¼Œå½¢æˆä¸€ä¸ªæè¿°ç»„ã€‚è¦å°†æè¿°è½¬æ¢ä¸ºæ•°å­—å­—ç¬¦ä¸²ï¼Œå…ˆå°†æ¯ç»„ä¸­çš„å­—ç¬¦æ•°é‡ç”¨æ•°å­—æ›¿æ¢ï¼Œå†å°†æ‰€æœ‰æè¿°ç»„è¿žæŽ¥èµ·æ¥ã€‚
 
-ÀýÈç£¬Êý×Ö×Ö·û´® "3322251" µÄÃèÊöÈçÏÂÍ¼£º
+ä¾‹å¦‚ï¼Œæ•°å­—å­—ç¬¦ä¸² "3322251" çš„æè¿°å¦‚ä¸‹å›¾ï¼š
  */
 public class LC_38 {
 	public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class LC_38 {
 		System.out.println(s.countAndSay(3));
 	}
 }
-//ÎÒµÄÀ¬»øµÝ¹é
+//æˆ‘çš„åžƒåœ¾é€’å½’
 class Solution{
     public String countAndSay(int n) {
        // if (n == 1){
@@ -91,12 +91,12 @@ class Solution2 {
             pre = cur;
             cur = new StringBuffer();
             int start =0,end = 0;
-            //¿ªÊ¼±éÀúÇ°Ò»Ïî£¬¿ªÊ¼ÃèÊö
+            //å¼€å§‹éåŽ†å‰ä¸€é¡¹ï¼Œå¼€å§‹æè¿°
             while(end<pre.length()){
                 while(end<pre.length() && pre.charAt(start) ==pre.charAt(end)){
                     end++;
                 }
-                //ÔªËØ³öÏÖ´ÎÊýÓëÔªËØ½øÐÐÆ´½Ó
+                //å…ƒç´ å‡ºçŽ°æ¬¡æ•°ä¸Žå…ƒç´ è¿›è¡Œæ‹¼æŽ¥
                 cur = cur.append(Integer.toString(end-start)).append(pre.charAt(start));
                 start = end;
             }
@@ -117,7 +117,7 @@ class Solution3 {
         int length = 2;
         int currIndex = 1;
         //long value = 0;
-        char prev = last.charAt(0); //±íÊ¾µ±Ç°µÄgroupµÄchar
+        char prev = last.charAt(0); //è¡¨ç¤ºå½“å‰çš„groupçš„char
 
         while (currIndex < last.length()) {
             if (prev != last.charAt(currIndex)) {

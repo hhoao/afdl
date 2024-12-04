@@ -1,8 +1,8 @@
 package lc_979;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ2ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ2æ—¥
  *@todo:
 */
 public class LC_979 {

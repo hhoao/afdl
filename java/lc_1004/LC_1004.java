@@ -4,27 +4,27 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ2ÈÕ
- *@todo:1004. ×î´óÁ¬Ğø1µÄ¸öÊı III
-¸ø¶¨Ò»¸öÓÉÈô¸É 0 ºÍ 1 ×é³ÉµÄÊı×é A£¬ÎÒÃÇ×î¶à¿ÉÒÔ½« K ¸öÖµ´Ó 0 ±ä³É 1 ¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ2æ—¥
+ *@todo:1004. æœ€å¤§è¿ç»­1çš„ä¸ªæ•° III
+ç»™å®šä¸€ä¸ªç”±è‹¥å¹² 0 å’Œ 1 ç»„æˆçš„æ•°ç»„ Aï¼Œæˆ‘ä»¬æœ€å¤šå¯ä»¥å°† K ä¸ªå€¼ä» 0 å˜æˆ 1 ã€‚
 
-·µ»Ø½ö°üº¬ 1 µÄ×î³¤£¨Á¬Ğø£©×ÓÊı×éµÄ³¤¶È¡£
+è¿”å›ä»…åŒ…å« 1 çš„æœ€é•¿ï¼ˆè¿ç»­ï¼‰å­æ•°ç»„çš„é•¿åº¦ã€‚
 
  
 
-Ê¾Àı 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºA = [1,1,1,0,0,0,1,1,1,1,0], K = 2
-Êä³ö£º6
-½âÊÍ£º 
+è¾“å…¥ï¼šA = [1,1,1,0,0,0,1,1,1,1,0], K = 2
+è¾“å‡ºï¼š6
+è§£é‡Šï¼š 
 [1,1,1,0,0,1,1,1,1,1,1]
-´ÖÌåÊı×Ö´Ó 0 ·­×ªµ½ 1£¬×î³¤µÄ×ÓÊı×é³¤¶ÈÎª 6¡£
+ç²—ä½“æ•°å­—ä» 0 ç¿»è½¬åˆ° 1ï¼Œæœ€é•¿çš„å­æ•°ç»„é•¿åº¦ä¸º 6ã€‚
 */
 public class LC_1004 {
 
 }
-//Ç°×ººÍ + ¹şÏ£±í
+//å‰ç¼€å’Œ + å“ˆå¸Œè¡¨
 class Solution {
     public int longestOnes(int[] nums, int k) {
         int n = nums.length;
@@ -41,7 +41,7 @@ class Solution {
         return ans;
     }
 }
-//Ç°×ººÍ+Êı×é
+//å‰ç¼€å’Œ+æ•°ç»„
 class Solution1 {
     public int longestOnes(int[] nums, int k) {
         int n = nums.length;
@@ -58,7 +58,7 @@ class Solution1 {
         return ans;
     }
 }
-//Ç°×ººÍ+¶ş·Ö
+//å‰ç¼€å’Œ+äºŒåˆ†
 class Solution2 {
     public int longestOnes(int[] nums, int k) {
         int n = nums.length;
@@ -88,7 +88,7 @@ class Solution2 {
         return low;
     }
 }
-//»¬¶¯´°¿Ú
+//æ»‘åŠ¨çª—å£
 class Solution3 {
     public int longestOnes(int[] nums, int k) {
         int n = nums.length;

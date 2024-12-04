@@ -6,18 +6,18 @@ import java.util.Queue;
 import tools.TreeNode;
 
 /**
- * @author �ƺ�
- *104. ��������������
-����һ�����������ҳ��������ȡ�
+ * @author 黄豪
+ *104. 二叉树的最大深度
+给定一个二叉树，找出其最大深度。
 
-�����������Ϊ���ڵ㵽��ԶҶ�ӽڵ���·���ϵĽڵ�����
+二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
 
-˵��: Ҷ�ӽڵ���ָû���ӽڵ�Ľڵ㡣
+说明: 叶子节点是指没有子节点的节点。
  */
 public class LC_104 {
 
 }
-//�ݹ�
+//递归
 class Solution {
     public int maxDepth(TreeNode root) {
         if (root == null) {
@@ -29,7 +29,7 @@ class Solution {
         }
     }
 }
-//����
+//迭代
 class Solution1 {
     public int maxDepth(TreeNode root) {
         if (root == null) {

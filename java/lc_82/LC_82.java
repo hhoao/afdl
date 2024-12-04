@@ -1,9 +1,9 @@
 package lc_82;
 
 /**
- * @author »ÆºÀ
- *82. É¾³ıÅÅĞòÁ´±íÖĞµÄÖØ¸´ÔªËØ II
-¸ø¶¨Ò»¸öÅÅĞòÁ´±í£¬É¾³ıËùÓĞº¬ÓĞÖØ¸´Êı×ÖµÄ½Úµã£¬Ö»±£ÁôÔ­Ê¼Á´±íÖĞ Ã»ÓĞÖØ¸´³öÏÖ µÄÊı×Ö¡£
+ * @author é»„è±ª
+ *82. åˆ é™¤æ’åºé“¾è¡¨ä¸­çš„é‡å¤å…ƒç´  II
+ç»™å®šä¸€ä¸ªæ’åºé“¾è¡¨ï¼Œåˆ é™¤æ‰€æœ‰å«æœ‰é‡å¤æ•°å­—çš„èŠ‚ç‚¹ï¼Œåªä¿ç•™åŸå§‹é“¾è¡¨ä¸­ æ²¡æœ‰é‡å¤å‡ºç° çš„æ•°å­—ã€‚
  */
 public class LC_82 {
 	public static void main(String[] args) {
@@ -34,7 +34,7 @@ class ListNode {
      ListNode(int val) { this.val = val; }
      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {

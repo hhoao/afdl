@@ -3,19 +3,19 @@ package lc_1723;
 import java.util.Arrays;
 
 /*
- *@author: �ƺ�
- *@date : 2021��5��8��
- *@todo:1723. ������й��������ʱ��
-����һ���������� jobs ������ jobs[i] ����ɵ� i ���Ҫ���ѵ�ʱ�䡣
+ *@author: 黄豪
+ *@date : 2021年5月8日
+ *@todo:1723. 完成所有工作的最短时间
+给你一个整数数组 jobs ，其中 jobs[i] 是完成第 i 项工作要花费的时间。
 
-���㽫��Щ��������� k λ���ˡ����й�����Ӧ�÷�������ˣ���ÿ���ֻ�ܷ����һλ���ˡ����˵� ����ʱ�� ����ɷ�������ǵ����й�������ʱ����ܺ͡��������һ����ѵĹ������䷽����ʹ���˵� �����ʱ�� ���� ��С�� ��
+请你将这些工作分配给 k 位工人。所有工作都应该分配给工人，且每项工作只能分配给一位工人。工人的 工作时间 是完成分配给他们的所有工作花费时间的总和。请你设计一套最佳的工作分配方案，使工人的 最大工作时间 得以 最小化 。
 
-���ط��䷽���о����� ��С �� �����ʱ�� ��
+返回分配方案中尽可能 最小 的 最大工作时间 。
 */
 public class LC_1723 {
 
 }
-//����+����+��֦
+//二分+回溯+剪枝
 class Solution {
     public int minimumTimeRequired(int[] jobs, int k) {
         Arrays.sort(jobs);
@@ -57,9 +57,9 @@ class Solution {
                 }
                 workloads[j] -= cur;
             }
-            // �����ǰ����δ�����乤������ô��һ������Ҳ��Ȼδ�����乤��
-            // ���ߵ�ǰ����ǡ��ʹ�ù��˵Ĺ������ﵽ������
-            // ������������������賢�Լ������乤��
+            // 如果当前工人未被分配工作，那么下一个工人也必然未被分配工作
+            // 或者当前工作恰能使该工人的工作量达到了上限
+            // 这两种情况下我们无需尝试继续分配工作
             if (workloads[j] == 0 || workloads[j] + cur == limit) {
                 break;
             }
@@ -67,7 +67,7 @@ class Solution {
         return false;
     }
 }
-//��̬�滮+״̬ѹ��
+//动态规划+状态压缩
 class Solution1 {
     public int minimumTimeRequired(int[] jobs, int k) {
         int n = jobs.length;

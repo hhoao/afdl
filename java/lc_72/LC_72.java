@@ -8,15 +8,15 @@ class Solution {
         int n = word1.length();
         int m = word2.length();
 
-        // ÓĞÒ»¸ö×Ö·û´®Îª¿Õ´®
+        // æœ‰ä¸€ä¸ªå­—ç¬¦ä¸²ä¸ºç©ºä¸²
         if (n * m == 0) {
             return n + m;
         }
 
-        // DP Êı×é
+        // DP æ•°ç»„
         int[][] D = new int[n + 1][m + 1];
 
-        // ±ß½ç×´Ì¬³õÊ¼»¯
+        // è¾¹ç•ŒçŠ¶æ€åˆå§‹åŒ–
         for (int i = 0; i < n + 1; i++) {
             D[i][0] = i;
         }
@@ -24,7 +24,7 @@ class Solution {
             D[0][j] = j;
         }
 
-        // ¼ÆËãËùÓĞ DP Öµ
+        // è®¡ç®—æ‰€æœ‰ DP å€¼
         for (int i = 1; i < n + 1; i++) {
             for (int j = 1; j < m + 1; j++) {
                 int left = D[i - 1][j] + 1;

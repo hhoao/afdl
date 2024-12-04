@@ -4,21 +4,21 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- *@author: �ƺ�
- *@date : 2022��1��18��
- *@todo:539. ��Сʱ���
-����һ�� 24 Сʱ�ƣ�Сʱ:���� "HH:MM"����ʱ���б����ҳ��б�����������ʱ�����Сʱ���Է�������ʾ��
+ *@author: 黄豪
+ *@date : 2022年1月18日
+ *@todo:539. 最小时间差
+给定一个 24 小时制（小时:分钟 "HH:MM"）的时间列表，找出列表中任意两个时间的最小时间差并以分钟数表示。
 
  
 
-ʾ�� 1��
+示例 1：
 
-���룺timePoints = ["23:59","00:00"]
-�����1
-ʾ�� 2��
+输入：timePoints = ["23:59","00:00"]
+输出：1
+示例 2：
 
-���룺timePoints = ["00:00","23:59","00:00"]
-�����0
+输入：timePoints = ["00:00","23:59","00:00"]
+输出：0
 */
 public class LC_539 {
 

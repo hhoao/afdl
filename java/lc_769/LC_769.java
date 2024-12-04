@@ -1,32 +1,32 @@
 package lc_769;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ24ÈÕ
- *@todo:769. ×î¶àÄÜÍê³ÉÅÅÐòµÄ¿é
-Êý×éarrÊÇ[0, 1, ..., arr.length - 1]µÄÒ»ÖÖÅÅÁÐ£¬ÎÒÃÇ½«Õâ¸öÊý×é·Ö¸î³É¼¸¸ö¡°¿é¡±£¬²¢½«ÕâÐ©¿é·Ö±ð½øÐÐÅÅÐò¡£Ö®ºóÔÙÁ¬½ÓÆðÀ´£¬Ê¹µÃÁ¬½ÓµÄ½á¹ûºÍ°´ÉýÐòÅÅÐòºóµÄÔ­Êý×éÏàÍ¬¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ24æ—¥
+ *@todo:769. æœ€å¤šèƒ½å®ŒæˆæŽ’åºçš„å—
+æ•°ç»„arræ˜¯[0, 1, ..., arr.length - 1]çš„ä¸€ç§æŽ’åˆ—ï¼Œæˆ‘ä»¬å°†è¿™ä¸ªæ•°ç»„åˆ†å‰²æˆå‡ ä¸ªâ€œå—â€ï¼Œå¹¶å°†è¿™äº›å—åˆ†åˆ«è¿›è¡ŒæŽ’åºã€‚ä¹‹åŽå†è¿žæŽ¥èµ·æ¥ï¼Œä½¿å¾—è¿žæŽ¥çš„ç»“æžœå’ŒæŒ‰å‡åºæŽ’åºåŽçš„åŽŸæ•°ç»„ç›¸åŒã€‚
 
-ÎÒÃÇ×î¶àÄÜ½«Êý×é·Ö³É¶àÉÙ¿é£¿
+æˆ‘ä»¬æœ€å¤šèƒ½å°†æ•°ç»„åˆ†æˆå¤šå°‘å—ï¼Ÿ
 
-Ê¾Àý 1:
+ç¤ºä¾‹ 1:
 
-ÊäÈë: arr = [4,3,2,1,0]
-Êä³ö: 1
-½âÊÍ:
-½«Êý×é·Ö³É2¿é»òÕß¸ü¶à¿é£¬¶¼ÎÞ·¨µÃµ½ËùÐèµÄ½á¹û¡£
-ÀýÈç£¬·Ö³É [4, 3], [2, 1, 0] µÄ½á¹ûÊÇ [3, 4, 0, 1, 2]£¬Õâ²»ÊÇÓÐÐòµÄÊý×é¡£
-Ê¾Àý 2:
+è¾“å…¥: arr = [4,3,2,1,0]
+è¾“å‡º: 1
+è§£é‡Š:
+å°†æ•°ç»„åˆ†æˆ2å—æˆ–è€…æ›´å¤šå—ï¼Œéƒ½æ— æ³•å¾—åˆ°æ‰€éœ€çš„ç»“æžœã€‚
+ä¾‹å¦‚ï¼Œåˆ†æˆ [4, 3], [2, 1, 0] çš„ç»“æžœæ˜¯ [3, 4, 0, 1, 2]ï¼Œè¿™ä¸æ˜¯æœ‰åºçš„æ•°ç»„ã€‚
+ç¤ºä¾‹ 2:
 
-ÊäÈë: arr = [1,0,2,3,4]
-Êä³ö: 4
-½âÊÍ:
-ÎÒÃÇ¿ÉÒÔ°ÑËü·Ö³ÉÁ½¿é£¬ÀýÈç [1, 0], [2, 3, 4]¡£
-È»¶ø£¬·Ö³É [1, 0], [2], [3], [4] ¿ÉÒÔµÃµ½×î¶àµÄ¿éÊý¡£
+è¾“å…¥: arr = [1,0,2,3,4]
+è¾“å‡º: 4
+è§£é‡Š:
+æˆ‘ä»¬å¯ä»¥æŠŠå®ƒåˆ†æˆä¸¤å—ï¼Œä¾‹å¦‚ [1, 0], [2, 3, 4]ã€‚
+ç„¶è€Œï¼Œåˆ†æˆ [1, 0], [2], [3], [4] å¯ä»¥å¾—åˆ°æœ€å¤šçš„å—æ•°ã€‚
 */
 public class LC_769 {
 
 }
-//Ì°ÐÄ
+//è´ªå¿ƒ
 class Solution {
     public int maxChunksToSorted(int[] arr) {
         int n = arr.length;
@@ -46,13 +46,13 @@ class Solution {
         return ans;
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1 {
     public int maxChunksToSorted(int[] arr) {
         int ans = 0, max = 0;
         for (int i = 0; i < arr.length; ++i) {
             max = Math.max(max, arr[i]);
-            //max==iÊ±ËµÃ÷Ç°Ãæ¸ÕºÃÓÐ0µ½iµÄËùÓÐÊý
+            //max==iæ—¶è¯´æ˜Žå‰é¢åˆšå¥½æœ‰0åˆ°içš„æ‰€æœ‰æ•°
             if (max == i) ans++;
         }
         return ans;

@@ -1,14 +1,14 @@
 package lc_2022;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ1ÈÕ
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ1æ—¥
  *@todo:
 */
 public class LC_2022 {
 
 }
-//Ä£Äâ
+//æ¨¡æ‹Ÿ
 class Solution {
     public int[][] construct2DArray(int[] original, int m, int n) {
         int len = original.length;
@@ -23,7 +23,7 @@ class Solution {
         return ans;
     }
 }
-//APIÄ£Äâ
+//APIæ¨¡æ‹Ÿ
 class Solution1 {
     public int[][] construct2DArray(int[] original, int m, int n) {
         if (original.length != m * n) {

@@ -3,11 +3,11 @@ package lc_132;
 import java.util.Arrays;
 
 /**
- * @author �ƺ�
- *132. �ָ���Ĵ� II
-����һ���ַ��� s�����㽫 s �ָ��һЩ�Ӵ���ʹÿ���Ӵ����ǻ��ġ�
+ * @author 黄豪
+ *132. 分割回文串 II
+给你一个字符串 s，请你将 s 分割成一些子串，使每个子串都是回文。
 
-���ط���Ҫ��� ���ٷָ���� ��
+返回符合要求的 最少分割次数 。
  */
 public class LC_132 {
 

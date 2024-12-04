@@ -5,16 +5,16 @@ import java.util.PriorityQueue;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *264. ³óÊı II
-¸øÄãÒ»¸öÕûÊı n £¬ÇëÄãÕÒ³ö²¢·µ»ØµÚ n ¸ö ³óÊı ¡£
+ * @author é»„è±ª
+ *264. ä¸‘æ•° II
+ç»™ä½ ä¸€ä¸ªæ•´æ•° n ï¼Œè¯·ä½ æ‰¾å‡ºå¹¶è¿”å›ç¬¬ n ä¸ª ä¸‘æ•° ã€‚
 
-³óÊı ¾ÍÊÇÖ»°üº¬ÖÊÒòÊı 2¡¢3 ºÍ/»ò 5 µÄÕıÕûÊı¡£
+ä¸‘æ•° å°±æ˜¯åªåŒ…å«è´¨å› æ•° 2ã€3 å’Œ/æˆ– 5 çš„æ­£æ•´æ•°ã€‚
  */
 public class LC_264 {
 
 }
-//ÎÒµÄ´úÂë ¶¯Ì¬¹æ»®
+//æˆ‘çš„ä»£ç  åŠ¨æ€è§„åˆ’
 class Solution {
     public int nthUglyNumber(int n) {
         int i = 1, j = 1, k = 1, sum = 1, min = 1;
@@ -34,7 +34,7 @@ class Solution {
         return min;
     }
 }
-//¹Ù·½ ×îĞ¡¶Ñ
+//å®˜æ–¹ æœ€å°å †
 class Solution1 {
     public int nthUglyNumber(int n) {
         int[] factors = {2, 3, 5};

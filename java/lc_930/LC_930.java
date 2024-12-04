@@ -4,17 +4,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ1ÈÕ
- *@todo:930. ºÍÏàÍ¬µÄ¶şÔª×ÓÊı×é
-¸øÄãÒ»¸ö¶şÔªÊı×é nums £¬ºÍÒ»¸öÕûÊı goal £¬ÇëÄãÍ³¼Æ²¢·µ»ØÓĞ¶àÉÙ¸öºÍÎª goal µÄ ·Ç¿Õ ×ÓÊı×é¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ1æ—¥
+ *@todo:930. å’Œç›¸åŒçš„äºŒå…ƒå­æ•°ç»„
+ç»™ä½ ä¸€ä¸ªäºŒå…ƒæ•°ç»„ nums ï¼Œå’Œä¸€ä¸ªæ•´æ•° goal ï¼Œè¯·ä½ ç»Ÿè®¡å¹¶è¿”å›æœ‰å¤šå°‘ä¸ªå’Œä¸º goal çš„ éç©º å­æ•°ç»„ã€‚
 
-×ÓÊı×é ÊÇÊı×éµÄÒ»¶ÎÁ¬Ğø²¿·Ö¡£
+å­æ•°ç»„ æ˜¯æ•°ç»„çš„ä¸€æ®µè¿ç»­éƒ¨åˆ†ã€‚
 */
 public class LC_930 {
 
 }
-//Ç°×ººÍ+¹şÏ£±í
+//å‰ç¼€å’Œ+å“ˆå¸Œè¡¨
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
         int n = nums.length;
@@ -31,7 +31,7 @@ class Solution {
         return ans;
     }
 }
-//»¬¶¯´°¿Ú
+//æ»‘åŠ¨çª—å£
 class Solution1 {
     public int numSubarraysWithSum(int[] nums, int goal) {
         int n = nums.length, ans = 0;

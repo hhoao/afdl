@@ -1,14 +1,14 @@
 package lc_24;
 
 /**
- * @author �ƺ�
- *24. �������������еĽڵ�
-����һ�����������������������ڵĽڵ㣬�����ؽ������������
+ * @author 黄豪
+ *24. 两两交换链表中的节点
+给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
 
-�㲻��ֻ�ǵ����ĸı�ڵ��ڲ���ֵ��������Ҫʵ�ʵĽ��нڵ㽻����
-��ʾ��
+你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+提示：
 
-�����нڵ����Ŀ�ڷ�Χ [0, 100] ��
+链表中节点的数目在范围 [0, 100] 内
 0 <= Node.val <= 100
  */
 public class LC_24 {
@@ -21,7 +21,7 @@ class ListNode {
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-//�ݹ�
+//递归
 class Solution {
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
@@ -33,7 +33,7 @@ class Solution {
         return newHead;
     }
 }
-//����
+//迭代
 class Solution2{
     public ListNode swapPairs(ListNode head) {
         ListNode dummyHead = new ListNode(0);

@@ -3,24 +3,24 @@ package lc_173;
 import java.util.Arrays;
 
 /**
- * @author »ÆºÀ
- *173. ¶þ²æËÑË÷Ê÷µü´úÆ÷
-ÊµÏÖÒ»¸ö¶þ²æËÑË÷Ê÷µü´úÆ÷ÀàBSTIterator £¬±íÊ¾Ò»¸ö°´ÖÐÐò±éÀú¶þ²æËÑË÷Ê÷£¨BST£©µÄµü´úÆ÷£º
-BSTIterator(TreeNode root) ³õÊ¼»¯ BSTIterator ÀàµÄÒ»¸ö¶ÔÏó¡£BST µÄ¸ù½Úµã root »á×÷Îª¹¹Ôìº¯ÊýµÄÒ»²¿·Ö¸ø³ö¡£Ö¸ÕëÓ¦³õÊ¼»¯ÎªÒ»¸ö²»´æÔÚÓÚ BST ÖÐµÄÊý×Ö£¬ÇÒ¸ÃÊý×ÖÐ¡ÓÚ BST ÖÐµÄÈÎºÎÔªËØ¡£
-boolean hasNext() Èç¹ûÏòÖ¸ÕëÓÒ²à±éÀú´æÔÚÊý×Ö£¬Ôò·µ»Ø true £»·ñÔò·µ»Ø false ¡£
-int next()½«Ö¸ÕëÏòÓÒÒÆ¶¯£¬È»ºó·µ»ØÖ¸Õë´¦µÄÊý×Ö¡£
-×¢Òâ£¬Ö¸Õë³õÊ¼»¯ÎªÒ»¸ö²»´æÔÚÓÚ BST ÖÐµÄÊý×Ö£¬ËùÒÔ¶Ô next() µÄÊ×´Îµ÷ÓÃ½«·µ»Ø BST ÖÐµÄ×îÐ¡ÔªËØ¡£
+ * @author é»„è±ª
+ *173. äºŒå‰æœç´¢æ ‘è¿­ä»£å™¨
+å®žçŽ°ä¸€ä¸ªäºŒå‰æœç´¢æ ‘è¿­ä»£å™¨ç±»BSTIterator ï¼Œè¡¨ç¤ºä¸€ä¸ªæŒ‰ä¸­åºéåŽ†äºŒå‰æœç´¢æ ‘ï¼ˆBSTï¼‰çš„è¿­ä»£å™¨ï¼š
+BSTIterator(TreeNode root) åˆå§‹åŒ– BSTIterator ç±»çš„ä¸€ä¸ªå¯¹è±¡ã€‚BST çš„æ ¹èŠ‚ç‚¹ root ä¼šä½œä¸ºæž„é€ å‡½æ•°çš„ä¸€éƒ¨åˆ†ç»™å‡ºã€‚æŒ‡é’ˆåº”åˆå§‹åŒ–ä¸ºä¸€ä¸ªä¸å­˜åœ¨äºŽ BST ä¸­çš„æ•°å­—ï¼Œä¸”è¯¥æ•°å­—å°äºŽ BST ä¸­çš„ä»»ä½•å…ƒç´ ã€‚
+boolean hasNext() å¦‚æžœå‘æŒ‡é’ˆå³ä¾§éåŽ†å­˜åœ¨æ•°å­—ï¼Œåˆ™è¿”å›ž true ï¼›å¦åˆ™è¿”å›ž false ã€‚
+int next()å°†æŒ‡é’ˆå‘å³ç§»åŠ¨ï¼Œç„¶åŽè¿”å›žæŒ‡é’ˆå¤„çš„æ•°å­—ã€‚
+æ³¨æ„ï¼ŒæŒ‡é’ˆåˆå§‹åŒ–ä¸ºä¸€ä¸ªä¸å­˜åœ¨äºŽ BST ä¸­çš„æ•°å­—ï¼Œæ‰€ä»¥å¯¹ next() çš„é¦–æ¬¡è°ƒç”¨å°†è¿”å›ž BST ä¸­çš„æœ€å°å…ƒç´ ã€‚
 
-Äã¿ÉÒÔ¼ÙÉè next() µ÷ÓÃ×ÜÊÇÓÐÐ§µÄ£¬Ò²¾ÍÊÇËµ£¬µ±µ÷ÓÃ next() Ê±£¬BST µÄÖÐÐò±éÀúÖÐÖÁÉÙ´æÔÚÒ»¸öÏÂÒ»¸öÊý×Ö¡£
+ä½ å¯ä»¥å‡è®¾ next() è°ƒç”¨æ€»æ˜¯æœ‰æ•ˆçš„ï¼Œä¹Ÿå°±æ˜¯è¯´ï¼Œå½“è°ƒç”¨ next() æ—¶ï¼ŒBST çš„ä¸­åºéåŽ†ä¸­è‡³å°‘å­˜åœ¨ä¸€ä¸ªä¸‹ä¸€ä¸ªæ•°å­—ã€‚
  */
 public class LC_173 {
 
 }
-//ÅÅÐò
+//æŽ’åº
 class Solution {
     public String largestNumber(int[] nums) {
         int n = nums.length;
-        // ×ª»»³É°ü×°ÀàÐÍ£¬ÒÔ±ã´«Èë Comparator ¶ÔÏó£¨´Ë´¦Îª lambda ±í´ïÊ½£©
+        // è½¬æ¢æˆåŒ…è£…ç±»åž‹ï¼Œä»¥ä¾¿ä¼ å…¥ Comparator å¯¹è±¡ï¼ˆæ­¤å¤„ä¸º lambda è¡¨è¾¾å¼ï¼‰
         Integer[] numsArr = new Integer[n];
         for (int i = 0; i < n; i++) {
             numsArr[i] = nums[i];

@@ -4,15 +4,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ28ÈÕ
- *@todo:525. Á¬ĞøÊı×é
-¸ø¶¨Ò»¸ö¶ş½øÖÆÊı×é nums , ÕÒµ½º¬ÓĞÏàÍ¬ÊıÁ¿µÄ 0 ºÍ 1 µÄ×î³¤Á¬Ğø×ÓÊı×é£¬²¢·µ»Ø¸Ã×ÓÊı×éµÄ³¤¶È¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ28æ—¥
+ *@todo:525. è¿ç»­æ•°ç»„
+ç»™å®šä¸€ä¸ªäºŒè¿›åˆ¶æ•°ç»„ nums , æ‰¾åˆ°å«æœ‰ç›¸åŒæ•°é‡çš„ 0 å’Œ 1 çš„æœ€é•¿è¿ç»­å­æ•°ç»„ï¼Œå¹¶è¿”å›è¯¥å­æ•°ç»„çš„é•¿åº¦ã€‚
 */
 public class LC_525 {
 
 }
-//Ç°×ººÍ+¹şÏ£±í
+//å‰ç¼€å’Œ+å“ˆå¸Œè¡¨
 class Solution {
     public int findMaxLength(int[] nums) {
         int n = nums.length;
@@ -38,7 +38,7 @@ class Solution {
         return ans;
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1 {
     public int findMaxLength(int[] nums) {
         int n = nums.length;

@@ -8,17 +8,17 @@ import java.util.List;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *114. ¶ş²æÊ÷Õ¹¿ªÎªÁ´±í
-¸øÄã¶ş²æÊ÷µÄ¸ù½áµã root £¬ÇëÄã½«ËüÕ¹¿ªÎªÒ»¸öµ¥Á´±í£º
+ * @author é»„è±ª
+ *114. äºŒå‰æ ‘å±•å¼€ä¸ºé“¾è¡¨
+ç»™ä½ äºŒå‰æ ‘çš„æ ¹ç»“ç‚¹ root ï¼Œè¯·ä½ å°†å®ƒå±•å¼€ä¸ºä¸€ä¸ªå•é“¾è¡¨ï¼š
 
-Õ¹¿ªºóµÄµ¥Á´±íÓ¦¸ÃÍ¬ÑùÊ¹ÓÃ TreeNode £¬ÆäÖĞ right ×ÓÖ¸ÕëÖ¸ÏòÁ´±íÖĞÏÂÒ»¸ö½áµã£¬¶ø×ó×ÓÖ¸ÕëÊ¼ÖÕÎª null ¡£
-Õ¹¿ªºóµÄµ¥Á´±íÓ¦¸ÃÓë¶ş²æÊ÷ ÏÈĞò±éÀú Ë³ĞòÏàÍ¬¡£
+å±•å¼€åçš„å•é“¾è¡¨åº”è¯¥åŒæ ·ä½¿ç”¨ TreeNode ï¼Œå…¶ä¸­ right å­æŒ‡é’ˆæŒ‡å‘é“¾è¡¨ä¸­ä¸‹ä¸€ä¸ªç»“ç‚¹ï¼Œè€Œå·¦å­æŒ‡é’ˆå§‹ç»ˆä¸º null ã€‚
+å±•å¼€åçš„å•é“¾è¡¨åº”è¯¥ä¸äºŒå‰æ ‘ å…ˆåºéå† é¡ºåºç›¸åŒã€‚
  */
 public class LC_114 {
 
 }
-//Ç°Ğò±éÀú(µİ¹é)
+//å‰åºéå†(é€’å½’)
 class Solution {
     public void flatten(TreeNode root) {
         List<TreeNode> list = new ArrayList<TreeNode>();
@@ -39,7 +39,7 @@ class Solution {
         }
     }
 }
-//Ç°Ğò±éÀú(µü´ú)
+//å‰åºéå†(è¿­ä»£)
 class Solution1 {
     public void flatten(TreeNode root) {
         List<TreeNode> list = new ArrayList<TreeNode>();
@@ -62,7 +62,7 @@ class Solution1 {
         }
     }
 }
-//Ç°Ğò±éÀúºÍÕ¹¿ªÍ¬²½½øĞĞ
+//å‰åºéå†å’Œå±•å¼€åŒæ­¥è¿›è¡Œ
 class Solution2 {
     public void flatten(TreeNode root) {
         if (root == null) {
@@ -88,7 +88,7 @@ class Solution2 {
         }
     }
 }
-//Ñ°ÕÒÇ°Çı½Úµã
+//å¯»æ‰¾å‰é©±èŠ‚ç‚¹
 class Solution3 {
     public void flatten(TreeNode root) {
         TreeNode curr = root;

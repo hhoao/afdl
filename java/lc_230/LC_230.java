@@ -6,9 +6,9 @@ import java.util.Deque;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *230. ¶þ²æËÑË÷Ê÷ÖÐµÚKÐ¡µÄÔªËØ
-¸ø¶¨Ò»¸ö¶þ²æËÑË÷Ê÷µÄ¸ù½Úµã root £¬ºÍÒ»¸öÕûÊý k £¬ÇëÄãÉè¼ÆÒ»¸öËã·¨²éÕÒÆäÖÐµÚ k ¸ö×îÐ¡ÔªËØ£¨´Ó 1 ¿ªÊ¼¼ÆÊý£©¡£
+ * @author é»„è±ª
+ *230. äºŒå‰æœç´¢æ ‘ä¸­ç¬¬Kå°çš„å…ƒç´ 
+ç»™å®šä¸€ä¸ªäºŒå‰æœç´¢æ ‘çš„æ ¹èŠ‚ç‚¹ root ï¼Œå’Œä¸€ä¸ªæ•´æ•° k ï¼Œè¯·ä½ è®¾è®¡ä¸€ä¸ªç®—æ³•æŸ¥æ‰¾å…¶ä¸­ç¬¬ k ä¸ªæœ€å°å…ƒç´ ï¼ˆä»Ž 1 å¼€å§‹è®¡æ•°ï¼‰ã€‚
 
  
  */

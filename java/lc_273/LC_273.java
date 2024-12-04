@@ -3,15 +3,15 @@ package lc_273;
 import java.util.TreeMap;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê5ÔÂ3ÈÕ
- *@todo:273. ÕûÊı×ª»»Ó¢ÎÄ±íÊ¾
-½«·Ç¸ºÕûÊı num ×ª»»ÎªÆä¶ÔÓ¦µÄÓ¢ÎÄ±íÊ¾¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´5æœˆ3æ—¥
+ *@todo:273. æ•´æ•°è½¬æ¢è‹±æ–‡è¡¨ç¤º
+å°†éè´Ÿæ•´æ•° num è½¬æ¢ä¸ºå…¶å¯¹åº”çš„è‹±æ–‡è¡¨ç¤ºã€‚
 */
 public class LC_273 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     TreeMap<Integer, String> tM = new TreeMap<>(){
         {
@@ -69,7 +69,7 @@ class Solution {
         }
     }
 }
-//¹Ù·½
+//å®˜æ–¹
 class Solution1 {
     public String one(int num) {
         switch(num) {

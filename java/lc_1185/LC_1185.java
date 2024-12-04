@@ -2,19 +2,19 @@ package lc_1185;
 import java.time.LocalDate;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ3ÈÕ
- *@todo:1185. Ò»ÖÜÖĞµÄµÚ¼¸Ìì
-¸øÄãÒ»¸öÈÕÆÚ£¬ÇëÄãÉè¼ÆÒ»¸öËã·¨À´ÅĞ¶ÏËüÊÇ¶ÔÓ¦Ò»ÖÜÖĞµÄÄÄÒ»Ìì¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ3æ—¥
+ *@todo:1185. ä¸€å‘¨ä¸­çš„ç¬¬å‡ å¤©
+ç»™ä½ ä¸€ä¸ªæ—¥æœŸï¼Œè¯·ä½ è®¾è®¡ä¸€ä¸ªç®—æ³•æ¥åˆ¤æ–­å®ƒæ˜¯å¯¹åº”ä¸€å‘¨ä¸­çš„å“ªä¸€å¤©ã€‚
 
-ÊäÈëÎªÈı¸öÕûÊı£ºday¡¢month ºÍ year£¬·Ö±ğ±íÊ¾ÈÕ¡¢ÔÂ¡¢Äê¡£
+è¾“å…¥ä¸ºä¸‰ä¸ªæ•´æ•°ï¼šdayã€month å’Œ yearï¼Œåˆ†åˆ«è¡¨ç¤ºæ—¥ã€æœˆã€å¹´ã€‚
 
-Äú·µ»ØµÄ½á¹û±ØĞëÊÇÕâ¼¸¸öÖµÖĞµÄÒ»¸ö {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}¡£
+æ‚¨è¿”å›çš„ç»“æœå¿…é¡»æ˜¯è¿™å‡ ä¸ªå€¼ä¸­çš„ä¸€ä¸ª {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}ã€‚
 */
 public class LC_1185 {
 
 }
-//µ÷ÓÃAPI
+//è°ƒç”¨API
 
 
 class Solution {
@@ -24,21 +24,21 @@ class Solution {
         return str.charAt(0) + str.substring(1, str.length()).toLowerCase();
     }
 }
-//¹Ù·½Ä£Äâ
+//å®˜æ–¹æ¨¡æ‹Ÿ
 class Solution1 {
   public String dayOfTheWeek(int day, int month, int year) {
       String[] week = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
       int[] monthDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30};
-      /* ÊäÈëÄê·İÖ®Ç°µÄÄê·İµÄÌìÊı¹±Ï× */
+      /* è¾“å…¥å¹´ä»½ä¹‹å‰çš„å¹´ä»½çš„å¤©æ•°è´¡çŒ® */
       int days = 365 * (year - 1971) + (year - 1969) / 4;
-      /* ÊäÈëÄê·İÖĞ£¬ÊäÈëÔÂ·İÖ®Ç°µÄÔÂ·İµÄÌìÊı¹±Ï× */
+      /* è¾“å…¥å¹´ä»½ä¸­ï¼Œè¾“å…¥æœˆä»½ä¹‹å‰çš„æœˆä»½çš„å¤©æ•°è´¡çŒ® */
       for (int i = 0; i < month - 1; ++i) {
           days += monthDays[i];
       }
       if ((year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) && month >= 3) {
           days += 1;
       }
-      /* ÊäÈëÔÂ·İÖĞµÄÌìÊı¹±Ï× */
+      /* è¾“å…¥æœˆä»½ä¸­çš„å¤©æ•°è´¡çŒ® */
       days += day;
       return week[(days + 3) % 7];
   }

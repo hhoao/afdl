@@ -3,17 +3,68 @@ package lc_143;
 import tools.ListNode;
 
 /**
- * @author »ÆºÀ
- *143. ÖØÅÅÁ´±í
-¸ø¶¨Ò»¸öµ¥Á´±í L£ºL0¡úL1¡ú¡­¡úLn-1¡úLn £¬
-½«ÆäÖØĞÂÅÅÁĞºó±äÎª£º L0¡úLn¡úL1¡úLn-1¡úL2¡úLn-2¡ú¡­
+ * @author é»„è±ª
+ *143. é‡æ’é“¾è¡¨
+ç»™å®šä¸€ä¸ªå•é“¾è¡¨ Lï¼šL0â†’L1â†’â€¦â†’Ln-1â†’Ln ï¼Œ
+å°†å…¶é‡æ–°æ’åˆ—åå˜ä¸ºï¼š L0â†’Lnâ†’L1â†’Ln-1â†’L2â†’Ln-2â†’â€¦
 
-Äã²»ÄÜÖ»ÊÇµ¥´¿µÄ¸Ä±ä½ÚµãÄÚ²¿µÄÖµ£¬¶øÊÇĞèÒªÊµ¼ÊµÄ½øĞĞ½Úµã½»»»¡£
+ä½ ä¸èƒ½åªæ˜¯å•çº¯çš„æ”¹å˜èŠ‚ç‚¹å†…éƒ¨çš„å€¼ï¼Œè€Œæ˜¯éœ€è¦å®é™…çš„è¿›è¡ŒèŠ‚ç‚¹äº¤æ¢ã€‚
  */
 public class LC_143 {
 
+    public static void main(String[] args) {
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(3);
+        ListNode node4 = new ListNode(4);
+        ListNode node5 = new ListNode(5);
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = node5;
+        Solution2 solution2 = new Solution2();
+        solution2.reorderList(node1);
+    }
 }
-//ÎÒµÄ´úÂë
+
+class Solution2 {
+    public void reorderList(ListNode head) {
+        ListNode left = head, right = head;
+        if (head == null || right.next == null || right.next.next == null) {
+            return;
+        }
+        ListNode tail = null;
+        while (right.next != null && right.next.next != null) {
+            tail = left;
+            left = left.next;
+            right = right.next.next;
+        }
+        ListNode middle, pre = null;
+        if (right.next != null) {
+            tail = left;
+            middle = right;
+        } else {
+            middle = left.next;
+        }
+        tail.next = null;
+        while (middle != null) {
+            ListNode tmp = middle.next;
+            middle.next = pre;
+            pre = middle;
+            middle = tmp;
+        }
+        ListNode current = head;
+        while (current != null) {
+            ListNode tmp = current.next;
+            ListNode midTmp = pre.next;
+            current.next = pre;
+            pre.next = tmp == null ? pre.next : tmp;
+            pre = midTmp;
+            current = tmp;
+        }
+    }
+}
+//æˆ‘çš„ä»£ç 
 class Solution {
     public void reorderList(ListNode head) {
         ListNode slow = head;

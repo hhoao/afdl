@@ -5,18 +5,18 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *119. Ñî»ÔÈı½Ç II
-¸ø¶¨Ò»¸ö·Ç¸ºË÷Òı k£¬ÆäÖĞ k ¡Ü 33£¬·µ»ØÑî»ÔÈı½ÇµÄµÚ k ĞĞ¡£
+ * @author é»„è±ª
+ *119. æ¨è¾‰ä¸‰è§’ II
+ç»™å®šä¸€ä¸ªéè´Ÿç´¢å¼• kï¼Œå…¶ä¸­ k â‰¤ 33ï¼Œè¿”å›æ¨è¾‰ä¸‰è§’çš„ç¬¬ k è¡Œã€‚
 
 
 
-ÔÚÑî»ÔÈı½ÇÖĞ£¬Ã¿¸öÊıÊÇËü×óÉÏ·½ºÍÓÒÉÏ·½µÄÊıµÄºÍ¡£
+åœ¨æ¨è¾‰ä¸‰è§’ä¸­ï¼Œæ¯ä¸ªæ•°æ˜¯å®ƒå·¦ä¸Šæ–¹å’Œå³ä¸Šæ–¹çš„æ•°çš„å’Œã€‚
  */
 public class LC_119 {
 	
 }
-//´ÓÇ°Íùºó
+//ä»å‰å¾€å
 class Solution {
     public List<Integer> getRow(int rowIndex) {
     	if (rowIndex == 0) return Arrays.asList(1);
@@ -40,7 +40,7 @@ class Solution {
     }
 }
 
-//¹Ù·½µİÍÆ//´ÓºóÍùÇ°
+//å®˜æ–¹é€’æ¨//ä»åå¾€å‰
 class Solution1 {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> row = new ArrayList<Integer>();
@@ -54,7 +54,7 @@ class Solution1 {
         return row;
     }
 }
-//ÏßĞÔµİÍÆ
+//çº¿æ€§é€’æ¨
 class Solution2 {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> row = new ArrayList<Integer>();

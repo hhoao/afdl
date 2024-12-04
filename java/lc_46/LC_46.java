@@ -5,14 +5,14 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *È«ÅÅÁĞ
-¸ø¶¨Ò»¸ö Ã»ÓĞÖØ¸´ Êı×ÖµÄĞòÁĞ£¬·µ»ØÆäËùÓĞ¿ÉÄÜµÄÈ«ÅÅÁĞ¡£
+ * @author é»„è±ª
+ *å…¨æ’åˆ—
+ç»™å®šä¸€ä¸ª æ²¡æœ‰é‡å¤ æ•°å­—çš„åºåˆ—ï¼Œè¿”å›å…¶æ‰€æœ‰å¯èƒ½çš„å…¨æ’åˆ—ã€‚
  */
 public class LC_46 {
 
 }
-//ËÑË÷»ØËİ
+//æœç´¢å›æº¯
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -28,16 +28,16 @@ class Solution {
     }
 
     public void backtrack(int n, List<Integer> output, List<List<Integer>> res, int first) {
-        // ËùÓĞÊı¶¼ÌîÍêÁË
+        // æ‰€æœ‰æ•°éƒ½å¡«å®Œäº†
         if (first == n) {
             res.add(new ArrayList<Integer>(output));
         }
         for (int i = first; i < n; i++) {
-            // ¶¯Ì¬Î¬»¤Êı×é
+            // åŠ¨æ€ç»´æŠ¤æ•°ç»„
             Collections.swap(output, first, i);
-            // ¼ÌĞøµİ¹éÌîÏÂÒ»¸öÊı
+            // ç»§ç»­é€’å½’å¡«ä¸‹ä¸€ä¸ªæ•°
             backtrack(n, output, res, first + 1);
-            // ³·Ïú²Ù×÷
+            // æ’¤é”€æ“ä½œ
             Collections.swap(output, first, i);
         }
     }

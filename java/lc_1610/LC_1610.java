@@ -6,12 +6,12 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ16ÈÕ
- *@todo:1610. ¿É¼ûµãµÄ×î´óÊıÄ¿
-¸øÄãÒ»¸öµãÊı×é points ºÍÒ»¸ö±íÊ¾½Ç¶ÈµÄÕûÊı angle £¬ÄãµÄÎ»ÖÃÊÇ location £¬ÆäÖĞ location = [posx, posy] ÇÒ points[i] = [xi, yi] ¶¼±íÊ¾ X-Y Æ½ÃæÉÏµÄÕûÊı×ø±ê¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ16æ—¥
+ *@todo:1610. å¯è§ç‚¹çš„æœ€å¤§æ•°ç›®
+ç»™ä½ ä¸€ä¸ªç‚¹æ•°ç»„ points å’Œä¸€ä¸ªè¡¨ç¤ºè§’åº¦çš„æ•´æ•° angle ï¼Œä½ çš„ä½ç½®æ˜¯ location ï¼Œå…¶ä¸­ location = [posx, posy] ä¸” points[i] = [xi, yi] éƒ½è¡¨ç¤º X-Y å¹³é¢ä¸Šçš„æ•´æ•°åæ ‡ã€‚
 
-×î¿ªÊ¼£¬ÄãÃæÏò¶«·½½øĞĞ¹Û²â¡£Äã ²»ÄÜ ½øĞĞÒÆ¶¯¸Ä±äÎ»ÖÃ£¬µ«¿ÉÒÔÍ¨¹ı ×Ô×ª µ÷Õû¹Û²â½Ç¶È¡£»»¾ä»°Ëµ£¬posx ºÍ posy ²»ÄÜ¸Ä±ä¡£ÄãµÄÊÓÒ°·¶Î§µÄ½Ç¶ÈÓÃ angle ±íÊ¾£¬ Õâ¾ö¶¨ÁËÄã¹Û²âÈÎÒâ·½ÏòÊ±¿ÉÒÔ¶à¿í¡£Éè d ÎªÄãÄæÊ±Õë×Ô×ªĞı×ªµÄ¶ÈÊı£¬ÄÇÃ´ÄãµÄÊÓÒ°¾ÍÊÇ½Ç¶È·¶Î§ [d - angle/2, d + angle/2] ËùÖ¸Ê¾µÄÄÇÆ¬ÇøÓò¡£
+æœ€å¼€å§‹ï¼Œä½ é¢å‘ä¸œæ–¹è¿›è¡Œè§‚æµ‹ã€‚ä½  ä¸èƒ½ è¿›è¡Œç§»åŠ¨æ”¹å˜ä½ç½®ï¼Œä½†å¯ä»¥é€šè¿‡ è‡ªè½¬ è°ƒæ•´è§‚æµ‹è§’åº¦ã€‚æ¢å¥è¯è¯´ï¼Œposx å’Œ posy ä¸èƒ½æ”¹å˜ã€‚ä½ çš„è§†é‡èŒƒå›´çš„è§’åº¦ç”¨ angle è¡¨ç¤ºï¼Œ è¿™å†³å®šäº†ä½ è§‚æµ‹ä»»æ„æ–¹å‘æ—¶å¯ä»¥å¤šå®½ã€‚è®¾ d ä¸ºä½ é€†æ—¶é’ˆè‡ªè½¬æ—‹è½¬çš„åº¦æ•°ï¼Œé‚£ä¹ˆä½ çš„è§†é‡å°±æ˜¯è§’åº¦èŒƒå›´ [d - angle/2, d + angle/2] æ‰€æŒ‡ç¤ºçš„é‚£ç‰‡åŒºåŸŸã€‚
 */
 public class LC_1610 {
 	public static void main(String[] args) {
@@ -39,7 +39,7 @@ public class LC_1610 {
 	}
 }
 
-//±©Á¦(³¬Ê±)
+//æš´åŠ›(è¶…æ—¶)
 class Solution {
     public int visiblePoints(List<List<Integer>> points, int angle, List<Integer> location) {
         List<Double> as = new ArrayList<>();
@@ -91,7 +91,7 @@ class Solution {
         return ans+extra;
     }
 }
-//¶ş·Ö²éÕÒ
+//äºŒåˆ†æŸ¥æ‰¾
 class Solution1 {
     public int visiblePoints(List<List<Integer>> points, int angle, List<Integer> location) {
         int sameCnt = 0;

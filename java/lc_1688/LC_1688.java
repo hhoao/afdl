@@ -1,14 +1,14 @@
 package lc_1688;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ25ÈÕ
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ25æ—¥
  *@todo:
 */
 public class LC_1688 {
 
 }
-//Ä£Äâ
+//æ¨¡æ‹Ÿ
 class Solution {
     public int numberOfMatches(int n) {
         int ans = 0;
@@ -19,7 +19,7 @@ class Solution {
         return ans;
     }
 }
-//ÊýÑ§
+//æ•°å­¦
 class Solution1 {
     public int numberOfMatches(int n) {
         return n - 1;

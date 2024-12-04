@@ -6,11 +6,11 @@ import java.util.Deque;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *783. ¶ş²æËÑË÷Ê÷½Úµã×îĞ¡¾àÀë
-¸øÄãÒ»¸ö¶ş²æËÑË÷Ê÷µÄ¸ù½Úµã root £¬·µ»Ø Ê÷ÖĞÈÎÒâÁ½²»Í¬½ÚµãÖµÖ®¼äµÄ×îĞ¡²îÖµ ¡£
+ * @author é»„è±ª
+ *783. äºŒå‰æœç´¢æ ‘èŠ‚ç‚¹æœ€å°è·ç¦»
+ç»™ä½ ä¸€ä¸ªäºŒå‰æœç´¢æ ‘çš„æ ¹èŠ‚ç‚¹ root ï¼Œè¿”å› æ ‘ä¸­ä»»æ„ä¸¤ä¸åŒèŠ‚ç‚¹å€¼ä¹‹é—´çš„æœ€å°å·®å€¼ ã€‚
 
-×¢Òâ£º±¾ÌâÓë 530£ºhttps://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/ ÏàÍ¬
+æ³¨æ„ï¼šæœ¬é¢˜ä¸ 530ï¼šhttps://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/ ç›¸åŒ
  */
 public class LC_783 {
 
@@ -38,7 +38,7 @@ class Solution {
         dfs(root.right);
     }
 }
-//µü´ú
+//è¿­ä»£
 class Solution1 {
     private int pre = - 1;
     private int ans = Integer.MAX_VALUE;

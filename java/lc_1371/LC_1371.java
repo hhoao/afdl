@@ -5,30 +5,30 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ18ÈÕ
- *@todo:1371. Ã¿¸öÔªÒô°üº¬Å¼Êı´ÎµÄ×î³¤×Ó×Ö·û´®
-¸øÄãÒ»¸ö×Ö·û´® s £¬ÇëÄã·µ»ØÂú×ãÒÔÏÂÌõ¼şµÄ×î³¤×Ó×Ö·û´®µÄ³¤¶È£ºÃ¿¸öÔªÒô×ÖÄ¸£¬¼´ 'a'£¬'e'£¬'i'£¬'o'£¬'u' £¬ÔÚ×Ó×Ö·û´®ÖĞ¶¼Ç¡ºÃ³öÏÖÁËÅ¼Êı´Î¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ18æ—¥
+ *@todo:1371. æ¯ä¸ªå…ƒéŸ³åŒ…å«å¶æ•°æ¬¡çš„æœ€é•¿å­å­—ç¬¦ä¸²
+ç»™ä½ ä¸€ä¸ªå­—ç¬¦ä¸² s ï¼Œè¯·ä½ è¿”å›æ»¡è¶³ä»¥ä¸‹æ¡ä»¶çš„æœ€é•¿å­å­—ç¬¦ä¸²çš„é•¿åº¦ï¼šæ¯ä¸ªå…ƒéŸ³å­—æ¯ï¼Œå³ 'a'ï¼Œ'e'ï¼Œ'i'ï¼Œ'o'ï¼Œ'u' ï¼Œåœ¨å­å­—ç¬¦ä¸²ä¸­éƒ½æ°å¥½å‡ºç°äº†å¶æ•°æ¬¡ã€‚
 
  
 
-Ê¾Àı 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºs = "eleetminicoworoep"
-Êä³ö£º13
-½âÊÍ£º×î³¤×Ó×Ö·û´®ÊÇ "leetminicowor" £¬Ëü°üº¬ e£¬i£¬o ¸÷ 2 ¸ö£¬ÒÔ¼° 0 ¸ö a£¬u ¡£
-Ê¾Àı 2£º
+è¾“å…¥ï¼šs = "eleetminicoworoep"
+è¾“å‡ºï¼š13
+è§£é‡Šï¼šæœ€é•¿å­å­—ç¬¦ä¸²æ˜¯ "leetminicowor" ï¼Œå®ƒåŒ…å« eï¼Œiï¼Œo å„ 2 ä¸ªï¼Œä»¥åŠ 0 ä¸ª aï¼Œu ã€‚
+ç¤ºä¾‹ 2ï¼š
 
-ÊäÈë£ºs = "leetcodeisgreat"
-Êä³ö£º5
-½âÊÍ£º×î³¤×Ó×Ö·û´®ÊÇ "leetc" £¬ÆäÖĞ°üº¬ 2 ¸ö e ¡£
+è¾“å…¥ï¼šs = "leetcodeisgreat"
+è¾“å‡ºï¼š5
+è§£é‡Šï¼šæœ€é•¿å­å­—ç¬¦ä¸²æ˜¯ "leetc" ï¼Œå…¶ä¸­åŒ…å« 2 ä¸ª e ã€‚
 */
 public class LC_1371 {
 	public static void main(String[] args) {
 		System.out.println(new Solution1().findTheLongestSubstring("tyrwpvlifrgjghlcicyocusukhmjbkfkzsjhkdrtsztchhazhmcircxcauajyzlppedqyzkcqvffyeekjdwqtjegerxbyktzvrxwgfjnrfbwvhiycvoznriroroamkfipazunsabwlseseeiimsmftchpafqkquovuxhhkpvphwnkrtxuiuhbcyqulfqyzgjjwjrlfwwxotcdtqsmfeingsxyzbpvmwulmqfrxbqcziudixceytvvwcohmznmfkoetpgdntrndvjihmxragqosaauthigfjergijsyivozzfrlpndygsmgjzdzadsxarjvyxuecqlszjnqvlyqkadowoljrmkzxvspdummgraiutxxxqgotqnxwjwfotvqglqavmsnmktsxwxcpxhuujuanxueuymzifycytalizwnvrjeoipfoqbiqdxsnclcvoafqwfwcmuwitjgqghkiccwqvloqrxbfjuxwriltxhmrmfpzitkwhitwhvatmknyhzigcuxfsosxetioqfeyewoljymhdwgwvjcdhmkpdfbbztaygvbpwqxtokvidtwfdhmhpomyfhhjorsmgowikpsdgcbazapkmsjgmfyuezaamevrbsmiecoujabrbqebiydncgapuexivgvomkuiiuuhhbszsflntwruqblrnrgwrnvcwixtxycifdebgnbbucqpqldkberbovemywoaxqicizkcjbmbxikxeizmzdvjdnhqrgkkqzmspdeuoqrxswqrajxfglmqkdnlescbjzurknjklikxxqqaqdekxkzkscoipolxmcszbebqpsizhwsxklzulmjotkrqfaeivhsedfynxtbzdrviwdgicusqucczgufqnaslpwzjhgtphnovlrgz"));
 	}
 }
-//Éî¶ÈÓÅÏÈËÑË÷(³¬Ê±)
+//æ·±åº¦ä¼˜å…ˆæœç´¢(è¶…æ—¶)
 class Solution1 {
     public int findTheLongestSubstring(String s) {
         return dfs(s);
@@ -64,7 +64,7 @@ class Solution1 {
         return ans;
     }
 }
-//Ç°×ººÍ
+//å‰ç¼€å’Œ
 class Solution {
     public int findTheLongestSubstring(String s) {
         int n = s.length();

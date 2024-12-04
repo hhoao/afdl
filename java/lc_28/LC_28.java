@@ -5,31 +5,31 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- * @author »ÆºÀ
- *28. ÊµÏÖ strStr()
-ÊµÏÖ strStr() º¯Êı¡£
+ * @author é»„è±ª
+ *28. å®ç° strStr()
+å®ç° strStr() å‡½æ•°ã€‚
 
-¸ø¶¨Ò»¸ö haystack ×Ö·û´®ºÍÒ»¸ö needle ×Ö·û´®£¬ÔÚ haystack ×Ö·û´®ÖĞÕÒ³ö needle ×Ö·û´®³öÏÖµÄµÚÒ»¸öÎ»ÖÃ (´Ó0¿ªÊ¼)¡£Èç¹û²»´æÔÚ£¬Ôò·µ»Ø  -1¡£
+ç»™å®šä¸€ä¸ª haystack å­—ç¬¦ä¸²å’Œä¸€ä¸ª needle å­—ç¬¦ä¸²ï¼Œåœ¨ haystack å­—ç¬¦ä¸²ä¸­æ‰¾å‡º needle å­—ç¬¦ä¸²å‡ºç°çš„ç¬¬ä¸€ä¸ªä½ç½® (ä»0å¼€å§‹)ã€‚å¦‚æœä¸å­˜åœ¨ï¼Œåˆ™è¿”å›  -1ã€‚
 
-Ê¾Àı 1:
+ç¤ºä¾‹ 1:
 
-ÊäÈë: haystack = "hello", needle = "ll"
-Êä³ö: 2
-Ê¾Àı 2:
+è¾“å…¥: haystack = "hello", needle = "ll"
+è¾“å‡º: 2
+ç¤ºä¾‹ 2:
 
-ÊäÈë: haystack = "aaaaa", needle = "bba"
-Êä³ö: -1
-ËµÃ÷:
+è¾“å…¥: haystack = "aaaaa", needle = "bba"
+è¾“å‡º: -1
+è¯´æ˜:
 
-µ± needle ÊÇ¿Õ×Ö·û´®Ê±£¬ÎÒÃÇÓ¦µ±·µ»ØÊ²Ã´ÖµÄØ£¿ÕâÊÇÒ»¸öÔÚÃæÊÔÖĞºÜºÃµÄÎÊÌâ¡£
+å½“ needle æ˜¯ç©ºå­—ç¬¦ä¸²æ—¶ï¼Œæˆ‘ä»¬åº”å½“è¿”å›ä»€ä¹ˆå€¼å‘¢ï¼Ÿè¿™æ˜¯ä¸€ä¸ªåœ¨é¢è¯•ä¸­å¾ˆå¥½çš„é—®é¢˜ã€‚
 
-¶ÔÓÚ±¾Ìâ¶øÑÔ£¬µ± needle ÊÇ¿Õ×Ö·û´®Ê±ÎÒÃÇÓ¦µ±·µ»Ø 0 ¡£ÕâÓëCÓïÑÔµÄ strstr() ÒÔ¼° JavaµÄ indexOf() ¶¨ÒåÏà·û¡£
+å¯¹äºæœ¬é¢˜è€Œè¨€ï¼Œå½“ needle æ˜¯ç©ºå­—ç¬¦ä¸²æ—¶æˆ‘ä»¬åº”å½“è¿”å› 0 ã€‚è¿™ä¸Cè¯­è¨€çš„ strstr() ä»¥åŠ Javaçš„ indexOf() å®šä¹‰ç›¸ç¬¦ã€‚
  */
 public class LC_28 {
 
 }
-//KMP[5ms] > Horspool[7ms] > ÓĞÏŞ×´Ì¬»ú[29ms] > Sunday[347ms] > (»¬¶¯´°¿Ú[353ms])> Ë«Ö¸Õë[1760ms])(²»ÖªµÀÎªÊ²Ã´,¿ÉÄÜÊÇ¹Ù·½º¯Êı¿ìºÃ¶à)
-//»¬¶¯´°¿Ú
+//KMP[5ms] > Horspool[7ms] > æœ‰é™çŠ¶æ€æœº[29ms] > Sunday[347ms] > (æ»‘åŠ¨çª—å£[353ms])> åŒæŒ‡é’ˆ[1760ms])(ä¸çŸ¥é“ä¸ºä»€ä¹ˆ,å¯èƒ½æ˜¯å®˜æ–¹å‡½æ•°å¿«å¥½å¤š)
+//æ»‘åŠ¨çª—å£
 class Solution {
   public int strStr(String haystack, String needle) {
     int L = needle.length(), n = haystack.length();
@@ -42,7 +42,7 @@ class Solution {
     return -1;
   }
 }
-//Ë«Ö¸ÕëÏßĞÔÊ±¼ä¸´ÔÓ¶È
+//åŒæŒ‡é’ˆçº¿æ€§æ—¶é—´å¤æ‚åº¦
 class Solution2 {
   public int strStr(String haystack, String needle) {
     int L = needle.length(), n = haystack.length();
@@ -65,7 +65,7 @@ class Solution2 {
     return -1;
   }
 }
-//Rabin-Karp - ³£Êı¸´ÔÓ¶È
+//Rabin-Karp - å¸¸æ•°å¤æ‚åº¦
 class Solution3 {
   public int charToInt(int idx, String s) {
     return (int)s.charAt(idx) - (int)'a';
@@ -99,7 +99,7 @@ class Solution3 {
 		return -1;
 	}
 }
-//ÓĞÏŞ×´Ì¬×Ô¶¯»ú
+//æœ‰é™çŠ¶æ€è‡ªåŠ¨æœº
 class Solution1 {
   int[][] dp;
   public int strStr(String haystack, String needle) {
@@ -133,7 +133,7 @@ class Solution1 {
       return -1;
   }
 }
-//SundayËã·¨
+//Sundayç®—æ³•
 class Solution4 {
     public int strStr(String haystack, String needle) {
         if (needle.length() < 1) {

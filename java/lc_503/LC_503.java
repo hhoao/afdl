@@ -4,16 +4,16 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê10ÔÂ28ÈÕ
- *@todo:503. ÏÂÒ»¸ö¸ü´óÔªËØ II
-¸ø¶¨Ò»¸öÑ­»·Êý×é£¨×îºóÒ»¸öÔªËØµÄÏÂÒ»¸öÔªËØÊÇÊý×éµÄµÚÒ»¸öÔªËØ£©£¬Êä³öÃ¿¸öÔªËØµÄÏÂÒ»¸ö¸ü´óÔªËØ¡£Êý×Ö x µÄÏÂÒ»¸ö¸ü´óµÄÔªËØÊÇ°´Êý×é±éÀúË³Ðò£¬Õâ¸öÊý×ÖÖ®ºóµÄµÚÒ»¸ö±ÈËü¸ü´óµÄÊý£¬ÕâÒâÎ¶×ÅÄãÓ¦¸ÃÑ­»·µØËÑË÷ËüµÄÏÂÒ»¸ö¸ü´óµÄÊý¡£Èç¹û²»´æÔÚ£¬ÔòÊä³ö -1¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´10æœˆ28æ—¥
+ *@todo:503. ä¸‹ä¸€ä¸ªæ›´å¤§å…ƒç´  II
+ç»™å®šä¸€ä¸ªå¾ªçŽ¯æ•°ç»„ï¼ˆæœ€åŽä¸€ä¸ªå…ƒç´ çš„ä¸‹ä¸€ä¸ªå…ƒç´ æ˜¯æ•°ç»„çš„ç¬¬ä¸€ä¸ªå…ƒç´ ï¼‰ï¼Œè¾“å‡ºæ¯ä¸ªå…ƒç´ çš„ä¸‹ä¸€ä¸ªæ›´å¤§å…ƒç´ ã€‚æ•°å­— x çš„ä¸‹ä¸€ä¸ªæ›´å¤§çš„å…ƒç´ æ˜¯æŒ‰æ•°ç»„éåŽ†é¡ºåºï¼Œè¿™ä¸ªæ•°å­—ä¹‹åŽçš„ç¬¬ä¸€ä¸ªæ¯”å®ƒæ›´å¤§çš„æ•°ï¼Œè¿™æ„å‘³ç€ä½ åº”è¯¥å¾ªçŽ¯åœ°æœç´¢å®ƒçš„ä¸‹ä¸€ä¸ªæ›´å¤§çš„æ•°ã€‚å¦‚æžœä¸å­˜åœ¨ï¼Œåˆ™è¾“å‡º -1ã€‚
 */
 public class LC_503 {
 
 }
 
-//µ¥µ÷Õ»
+//å•è°ƒæ ˆ
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
         Deque<Integer> stack = new ArrayDeque<>();

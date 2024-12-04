@@ -4,20 +4,20 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ19ÈÕ
- *@todo:1542. ÕÒ³ö×î³¤µÄ³¬ÔŞ×Ó×Ö·û´®
-¸øÄãÒ»¸ö×Ö·û´® s ¡£Çë·µ»Ø s ÖĞ×î³¤µÄ ³¬ÔŞ×Ó×Ö·û´® µÄ³¤¶È¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ19æ—¥
+ *@todo:1542. æ‰¾å‡ºæœ€é•¿çš„è¶…èµå­å­—ç¬¦ä¸²
+ç»™ä½ ä¸€ä¸ªå­—ç¬¦ä¸² s ã€‚è¯·è¿”å› s ä¸­æœ€é•¿çš„ è¶…èµå­å­—ç¬¦ä¸² çš„é•¿åº¦ã€‚
 
-¡¸³¬ÔŞ×Ó×Ö·û´®¡¹ĞèÂú×ãÂú×ãÏÂÊöÁ½¸öÌõ¼ş£º
+ã€Œè¶…èµå­å­—ç¬¦ä¸²ã€éœ€æ»¡è¶³æ»¡è¶³ä¸‹è¿°ä¸¤ä¸ªæ¡ä»¶ï¼š
 
-¸Ã×Ö·û´®ÊÇ s µÄÒ»¸ö·Ç¿Õ×Ó×Ö·û´®
-½øĞĞÈÎÒâ´ÎÊıµÄ×Ö·û½»»»ºó£¬¸Ã×Ö·û´®¿ÉÒÔ±ä³ÉÒ»¸ö»ØÎÄ×Ö·û´®
+è¯¥å­—ç¬¦ä¸²æ˜¯ s çš„ä¸€ä¸ªéç©ºå­å­—ç¬¦ä¸²
+è¿›è¡Œä»»æ„æ¬¡æ•°çš„å­—ç¬¦äº¤æ¢åï¼Œè¯¥å­—ç¬¦ä¸²å¯ä»¥å˜æˆä¸€ä¸ªå›æ–‡å­—ç¬¦ä¸²
 */
 public class LC_1542 {
 
 }
-//±©Á¦(³¬Ê±)
+//æš´åŠ›(è¶…æ—¶)
 class Solution {
     private boolean isPalindromic(String str, int l, int r){
         int[] cs = new int[10];
@@ -48,25 +48,25 @@ class Solution {
         return s == "" ? 0 : 1;
     }
 }
-//Ç°×ººÍ+×´Ì¬Ñ¹Ëõ
+//å‰ç¼€å’Œ+çŠ¶æ€å‹ç¼©
 class Solution1 {
     public int longestAwesome(String s) {
         HashMap<Integer,Integer> map=new HashMap<>();
-        int cur=0;  //×´Ì¬
-        int ans=1;  //¼ÇÂ¼´ğ°¸
+        int cur=0;  //çŠ¶æ€
+        int ans=1;  //è®°å½•ç­”æ¡ˆ
         map.put(cur,-1); 
         for(int c=0;c<s.length();c++){
             int ch=s.charAt(c)-'0';
-            //¼ÆÊı
+            //è®¡æ•°
             cur=cur^(1<<ch);
-            //Ò»¸öÊı×Ö³öÏÖÆæÊı´Î£¬ÆäÓà³öÏÖÅ¼Êı´Î
+            //ä¸€ä¸ªæ•°å­—å‡ºç°å¥‡æ•°æ¬¡ï¼Œå…¶ä½™å‡ºç°å¶æ•°æ¬¡
             for(int i=0;i<10;i++){
                 int next=cur^(1<<i);
                 if(map.containsKey(next)){
                     ans=Math.max(ans,c-map.get(next));
                 }
             }
-            //ËùÓĞ¶¼³öÏÖÁËÅ¼Êı´Î
+            //æ‰€æœ‰éƒ½å‡ºç°äº†å¶æ•°æ¬¡
             if(!map.containsKey(cur)){
                 map.put(cur,c);
             }else{
@@ -76,7 +76,7 @@ class Solution1 {
         return ans;
     }
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution2 {
     public int longestAwesome(String s) {
         int[] dp = new int[1 << 10];

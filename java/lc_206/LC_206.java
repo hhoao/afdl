@@ -1,16 +1,16 @@
 package lc_206;
 
 /**
- * @author »ÆºÀ
- *206. ·´×ªÁ´±í
-·´×ªÒ»¸öµ¥Á´±í¡£
+ * @author é»„è±ª
+ *206. åè½¬é“¾è¡¨
+åè½¬ä¸€ä¸ªå•é“¾è¡¨ã€‚
 
-Ê¾Àı:
+ç¤ºä¾‹:
 
-ÊäÈë: 1->2->3->4->5->NULL
-Êä³ö: 5->4->3->2->1->NULL
-½ø½×:
-Äã¿ÉÒÔµü´ú»òµİ¹éµØ·´×ªÁ´±í¡£ÄãÄÜ·ñÓÃÁ½ÖÖ·½·¨½â¾öÕâµÀÌâ£¿
+è¾“å…¥: 1->2->3->4->5->NULL
+è¾“å‡º: 5->4->3->2->1->NULL
+è¿›é˜¶:
+ä½ å¯ä»¥è¿­ä»£æˆ–é€’å½’åœ°åè½¬é“¾è¡¨ã€‚ä½ èƒ½å¦ç”¨ä¸¤ç§æ–¹æ³•è§£å†³è¿™é“é¢˜ï¼Ÿ
  */
 public class LC_206 {
 	
@@ -27,7 +27,7 @@ class ListNode{
 		this.next = next;
 	}
 }
-//±éÀú
+//éå†
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
@@ -43,7 +43,7 @@ class Solution {
 }
 
 
-//µİ¹é
+//é€’å½’
 class Solution2{
 	public ListNode reverseList(ListNode head) {
 		if (head != null && head.next != null) {

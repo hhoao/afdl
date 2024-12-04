@@ -1,14 +1,14 @@
 package lc_221;
 
 /**
- * @author »ÆºÀ
- *221. ×î´óÕý·½ÐÎ
-ÔÚÒ»¸öÓÉ '0' ºÍ '1' ×é³ÉµÄ¶þÎ¬¾ØÕóÄÚ£¬ÕÒµ½Ö»°üº¬ '1' µÄ×î´óÕý·½ÐÎ£¬²¢·µ»ØÆäÃæ»ý¡£
+ * @author é»„è±ª
+ *221. æœ€å¤§æ­£æ–¹å½¢
+åœ¨ä¸€ä¸ªç”± '0' å’Œ '1' ç»„æˆçš„äºŒç»´çŸ©é˜µå†…ï¼Œæ‰¾åˆ°åªåŒ…å« '1' çš„æœ€å¤§æ­£æ–¹å½¢ï¼Œå¹¶è¿”å›žå…¶é¢ç§¯ã€‚
  */
 public class LC_221 {
 
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int maximalSquare(char[][] matrix) {
         int maxSide = 0;

@@ -1,9 +1,9 @@
 package lc_172;
 
 /**
- * @author »ÆºÀ
- *172. ½×³ËºóµÄÁã
-¸ø¶¨Ò»¸öÕûÊý n£¬·µ»Ø n! ½á¹ûÎ²ÊýÖÐÁãµÄÊýÁ¿¡£
+ * @author é»„è±ª
+ *172. é˜¶ä¹˜åŽçš„é›¶
+ç»™å®šä¸€ä¸ªæ•´æ•° nï¼Œè¿”å›ž n! ç»“æžœå°¾æ•°ä¸­é›¶çš„æ•°é‡ã€‚
  */
 public class LC_172 {
 

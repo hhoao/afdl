@@ -1,24 +1,24 @@
 package lc_482;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ20ÈÕ
- *@todo:482. ÃÜÔ¿¸ñÊ½»¯
-ÓÐÒ»¸öÃÜÔ¿×Ö·û´® S £¬Ö»°üº¬×ÖÄ¸£¬Êý×ÖÒÔ¼° '-'£¨ÆÆÕÛºÅ£©¡£ÆäÖÐ£¬ N ¸ö '-' ½«×Ö·û´®·Ö³ÉÁË N+1 ×é¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ20æ—¥
+ *@todo:482. å¯†é’¥æ ¼å¼åŒ–
+æœ‰ä¸€ä¸ªå¯†é’¥å­—ç¬¦ä¸² S ï¼ŒåªåŒ…å«å­—æ¯ï¼Œæ•°å­—ä»¥åŠ '-'ï¼ˆç ´æŠ˜å·ï¼‰ã€‚å…¶ä¸­ï¼Œ N ä¸ª '-' å°†å­—ç¬¦ä¸²åˆ†æˆäº† N+1 ç»„ã€‚
 
-¸øÄãÒ»¸öÊý×Ö K£¬ÇëÄãÖØÐÂ¸ñÊ½»¯×Ö·û´®£¬Ê¹Ã¿¸ö·Ö×éÇ¡ºÃ°üº¬ K ¸ö×Ö·û¡£ÌØ±ðµØ£¬µÚÒ»¸ö·Ö×é°üº¬µÄ×Ö·û¸öÊý±ØÐëÐ¡ÓÚµÈÓÚ K£¬µ«ÖÁÉÙÒª°üº¬ 1 ¸ö×Ö·û¡£Á½¸ö·Ö×éÖ®¼äÐèÒªÓÃ '-'£¨ÆÆÕÛºÅ£©¸ô¿ª£¬²¢ÇÒ½«ËùÓÐµÄÐ¡Ð´×ÖÄ¸×ª»»Îª´óÐ´×ÖÄ¸¡£
+ç»™ä½ ä¸€ä¸ªæ•°å­— Kï¼Œè¯·ä½ é‡æ–°æ ¼å¼åŒ–å­—ç¬¦ä¸²ï¼Œä½¿æ¯ä¸ªåˆ†ç»„æ°å¥½åŒ…å« K ä¸ªå­—ç¬¦ã€‚ç‰¹åˆ«åœ°ï¼Œç¬¬ä¸€ä¸ªåˆ†ç»„åŒ…å«çš„å­—ç¬¦ä¸ªæ•°å¿…é¡»å°äºŽç­‰äºŽ Kï¼Œä½†è‡³å°‘è¦åŒ…å« 1 ä¸ªå­—ç¬¦ã€‚ä¸¤ä¸ªåˆ†ç»„ä¹‹é—´éœ€è¦ç”¨ '-'ï¼ˆç ´æŠ˜å·ï¼‰éš”å¼€ï¼Œå¹¶ä¸”å°†æ‰€æœ‰çš„å°å†™å­—æ¯è½¬æ¢ä¸ºå¤§å†™å­—æ¯ã€‚
 
-¸ø¶¨·Ç¿Õ×Ö·û´® S ºÍÊý×Ö K£¬°´ÕÕÉÏÃæÃèÊöµÄ¹æÔò½øÐÐ¸ñÊ½»¯¡£
+ç»™å®šéžç©ºå­—ç¬¦ä¸² S å’Œæ•°å­— Kï¼ŒæŒ‰ç…§ä¸Šé¢æè¿°çš„è§„åˆ™è¿›è¡Œæ ¼å¼åŒ–ã€‚
 
  
 */
 public class LC_482 {
 
 }
-//Ä£Äâ
+//æ¨¡æ‹Ÿ
 class Solution {
 }
-//´ÓºóÍùÇ°±éÀú
+//ä»ŽåŽå¾€å‰éåŽ†
 class Solution1 {
     public String licenseKeyFormatting(String s, int k) {
         StringBuilder ans = new StringBuilder();

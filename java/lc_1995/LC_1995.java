@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ29ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ29æ—¥
  *@todo:
 */
 public class LC_1995 {
 
 }
-//¹þÏ£±í´æ´¢
+//å“ˆå¸Œè¡¨å­˜å‚¨
 class Solution {
     public int countQuadruplets(int[] nums) {
         int n = nums.length;

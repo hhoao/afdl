@@ -5,14 +5,14 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *241. ÎªÔËËã±í´ïÊ½Éè¼ÆÓÅÏÈ¼¶
-¸ø¶¨Ò»¸öº¬ÓÐÊý×ÖºÍÔËËã·ûµÄ×Ö·û´®£¬Îª±í´ïÊ½Ìí¼ÓÀ¨ºÅ£¬¸Ä±äÆäÔËËãÓÅÏÈ¼¶ÒÔÇó³ö²»Í¬µÄ½á¹û¡£ÄãÐèÒª¸ø³öËùÓÐ¿ÉÄÜµÄ×éºÏµÄ½á¹û¡£ÓÐÐ§µÄÔËËã·ûºÅ°üº¬ +, - ÒÔ¼° * ¡£
+ * @author é»„è±ª
+ *241. ä¸ºè¿ç®—è¡¨è¾¾å¼è®¾è®¡ä¼˜å…ˆçº§
+ç»™å®šä¸€ä¸ªå«æœ‰æ•°å­—å’Œè¿ç®—ç¬¦çš„å­—ç¬¦ä¸²ï¼Œä¸ºè¡¨è¾¾å¼æ·»åŠ æ‹¬å·ï¼Œæ”¹å˜å…¶è¿ç®—ä¼˜å…ˆçº§ä»¥æ±‚å‡ºä¸åŒçš„ç»“æžœã€‚ä½ éœ€è¦ç»™å‡ºæ‰€æœ‰å¯èƒ½çš„ç»„åˆçš„ç»“æžœã€‚æœ‰æ•ˆçš„è¿ç®—ç¬¦å·åŒ…å« +, - ä»¥åŠ * ã€‚
  */
 public class LC_241 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     public List<Integer> diffWaysToCompute(String expression) {
         int count = 0;

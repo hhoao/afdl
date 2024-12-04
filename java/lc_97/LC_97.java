@@ -1,22 +1,22 @@
 package lc_97;
 
 /**
- * @author »ÆºÀ
- *97. ½»´í×Ö·û´®
-¸ø¶¨Èý¸ö×Ö·û´® s1¡¢s2¡¢s3£¬ÇëÄã°ïÃ¦ÑéÖ¤ s3 ÊÇ·ñÊÇÓÉ s1 ºÍ s2 ½»´í ×é³ÉµÄ¡£
+ * @author é»„è±ª
+ *97. äº¤é”™å­—ç¬¦ä¸²
+ç»™å®šä¸‰ä¸ªå­—ç¬¦ä¸² s1ã€s2ã€s3ï¼Œè¯·ä½ å¸®å¿™éªŒè¯ s3 æ˜¯å¦æ˜¯ç”± s1 å’Œ s2 äº¤é”™ ç»„æˆçš„ã€‚
 
-Á½¸ö×Ö·û´® s ºÍ t ½»´í µÄ¶¨ÒåÓë¹ý³ÌÈçÏÂ£¬ÆäÖÐÃ¿¸ö×Ö·û´®¶¼»á±»·Ö¸î³ÉÈô¸É ·Ç¿Õ ×Ó×Ö·û´®£º
+ä¸¤ä¸ªå­—ç¬¦ä¸² s å’Œ t äº¤é”™ çš„å®šä¹‰ä¸Žè¿‡ç¨‹å¦‚ä¸‹ï¼Œå…¶ä¸­æ¯ä¸ªå­—ç¬¦ä¸²éƒ½ä¼šè¢«åˆ†å‰²æˆè‹¥å¹² éžç©º å­å­—ç¬¦ä¸²ï¼š
 
 s = s1 + s2 + ... + sn
 t = t1 + t2 + ... + tm
 |n - m| <= 1
-½»´í ÊÇ s1 + t1 + s2 + t2 + s3 + t3 + ... »òÕß t1 + s1 + t2 + s2 + t3 + s3 + ...
-ÌáÊ¾£ºa + b ÒâÎ¶×Å×Ö·û´® a ºÍ b Á¬½Ó¡£
+äº¤é”™ æ˜¯ s1 + t1 + s2 + t2 + s3 + t3 + ... æˆ–è€… t1 + s1 + t2 + s2 + t3 + s3 + ...
+æç¤ºï¼ša + b æ„å‘³ç€å­—ç¬¦ä¸² a å’Œ b è¿žæŽ¥ã€‚
  */
 public class LC_97 {
 
 }
-//¶¯Ì¬¹æ»®(ÄÜÓÃ¶¯Ì¬¹æ»®µÄÒ»¶¨¿ÉÒÔ»ØËÝ)
+//åŠ¨æ€è§„åˆ’(èƒ½ç”¨åŠ¨æ€è§„åˆ’çš„ä¸€å®šå¯ä»¥å›žæº¯)
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         int n = s1.length(), m = s2.length(), t = s3.length();
@@ -43,7 +43,7 @@ class Solution {
         return f[n][m];
     }
 }
-//¹ö¶¯Êý×éÓÅ»¯
+//æ»šåŠ¨æ•°ç»„ä¼˜åŒ–
 class Solution2 {
     public boolean isInterleave(String s1, String s2, String s3) {
         int n = s1.length(), m = s2.length(), t = s3.length();
@@ -71,7 +71,7 @@ class Solution2 {
     }
 }
 
-//DFS+¼ÇÒäÊ÷
+//DFS+è®°å¿†æ ‘
 class Solution1 {
     int l1, l2, l3;
     String s1, s2, s3;

@@ -5,17 +5,17 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê12ÔÂ2ÈÕ
- *@todo:1239. ´®Áª×Ö·û´®µÄ×î´ó³¤¶È
-¸ø¶¨Ò»¸ö×Ö·û´®Êı×é arr£¬×Ö·û´® s ÊÇ½« arr Ä³Ò»×ÓĞòÁĞ×Ö·û´®Á¬½ÓËùµÃµÄ×Ö·û´®£¬Èç¹û s ÖĞµÄÃ¿Ò»¸ö×Ö·û¶¼Ö»³öÏÖ¹ıÒ»´Î£¬ÄÇÃ´Ëü¾ÍÊÇÒ»¸ö¿ÉĞĞ½â¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´12æœˆ2æ—¥
+ *@todo:1239. ä¸²è”å­—ç¬¦ä¸²çš„æœ€å¤§é•¿åº¦
+ç»™å®šä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„ arrï¼Œå­—ç¬¦ä¸² s æ˜¯å°† arr æŸä¸€å­åºåˆ—å­—ç¬¦ä¸²è¿æ¥æ‰€å¾—çš„å­—ç¬¦ä¸²ï¼Œå¦‚æœ s ä¸­çš„æ¯ä¸€ä¸ªå­—ç¬¦éƒ½åªå‡ºç°è¿‡ä¸€æ¬¡ï¼Œé‚£ä¹ˆå®ƒå°±æ˜¯ä¸€ä¸ªå¯è¡Œè§£ã€‚
 
-Çë·µ»ØËùÓĞ¿ÉĞĞ½â s ÖĞ×î³¤³¤¶È¡£
+è¯·è¿”å›æ‰€æœ‰å¯è¡Œè§£ s ä¸­æœ€é•¿é•¿åº¦ã€‚
 */
 public class LC_1239 {
 
 }
-//±©Á¦
+//æš´åŠ›
 class Solution {
     public int dfs(boolean[] hasWord, int k, List<String> arr){
         int n = arr.size();
@@ -47,7 +47,7 @@ class Solution {
         return dfs(new boolean[26], 0, arr);
     }
 }
-//µü´ú+Î»ÔËËã
+//è¿­ä»£+ä½è¿ç®—
 class Solution1 {
     public int maxLength(List<String> arr) {
         int ans = 0;
@@ -57,11 +57,11 @@ class Solution1 {
             int mask = 0;
             for (int i = 0; i < s.length(); ++i) {
                 int ch = s.charAt(i) - 'a';
-                if (((mask >> ch) & 1) != 0) { // Èô mask ÒÑÓĞ ch£¬ÔòËµÃ÷ s º¬ÓĞÖØ¸´×ÖÄ¸£¬ÎŞ·¨¹¹³É¿ÉĞĞ½â
+                if (((mask >> ch) & 1) != 0) { // è‹¥ mask å·²æœ‰ chï¼Œåˆ™è¯´æ˜ s å«æœ‰é‡å¤å­—æ¯ï¼Œæ— æ³•æ„æˆå¯è¡Œè§£
                     mask = 0;
                     break;
                 }
-                mask |= 1 << ch; // ½« ch ¼ÓÈë mask ÖĞ
+                mask |= 1 << ch; // å°† ch åŠ å…¥ mask ä¸­
             }
             if (mask == 0) {
                 continue;
@@ -69,7 +69,7 @@ class Solution1 {
             int n = masks.size();
             for (int i = 0; i < n; ++i) {
                 int m = masks.get(i);
-                if ((m & mask) == 0) { // m ºÍ mask ÎŞ¹«¹²ÔªËØ
+                if ((m & mask) == 0) { // m å’Œ mask æ— å…¬å…±å…ƒç´ 
                     masks.add(m | mask);
                     ans = Math.max(ans, Integer.bitCount(m | mask));
                 }

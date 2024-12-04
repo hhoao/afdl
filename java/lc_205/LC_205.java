@@ -5,18 +5,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author �ƺ�
- *205. ͬ���ַ���
-���������ַ��� s �� t���ж������Ƿ���ͬ���ġ�
+ * @author 黄豪
+ *205. 同构字符串
+给定两个字符串 s 和 t，判断它们是否是同构的。
 
-��� s �е��ַ����԰�ĳ��ӳ���ϵ�滻�õ� t ����ô�������ַ�����ͬ���ġ�
+如果 s 中的字符可以按某种映射关系替换得到 t ，那么这两个字符串是同构的。
 
-ÿ�����ֵ��ַ���Ӧ��ӳ�䵽��һ���ַ���ͬʱ���ı��ַ���˳�򡣲�ͬ�ַ�����ӳ�䵽ͬһ���ַ��ϣ���ͬ�ַ�ֻ��ӳ�䵽ͬһ���ַ��ϣ��ַ�����ӳ�䵽�Լ�������
+每个出现的字符都应当映射到另一个字符，同时不改变字符的顺序。不同字符不能映射到同一个字符上，相同字符只能映射到同一个字符上，字符可以映射到自己本身。
  */
 public class LC_205 {
 
 }
-//�ҵĴ���
+//我的代码
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         int[] smapper = new int[256];
@@ -41,7 +41,7 @@ class Solution {
         return true;
     }
 }
-//�ٷ���ϣ��
+//官方哈希表
 class Solution1 {
     public boolean isIsomorphic(String s, String t) {
         Map<Character, Character> s2t = new HashMap<Character, Character>();

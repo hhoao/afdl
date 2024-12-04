@@ -1,19 +1,19 @@
 package lc_91;
 
 /**
- * @author »ÆºÀ
- *91. ½âÂë·½·¨
-Ò»Ìõ°üº¬×ÖÄ¸ A-Z µÄÏûÏ¢Í¨¹ýÒÔÏÂÓ³Éä½øÐÐÁË ±àÂë £º
+ * @author é»„è±ª
+ *91. è§£ç æ–¹æ³•
+ä¸€æ¡åŒ…å«å­—æ¯ A-Z çš„æ¶ˆæ¯é€šè¿‡ä»¥ä¸‹æ˜ å°„è¿›è¡Œäº† ç¼–ç  ï¼š
 
 'A' -> 1
 'B' -> 2
 ...
 'Z' -> 26
-Òª ½âÂë ÒÑ±àÂëµÄÏûÏ¢£¬ËùÓÐÊý×Ö±ØÐë»ùÓÚÉÏÊöÓ³ÉäµÄ·½·¨£¬·´ÏòÓ³Éä»Ø×ÖÄ¸£¨¿ÉÄÜÓÐ¶àÖÖ·½·¨£©¡£ÀýÈç£¬"111" ¿ÉÒÔ½« "1" ÖÐµÄÃ¿¸ö "1" Ó³ÉäÎª "A" £¬´Ó¶øµÃµ½ "AAA" £¬»òÕß¿ÉÒÔ½« "11" ºÍ "1"£¨·Ö±ðÎª "K" ºÍ "A" £©Ó³ÉäÎª "KA" ¡£×¢Òâ£¬"06" ²»ÄÜÓ³ÉäÎª "F" £¬ÒòÎª "6" ºÍ "06" ²»Í¬¡£
+è¦ è§£ç  å·²ç¼–ç çš„æ¶ˆæ¯ï¼Œæ‰€æœ‰æ•°å­—å¿…é¡»åŸºäºŽä¸Šè¿°æ˜ å°„çš„æ–¹æ³•ï¼Œåå‘æ˜ å°„å›žå­—æ¯ï¼ˆå¯èƒ½æœ‰å¤šç§æ–¹æ³•ï¼‰ã€‚ä¾‹å¦‚ï¼Œ"111" å¯ä»¥å°† "1" ä¸­çš„æ¯ä¸ª "1" æ˜ å°„ä¸º "A" ï¼Œä»Žè€Œå¾—åˆ° "AAA" ï¼Œæˆ–è€…å¯ä»¥å°† "11" å’Œ "1"ï¼ˆåˆ†åˆ«ä¸º "K" å’Œ "A" ï¼‰æ˜ å°„ä¸º "KA" ã€‚æ³¨æ„ï¼Œ"06" ä¸èƒ½æ˜ å°„ä¸º "F" ï¼Œå› ä¸º "6" å’Œ "06" ä¸åŒã€‚
 
-¸øÄãÒ»¸öÖ»º¬Êý×ÖµÄ ·Ç¿Õ ×Ö·û´® num £¬Çë¼ÆËã²¢·µ»Ø ½âÂë ·½·¨µÄ ×ÜÊý ¡£
+ç»™ä½ ä¸€ä¸ªåªå«æ•°å­—çš„ éžç©º å­—ç¬¦ä¸² num ï¼Œè¯·è®¡ç®—å¹¶è¿”å›ž è§£ç  æ–¹æ³•çš„ æ€»æ•° ã€‚
 
-ÌâÄ¿Êý¾Ý±£Ö¤´ð°¸¿Ï¶¨ÊÇÒ»¸ö 32 Î» µÄÕûÊý¡£
+é¢˜ç›®æ•°æ®ä¿è¯ç­”æ¡ˆè‚¯å®šæ˜¯ä¸€ä¸ª 32 ä½ çš„æ•´æ•°ã€‚
  */
 public class LC_91 {
 	public static void main(String[] args) {
@@ -21,8 +21,8 @@ public class LC_91 {
 		System.out.println(solution.numDecodings("27"));//22626
 	}
 }
-//¶¯Ì¬¹æ»®
-//À¬»ø´úÂëÕâÃ´¶àÐÐ
+//åŠ¨æ€è§„åˆ’
+//åžƒåœ¾ä»£ç è¿™ä¹ˆå¤šè¡Œ
 class Solution{
 	public int numDecodings(String s) {
 		if (s == null || s.charAt(0) == '0') {
@@ -86,7 +86,7 @@ class Solution{
     }
 }
 
-//¶àÓÅÑÅ
+//å¤šä¼˜é›…
 class Solution1 {
     public int numDecodings(String s) {
         if(s.charAt(0) =='0') return 0;

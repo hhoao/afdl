@@ -8,14 +8,14 @@ import java.util.List;
 import tools.TreeNode;
 
 /**
- * @author »ÆºÀ
- *144. ¶ş²æÊ÷µÄÇ°Ğò±éÀú
-¸øÄã¶ş²æÊ÷µÄ¸ù½Úµã root £¬·µ»ØËü½ÚµãÖµµÄ Ç°Ğò ±éÀú¡£
+ * @author é»„è±ª
+ *144. äºŒå‰æ ‘çš„å‰åºéå†
+ç»™ä½ äºŒå‰æ ‘çš„æ ¹èŠ‚ç‚¹ root ï¼Œè¿”å›å®ƒèŠ‚ç‚¹å€¼çš„ å‰åº éå†ã€‚
  */
 public class LC_144 {
 
 }
-//µİ¹é
+//é€’å½’
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -29,7 +29,7 @@ class Solution {
         preorderTraversal(root.right, res);
     }
 }
-//Õ»
+//æ ˆ
 class Solution1 {
     public List<Integer> preorderTraversal(TreeNode root) {
         Deque<TreeNode> stack = new ArrayDeque<>();
@@ -46,7 +46,7 @@ class Solution1 {
         return res;
     }
 }
-//mirrors±éÀú
+//mirrorséå†
 class Solution2 {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();

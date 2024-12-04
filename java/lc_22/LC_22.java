@@ -4,15 +4,15 @@ import java.util.Set;
 import java.util.ArrayList;
 import java.util.HashSet;
 /**
- * @author »ÆºÀ
- *22. À¨ºÅÉú³É
-Êı×Ö n ´ú±íÉú³ÉÀ¨ºÅµÄ¶ÔÊı£¬ÇëÄãÉè¼ÆÒ»¸öº¯Êı£¬ÓÃÓÚÄÜ¹»Éú³ÉËùÓĞ¿ÉÄÜµÄ²¢ÇÒ ÓĞĞ§µÄ À¨ºÅ×éºÏ¡£
+ * @author é»„è±ª
+ *22. æ‹¬å·ç”Ÿæˆ
+æ•°å­— n ä»£è¡¨ç”Ÿæˆæ‹¬å·çš„å¯¹æ•°ï¼Œè¯·ä½ è®¾è®¡ä¸€ä¸ªå‡½æ•°ï¼Œç”¨äºèƒ½å¤Ÿç”Ÿæˆæ‰€æœ‰å¯èƒ½çš„å¹¶ä¸” æœ‰æ•ˆçš„ æ‹¬å·ç»„åˆã€‚
  */
 public class LC_22 {
 	
 }
 
-//»ØËİ
+//å›æº¯
 class Solution {
     public List<String> generateParenthesis(int n) {
     	List<String> ans = new ArrayList<String>();

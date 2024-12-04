@@ -5,24 +5,24 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /*
- *@author: »ÆºÀ
- *@date : 2022Äê1ÔÂ9ÈÕ
- *@todo:1094. Æ´³µ
-¼ÙÉèÄãÊÇÒ»Î»Ë³·ç³µË¾»ú£¬³µÉÏ×î³õÓĞ capacity ¸ö¿Õ×ùÎ»¿ÉÒÔÓÃÀ´ÔØ¿Í¡£ÓÉÓÚµÀÂ·µÄÏŞÖÆ£¬³µ Ö»ÄÜ ÏòÒ»¸ö·½ÏòĞĞÊ»£¨Ò²¾ÍÊÇËµ£¬²»ÔÊĞíµôÍ·»ò¸Ä±ä·½Ïò£¬Äã¿ÉÒÔ½«ÆäÏëÏóÎªÒ»¸öÏòÁ¿£©¡£
+ *@author: é»„è±ª
+ *@date : 2022å¹´1æœˆ9æ—¥
+ *@todo:1094. æ‹¼è½¦
+å‡è®¾ä½ æ˜¯ä¸€ä½é¡ºé£è½¦å¸æœºï¼Œè½¦ä¸Šæœ€åˆæœ‰ capacity ä¸ªç©ºåº§ä½å¯ä»¥ç”¨æ¥è½½å®¢ã€‚ç”±äºé“è·¯çš„é™åˆ¶ï¼Œè½¦ åªèƒ½ å‘ä¸€ä¸ªæ–¹å‘è¡Œé©¶ï¼ˆä¹Ÿå°±æ˜¯è¯´ï¼Œä¸å…è®¸æ‰å¤´æˆ–æ”¹å˜æ–¹å‘ï¼Œä½ å¯ä»¥å°†å…¶æƒ³è±¡ä¸ºä¸€ä¸ªå‘é‡ï¼‰ã€‚
 
-Õâ¶ùÓĞÒ»·İ³Ë¿ÍĞĞ³Ì¼Æ»®±í trips[][]£¬ÆäÖĞ trips[i] = [num_passengers, start_location, end_location] °üº¬ÁËµÚ i ×é³Ë¿ÍµÄĞĞ³ÌĞÅÏ¢£º
+è¿™å„¿æœ‰ä¸€ä»½ä¹˜å®¢è¡Œç¨‹è®¡åˆ’è¡¨ trips[][]ï¼Œå…¶ä¸­ trips[i] = [num_passengers, start_location, end_location] åŒ…å«äº†ç¬¬ i ç»„ä¹˜å®¢çš„è¡Œç¨‹ä¿¡æ¯ï¼š
 
-±ØĞë½ÓËÍµÄ³Ë¿ÍÊıÁ¿£»
-³Ë¿ÍµÄÉÏ³µµØµã£»
-ÒÔ¼°³Ë¿ÍµÄÏÂ³µµØµã¡£
-ÕâĞ©¸ø³öµÄµØµãÎ»ÖÃÊÇ´ÓÄãµÄ ³õÊ¼ ³ö·¢Î»ÖÃÏòÇ°ĞĞÊ»µ½ÕâĞ©µØµãËùĞèµÄ¾àÀë£¨ËüÃÇÒ»¶¨ÔÚÄãµÄĞĞÊ»·½ÏòÉÏ£©¡£
+å¿…é¡»æ¥é€çš„ä¹˜å®¢æ•°é‡ï¼›
+ä¹˜å®¢çš„ä¸Šè½¦åœ°ç‚¹ï¼›
+ä»¥åŠä¹˜å®¢çš„ä¸‹è½¦åœ°ç‚¹ã€‚
+è¿™äº›ç»™å‡ºçš„åœ°ç‚¹ä½ç½®æ˜¯ä»ä½ çš„ åˆå§‹ å‡ºå‘ä½ç½®å‘å‰è¡Œé©¶åˆ°è¿™äº›åœ°ç‚¹æ‰€éœ€çš„è·ç¦»ï¼ˆå®ƒä»¬ä¸€å®šåœ¨ä½ çš„è¡Œé©¶æ–¹å‘ä¸Šï¼‰ã€‚
 
-ÇëÄã¸ù¾İ¸ø³öµÄĞĞ³Ì¼Æ»®±íºÍ³µ×ÓµÄ×ùÎ»Êı£¬À´ÅĞ¶ÏÄãµÄ³µÊÇ·ñ¿ÉÒÔË³ÀûÍê³É½ÓËÍËùÓĞ³Ë¿ÍµÄÈÎÎñ£¨µ±ÇÒ½öµ±Äã¿ÉÒÔÔÚËùÓĞ¸ø¶¨µÄĞĞ³ÌÖĞ½ÓËÍËùÓĞ³Ë¿ÍÊ±£¬·µ»Ø true£¬·ñÔòÇë·µ»Ø false£©¡£
+è¯·ä½ æ ¹æ®ç»™å‡ºçš„è¡Œç¨‹è®¡åˆ’è¡¨å’Œè½¦å­çš„åº§ä½æ•°ï¼Œæ¥åˆ¤æ–­ä½ çš„è½¦æ˜¯å¦å¯ä»¥é¡ºåˆ©å®Œæˆæ¥é€æ‰€æœ‰ä¹˜å®¢çš„ä»»åŠ¡ï¼ˆå½“ä¸”ä»…å½“ä½ å¯ä»¥åœ¨æ‰€æœ‰ç»™å®šçš„è¡Œç¨‹ä¸­æ¥é€æ‰€æœ‰ä¹˜å®¢æ—¶ï¼Œè¿”å› trueï¼Œå¦åˆ™è¯·è¿”å› falseï¼‰ã€‚
 */
 public class LC_1094 {
 
 }
-//ÎÒµÄ²î·ÖÊı×é
+//æˆ‘çš„å·®åˆ†æ•°ç»„
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int n = trips.length;
@@ -42,12 +42,12 @@ class Solution {
         return true;
     }
 }
-//¹Ù·½²î·Ö
+//å®˜æ–¹å·®åˆ†
 class Solution1 {
     public boolean carPooling(int[][] trips, int capacity) {
         int m = trips.length;
         int max = 0;
-        // ÕÒµ½×îÔ¶µÄÕ¾µã
+        // æ‰¾åˆ°æœ€è¿œçš„ç«™ç‚¹
         for(int[] trip : trips){
             max = Math.max(trip[2], max);
         }
@@ -56,14 +56,14 @@ class Solution1 {
             int np = trips[i][0];
             int sl = trips[i][1];
             int el = trips[i][2];
-            // ÉÏ³µ
+            // ä¸Šè½¦
             diff[sl] += np;
-            // ÏÂ³µ
+            // ä¸‹è½¦
             diff[el] -=  np;
         }
         int start = diff[0];
         if(start > capacity) return false;
-        // ÅĞ¶ÏÃ¿Ò»Ê±¿ÌÏÂµÄ³Ë¿ÍÊıÁ¿
+        // åˆ¤æ–­æ¯ä¸€æ—¶åˆ»ä¸‹çš„ä¹˜å®¢æ•°é‡
         for(int i = 1; i <= max; i++){
             start = start + diff[i];
             if(start > capacity) return false;
@@ -71,22 +71,22 @@ class Solution1 {
         return true;
     }
 }
-//Ğ¡¶¥¶Ñ
+//å°é¡¶å †
 class Solution2 {
     public boolean carPooling(int[][] trips, int capacity) {
-        //´´½¨Ò»¸öÒÔÏÂ³µË³ĞòµÄĞ¡¸ù¶Ñ
+        //åˆ›å»ºä¸€ä¸ªä»¥ä¸‹è½¦é¡ºåºçš„å°æ ¹å †
         PriorityQueue<int[]> heap=new PriorityQueue<>(Comparator.comparingInt(o -> o[2]));
-        //¶ÔÉÏ³µË³ĞòÅÅĞò
+        //å¯¹ä¸Šè½¦é¡ºåºæ’åº
         Arrays.sort(trips, Comparator.comparingInt(o -> o[1]));
         for (int[] trip : trips) {
-            //ÏÈÉÏ³µ
+            //å…ˆä¸Šè½¦
             capacity -= trip[0];
-            //³µÎ»²»¹»¾ÍÏÂ³µ
+            //è½¦ä½ä¸å¤Ÿå°±ä¸‹è½¦
             if (capacity < 0) {
-                while (!heap.isEmpty() && heap.peek()[2] <= trip[1]) capacity += heap.poll()[0];//ÄÜÏÂµÄ¶¼ÏÂÍê
-                if (capacity < 0) return false;//ÄÜÏÂÍêµÄ ÏÂÍê»¹²»ĞĞ¾Í·µ»Ø
+                while (!heap.isEmpty() && heap.peek()[2] <= trip[1]) capacity += heap.poll()[0];//èƒ½ä¸‹çš„éƒ½ä¸‹å®Œ
+                if (capacity < 0) return false;//èƒ½ä¸‹å®Œçš„ ä¸‹å®Œè¿˜ä¸è¡Œå°±è¿”å›
             }
-            //¼Óµ½¶ÑÀïÃæ
+            //åŠ åˆ°å †é‡Œé¢
             heap.offer(trip);
         }
         return true;

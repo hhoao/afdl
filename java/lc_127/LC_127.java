@@ -12,15 +12,15 @@ import java.util.Queue;
 import java.util.Set;
 
 /**
- * @author »ÆºÀ
- *127. µ¥´Ê½ÓÁú
-×Öµä wordList ÖÐ´Óµ¥´Ê beginWord ºÍ endWord µÄ ×ª»»ÐòÁÐ ÊÇÒ»¸ö°´ÏÂÊö¹æ¸ñÐÎ³ÉµÄÐòÁÐ£º
+ * @author é»„è±ª
+ *127. å•è¯æŽ¥é¾™
+å­—å…¸ wordList ä¸­ä»Žå•è¯ beginWord å’Œ endWord çš„ è½¬æ¢åºåˆ— æ˜¯ä¸€ä¸ªæŒ‰ä¸‹è¿°è§„æ ¼å½¢æˆçš„åºåˆ—ï¼š
 
-ÐòÁÐÖÐµÚÒ»¸öµ¥´ÊÊÇ beginWord ¡£
-ÐòÁÐÖÐ×îºóÒ»¸öµ¥´ÊÊÇ endWord ¡£
-Ã¿´Î×ª»»Ö»ÄÜ¸Ä±äÒ»¸ö×ÖÄ¸¡£
-×ª»»¹ý³ÌÖÐµÄÖÐ¼äµ¥´Ê±ØÐëÊÇ×Öµä wordList ÖÐµÄµ¥´Ê¡£
-¸øÄãÁ½¸öµ¥´Ê beginWord ºÍ endWord ºÍÒ»¸ö×Öµä wordList £¬ÕÒµ½´Ó beginWord µ½ endWord µÄ ×î¶Ì×ª»»ÐòÁÐ ÖÐµÄ µ¥´ÊÊýÄ¿ ¡£Èç¹û²»´æÔÚÕâÑùµÄ×ª»»ÐòÁÐ£¬·µ»Ø 0¡£
+åºåˆ—ä¸­ç¬¬ä¸€ä¸ªå•è¯æ˜¯ beginWord ã€‚
+åºåˆ—ä¸­æœ€åŽä¸€ä¸ªå•è¯æ˜¯ endWord ã€‚
+æ¯æ¬¡è½¬æ¢åªèƒ½æ”¹å˜ä¸€ä¸ªå­—æ¯ã€‚
+è½¬æ¢è¿‡ç¨‹ä¸­çš„ä¸­é—´å•è¯å¿…é¡»æ˜¯å­—å…¸ wordList ä¸­çš„å•è¯ã€‚
+ç»™ä½ ä¸¤ä¸ªå•è¯ beginWord å’Œ endWord å’Œä¸€ä¸ªå­—å…¸ wordList ï¼Œæ‰¾åˆ°ä»Ž beginWord åˆ° endWord çš„ æœ€çŸ­è½¬æ¢åºåˆ— ä¸­çš„ å•è¯æ•°ç›® ã€‚å¦‚æžœä¸å­˜åœ¨è¿™æ ·çš„è½¬æ¢åºåˆ—ï¼Œè¿”å›ž 0ã€‚
  */
 public class LC_127 {
 	public static void main(String[] args) {

@@ -11,8 +11,6 @@ void traverse(PSTACK pS) {
         p = p->pNext;
     }
     printf("\n");
-
-    return;
 }
 
 int main() {

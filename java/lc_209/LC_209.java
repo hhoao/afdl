@@ -3,16 +3,16 @@ package lc_209;
 import java.util.Arrays;
 
 /**
- * @author »ÆºÀ
- *209. ³¤¶È×îĞ¡µÄ×ÓÊı×é
-¸ø¶¨Ò»¸öº¬ÓĞ n ¸öÕıÕûÊıµÄÊı×éºÍÒ»¸öÕıÕûÊı target ¡£
+ * @author é»„è±ª
+ *209. é•¿åº¦æœ€å°çš„å­æ•°ç»„
+ç»™å®šä¸€ä¸ªå«æœ‰ n ä¸ªæ­£æ•´æ•°çš„æ•°ç»„å’Œä¸€ä¸ªæ­£æ•´æ•° target ã€‚
 
-ÕÒ³ö¸ÃÊı×éÖĞÂú×ãÆäºÍ ¡İ target µÄ³¤¶È×îĞ¡µÄ Á¬Ğø×ÓÊı×é [numsl, numsl+1, ..., numsr-1, numsr] £¬²¢·µ»ØÆä³¤¶È¡£Èç¹û²»´æÔÚ·ûºÏÌõ¼şµÄ×ÓÊı×é£¬·µ»Ø 0 ¡£
+æ‰¾å‡ºè¯¥æ•°ç»„ä¸­æ»¡è¶³å…¶å’Œ â‰¥ target çš„é•¿åº¦æœ€å°çš„ è¿ç»­å­æ•°ç»„ [numsl, numsl+1, ..., numsr-1, numsr] ï¼Œå¹¶è¿”å›å…¶é•¿åº¦ã€‚å¦‚æœä¸å­˜åœ¨ç¬¦åˆæ¡ä»¶çš„å­æ•°ç»„ï¼Œè¿”å› 0 ã€‚
  */
 public class LC_209 {
 
 }
-//·½·¨¶ş£ºÇ°×ººÍ + ¶ş·Ö²éÕÒ
+//æ–¹æ³•äºŒï¼šå‰ç¼€å’Œ + äºŒåˆ†æŸ¥æ‰¾
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         int n = nums.length;
@@ -21,10 +21,10 @@ class Solution {
         }
         int ans = Integer.MAX_VALUE;
         int[] sums = new int[n + 1]; 
-        // ÎªÁË·½±ã¼ÆËã£¬Áî size = n + 1 
-        // sums[0] = 0 ÒâÎ¶×ÅÇ° 0 ¸öÔªËØµÄÇ°×ººÍÎª 0
-        // sums[1] = A[0] Ç° 1 ¸öÔªËØµÄÇ°×ººÍÎª A[0]
-        // ÒÔ´ËÀàÍÆ
+        // ä¸ºäº†æ–¹ä¾¿è®¡ç®—ï¼Œä»¤ size = n + 1 
+        // sums[0] = 0 æ„å‘³ç€å‰ 0 ä¸ªå…ƒç´ çš„å‰ç¼€å’Œä¸º 0
+        // sums[1] = A[0] å‰ 1 ä¸ªå…ƒç´ çš„å‰ç¼€å’Œä¸º A[0]
+        // ä»¥æ­¤ç±»æ¨
         for (int i = 1; i <= n; i++) {
             sums[i] = sums[i - 1] + nums[i - 1];
         }
@@ -41,7 +41,7 @@ class Solution {
         return ans == Integer.MAX_VALUE ? 0 : ans;
     }
 }
-//»¬¶¯´°¿Ú
+//æ»‘åŠ¨çª—å£
 class Solution1 {
     public int minSubArrayLen(int s, int[] nums) {
         int n = nums.length;

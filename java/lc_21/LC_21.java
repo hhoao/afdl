@@ -1,14 +1,14 @@
 package lc_21;
 
 /**
- * @author »ÆºÀ
- *21. ºÏ²¢Á½¸öÓÐÐòÁ´±í
-½«Á½¸öÉýÐòÁ´±íºÏ²¢ÎªÒ»¸öÐÂµÄ ÉýÐò Á´±í²¢·µ»Ø¡£ÐÂÁ´±íÊÇÍ¨¹ýÆ´½Ó¸ø¶¨µÄÁ½¸öÁ´±íµÄËùÓÐ½Úµã×é³ÉµÄ¡£ 
+ * @author é»„è±ª
+ *21. åˆå¹¶ä¸¤ä¸ªæœ‰åºé“¾è¡¨
+å°†ä¸¤ä¸ªå‡åºé“¾è¡¨åˆå¹¶ä¸ºä¸€ä¸ªæ–°çš„ å‡åº é“¾è¡¨å¹¶è¿”å›žã€‚æ–°é“¾è¡¨æ˜¯é€šè¿‡æ‹¼æŽ¥ç»™å®šçš„ä¸¤ä¸ªé“¾è¡¨çš„æ‰€æœ‰èŠ‚ç‚¹ç»„æˆçš„ã€‚ 
  */
 public class LC_21 {
 
 }
-//µÝ¹é·¨
+//é€’å½’æ³•
 class ListNode {
 	int val;
 	ListNode next;
@@ -33,7 +33,7 @@ class Solution {
 
     }
 }
-//µü´ú
+//è¿­ä»£
 class Solution2 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode prehead = new ListNode(-1);
@@ -50,7 +50,7 @@ class Solution2 {
             prev = prev.next;
         }
 
-        // ºÏ²¢ºó l1 ºÍ l2 ×î¶àÖ»ÓÐÒ»¸ö»¹Î´±»ºÏ²¢Íê£¬ÎÒÃÇÖ±½Ó½«Á´±íÄ©Î²Ö¸ÏòÎ´ºÏ²¢ÍêµÄÁ´±í¼´¿É
+        // åˆå¹¶åŽ l1 å’Œ l2 æœ€å¤šåªæœ‰ä¸€ä¸ªè¿˜æœªè¢«åˆå¹¶å®Œï¼Œæˆ‘ä»¬ç›´æŽ¥å°†é“¾è¡¨æœ«å°¾æŒ‡å‘æœªåˆå¹¶å®Œçš„é“¾è¡¨å³å¯
         prev.next = l1 == null ? l2 : l1;
 
         return prehead.next;

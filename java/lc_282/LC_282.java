@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê5ÔÂ5ÈÕ
- *@todo:282. ¸ø±í´ïÊ½Ìí¼ÓÔËËã·û
-¸ø¶¨Ò»¸ö½ö°üº¬Êý×Ö 0-9 µÄ×Ö·û´®ºÍÒ»¸öÄ¿±êÖµ£¬ÔÚÊý×ÖÖ®¼äÌí¼Ó ¶þÔª ÔËËã·û£¨²»ÊÇÒ»Ôª£©+¡¢- »ò * £¬·µ»ØËùÓÐÄÜ¹»µÃµ½Ä¿±êÖµµÄ±í´ïÊ½¡£
+ *@author: é»„è±ª
+ *@date : 2021å¹´5æœˆ5æ—¥
+ *@todo:282. ç»™è¡¨è¾¾å¼æ·»åŠ è¿ç®—ç¬¦
+ç»™å®šä¸€ä¸ªä»…åŒ…å«æ•°å­— 0-9 çš„å­—ç¬¦ä¸²å’Œä¸€ä¸ªç›®æ ‡å€¼ï¼Œåœ¨æ•°å­—ä¹‹é—´æ·»åŠ  äºŒå…ƒ è¿ç®—ç¬¦ï¼ˆä¸æ˜¯ä¸€å…ƒï¼‰+ã€- æˆ– * ï¼Œè¿”å›žæ‰€æœ‰èƒ½å¤Ÿå¾—åˆ°ç›®æ ‡å€¼çš„è¡¨è¾¾å¼ã€‚
 */
 public class LC_282 {
 

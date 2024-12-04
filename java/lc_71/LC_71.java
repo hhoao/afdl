@@ -4,19 +4,19 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @author �ƺ�
- *71. ��·��
-����һ���ַ��� path ����ʾָ��ĳһ�ļ���Ŀ¼�� Unix ��� ����·�� ���� '/' ��ͷ�������㽫��ת��Ϊ���Ӽ��Ĺ淶·����
+ * @author 黄豪
+ *71. 简化路径
+给你一个字符串 path ，表示指向某一文件或目录的 Unix 风格 绝对路径 （以 '/' 开头），请你将其转化为更加简洁的规范路径。
 
-�� Unix �����ļ�ϵͳ�У�һ���㣨.����ʾ��ǰĿ¼���������⣬������ ��..�� ��ʾ��Ŀ¼�л�����һ����ָ��Ŀ¼�������߶������Ǹ������·������ɲ��֡�������������б�ܣ�����'//'��������Ϊ����б�� '/' �� ���ڴ����⣬�κ�������ʽ�ĵ㣨���磬'...'��������Ϊ�ļ�/Ŀ¼���ơ�
+在 Unix 风格的文件系统中，一个点（.）表示当前目录本身；此外，两个点 （..） 表示将目录切换到上一级（指向父目录）；两者都可以是复杂相对路径的组成部分。任意多个连续的斜杠（即，'//'）都被视为单个斜杠 '/' 。 对于此问题，任何其他格式的点（例如，'...'）均被视为文件/目录名称。
 
-��ע�⣬���ص� �淶·�� ������ѭ������ʽ��
+请注意，返回的 规范路径 必须遵循下述格式：
 
-ʼ����б�� '/' ��ͷ��
-����Ŀ¼��֮�����ֻ��һ��б�� '/' ��
-���һ��Ŀ¼����������ڣ����� �� '/' ��β��
-���⣬·���������Ӹ�Ŀ¼��Ŀ���ļ���Ŀ¼��·���ϵ�Ŀ¼���������� '.' �� '..'����
-���ؼ򻯺�õ��� �淶·�� ��
+始终以斜杠 '/' 开头。
+两个目录名之间必须只有一个斜杠 '/' 。
+最后一个目录名（如果存在）不能 以 '/' 结尾。
+此外，路径仅包含从根目录到目标文件或目录的路径上的目录（即，不含 '.' 或 '..'）。
+返回简化后得到的 规范路径 。
  */
 public class LC_71 {
 
@@ -24,11 +24,11 @@ public class LC_71 {
 class Solution {
     public String simplifyPath(String path) {
             String[] pathArray = path.split("/");
-        //�ָ��ļ������ �ո�˵���Ƕ������/��.. .��Ŀ¼
+        //分割后的几种情况 空格说明是多出来的/，.. .与目录
         StringBuilder res =new StringBuilder();
         Deque<String> stack = new ArrayDeque<>();
         for(int i=0;i<pathArray.length;i++){
-            //2�������ջΪ�ջ���ջ��Ϊ��
+            //2种情况，栈为空或者栈不为空
             if(pathArray[i].length()==0||pathArray[i].equals("."))    continue;
             if(!stack.isEmpty()){
                 if(pathArray[i].equals("..")){

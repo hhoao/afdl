@@ -1,20 +1,20 @@
-//18. ËÄÊýÖ®ºÍ
+//18. å››æ•°ä¹‹å’Œ
 package lc_18;
 import java.util.*;
 /**
- * @author »ÆºÀ
+ * @author é»„è±ª
  *
-¸ø¶¨Ò»¸ö°üº¬ n ¸öÕûÊýµÄÊý×é nums ºÍÒ»¸öÄ¿±êÖµ target£¬ÅÐ¶Ï nums ÖÐÊÇ·ñ´æÔÚËÄ¸öÔªËØ a£¬b£¬c ºÍ d £¬Ê¹µÃ a + b + c + d µÄÖµÓë target ÏàµÈ£¿ÕÒ³öËùÓÐÂú×ãÌõ¼þÇÒ²»ÖØ¸´µÄËÄÔª×é¡£
+ç»™å®šä¸€ä¸ªåŒ…å« n ä¸ªæ•´æ•°çš„æ•°ç»„ nums å’Œä¸€ä¸ªç›®æ ‡å€¼ targetï¼Œåˆ¤æ–­ nums ä¸­æ˜¯å¦å­˜åœ¨å››ä¸ªå…ƒç´  aï¼Œbï¼Œc å’Œ d ï¼Œä½¿å¾— a + b + c + d çš„å€¼ä¸Ž target ç›¸ç­‰ï¼Ÿæ‰¾å‡ºæ‰€æœ‰æ»¡è¶³æ¡ä»¶ä¸”ä¸é‡å¤çš„å››å…ƒç»„ã€‚
 
-×¢Òâ£º
+æ³¨æ„ï¼š
 
-´ð°¸ÖÐ²»¿ÉÒÔ°üº¬ÖØ¸´µÄËÄÔª×é¡£
+ç­”æ¡ˆä¸­ä¸å¯ä»¥åŒ…å«é‡å¤çš„å››å…ƒç»„ã€‚
 
-Ê¾Àý£º
+ç¤ºä¾‹ï¼š
 
-¸ø¶¨Êý×é nums = [1, 0, -1, 0, -2, 2]£¬ºÍ target = 0¡£
+ç»™å®šæ•°ç»„ nums = [1, 0, -1, 0, -2, 2]ï¼Œå’Œ target = 0ã€‚
 
-Âú×ãÒªÇóµÄËÄÔª×é¼¯ºÏÎª£º
+æ»¡è¶³è¦æ±‚çš„å››å…ƒç»„é›†åˆä¸ºï¼š
 [
   [-1,  0, 0, 1],
   [-2, -1, 1, 2],

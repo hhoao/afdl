@@ -4,18 +4,18 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author »ÆºÀ
- *200. µºÓìÊıÁ¿
-¸øÄãÒ»¸öÓÉ '1'£¨Â½µØ£©ºÍ '0'£¨Ë®£©×é³ÉµÄµÄ¶şÎ¬Íø¸ñ£¬ÇëÄã¼ÆËãÍø¸ñÖĞµºÓìµÄÊıÁ¿¡£
+ * @author é»„è±ª
+ *200. å²›å±¿æ•°é‡
+ç»™ä½ ä¸€ä¸ªç”± '1'ï¼ˆé™†åœ°ï¼‰å’Œ '0'ï¼ˆæ°´ï¼‰ç»„æˆçš„çš„äºŒç»´ç½‘æ ¼ï¼Œè¯·ä½ è®¡ç®—ç½‘æ ¼ä¸­å²›å±¿çš„æ•°é‡ã€‚
 
-µºÓì×ÜÊÇ±»Ë®°üÎ§£¬²¢ÇÒÃ¿×ùµºÓìÖ»ÄÜÓÉË®Æ½·½ÏòºÍ/»òÊúÖ±·½ÏòÉÏÏàÁÚµÄÂ½µØÁ¬½ÓĞÎ³É¡£
+å²›å±¿æ€»æ˜¯è¢«æ°´åŒ…å›´ï¼Œå¹¶ä¸”æ¯åº§å²›å±¿åªèƒ½ç”±æ°´å¹³æ–¹å‘å’Œ/æˆ–ç«–ç›´æ–¹å‘ä¸Šç›¸é‚»çš„é™†åœ°è¿æ¥å½¢æˆã€‚
 
-´ËÍâ£¬Äã¿ÉÒÔ¼ÙÉè¸ÃÍø¸ñµÄËÄÌõ±ß¾ù±»Ë®°üÎ§¡£
+æ­¤å¤–ï¼Œä½ å¯ä»¥å‡è®¾è¯¥ç½‘æ ¼çš„å››æ¡è¾¹å‡è¢«æ°´åŒ…å›´ã€‚
  */
 public class LC_200 {
 
 }
-//ÎÒµÄ´úÂë
+//æˆ‘çš„ä»£ç 
 class Solution {
     private int sum;
     public int numIslands(char[][] grid) {
@@ -44,7 +44,7 @@ class Solution {
         dfs(grid, x, y-1);
     }
 }
-//¹Ù·½ Éî¶ÈÓÅÏÈËÑË÷
+//å®˜æ–¹ æ·±åº¦ä¼˜å…ˆæœç´¢
 class Solution1 {
     void dfs(char[][] grid, int r, int c) {
         int nr = grid.length;
@@ -81,7 +81,7 @@ class Solution1 {
         return num_islands;
     }
 }
-//¹ã¶ÈÓÅÏÈËÑË÷
+//å¹¿åº¦ä¼˜å…ˆæœç´¢
 class Solution2 {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) {
@@ -127,7 +127,7 @@ class Solution2 {
         return num_islands;
     }
 }
-//²¢²é¼¯
+//å¹¶æŸ¥é›†
 class Solution3 {
     class UnionFind {
         int count;

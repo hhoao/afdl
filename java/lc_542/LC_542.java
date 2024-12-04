@@ -4,14 +4,14 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /*
- *@author: »ÆºÀ
- *@date : 2021Äê11ÔÂ16ÈÕ
+ *@author: é»„è±ª
+ *@date : 2021å¹´11æœˆ16æ—¥
  *@todo:
 */
 public class LC_542 {
 
 }
-//×î¶ÌÂ·¾¶
+//æœ€çŸ­è·¯å¾„
 class Solution {
     static int[][] dirs = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
     public int[][] updateMatrix(int[][] mat) {

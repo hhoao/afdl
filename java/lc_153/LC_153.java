@@ -3,7 +3,7 @@ package lc_153;
 public class LC_153 {
 
 }
-//我的代码 二分查找
+//鎴戠殑浠ｇ爜 浜屽垎鏌ユ壘
 class Solution {
     public int findMin(int[] nums) {
         int l = 0, r = nums.length - 1;
@@ -22,7 +22,7 @@ class Solution {
         return nums[l];
     }
 }
-//官方二分
+//瀹樻柟浜屽垎
 class Solution1 {
     public int findMin(int[] nums) {
         int low = 0;

@@ -3,16 +3,16 @@ package lc_120;
 import java.util.List;
 
 /**
- * @author »ÆºÀ
- *120. Èı½ÇĞÎ×îĞ¡Â·¾¶ºÍ
-¸ø¶¨Ò»¸öÈı½ÇĞÎ triangle £¬ÕÒ³ö×Ô¶¥ÏòÏÂµÄ×îĞ¡Â·¾¶ºÍ¡£
+ * @author é»„è±ª
+ *120. ä¸‰è§’å½¢æœ€å°è·¯å¾„å’Œ
+ç»™å®šä¸€ä¸ªä¸‰è§’å½¢ triangle ï¼Œæ‰¾å‡ºè‡ªé¡¶å‘ä¸‹çš„æœ€å°è·¯å¾„å’Œã€‚
 
-Ã¿Ò»²½Ö»ÄÜÒÆ¶¯µ½ÏÂÒ»ĞĞÖĞÏàÁÚµÄ½áµãÉÏ¡£ÏàÁÚµÄ½áµã ÔÚÕâÀïÖ¸µÄÊÇ ÏÂ±ê Óë ÉÏÒ»²ã½áµãÏÂ±ê ÏàÍ¬»òÕßµÈÓÚ ÉÏÒ»²ã½áµãÏÂ±ê + 1 µÄÁ½¸ö½áµã¡£Ò²¾ÍÊÇËµ£¬Èç¹ûÕıÎ»ÓÚµ±Ç°ĞĞµÄÏÂ±ê i £¬ÄÇÃ´ÏÂÒ»²½¿ÉÒÔÒÆ¶¯µ½ÏÂÒ»ĞĞµÄÏÂ±ê i »ò i + 1 ¡£
+æ¯ä¸€æ­¥åªèƒ½ç§»åŠ¨åˆ°ä¸‹ä¸€è¡Œä¸­ç›¸é‚»çš„ç»“ç‚¹ä¸Šã€‚ç›¸é‚»çš„ç»“ç‚¹ åœ¨è¿™é‡ŒæŒ‡çš„æ˜¯ ä¸‹æ ‡ ä¸ ä¸Šä¸€å±‚ç»“ç‚¹ä¸‹æ ‡ ç›¸åŒæˆ–è€…ç­‰äº ä¸Šä¸€å±‚ç»“ç‚¹ä¸‹æ ‡ + 1 çš„ä¸¤ä¸ªç»“ç‚¹ã€‚ä¹Ÿå°±æ˜¯è¯´ï¼Œå¦‚æœæ­£ä½äºå½“å‰è¡Œçš„ä¸‹æ ‡ i ï¼Œé‚£ä¹ˆä¸‹ä¸€æ­¥å¯ä»¥ç§»åŠ¨åˆ°ä¸‹ä¸€è¡Œçš„ä¸‹æ ‡ i æˆ– i + 1 ã€‚
  */
 public class LC_120 {
 
 }
-//µİ¹é ³¬³öÊ±¼äÏŞÖÆ
+//é€’å½’ è¶…å‡ºæ—¶é—´é™åˆ¶
 class Solution {
 	List<List<Integer>> triangle;
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -26,7 +26,7 @@ class Solution {
     	return Math.min(dfs(i, t, sum), dfs(i + 1, t, sum));
     }
 }
-//ÓÉµ×ÏòÉÏ ¶¯Ì¬¹æ»®
+//ç”±åº•å‘ä¸Š åŠ¨æ€è§„åˆ’
 class Solution5{
 	public static int minimumTotal(List<List<Integer>> triangle) {
 	    int n = triangle.size();
@@ -42,7 +42,7 @@ class Solution5{
 	    return dp[0];
 	}
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution1 {
 	public int minimumTotal(List<List<Integer>> triangle) {
 		int min = Integer.MAX_VALUE;
@@ -61,7 +61,7 @@ class Solution1 {
 		return min;
 	}
 }
-//¹Ù·½¶¯Ì¬¹æ»®
+//å®˜æ–¹åŠ¨æ€è§„åˆ’
 
 class Solution2 {
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -82,7 +82,7 @@ class Solution2 {
         return minTotal;
     }
 }
-//¶¯Ì¬¹æ»®+¿Õ¼äÓÅ»¯
+//åŠ¨æ€è§„åˆ’+ç©ºé—´ä¼˜åŒ–
 class Solution3 {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();

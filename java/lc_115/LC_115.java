@@ -1,18 +1,18 @@
 package lc_115;
 
 /**
- * @author »ÆºÀ
- *115. ²»Í¬µÄ×ÓÐòÁÐ
-¸ø¶¨Ò»¸ö×Ö·û´® s ºÍÒ»¸ö×Ö·û´® t £¬¼ÆËãÔÚ s µÄ×ÓÐòÁÐÖÐ t ³öÏÖµÄ¸öÊý¡£
+ * @author é»„è±ª
+ *115. ä¸åŒçš„å­åºåˆ—
+ç»™å®šä¸€ä¸ªå­—ç¬¦ä¸² s å’Œä¸€ä¸ªå­—ç¬¦ä¸² t ï¼Œè®¡ç®—åœ¨ s çš„å­åºåˆ—ä¸­ t å‡ºçŽ°çš„ä¸ªæ•°ã€‚
 
-×Ö·û´®µÄÒ»¸ö ×ÓÐòÁÐ ÊÇÖ¸£¬Í¨¹ýÉ¾³ýÒ»Ð©£¨Ò²¿ÉÒÔ²»É¾³ý£©×Ö·ûÇÒ²»¸ÉÈÅÊ£Óà×Ö·ûÏà¶ÔÎ»ÖÃËù×é³ÉµÄÐÂ×Ö·û´®¡££¨ÀýÈç£¬"ACE" ÊÇ "ABCDE" µÄÒ»¸ö×ÓÐòÁÐ£¬¶ø "AEC" ²»ÊÇ£©
+å­—ç¬¦ä¸²çš„ä¸€ä¸ª å­åºåˆ— æ˜¯æŒ‡ï¼Œé€šè¿‡åˆ é™¤ä¸€äº›ï¼ˆä¹Ÿå¯ä»¥ä¸åˆ é™¤ï¼‰å­—ç¬¦ä¸”ä¸å¹²æ‰°å‰©ä½™å­—ç¬¦ç›¸å¯¹ä½ç½®æ‰€ç»„æˆçš„æ–°å­—ç¬¦ä¸²ã€‚ï¼ˆä¾‹å¦‚ï¼Œ"ACE" æ˜¯ "ABCDE" çš„ä¸€ä¸ªå­åºåˆ—ï¼Œè€Œ "AEC" ä¸æ˜¯ï¼‰
 
-ÌâÄ¿Êý¾Ý±£Ö¤´ð°¸·ûºÏ 32 Î»´ø·ûºÅÕûÊý·¶Î§¡£
+é¢˜ç›®æ•°æ®ä¿è¯ç­”æ¡ˆç¬¦åˆ 32 ä½å¸¦ç¬¦å·æ•´æ•°èŒƒå›´ã€‚
  */
 public class LC_115 {
 
 }
-//¶¯Ì¬¹æ»®
+//åŠ¨æ€è§„åˆ’
 class Solution {
     public int numDistinct(String s, String t) {
         int m = s.length(), n = t.length();
