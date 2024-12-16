@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libLCOF.a"
+  "liblcof.a"
 )

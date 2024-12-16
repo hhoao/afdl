@@ -1,2 +1,2 @@
-# Empty compiler generated dependencies file for LCOF.
+# Empty compiler generated dependencies file for lcof.
 # This may be replaced when dependencies are built.

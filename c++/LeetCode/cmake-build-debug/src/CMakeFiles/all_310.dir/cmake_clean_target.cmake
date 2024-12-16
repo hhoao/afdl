@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libALL_310.a"
+  "liball_310.a"
 )

@@ -12,7 +12,7 @@ import tools.ListNode;
 你可以在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序吗？
  */
 public class LC_148 {
-	
+
 }
 //我的代码
 class Solution {
@@ -158,5 +158,52 @@ class Solution2 {
             temp.next = temp2;
         }
         return dummyHead.next;
+    }
+}
+
+
+class SolutionSecond {
+    public ListNode sortList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode mid = findMid(head);
+        ListNode post = mid.next;
+        mid.next = null;
+        ListNode sortedLeft = sortList(head);
+        ListNode sortedRight = sortList(post);
+        return merge(sortedLeft, sortedRight);
+    }
+    public ListNode merge(ListNode left, ListNode right) {
+        ListNode header;
+        if (left.val < right.val) {
+            header = left;
+            left = left.next;
+        } else {
+            header = right;
+            right = right.next;
+        }
+        ListNode cur = header;
+        while (left != null && right != null) {
+            if (left.val < right.val) {
+                cur.next = left;
+                left = left.next;
+            } else {
+                cur.next = right;
+                right = right.next;
+            }
+            cur = cur.next;
+        }
+        cur.next = left == null ? right : left;
+        return header;
+    }
+    public ListNode findMid(ListNode node) {
+        ListNode slow = node;
+        ListNode fast = node;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
     }
 }

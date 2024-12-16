@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hhoa/hhoa/algorithm/c++/LeetCode/src/ALL/310_minimum_height_trees/Solution.cpp" "src/CMakeFiles/ALL_310.dir/ALL/310_minimum_height_trees/Solution.cpp.o" "gcc" "src/CMakeFiles/ALL_310.dir/ALL/310_minimum_height_trees/Solution.cpp.o.d"
-  "/home/hhoa/hhoa/algorithm/c++/LeetCode/test/ALL/310_minimum_height_trees/test.cpp" "src/CMakeFiles/ALL_310.dir/__/test/ALL/310_minimum_height_trees/test.cpp.o" "gcc" "src/CMakeFiles/ALL_310.dir/__/test/ALL/310_minimum_height_trees/test.cpp.o.d"
+  "/home/hhoa/hhoa/algorithm/c++/LeetCode/src/all/310_minimum_height_trees/Solution.cpp" "src/CMakeFiles/all_310.dir/all/310_minimum_height_trees/Solution.cpp.o" "gcc" "src/CMakeFiles/all_310.dir/all/310_minimum_height_trees/Solution.cpp.o.d"
   )
 
 # Targets to which this target links.

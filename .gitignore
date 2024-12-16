@@ -1,3 +1,11 @@
 # java
 /**/target
 /**/debug
+
+
+.idea
+java/*.iml
+java/out
+java/gen
+
+**/.idea
